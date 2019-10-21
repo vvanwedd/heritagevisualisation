@@ -1,0 +1,314 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>RTI &mdash; pixel+ 0.9 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+        <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="PLD" href="pld.html" />
+    <link rel="prev" title="Examples" href="examples.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> pixel+
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="pixelplus.html">pixel+</a></li>
+<li class="toctree-l1"><a class="reference internal" href="examples.html">Examples</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">RTI</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#hardware">Hardware</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#algorithm">Algorithm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#output">Output</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#ptm-hsh-coefficients">PTM / HSH coefficients</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#normal-map">Normal map</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#file-formats">File formats</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#ptm">PTM</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id4">RTI</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="pld.html">PLD</a></li>
+<li class="toctree-l1"><a class="reference internal" href="appendix.html">Appendix</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">pixel+</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>RTI</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/rti.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="rti">
+<h1>RTI<a class="headerlink" href="#rti" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="hardware">
+<h2>Hardware<a class="headerlink" href="#hardware" title="Permalink to this headline">¶</a></h2>
+<div class="figure" id="id8">
+<img alt="_images/rtidome.jpg" src="_images/rtidome.jpg" />
+<p class="caption"><span class="caption-text">An RTI dome</span></p>
+</div>
+<p>There is a large variety of scanning equipment available, but in essence, both PLD and RTI require a set of images of an object that is illuminated from various known directions.
+RTI has 2 types of recording equipment: Dome setups and a Highlight RTI setup.
+The dome setup functions in the same way as the domes of PLD.</p>
+<p>Highlight RTI utilizes chrome spheres to estimate the direction of a point light source (e.g. a flash). This technology is typically cheaper and more flexible in terms of object size to be scanned.
+The downside is that it generally is slower, requires more intervention and is less accurate, as light sources have to be calculated using the specular reflection in the reflective spheres.</p>
+</div>
+<div class="section" id="algorithm">
+<h2>Algorithm<a class="headerlink" href="#algorithm" title="Permalink to this headline">¶</a></h2>
+<p>Reflectance Transformation Imaging is a per pixel function fitting technique to interactively display objects under varying light conditions.
+It was originally developed by Tom Malzbender in the form of Polynomial Texture Maps <a class="reference internal" href="#malzbender2001" id="id1">[Malzbender2001]</a>.</p>
+<p>The observed intensity at a pixel is described a function of the light direction, in the case of PTM as a biquadratic polynomial, but other representations exist. A set of equations relating the observed intensity with the light direction for every image of the image set is then solved for the coefficients.</p>
+<p>Besides PTM, another popular RTI method uses hemispherical harmonical functions. Because it can model the light space better, hard shadows and bright specularities are better preserved.</p>
+<p>A newer approach uses Principle Component Analysis + Radial Basis Function interpolation <a class="reference internal" href="#ponchio" id="id2">[ponchio]</a></p>
+<p>The goal of RTI is to view objects interactively under varying incident light directions. As such, RTI doesn’t use physical laws like PLD to extract surface material characteristics. Effects like self shadowing, interreflections and complicated light-matter interactions (e.g. subsurface scattering, complicated BRDFs) are not taken into account, though their contribution is captured in the fitting/interpolation function. As such, the relighting output appears to be photorealistic - especially for virtual light positions that are close to one of the input images.</p>
+</div>
+<div class="section" id="output">
+<h2>Output<a class="headerlink" href="#output" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="ptm-hsh-coefficients">
+<h3>PTM / HSH coefficients<a class="headerlink" href="#ptm-hsh-coefficients" title="Permalink to this headline">¶</a></h3>
+<p>The output of the RTI fitting algorithm are coefficients, e.g. PTM for a PTM RTI and HSH for a HSH RTI. These coefficients are calculated per pixel and stored in a map.</p>
+</div>
+<div class="section" id="normal-map">
+<h3>Normal map<a class="headerlink" href="#normal-map" title="Permalink to this headline">¶</a></h3>
+<p>From certain types of RTI files, ie. from PTM and HSH RTI files, a normal map can be calculated.</p>
+<p>Generally, a normal map originating from an HSH RTI is of higher quality than one generated from PTM coefficients.
+Any spatial blurring that seems to exist is because the PTM or HSH coefficients don’t capture the light space function perfectly. The resulting normal map can therefore also be more blurred than a result optained with a photometric stereo approach such as PLD.</p>
+</div>
+</div>
+<div class="section" id="file-formats">
+<h2>File formats<a class="headerlink" href="#file-formats" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="ptm">
+<h3>PTM<a class="headerlink" href="#ptm" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>RGB PTM: PTM coefficients are being calculated and saved per color channel (in 8 bit mode), resulting in 3*6 bytes per pixel</li>
+<li>LRGB PTM: PTM coefficients are being calculated for the luminance channel and stores non varying RGB values. As the chromaticity doesn’t change too much under varying light directions, this method saves on storage, resulting in 6+3 bytes per pixel</li>
+<li>JPEG compression of RGB PTM</li>
+<li>JPEG compression of LRGB PTM</li>
+<li>JPEGLS compression of RGB PTM</li>
+<li>JPEGLS compression of LRGB PTM</li>
+<li>Look Up Table PTM</li>
+<li>YCrCb color space PTM</li>
+</ul>
+<p>The upper 2 versions are the most popular PTM file types, as they are supported by CHI’s processing and viewing software <a class="reference internal" href="#chi" id="id3">[CHI]</a></p>
+</div>
+<div class="section" id="id4">
+<h3>RTI<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>PTM RTI: Polynomial Texture Mapping RTI <a class="reference internal" href="#malzbender2001" id="id5">[Malzbender2001]</a></li>
+<li>HSH RTI: Hemispherical Harmonics RTI <a class="reference internal" href="#mudge2008" id="id6">[Mudge2008]</a></li>
+<li>SH RTI: Spherical Harmonics RTI</li>
+<li>EHSH RTI: Eigen Hemispherical Harmonics RTI <a class="reference internal" href="#lam2012" id="id7">[Lam2012]</a></li>
+<li>Adaptive basis RTI</li>
+</ul>
+<p class="rubric">Footnotes</p>
+<table class="docutils citation" frame="void" id="malzbender2001" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label">[Malzbender2001]</td><td><em>(<a class="fn-backref" href="#id1">1</a>, <a class="fn-backref" href="#id5">2</a>)</em> <a class="reference external" href="https://www.hpl.hp.com/research/ptm/papers/ptm.pdf">https://www.hpl.hp.com/research/ptm/papers/ptm.pdf</a></td></tr>
+</tbody>
+</table>
+<table class="docutils citation" frame="void" id="ponchio" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id2">[ponchio]</a></td><td><a class="reference external" href="https://pc-ponchio.isti.cnr.it/relight/compact-representation-relightable.pdf">https://pc-ponchio.isti.cnr.it/relight/compact-representation-relightable.pdf</a></td></tr>
+</tbody>
+</table>
+<table class="docutils citation" frame="void" id="chi" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id3">[CHI]</a></td><td><a class="reference external" href="http://culturalheritageimaging.org/What_We_Offer/Downloads/">http://culturalheritageimaging.org/What_We_Offer/Downloads/</a></td></tr>
+</tbody>
+</table>
+<table class="docutils citation" frame="void" id="mudge2008" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id6">[Mudge2008]</a></td><td><a class="reference external" href="http://culturalheritageimaging.org/What_We_Do/Publications/eurographics2008/eurographics_2008_tutorial_notes.pdf">http://culturalheritageimaging.org/What_We_Do/Publications/eurographics2008/eurographics_2008_tutorial_notes.pdf</a></td></tr>
+</tbody>
+</table>
+<table class="docutils citation" frame="void" id="lam2012" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id7">[Lam2012]</a></td><td><a class="reference external" href="https://ieeexplore.ieee.org/document/6141180">https://ieeexplore.ieee.org/document/6141180</a></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="pld.html" class="btn btn-neutral float-right" title="PLD" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="examples.html" class="btn btn-neutral float-left" title="Examples" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, KMKG-MRAH, KU Leuven and KBR
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

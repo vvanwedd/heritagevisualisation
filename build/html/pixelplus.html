@@ -1,0 +1,261 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>pixel+ &mdash; pixel+ 0.9 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+        <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Examples" href="examples.html" />
+    <link rel="prev" title="Welcome to pixel+’s documentation!" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> pixel+
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">pixel+</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#motivation">Motivation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#integration">Integration</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#based-on-processed-output-files">Based on processed output files</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#based-on-original-input-files">Based on original input files</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#project-funding">Project funding</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#project-partners">Project partners</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="examples.html">Examples</a></li>
+<li class="toctree-l1"><a class="reference internal" href="rti.html">RTI</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pld.html">PLD</a></li>
+<li class="toctree-l1"><a class="reference internal" href="appendix.html">Appendix</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">pixel+</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>pixel+</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/pixelplus.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="pixel">
+<h1>pixel+<a class="headerlink" href="#pixel" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="motivation">
+<h2>Motivation<a class="headerlink" href="#motivation" title="Permalink to this headline">¶</a></h2>
+<p>Researchers or museum curators who want to study, document or disseminate cultural artifacts have a vast toolbox of HD imaging methods and 3D scanners at hand. A careful choice must be made, depending on the shape, size, location and materiality of the artifact and which characteristic is of interest. In the pixel+ project, we are focusing on single-camera multi-light imaging methods.</p>
+<p>pixel+ aims to bring single camera multi light scanning techniques closer together on several levels of integration:</p>
+<ul class="simple">
+<li>Existing processed RTI and PLD files can be opened in one web viewer with their respective viewing modes</li>
+<li>Existing processed RTI and PLD files can be reprocessed so that the viewing modes of the other technology become available.</li>
+<li>Existing RTI and PLD source data can be processed in both an RTI and a PLD pipeline.</li>
+<li>This document provides (background) information on various aspects of single camera multi light scanning techniques.</li>
+</ul>
+</div>
+<div class="section" id="integration">
+<h2>Integration<a class="headerlink" href="#integration" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="based-on-processed-output-files">
+<h3>Based on processed output files<a class="headerlink" href="#based-on-processed-output-files" title="Permalink to this headline">¶</a></h3>
+<div class="figure" id="id1">
+<img alt="_images/integration1.jpg" src="_images/integration1.jpg" />
+<p class="caption"><span class="caption-text">Given the multitude of collections that have been scanned with both technologies, Pixel+ allows to view processed files (cun, zun for PLD and ptm, rti for RTI) with filters of both technologies. It achieves this by calculating intermediate data file formats like normal maps and ambient maps.</span></p>
+</div>
+</div>
+<div class="section" id="based-on-original-input-files">
+<h3>Based on original input files<a class="headerlink" href="#based-on-original-input-files" title="Permalink to this headline">¶</a></h3>
+<div class="figure" id="id2">
+<img alt="_images/integration2.jpg" src="_images/integration2.jpg" />
+<p class="caption"><span class="caption-text">The best possible form of integration starts from the original input images as, compared to the previous integration method, no information is thrown away. Because both technologies require the same sort of input, i.e. a set of images lighted from various light directions, Pixel+ allows to apply both the PLD as well as the RTI pipeline on both RTI and PLD input data.</span></p>
+</div>
+<p>PLD is developed with the goal of doing scientific measurements and as such, as much is thouroughly calibrated. RTI itself isn’t focussed on extracting surface properties, so using RTI source data to produce PLD results poses some challenges.</p>
+</div>
+</div>
+<div class="section" id="project-funding">
+<h2>Project funding<a class="headerlink" href="#project-funding" title="Permalink to this headline">¶</a></h2>
+<p>In 2017 the <a class="reference external" href="https://www.artandhistory.museum">RMAH</a> and its partners in the pixel+ project received the necessary funding for the implementation of the goals set out. The <a class="reference external" href="https://www.belspo.be">Belgian Science Policy Office (BELSPO)</a> granted pixel+ this support via their BRAIN-be programme (Pioneer Projects).</p>
+</div>
+<div class="section" id="project-partners">
+<h2>Project partners<a class="headerlink" href="#project-partners" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="http://www.kmkg-mrah.be/">Royal Museums of Art and History (RMAH)</a> – coordinator</li>
+<li><a class="reference external" href="https://www.esat.kuleuven.be/psi">KU Leuven Department of Electical Engineering (ESAT)</a></li>
+<li><a class="reference external" href="http://www.illuminare.be/team/">Illuminare</a></li>
+<li><a class="reference external" href="https://bib.kuleuven.be/BD/digitalisering-en-document-delivery/digitalisering/digitalisering">KU Leuven Bibliotheken BD Digitalisering</a></li>
+<li><a class="reference external" href="https://www.kbr.be/en/">Royal Library of Belgium (KBR)</a></li>
+</ul>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="examples.html" class="btn btn-neutral float-right" title="Examples" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="index.html" class="btn btn-neutral float-left" title="Welcome to pixel+’s documentation!" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, KMKG-MRAH, KU Leuven and KBR
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
