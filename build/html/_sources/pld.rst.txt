@@ -5,7 +5,7 @@ Hardware
 
 .. figure:: _static/images/msmicrodome.jpg
   
-  A multi spectral microdome is being used to scan an Egyptian sarcophagus.
+  Use of multispectral microdome (PLD system) to scan an Egyptian coffin (@ Art and History Museum, Brussels)
   
 There is a large variety of scanning equipment available, but in essence, both PLD and RTI require a set of images of an object that is illuminated from various known directions. PLD has a set of scanning domes, both with white light LEDs as well as narrow band near infrared, red, green, blue and near ultra violet light LEDs for multi spectral recordings. 
 

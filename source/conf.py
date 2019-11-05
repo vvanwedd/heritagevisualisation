@@ -128,6 +128,10 @@ html_static_path = ['_static']
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'pixeldoc'
 
+# Add custom css 
+def setup(app):
+    app.add_stylesheet('custom.css')
+
 
 # -- Options for LaTeX output ------------------------------------------------
 
