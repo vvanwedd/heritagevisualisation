@@ -67,3 +67,5 @@ Japanese Print
 IR.1034 RTI
 ===========
 
+`glTF cuneiform tablet example <http://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data/samples/glTF/info.gltf>`_
+
