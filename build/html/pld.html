@@ -37,7 +37,7 @@
   <link rel="stylesheet" href="_static/custom.css" type="text/css" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Appendix" href="appendix.html" />
+    <link rel="next" title="Visual styles" href="visualstyles.html" />
     <link rel="prev" title="RTI" href="rti.html" /> 
 </head>
 
@@ -101,6 +101,7 @@
 <li class="toctree-l2"><a class="reference internal" href="#file-formats">File formats</a></li>
 </ul>
 </li>
+<li class="toctree-l1"><a class="reference internal" href="visualstyles.html">Visual styles</a></li>
 <li class="toctree-l1"><a class="reference internal" href="appendix.html">Appendix</a></li>
 </ul>
 
@@ -177,7 +178,7 @@
 <p>There is a large variety of scanning equipment available, but in essence, both PLD and RTI require a set of images of an object that is illuminated from various known directions. PLD has a set of scanning domes, both with white light LEDs as well as narrow band near infrared, red, green, blue and near ultra violet light LEDs for multi spectral recordings.</p>
 </div>
 <div class="section" id="algorithm">
-<h2>Algorithm<a class="headerlink" href="#algorithm" title="Permalink to this headline">¶</a></h2>
+<span id="pldalgorithm"></span><h2>Algorithm<a class="headerlink" href="#algorithm" title="Permalink to this headline">¶</a></h2>
 <p>PLD uses certain light material interaction models to estimate material properties.</p>
 <p>When light interacts with matter, it can be amongst other things absorbed, transmitted or reflected. In what follows, we make abstraction of effects like interference, diffraction, scattering and the photoelectric effect <a class="footnote-reference" href="#id5" id="id1">[1]</a>. They definitely are useful to study and model certain properties - e.g. Rayleigh scattering to explain why the sky is blue and Mie scattering why clouds are greyish white, but are generally not used in 3D scanning approaches.</p>
 <p>Certain materials are perfectly matte; They reflect light isotropically. The observed reflected intensity is proportional to the cosine of the angle between the direction of the incident light and the surface orientation. This is sometimes refered to as Lambert’s cosine law or Lambertian reflectance.</p>
@@ -190,7 +191,7 @@ The result is a set of apparent brightness values and the corresponding light di
 <div class="section" id="output">
 <h2>Output<a class="headerlink" href="#output" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="normal-map">
-<h3>Normal map<a class="headerlink" href="#normal-map" title="Permalink to this headline">¶</a></h3>
+<span id="normalmap"></span><h3>Normal map<a class="headerlink" href="#normal-map" title="Permalink to this headline">¶</a></h3>
 <p>The surface orientation is described by a vector that is perpendicular to the surface and is being refered to as the normal vector or more simply the normal. This calculation is performed for every pixel, resulting in a normal map or normal texture. The x, y and z components of the normal vector <span class="math notranslate nohighlight">\(\mathbf{n}\)</span> at a particular pixel are stored as red, green and blue values using the following convention:</p>
 <div class="math notranslate nohighlight">
 \[\begin{split}r = (\mathbf{n}_x + 1)*\frac{1}{2}*255\\
@@ -204,18 +205,18 @@ b = (\mathbf{n}_z + 1)*\frac{1}{2}*255\end{split}\]</div>
 </ul>
 </div>
 <div class="section" id="albedo-map">
-<h3>Albedo map<a class="headerlink" href="#albedo-map" title="Permalink to this headline">¶</a></h3>
+<span id="albedomap"></span><h3>Albedo map<a class="headerlink" href="#albedo-map" title="Permalink to this headline">¶</a></h3>
 <p>Besides the normal, the albedo is another material property that is calculated. The albedo is the amount of diffuse reflected light. In radiometric terms, the albedo corresponds to the radiosity (ie. radiant flux leaving the surface per unit area) to the irradiance (ie. the radiant flux received by the surface per unit area).</p>
 </div>
 <div class="section" id="ambient-map">
-<h3>Ambient map<a class="headerlink" href="#ambient-map" title="Permalink to this headline">¶</a></h3>
+<span id="ambientmap"></span><h3>Ambient map<a class="headerlink" href="#ambient-map" title="Permalink to this headline">¶</a></h3>
 <p>The ambient map consists of a per pixel averaged color of all images from the taken sequence.</p>
 </div>
 <div class="section" id="reflection-map">
-<h3>Reflection map<a class="headerlink" href="#reflection-map" title="Permalink to this headline">¶</a></h3>
+<span id="reflectionmap"></span><h3>Reflection map<a class="headerlink" href="#reflection-map" title="Permalink to this headline">¶</a></h3>
 </div>
 <div class="section" id="height-map-and-depth-profile">
-<h3>Height map and depth profile<a class="headerlink" href="#height-map-and-depth-profile" title="Permalink to this headline">¶</a></h3>
+<span id="heightmap"></span><h3>Height map and depth profile<a class="headerlink" href="#height-map-and-depth-profile" title="Permalink to this headline">¶</a></h3>
 <p>The normal map encodes the surface direction, ie. gradient. Often times, the user is not only interested in the surface gradient, but also the surface itself. Surface integration algorithms calculate the surface starting from a normal map.</p>
 </div>
 </div>
@@ -260,7 +261,7 @@ Next to this file, 2 filetypes are used to easily exchange data: CUN (textures b
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="appendix.html" class="btn btn-neutral float-right" title="Appendix" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="visualstyles.html" class="btn btn-neutral float-right" title="Visual styles" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="rti.html" class="btn btn-neutral float-left" title="RTI" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>

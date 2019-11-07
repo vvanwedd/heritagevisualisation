@@ -9,6 +9,8 @@ Hardware
   
 There is a large variety of scanning equipment available, but in essence, both PLD and RTI require a set of images of an object that is illuminated from various known directions. PLD has a set of scanning domes, both with white light LEDs as well as narrow band near infrared, red, green, blue and near ultra violet light LEDs for multi spectral recordings. 
 
+.. _PLDAlgorithm:
+
 Algorithm
 =========
 PLD uses certain light material interaction models to estimate material properties.
@@ -27,6 +29,9 @@ The algorithm has been extended to cope with self shadowing, interreflections, i
 
 Output
 ======
+
+.. _normalMap:
+
 Normal map
 ----------
 The surface orientation is described by a vector that is perpendicular to the surface and is being refered to as the normal vector or more simply the normal. This calculation is performed for every pixel, resulting in a normal map or normal texture. The x, y and z components of the normal vector :math:`\mathbf{n}` at a particular pixel are stored as red, green and blue values using the following convention: 
@@ -39,18 +44,27 @@ The surface orientation is described by a vector that is perpendicular to the su
 *  Note that normal :math:`\mathbf{n}` is normalized, meaning the x, y or z components can range from -1 to 1.
 *  Note that 255 corresponds to storing the normal in an 8 bit image. Depending on the bit depth of the image, this should be changed. An r value of 0 thus corresponds to an x component of -1 and a b value of 255 to a z component of 1
 *  Note also that this conversion to a 3 channel color bitmap introduces quantization artifacts, as the normal is typically calculated in floating point arithmetic, but has to be stored to the nearest integer color value according to the equation above.
+
 *  If the visualization pipeline supports floating point textures, the normal map can be stored using the floating point x, y, z values directly. Typically newer GPU models support floating point textures. In WebGL, this can be checked with a flag [OES_floating_point]_
+
+.. _albedoMap:
 
 Albedo map
 ----------
 Besides the normal, the albedo is another material property that is calculated. The albedo is the amount of diffuse reflected light. In radiometric terms, the albedo corresponds to the radiosity (ie. radiant flux leaving the surface per unit area) to the irradiance (ie. the radiant flux received by the surface per unit area).
 
+.. _ambientMap:
+
 Ambient map
 -----------
 The ambient map consists of a per pixel averaged color of all images from the taken sequence.
 
+.. _reflectionMap:
+
 Reflection map
 --------------
+
+.. _heightMap:
 
 Height map and depth profile
 ----------------------------

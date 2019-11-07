@@ -11,6 +11,7 @@ These technical documents are the result of the pixel+ project, which aims to br
    examples
    rti
    pld
+   visualstyles
    appendix
 
 
