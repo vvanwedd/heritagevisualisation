@@ -12,7 +12,7 @@ These technical documents are the result of the pixel+ project, which aims to br
    rti
    pld
    visualstyles
-   appendix
+   backgroundmaterial
 
 
 .. Indices and tables

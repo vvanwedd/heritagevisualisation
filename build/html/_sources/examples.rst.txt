@@ -3,12 +3,85 @@ Examples
 
 Plan of Sankt Gallen
 ====================
+.. figure:: _static/images/samples_stgallen.jpg
+   :figwidth: 50%
+
+   This is the caption of POSG
+Background
+----------
+
+What can be seen in this multi light single camera scan?
+---------------------------------------------------------
+
+Open in web viewer
+------------------
+
+
+`glTF <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2Fstgallen%2Finfo.gltf>`_
 
 Bruegel
 ==========
+Background
+-----------
 
-Cuneiform tablet 0.181
-======================
+.. figure:: _static/images/samples_bruegel.gif
+   :figwidth: 50%
+
+   This is the caption of Bruegel
+
+This is the background of this work of art.
+
+What can be seen in this multi light single camera scan?
+---------------------------------------------------------
+
+Open in web viewer
+------------------
+
+`Multi Spectral ZUN <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKBR_Bruegel%2Fbruegel.zun>`_
+
+Coin
+==========
+Background
+-----------
+
+.. figure:: _static/images/samples_coin.png
+   :figwidth: 50%
+
+   This is the caption of coin
+
+This is the background of this work of art.
+
+What can be seen in this multi light single camera scan?
+---------------------------------------------------------
+
+Open in web viewer
+------------------
+
+`White light ZUN <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKBR_Coin%2Fcoin.zun>`_
+
+`HSH RTI <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKBR_Coin%2Fcoin.rti>`_
+
+`glTF <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKBR_Coin%2FglTF%2Finfo.gltf>`_
+
+Cuneiform tablet
+================
+Background
+-----------
+
+.. figure:: _static/images/sample_cuneiform.jpg
+   :figwidth: 75%
+
+   This is the caption of Cuneiform
+
+This is the background of this work of art.
+
+What can be seen in this multi light single camera scan?
+---------------------------------------------------------
+
+Open in web viewer
+------------------
+
+`White light ZUN <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples/KMKG_cuneiformtablet/cuneiformtablet.zun>`_
 
 Bible of Anjou
 ==============
@@ -16,15 +89,17 @@ Background
 -----------
 
 .. figure:: _static/images/samples_bibleOfAnjou.png
+   :figwidth: 50%
 
-  Anjou Bible, fol. 3v, ‘REX EXPERTUS IN OMNI SCIENCIA’. King Robert enthroned, robed in a Byzantine-style imperial costume,with four virues crushing four vices on either side of him.
+   Anjou Bible, fol. 3v, ‘REX EXPERTUS IN OMNI SCIENCIA’. King Robert enthroned, robed in a Byzantine-style imperial costume,with four virues crushing four vices on either side of him.
 
 .. figure:: _static/images/samples_bibleOfAnjou_shaded.png
+   :figwidth: 50%
 
-  Anjou Bible, fol. 3v, ‘REX EXPERTUS IN OMNI SCIENCIA’. King Robert enthroned, robed in a Byzantine-style imperial costume,with four virues crushing four vices on either side of him.
+   Anjou Bible, fol. 3v, ‘REX EXPERTUS IN OMNI SCIENCIA’. King Robert enthroned, robed in a Byzantine-style imperial costume,with four virues crushing four vices on either side of him.
 
-What can be seen?
------------------
+What can be seen in this multi light single camera scan?
+---------------------------------------------------------
 
 ?? King Robert ??
 
@@ -37,35 +112,92 @@ Open in web viewer
 
 Rijmbijbel
 ==========
+Background
+-----------
+
+.. figure:: _static/images/samples_rijmbijbel.png
+   :figwidth: 50%
+
+   Rijmbijbel
+
+What can be seen in this multi light single camera scan?
+---------------------------------------------------------
+
+?? Rijmbijbel ??
+
+Open in web viewer
+------------------
+
+`Multi Spectral ZUN <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKUL_rijmbijbel%2Frijmbijbel.zun>`_
 
 Egyptian coffin
 ===============
+Background
+-----------
+
+.. figure:: _static/images/samples_egyptiancoffin.jpg
+   :figwidth: 50%
+
+   Egyptian coffin
+
+What can be seen in this multi light single camera scan?
+---------------------------------------------------------
+
+?? Egyptian coffin ??
+
+Open in web viewer
+------------------
+
+`Multi Spectral ZUN <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKUL_egyptiancoffin%2Fegyptiancoffin.zun>`_
 
 Charles V seal
 ==============
 
 .. figure:: _static/images/samples_charlesVSeal.gif
+   :figwidth: 50%
 
-  Charles V Seal
+   Charles V Seal
 
-What can be seen?
------------------
+What can be seen in this multi light single camera scan?
+---------------------------------------------------------
 
 ?? Charles V Seal ??
 
 Open in web viewer
 ------------------
 
-`White Light ZUN <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKUL_seal%2FKUL_UA_SEAL_022_1.3x.zun>`_
+`White Light ZUN <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKUL_charlesvseal%2Fcharlesvseal.zun>`_
 
-`HSH RTI <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKUL_seal%2Fseal.rti>`_
+`HSH RTI <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKUL_charlesvseal%2Fcharlesvseal.rti>`_
+
+`glTF <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKUL_charlesvseal%2FglTF%2Finfo.gltf>`_
+
+
 
 
 Japanese Print
 ==============
+.. figure:: _static/images/samples_japaneseprint.png
+   :figwidth: 50%
 
-IR.1034 RTI
-===========
+   Japanese Print
 
-`glTF cuneiform tablet example <http://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data/samples/glTF/info.gltf>`_
+What can be seen in this multi light single camera scan?
+---------------------------------------------------------
+
+Japanese print
+
+Open in web viewer
+------------------
+
+`White Light ZUN <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKUL_japaneseprint%2Fjapaneseprint.zun>`_
+
+`HSH RTI <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKUL_japaneseprint%2Fjapaneseprint.rti>`_
+
+`glTF <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKUL_japaneseprint%2FglTF%2Finfo.gltf>`_
+
+.. IR.1034 RTI
+.. ===========
+
+.. `glTF cuneiform tablet example <http://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data/samples/glTF/info.gltf>`_
 
