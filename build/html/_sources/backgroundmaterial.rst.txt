@@ -1,5 +1,5 @@
-Appendix
-************
+Background material
+*******************
 Color
 =================================
 One of the most easy and yet difficult properties of an object is its color. 
