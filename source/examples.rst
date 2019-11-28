@@ -19,17 +19,17 @@ Open in web viewer
 
 `glTF <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2Fstgallen%2Finfo.gltf>`_
 
-Bruegel
-==========
-Background
------------
+Bruegel drawing
+===============
 
 .. figure:: _static/images/samples_bruegel_detail_RGBandShaded.gif
    :figwidth: 25%
 
-Detail on original Bruegel drawing (© KBR, SII132816, Luxuria)
+Detail on original graphic work drawn by Pieter Bruegel the Elder in 1557 (© KBR: `SII132816 <https://opac.kbr.be/Library/doc/SYRACUSE/15794384/luxuria-graphic>`_, Luxuria)
 
-This is the background of this work of art.
+Type dataset
+------------
+Multispectral single-camera multi-light acquisition dome (MS Microdome, PLD system)
 
 What
 ----
@@ -113,8 +113,6 @@ Open in web viewer
 
 Rijmbijbel
 ==========
-Background
------------
 
 .. figure:: _static/images/samples_rijmbijbel_RGBandIR.jpg
    :figwidth: 25%
