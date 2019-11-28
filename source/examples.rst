@@ -123,7 +123,7 @@ Rijmbijbel illumination
 
 .. raw:: html
 
-    <img src="_static/images/samples_rijmbijbel_RGBandIR" height="350px">
+    <img src="_static/images/samples_rijmbijbel_RGBandIR.jpg" height="350px">
 
 Detail of illumination on folio 106 verso of Rijmbijbel of Jacob van Maerlant (ca. 1225-1291) (© KBR: `MS15001 <https://opac.kbr.be/Library/doc/SYRACUSE/17000895/rijmbijbel-ms-15001>`_) 
 
