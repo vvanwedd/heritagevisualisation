@@ -24,7 +24,7 @@ Bruegel
 Background
 -----------
 
-.. figure:: _static/images/samples_bruegel.gif
+.. figure:: _static/images/samples_bruegel_detail_RGBandShaded.gif
    :figwidth: 25%
 
 Detail on original Bruegel drawing (© KBR, SII132816, Luxuria)
