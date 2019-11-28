@@ -43,7 +43,7 @@ Open in web viewer
 Antique coin 
 ============
 
-.. figure:: _static/images/samples_coin.png
+.. figure:: _static/images/samples_coin_RGB-Sketch-normals.jpg
    :figwidth: 25%
 
 This is the caption of coin
