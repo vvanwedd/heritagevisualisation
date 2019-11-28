@@ -25,15 +25,15 @@ Bruegel drawing
 .. figure:: _static/images/samples_bruegel_detail_RGBandShaded.gif
    :figwidth: 25%
 
-Detail on original graphic work drawn by Pieter Bruegel the Elder in 1557 (© KBR: `SII132816 <https://opac.kbr.be/Library/doc/SYRACUSE/15794384/luxuria-graphic>`_, Luxuria)
+   Detail on original graphic work drawn by Pieter Bruegel the Elder in 1557 (© KBR: `SII132816 <https://opac.kbr.be/Library/doc/SYRACUSE/15794384/luxuria-graphic>`_, Luxuria)
 
 Type dataset
 ------------
-Multispectral single-camera multi-light acquisition dome (MS Microdome, PLD system)
+Multispectral single-camera multi-light acquisition dome (MS Microdome, PLD system), capture by Hendrik Hameeuw.
 
 What
 ----
-
+Animated gif: The RGB rendering represents the drawing as it appaers to the human eye, with the shaded rendering the topography of the  
 
 Open in web viewer
 ------------------
@@ -42,8 +42,6 @@ Open in web viewer
 
 Coin
 ==========
-Background
------------
 
 .. figure:: _static/images/samples_coin.png
    :figwidth: 25%
@@ -52,8 +50,8 @@ Background
 
 This is the background of this work of art.
 
-What can be seen in this multi light single camera scan?
----------------------------------------------------------
+What
+----
 
 Open in web viewer
 ------------------
@@ -121,11 +119,11 @@ Detail of illumination on folio 106 verso of Rijmbijbel of Jacob van Maerlant (c
 
 Type dataset
 ------------
-Multispectral single-camera multi-light acquisition dome (MS Microdome, PLD system)
+Multispectral single-camera multi-light acquisition dome (MS Microdome, PLD system), capture by Dieter Daemen.
 
 What 
 ----
-By comparing the RGB rendering to the left (how the object appears to the human eye) with the rendering based on the reflections from the 850nm infrared light sources (to the right), it can be observed the faces of the figures in the illumination have been repainted with different pigments, compared to the original materials.  
+Static images: By comparing the RGB rendering to the left (how the object appears to the human eye) with the rendering based on the reflections from the 850nm infrared light sources (to the right), it can be observed the faces of the figures in the illumination have been repainted with different pigments, compared to the original materials.  
 
 Open in web viewer
 ------------------
