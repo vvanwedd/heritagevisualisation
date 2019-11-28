@@ -83,7 +83,7 @@ Reverse of Ur III period (21st c. BCE) cuneifrom tablet with writen characterss 
 
 What
 ----
-Static compilation:   
+Static compilation: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 Type dataset
 ------------
@@ -97,20 +97,24 @@ Open in web viewer
 Bible of Anjou
 ==============
 
-.. figure:: _static/images/samples_bibleOfAnjou.png
-   :figwidth: 50%
+.. raw:: html
 
-   Anjou Bible, fol. 3v, ‘REX EXPERTUS IN OMNI SCIENCIA’. King Robert enthroned, robed in a Byzantine-style imperial costume,with four virues crushing four vices on either side of him. https://limo.libis.be/primo-explore/fulldisplay?docid=32LIBIS_ALMA_DS71169080710001471&context=L&vid=KULeuven&search_scope=ALL_CONTENT&tab=all_content_tab&lang=en_US
+    <img src="_static/images/samples_bibleOfAnjou.png" height="350px">
+    
+.. raw:: html
 
-.. figure:: _static/images/samples_bibleOfAnjou_shaded.png
-   :figwidth: 50%
+    <img src="_static/images/samples_bibleOfAnjou_shaded.png" height="350px">
 
-   Anjou Bible, fol. 3v, ‘REX EXPERTUS IN OMNI SCIENCIA’. King Robert enthroned, robed in a Byzantine-style imperial costume,with four virues crushing four vices on either side of him.
+Detail on folio 3 verso of the Bible of Anjou (© KU Leuven: `Ms. 1 <https://limo.libis.be/primo-explore/fulldisplay?docid=32LIBIS_ALMA_DS71169080710001471&context=L&vid=KULeuven&search_scope=ALL_CONTENT&tab=all_content_tab&lang=en_US>`_)
 
-What can be seen in this multi light single camera scan?
----------------------------------------------------------
+What
+----
+Static compilation: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
-?? King Robert ??
+Type dataset
+------------
+White light and Multispectral single-camera multi-light acquisition dome (WL Microdome & MS Microdome, PLD system), capture by Bruno Vandermeulen.
+
 
 Open in web viewer
 ------------------
