@@ -11,6 +11,7 @@ The parchment architectural plan of the building complex of the Sankt Gallen mon
 
 What
 ----
+... (VINCENT/PAUL, your call)
 
 Type dataset
 ------------
@@ -30,13 +31,13 @@ Bruegel drawing
 
 Detail on original graphic work drawn by Pieter Bruegel the Elder in 1557 (© KBR: `SII132816 <https://opac.kbr.be/Library/doc/SYRACUSE/15794384/luxuria-graphic>`_, Luxuria)
 
+What
+----
+Animated gif: The RGB rendering represents the drawing as it appaers to the human eye, with the shaded rendering the topography of the surface can be studied. In this case, it visualizes the tracing lines (very shallow indentations in the paper) made by a stylus used by the engraver to transfer Bruegel's design from the paper version onto the copper plates to produce prints. No other visualization technique documents this feature with the same succes rate. 
+
 Type dataset
 ------------
 Multispectral single-camera multi-light acquisition dome (MS Microdome, PLD system), capture by Hendrik Hameeuw.
-
-What
-----
-Animated gif: The RGB rendering represents the drawing as it appaers to the human eye, with the shaded rendering the topography of the surface  
 
 Open in web viewer
 ------------------
@@ -87,13 +88,11 @@ Open in web viewer
 
 Bible of Anjou
 ==============
-Background
------------
 
 .. figure:: _static/images/samples_bibleOfAnjou.png
    :figwidth: 50%
 
-   Anjou Bible, fol. 3v, ‘REX EXPERTUS IN OMNI SCIENCIA’. King Robert enthroned, robed in a Byzantine-style imperial costume,with four virues crushing four vices on either side of him.
+   Anjou Bible, fol. 3v, ‘REX EXPERTUS IN OMNI SCIENCIA’. King Robert enthroned, robed in a Byzantine-style imperial costume,with four virues crushing four vices on either side of him. https://limo.libis.be/primo-explore/fulldisplay?docid=32LIBIS_ALMA_DS71169080710001471&context=L&vid=KULeuven&search_scope=ALL_CONTENT&tab=all_content_tab&lang=en_US
 
 .. figure:: _static/images/samples_bibleOfAnjou_shaded.png
    :figwidth: 50%
