@@ -15,7 +15,7 @@ What
 
 Type dataset
 ------------
-Stitching of XX recordings with multispectral single-camera multi-light acquisition dome (MS Microdome, PLD system), capture by Vincent Vanweddingen & Paul Konijn.
+Stitching of XX recordings with multispectral single-camera multi-light acquisition dome (MS Microdome, PLD system), captures by Vincent Vanweddingen & Paul Konijn.
 
 Open in web viewer
 ------------------
@@ -47,15 +47,19 @@ Open in web viewer
 Antique coin 
 ============
 
-.. figure:: _static/images/samples_coin_RGB-Sketch-normals.jpg
-   :figwidth: 25%
+.. raw:: html
 
-This is the caption of coin
+    <img src="_static/images/samples_coin_RGB-Sketch-normals.jpg" height="350px">
 
-This is the background of this work of art.
+Face side of a phunic era coin (© KBR: `2A112_32 <https://www.kbr.be/en/collections/coins-and-medals/>`_) 
 
 What
 ----
+Static compilation: Three manners in which the interactive data can be generated are fading into each other. These visualisations make it possible to study the surface and/or automaticaly simplify the relief Left: Standard RGB rendering, as it appears to the human eye (based on the albedo values); Middle: Automated drawing or sketch1 rendering, the steep variations in the surface are accentuted in shades of grey; Right: Normal mapping,  
+
+Type dataset
+------------
+White light single-camera multi-light acquisition dome (WL Minidome, PLD system), capture by Vanessa Boschloos.
 
 Open in web viewer
 ------------------
@@ -65,6 +69,8 @@ Open in web viewer
 `HSH RTI <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKBR_Coin%2Fcoin.rti>`_
 
 `glTF <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKBR_Coin%2FglTF%2Finfo.gltf>`_
+
+note: these three datasets have aal been processed with one and the same original (see Type dataset) set of captured images. 
 
 Cuneiform tablet
 ================
