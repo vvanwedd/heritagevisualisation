@@ -51,7 +51,7 @@ Antique coin
 
     <img src="_static/images/samples_coin_RGB-Sketch-normals.jpg" height="350px">
 
-Face side of a phunic era coin (© KBR: `2A112_32 <https://www.kbr.be/en/collections/coins-and-medals/>`_) 
+Face side of a Siculo-Punique tetradrachme coin, 330-253 BCE (© KBR: `2A112_32 <https://www.kbr.be/en/collections/coins-and-medals/>`_) 
 
 What
 ----
