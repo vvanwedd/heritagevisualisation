@@ -27,7 +27,7 @@ Background
 .. figure:: _static/images/samples_bruegel.gif
    :figwidth: 25%
 
-SII132816 This is the caption of Bruegel
+(c) KBR: Detail on original Bruegel drawing (SII132816, Luxuria)
 
 This is the background of this work of art.
 
@@ -116,14 +116,14 @@ Background
 -----------
 
 .. figure:: _static/images/samples_rijmbijbel.png
-   :figwidth: 50%
+   :figwidth: 25%
 
-   Rijmbijbel
+(c) KBR: Detail on folio 106 verso of Rijmbijbel of Jacob van Maerlant(ca. 1225-1291) (MS15001 <https://opac.kbr.be/Library/doc/SYRACUSE/17000895/rijmbijbel-ms-15001>) 
 
 What can be seen in this multi light single camera scan?
 ---------------------------------------------------------
 
-?? Rijmbijbel ??
+
 
 Open in web viewer
 ------------------
