@@ -123,7 +123,7 @@ Rijmbijbel illumination
 
 .. raw:: html
 
-    <img src="_static/images/samples_rijmbijbel_RGBandIR.jpg" height="350px">
+    <img src="_static/images/samples_rijmbijbel_RGBandIR.jpg" height="250px">
 
 Detail of illumination on folio 106 verso of Rijmbijbel of Jacob van Maerlant (ca. 1225-1291) (© KBR: `MS15001 <https://opac.kbr.be/Library/doc/SYRACUSE/17000895/rijmbijbel-ms-15001>`_) 
 
@@ -133,7 +133,7 @@ Multispectral single-camera multi-light acquisition dome (MS Microdome, PLD syst
 
 What 
 ----
-Static images: By comparing the RGB rendering to the left (how the object appears to the human eye) with the rendering based on the reflections from the 850nm infrared light sources (to the right), it can be observed the faces of the figures in the illumination have been repainted with different pigments, compared to the original materials.  
+Static images: By comparing the RGB rendering to the left (how the object appears to the human eye) with the rendering based on the reflections from the 850nm infrared light sources (in the middle), it can be observed the faces of the figures in the illumination have been over repainted at a certain moment in time. The false color rendering (to the right) shows evidence different pigments were used  for this restoration when compared to the original materials.  
 
 Open in web viewer
 ------------------
