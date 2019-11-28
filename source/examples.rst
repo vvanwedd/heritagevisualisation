@@ -22,8 +22,7 @@ Open in web viewer
 Bruegel drawing
 ===============
 
-.. figure:: _static/images/samples_bruegel_detail_RGBandShaded.gif
-   :figwidth: 25%
+.. figure:: _static/images/samples_bruegel_detail_RGBandShaded.gif | width=200
 
 Detail on original graphic work drawn by Pieter Bruegel the Elder in 1557 (© KBR: `SII132816 <https://opac.kbr.be/Library/doc/SYRACUSE/15794384/luxuria-graphic>`_, Luxuria)
 
