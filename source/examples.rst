@@ -55,7 +55,7 @@ Face side of a phunic era coin (© KBR: `2A112_32 <https://www.kbr.be/en/collect
 
 What
 ----
-Static compilation: Three manners in which the interactive data can be generated are fading into each other. These visualisations make it possible to study the surface and/or automaticaly simplify the relief Left: Standard RGB rendering, as it appears to the human eye (based on the albedo values); Middle: Automated drawing or sketch1 rendering, the steep variations in the surface are accentuted in shades of grey; Right: Normal mapping,  
+Static compilation: Three manners in which the interactive data can be generated are fading into each other. These visualisations make it possible to study the surface and/or automatically simplify the relief. Left: Standard RGB rendering, as it appears to the human eye (based on the albedo values); Middle: Automated drawing or sketch1 rendering, the steep variations in the surface are accentuated in shades of grey; Right: Normal mapping, the color variations conceal information on the surface orientations.  
 
 Type dataset
 ------------
@@ -70,15 +70,14 @@ Open in web viewer
 
 `glTF <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKBR_Coin%2FglTF%2Finfo.gltf>`_
 
-note: these three datasets have aal been processed with one and the same original (see Type dataset) set of captured images. 
+note: these three datasets have all been processed with one and the same original (see Type dataset) set of captured images. 
 
 Cuneiform tablet
 ================
-Background
------------
 
-.. figure:: _static/images/sample_cuneiform.jpg
-   :figwidth: 75%
+.. raw:: html
+
+    <img src="_static/images/sample_cuneiform" height="350px">
 
    This is the caption of Cuneiform
 
