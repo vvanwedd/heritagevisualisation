@@ -118,7 +118,11 @@ Background
 .. figure:: _static/images/samples_rijmbijbel_RGBandIR.jpg
    :figwidth: 25%
 
-© KBR: Detail of illumination on folio 106 verso of Rijmbijbel of Jacob van Maerlant(ca. 1225-1291) `MS15001 <https://opac.kbr.be/Library/doc/SYRACUSE/17000895/rijmbijbel-ms-15001>`_ 
+Detail of illumination on folio 106 verso of Rijmbijbel of Jacob van Maerlant (ca. 1225-1291) (© KBR: `MS15001 <https://opac.kbr.be/Library/doc/SYRACUSE/17000895/rijmbijbel-ms-15001>`_) 
+
+Type dataset
+------------
+Multispectral single-camera multi-light acquisition dome (MS Microdome, PLD system)
 
 What 
 ----
