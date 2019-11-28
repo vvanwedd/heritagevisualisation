@@ -99,18 +99,17 @@ Bible of Anjou
 
 .. raw:: html
 
-    <img src="_samples_Anjou.jpg" height="450px">
+    <img src="_static/images/samples_Anjou.jpg" height="450px">
 
-Detail on folio 3 verso of the Bible of Anjou (© KU Leuven: `Ms. 1 <https://limo.libis.be/primo-explore/fulldisplay?docid=32LIBIS_ALMA_DS71169080710001471&context=L&vid=KULeuven&search_scope=ALL_CONTENT&tab=all_content_tab&lang=en_US>`_)
+Large section on folio 3 verso of the Bible of Anjou, ca. 1340 (© KU Leuven: `Ms. 1 <https://limo.libis.be/primo-explore/fulldisplay?docid=32LIBIS_ALMA_DS71169080710001471&context=L&vid=KULeuven&search_scope=ALL_CONTENT&tab=all_content_tab&lang=en_US>`_)
 
 What
 ----
-Static compilation: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Static compilation: To the left the RGB rendering represents the drawing as it appaers to the human eye; to the right the shaded rendering reveals the smallest unevennesses on the topography of the surface.
 
 Type dataset
 ------------
 White light and Multispectral single-camera multi-light acquisition dome (WL Microdome & MS Microdome, PLD system), capture by Bruno Vandermeulen.
-
 
 Open in web viewer
 ------------------
@@ -122,8 +121,9 @@ Open in web viewer
 Rijmbijbel illumination
 =======================
 
-.. figure:: _static/images/samples_rijmbijbel_RGBandIR.jpg
-   :figwidth: 25%
+.. raw:: html
+
+    <img src="_static/images/samples_rijmbijbel_RGBandIR" height="350px">
 
 Detail of illumination on folio 106 verso of Rijmbijbel of Jacob van Maerlant (ca. 1225-1291) (© KBR: `MS15001 <https://opac.kbr.be/Library/doc/SYRACUSE/17000895/rijmbijbel-ms-15001>`_) 
 
