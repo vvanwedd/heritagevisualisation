@@ -21,8 +21,8 @@ Open in web viewer
 
 Bruegel drawing
 ===============
-
-<img src="_static/images/samples_bruegel_detail_RGBandShaded.gif" alt="Bruegel" width="200" height="150">
+.. figure:: _static/images/samples_bruegel_detail_RGBandShaded.gif
+   :fig.width: 5%
 
 Detail on original graphic work drawn by Pieter Bruegel the Elder in 1557 (© KBR: `SII132816 <https://opac.kbr.be/Library/doc/SYRACUSE/15794384/luxuria-graphic>`_, Luxuria)
 
@@ -32,7 +32,7 @@ Multispectral single-camera multi-light acquisition dome (MS Microdome, PLD syst
 
 What
 ----
-Animated gif: The RGB rendering represents the drawing as it appaers to the human eye, with the shaded rendering the topography of the  
+Animated gif: The RGB rendering represents the drawing as it appaers to the human eye, with the shaded rendering the topography of the surface  
 
 Open in web viewer
 ------------------
