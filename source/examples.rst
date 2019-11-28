@@ -118,7 +118,7 @@ Background
 .. figure:: _static/images/samples_rijmbijbel.png
    :figwidth: 25%
 
-(c) KBR: Detail on folio 106 verso of Rijmbijbel of Jacob van Maerlant(ca. 1225-1291) (MS15001 <https://opac.kbr.be/Library/doc/SYRACUSE/17000895/rijmbijbel-ms-15001>) 
+(c) KBR: Detail on folio 106 verso of Rijmbijbel of Jacob van Maerlant(ca. 1225-1291) `MS15001 <https://opac.kbr.be/Library/doc/SYRACUSE/17000895/rijmbijbel-ms-15001>`_ 
 
 What can be seen in this multi light single camera scan?
 ---------------------------------------------------------
