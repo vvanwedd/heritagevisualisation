@@ -4,7 +4,7 @@ Examples
 Plan of Sankt Gallen
 ====================
 .. figure:: _static/images/samples_stgallen.jpg
-   :figwidth: 50%
+   :figwidth: 25%
 
    This is the caption of POSG
 Background
@@ -25,7 +25,7 @@ Background
 -----------
 
 .. figure:: _static/images/samples_bruegel.gif
-   :figwidth: 50%
+   :figwidth: 25%
 
    This is the caption of Bruegel
 
@@ -45,7 +45,7 @@ Background
 -----------
 
 .. figure:: _static/images/samples_coin.png
-   :figwidth: 50%
+   :figwidth: 25%
 
    This is the caption of coin
 
