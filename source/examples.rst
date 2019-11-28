@@ -77,14 +77,17 @@ Cuneiform tablet
 
 .. raw:: html
 
-    <img src="_static/images/sample_cuneiform" height="350px">
+    <img src="_static/images/sample_cuneiform.jpg" height="350px">
 
-   This is the caption of Cuneiform
+Reverse of Ur III period (21st c. BCE) cuneifrom tablet with writen characterss and a seal impression (© RMAH: `O.181 <https://www.carmentis.be:443/eMP/eMuseumPlus?service=ExternalInterface&module=collection&objectId=86744&viewType=detailView>`_) 
 
-This is the background of this work of art.
+What
+----
+Static compilation:   
 
-What can be seen in this multi light single camera scan?
----------------------------------------------------------
+Type dataset
+------------
+White light single-camera multi-light acquisition dome (WL Minidome, PLD system), capture by Hendrik Hameeuw.
 
 Open in web viewer
 ------------------
