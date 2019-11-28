@@ -3,8 +3,9 @@ Examples
 
 Plan of Sankt Gallen
 ====================
-.. figure:: _static/images/samples_stgallen.jpg
-   :figwidth: 25%
+.. raw:: html
+
+    <img src="_static/images/samples_stgallen.jpg" height="350px">
 
    This is the caption of POSG
 Background
@@ -21,9 +22,10 @@ Open in web viewer
 
 Bruegel drawing
 ===============
-.. image:: _static/images/samples_bruegel_detail_RGBandShaded.gif
-   :width: 100
-   :alt: Detail on Bruegel drawing
+
+.. raw:: html
+
+    <img src="_static/images/samples_bruegel_detail_RGBandShaded.gif" height="350px">
 
 Detail on original graphic work drawn by Pieter Bruegel the Elder in 1557 (© KBR: `SII132816 <https://opac.kbr.be/Library/doc/SYRACUSE/15794384/luxuria-graphic>`_, Luxuria)
 
