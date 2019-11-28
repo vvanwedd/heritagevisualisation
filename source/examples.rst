@@ -27,12 +27,13 @@ Background
 .. figure:: _static/images/samples_bruegel.gif
    :figwidth: 25%
 
-© KBR: Detail on original Bruegel drawing (SII132816, Luxuria)
+Detail on original Bruegel drawing (© KBR, SII132816, Luxuria)
 
 This is the background of this work of art.
 
-What can be seen in this multi light single camera scan?
----------------------------------------------------------
+What
+----
+
 
 Open in web viewer
 ------------------
@@ -126,8 +127,7 @@ Multispectral single-camera multi-light acquisition dome (MS Microdome, PLD syst
 
 What 
 ----
-By comparing the RGB rendering to the left (how the object appears to the human eye) with the rendering based on the reflections from the 850nm infrared light sources (to the right) in a multispectral single-camera multi-light acquisition dome, it can be observed the faces of the figures in the illumination have been repainted with different pigments, compared to the original materials.  
-
+By comparing the RGB rendering to the left (how the object appears to the human eye) with the rendering based on the reflections from the 850nm infrared light sources (to the right), it can be observed the faces of the figures in the illumination have been repainted with different pigments, compared to the original materials.  
 
 Open in web viewer
 ------------------
