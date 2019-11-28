@@ -99,11 +99,7 @@ Bible of Anjou
 
 .. raw:: html
 
-    <img src="_static/images/samples_bibleOfAnjou.png" height="350px">
-    
-.. raw:: html
-
-    <img src="_static/images/samples_bibleOfAnjou_shaded.png" height="350px">
+    <img src="_samples_Anjou.jpg" height="450px">
 
 Detail on folio 3 verso of the Bible of Anjou (© KU Leuven: `Ms. 1 <https://limo.libis.be/primo-explore/fulldisplay?docid=32LIBIS_ALMA_DS71169080710001471&context=L&vid=KULeuven&search_scope=ALL_CONTENT&tab=all_content_tab&lang=en_US>`_)
 
