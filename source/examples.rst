@@ -25,7 +25,7 @@ Bruegel drawing
 .. figure:: _static/images/samples_bruegel_detail_RGBandShaded.gif
    :figwidth: 25%
 
-   Detail on original graphic work drawn by Pieter Bruegel the Elder in 1557 (© KBR: `SII132816 <https://opac.kbr.be/Library/doc/SYRACUSE/15794384/luxuria-graphic>`_, Luxuria)
+Detail on original graphic work drawn by Pieter Bruegel the Elder in 1557 (© KBR: `SII132816 <https://opac.kbr.be/Library/doc/SYRACUSE/15794384/luxuria-graphic>`_, Luxuria)
 
 Type dataset
 ------------
@@ -40,13 +40,13 @@ Open in web viewer
 
 `Multi Spectral ZUN <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKBR_Bruegel%2Fbruegel.zun>`_
 
-Coin
-==========
+Antique coin 
+============
 
 .. figure:: _static/images/samples_coin.png
    :figwidth: 25%
 
-   This is the caption of coin
+This is the caption of coin
 
 This is the background of this work of art.
 
@@ -109,8 +109,8 @@ Open in web viewer
 
 `Multi Spectral ZUN <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKUL_bible_of_Anjou%2FGBIB_MS1_001V_MS_01.3x.zun>`_
 
-Rijmbijbel
-==========
+Rijmbijbel illumination
+=======================
 
 .. figure:: _static/images/samples_rijmbijbel_RGBandIR.jpg
    :figwidth: 25%
