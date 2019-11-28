@@ -27,7 +27,7 @@ Background
 .. figure:: _static/images/samples_bruegel.gif
    :figwidth: 25%
 
-   This is the caption of Bruegel
+SII132816 This is the caption of Bruegel
 
 This is the background of this work of art.
 
