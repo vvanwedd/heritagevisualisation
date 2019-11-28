@@ -5,18 +5,19 @@ Plan of Sankt Gallen
 ====================
 .. raw:: html
 
-    <img src="_static/images/samples_stgallen.jpg" height="350px">
+    <img src="_static/images/samples_stgallen.jpg" height="450px">
 
-   This is the caption of POSG
-Background
-----------
+The parchment architectural plan of the building complex of the Sankt Gallen monastery, 827-830 / end of the 12th century (© Stiftsbibliothek Sankt Gallen: `Ms. 1092 <http://dx.doi.org/10.5076/e-codices-csg-1092>`_)
 
-What can be seen in this multi light single camera scan?
----------------------------------------------------------
+What
+----
+
+Type dataset
+------------
+Stitching of XX recordings with multispectral single-camera multi-light acquisition dome (MS Microdome, PLD system), capture by Vincent Vanweddingen & Paul Konijn.
 
 Open in web viewer
 ------------------
-
 
 `glTF <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2Fstgallen%2Finfo.gltf>`_
 
