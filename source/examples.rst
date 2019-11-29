@@ -125,7 +125,7 @@ Persian relief
 
     <img src="_static/images/samples_persian-relief.gif" height="350px">
 
-Detail on a stone relief depicting a Mede ascendingn a staircase (5th-4th c. BCE) (© Art and History Museum: `IR.1034 <https://www.carmentis.be:443/eMP/eMuseumPlus?service=ExternalInterface&module=collection&objectId=86744&viewType=detailView>`_) 
+Detail on a stone relief depicting a Mede ascendingn a staircase (5th-4th c. BCE) (© Art and History Museum: `IR.1034 <>`_) 
 
 What 
 ----
@@ -169,7 +169,7 @@ Egyptian coffin
 
     <img src="_static/images/samples_egyptiancoffin.jpg" height="300px">
 
-Detail on the Egyptian coffin (outer box) of Butehamun (10th-9th c. BCE) depicting XXXX (© Art and History Museum: `E.5288 <https://www.carmentis.be:443/eMP/eMuseumPlus?service=ExternalInterface&module=collection&objectId=86744&viewType=detailView>`_)
+Detail on the Egyptian coffin (outer box) of Butehamun (10th-9th c. BCE) depicting XXXX (© Art and History Museum: `E.5288 <>`_)
 
 What 
 ----
