@@ -227,7 +227,7 @@ Open in web viewer
 
 .. rubric:: Footnotes
 
-..[AppliedPhysicsA2016] https://doi.org/10.1007/s00339-016-0499-4
+.. [AppliedPhysicsA2016] https://doi.org/10.1007/s00339-016-0499-4
 
 .. IR.1034 RTI
 .. ===========
