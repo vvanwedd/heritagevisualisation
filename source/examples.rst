@@ -129,18 +129,16 @@ Detail on a stone relief depicting a Mede ascendingn a staircase (5th-4th c. BCE
 
 What 
 ----
-Animated gif:  
+Animated gif: specular enhancement 
 
 Type dataset
 ------------
-Highlight RTI (RTI builder), capture by Hendrik Hameeuw.
+Highlight RTI-HSH (RTI builder), capture by Hendrik Hameeuw.
 
 Open in web viewer
 ------------------
 
-`Multi Spectral ZUN <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKUL_rijmbijbel%2Frijmbijbel.zun>`_
-
-
+`Multi Spectral ZUN <>`_
 
 Rijmbijbel illumination
 =======================
