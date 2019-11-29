@@ -79,7 +79,7 @@ Cuneiform tablet
 
     <img src="_static/images/sample_cuneiform.gif" height="350px">
 
-Reverse of Ur III period (21st c. BCE) cuneifrom tablet with writen characterss and a seal impression (© RMAH: `O.181 <https://www.carmentis.be:443/eMP/eMuseumPlus?service=ExternalInterface&module=collection&objectId=86744&viewType=detailView>`_) 
+Reverse of Ur III period (21st c. BCE) cuneifrom tablet with writen characterss and a seal impression (© Art and History Museum: `O.181 <https://www.carmentis.be:443/eMP/eMuseumPlus?service=ExternalInterface&module=collection&objectId=86744&viewType=detailView>`_) 
 
 What
 ----
@@ -105,7 +105,7 @@ Large section on folio 3 verso of the Bible of Anjou, ca. 1340 (© KU Leuven: `M
 
 What
 ----
-Static compilation: To the left the RGB rendering represents the drawing as it appaers to the human eye; to the right the shaded rendering reveals the smallest unevennesses on the topography of the surface.
+Static compilation: To the left the RGB rendering (based on the obtained albedo values) represents the drawing as it appaers to the human eye; to the right the shaded rendering reveals the smallest unevennesses on the topography of the surface.
 
 Type dataset
 ------------
@@ -127,13 +127,13 @@ Rijmbijbel illumination
 
 Detail of illumination on folio 106 verso of Rijmbijbel of Jacob van Maerlant (ca. 1225-1291) (© KBR: `MS15001 <https://opac.kbr.be/Library/doc/SYRACUSE/17000895/rijmbijbel-ms-15001>`_) 
 
+What 
+----
+Static images: By comparing the RGB rendering to the left (how the object appears to the human eye) with the rendering based on the reflections from the 850nm infrared light sources (in the middle), it can be observed the faces of the figures in the illumination have been over repainted at a certain moment in time. The false color rendering (to the right, combination of the infrared, red and green albedo responses: IRG) shows evidence different materials were used for this restoration when these additives are compared to the original pigments and inks. 
+
 Type dataset
 ------------
 Multispectral single-camera multi-light acquisition dome (MS Microdome, PLD system), capture by Dieter Daemen.
-
-What 
-----
-Static images: By comparing the RGB rendering to the left (how the object appears to the human eye) with the rendering based on the reflections from the 850nm infrared light sources (in the middle), it can be observed the faces of the figures in the illumination have been over repainted at a certain moment in time. The false color rendering (to the right) shows evidence different pigments were used  for this restoration when compared to the original materials.  
 
 Open in web viewer
 ------------------
@@ -142,18 +142,20 @@ Open in web viewer
 
 Egyptian coffin
 ===============
-Background
------------
 
-.. figure:: _static/images/samples_egyptiancoffin.jpg
-   :figwidth: 50%
+.. raw:: html
 
-   Egyptian coffin
+    <img src="_static/images/samples_egyptiancoffin.jpg" height="300px">
 
-What can be seen in this multi light single camera scan?
----------------------------------------------------------
+Detail on the Egyptian coffin (outer box) of Butehamun (10th-9th c. BCE) depicting XXXX (© Art and History Museum: `E.5288 <https://www.carmentis.be:443/eMP/eMuseumPlus?service=ExternalInterface&module=collection&objectId=86744&viewType=detailView>`_)
 
-?? Egyptian coffin ??
+What 
+----
+Static compilation: Combination of renderings presenting the abilities of multispectral multi-light reflectance datasets. The surface integrity of this polychromic coffin is greatly affected/damaged and layers of original deteriorated varnish obscure the original design of the depictions. The RGB color renderings are on the left alternated with a texture less ‘shaded’ rendering which reveals the current surface condition of the paint and underlying gypsum layers. More to the right, an infrared rendering (based on the spectral albedo values obtained in the IR, 850nm) provides better insights on the polychromic depictions. 
+
+Type dataset
+------------
+Multispectral single-camera multi-light acquisition dome (MS Microdome, PLD system), capture by Athena Van der Perre, Luc Delvaux, Hendrik Hameeuw.
 
 Open in web viewer
 ------------------
