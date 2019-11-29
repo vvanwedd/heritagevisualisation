@@ -225,7 +225,7 @@ Open in web viewer
     
     note: these three datasets have all been processed with one and the same original (see Type dataset) set of captured images.
 
-..[AppliedFhysicsA2016] https://doi.org/10.1007/s00339-016-0499-4
+..[AppliedPhysicsA2016] https://doi.org/10.1007/s00339-016-0499-4
 
 .. IR.1034 RTI
 .. ===========
