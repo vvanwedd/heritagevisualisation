@@ -73,6 +73,7 @@ RTI
 .. [Malzbender2001] https://www.hpl.hp.com/research/ptm/papers/ptm.pdf
 .. [ponchio] https://pc-ponchio.isti.cnr.it/relight/compact-representation-relightable.pdf
 .. [CHI] http://culturalheritageimaging.org/What_We_Offer/Downloads/
+.. [CHI2013] http://culturalheritageimaging.org/What_We_Offer/Downloads/RTI_Hlt_Capture_Guide_v2_0.pdf
 .. [Mudge2008] http://culturalheritageimaging.org/What_We_Do/Publications/eurographics2008/eurographics_2008_tutorial_notes.pdf
 .. [Lam2012] https://ieeexplore.ieee.org/document/6141180
-.. [CHI2013] http://culturalheritageimaging.org/What_We_Offer/Downloads/RTI_Hlt_Capture_Guide_v2_0.pdf
+
