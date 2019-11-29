@@ -4,7 +4,7 @@ Hardware
 =========
 .. raw:: html
 
-    <img src="_static/images/rtidome.jpg" height="350px">
+    <img src="_static/images/dome7OxfordClassics.jpg" height="350px">
   
   An RTI dome
   
