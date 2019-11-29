@@ -118,6 +118,30 @@ Open in web viewer
 
 `Multi Spectral ZUN <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKUL_bible_of_Anjou%2FGBIB_MS1_001V_MS_01.3x.zun>`_
 
+Persian relief
+==============
+
+.. raw:: html
+
+    <img src="_static/images/samples_persian-relief.gif" height="350px">
+
+Detail on a stone relief depicting a Mede ascendingn a staircase (5th-4th c. BCE) (© Art and History Museum: `IR.1034 <https://www.carmentis.be:443/eMP/eMuseumPlus?service=ExternalInterface&module=collection&objectId=86744&viewType=detailView>`_) 
+
+What 
+----
+Animated gif:  
+
+Type dataset
+------------
+Highlight RTI (RTI builder), capture by Hendrik Hameeuw.
+
+Open in web viewer
+------------------
+
+`Multi Spectral ZUN <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKUL_rijmbijbel%2Frijmbijbel.zun>`_
+
+
+
 Rijmbijbel illumination
 =======================
 
