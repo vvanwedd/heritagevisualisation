@@ -101,7 +101,7 @@ Large section on folio 3 verso of the Bible of Anjou, ca. 1340 (© KU Leuven: `M
 
 What
 ----
-    Static compilation: To the left the RGB rendering (based on the obtained albedo values) represents the drawing as it appaers to the human eye; to the right the shaded rendering reveals the smallest unevennesses on the topography of the surface.
+    Static compilation: To the left the RGB rendering (based on the obtained albedo values) represents the drawing as it appaers to the human eye; to the right the shaded rendering reveals the smallest unevennesses on the topography of the surface. For more results with these datasets see [AppliedFhysicsA2016]_ 
 
 Type dataset
 ------------
@@ -224,6 +224,8 @@ Open in web viewer
     `White Light ZUN <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKUL_japaneseprint%2Fjapaneseprint.zun>`_ | `HSH RTI <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKUL_japaneseprint%2Fjapaneseprint.rti>`_ | `glTF <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKUL_japaneseprint%2FglTF%2Finfo.gltf>`_
     
     note: these three datasets have all been processed with one and the same original (see Type dataset) set of captured images.
+
+..[AppliedFhysicsA2016] https://doi.org/10.1007/s00339-016-0499-4
 
 .. IR.1034 RTI
 .. ===========
