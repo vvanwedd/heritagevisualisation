@@ -129,7 +129,7 @@ Detail on a stone relief depicting a Mede ascendingn a staircase (5th-4th c. BCE
 
 What 
 ----
-Animated gif: specular enhancement 
+Animated gif: The RGB, specular enhancement and the normal map rendering blend into eachother. It visualizes a number of different aspects of the stone surface. 
 
 Type dataset
 ------------
@@ -187,15 +187,12 @@ Open in web viewer
 Charles V seal
 ==============
 
-.. figure:: _static/images/samples_charlesVSeal.gif
-   :figwidth: 50%
+.. raw:: html
 
-   Charles V Seal
+    <img src="_static/images/samples_charlesVSeal.gif" height="300px">
 
-What can be seen in this multi light single camera scan?
----------------------------------------------------------
+Large section on folio 3 verso of the Bible of Anjou, ca. 1340 (© KU Leuven: `Ms. 1 <https://limo.libis.be/primo-explore/fulldisplay?docid=32LIBIS_ALMA_DS71169080710001471&context=L&vid=KULeuven&search_scope=ALL_CONTENT&tab=all_content_tab&lang=en_US>`_)Charles V Seal
 
-?? Charles V Seal ??
 
 Open in web viewer
 ------------------
