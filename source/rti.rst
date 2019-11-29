@@ -12,7 +12,7 @@ There is a large variety of scanning equipment available, but in essence, both P
 RTI has 2 types of recording equipment: The dome setups and the highlight RTI setup.
 The dome setup functions in the similar manner as the PLD domes.
 
-Highlight RTI utilizes chrome/specular spheres to estimate the direction of a point light source (e.g. a flash). This technology is typically cheaper and more flexible in terms of object size to be scanned; for a manual to the procedure see [CHI2013]
+Highlight RTI utilizes chrome/specular spheres to estimate the direction of a point light source (e.g. a flash). This technology is typically cheaper and more flexible in terms of object size to be scanned; for a manual to the procedure see [CHI2013]_.
 The downside is that it generally is slower, requires more intervention and is less accurate, as light sources have to be calculated using the specular reflection in the reflective spheres. 
 
 Algorithm
