@@ -33,7 +33,7 @@ Detail on original graphic work drawn by Pieter Bruegel the Elder in 1557 (© KB
 
 What
 ----
-    Animated gif: The RGB rendering represents the drawing as it appaers to the human eye (based on albedo values), with the shaded rendering the topography of the surface can be studied. In this case, it visualizes the tracing lines (very shallow indentations in the paper) made by a stylus used by the engraver to transfer Bruegel's design from the paper version onto the copper plates to produce prints. No other visualization technique documents this feature with the same succes rate. 
+    Animated gif: The RGB rendering represents the drawing as it appaers to the human eye (based on albedo values), with the shaded rendering the topography of the surface can be studied. In this case, it visualizes the tracing lines (very shallow indentations in the paper) made by a stylus used by the engraver to transfer Bruegel's design from the paper version onto the copper plates to produce prints. No other visualization technique documents this feature with the same succes rate. For more results with this dataset see [Archieving2018]_.
 
 Type dataset
 ------------
@@ -101,7 +101,7 @@ Large section on folio 3 verso of the Bible of Anjou, ca. 1340 (© KU Leuven: `M
 
 What
 ----
-    Static compilation: To the left the RGB rendering (based on the obtained albedo values) represents the drawing as it appaers to the human eye; to the right the shaded rendering reveals the smallest unevennesses on the topography of the surface. For more results with these datasets see [AppliedPhysicsA2016]_.
+    Static compilation: To the left the RGB rendering (based on the obtained albedo values) represents the drawing as it appaers to the human eye; to the right the shaded rendering reveals the smallest unevennesses on the topography of the surface. For more results with these datasets see [AppliedPhysicsA2016]_ and [Archieving2018]_.
 
 Type dataset
 ------------
@@ -227,6 +227,7 @@ Open in web viewer
 
 .. rubric:: Footnotes
 
+.. [Archiving2018] https://doi.org/10.2352/issn.2168-3204.2018.1.0.15
 .. [AppliedPhysicsA2016] https://doi.org/10.1007/s00339-016-0499-4
 .. [VAST2005] https://www.researchgate.net/publication/263128756_Easy_and_cost-effective_cuneiform_digitizing
 .. [Akkadica2011] https://www.researchgate.net/publication/263128428_New_Visualization_Techniques_for_Cuneiform_Texts_and_Sealings
