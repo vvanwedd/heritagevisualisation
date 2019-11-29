@@ -189,9 +189,9 @@ Charles V seal
 
 .. raw:: html
 
-    <img src="_static/images/" height="250px">
+    <img src="_static/images/samples_charlesVSeal.jpg" height="250px">
 
-Face side of  3 verso of the Bible of Anjou, ca. 1340 (© KU Leuven: `Ms. 1 <https://limo.libis.be/primo-explore/fulldisplay?docid=32LIBIS_ALMA_DS71169080710001471&context=L&vid=KULeuven&search_scope=ALL_CONTENT&tab=all_content_tab&lang=en_US>`_)Charles V Seal
+Detail on face side of the seal of Emperor Charles V, 1519-1556 (© KU Leuven)
 
 What 
 ----
@@ -205,15 +205,11 @@ White light single-camera multi-light acquisition dome (WL Minidodome, PLD syste
 Open in web viewer
 ------------------
 
-`White Light ZUN <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKUL_charlesvseal%2Fcharlesvseal.zun>`_
-
-`HSH RTI <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKUL_charlesvseal%2Fcharlesvseal.rti>`_
+`White Light ZUN <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKUL_charlesvseal%2Fcharlesvseal.zun>`_ | `HSH RTI <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKUL_charlesvseal%2Fcharlesvseal.rti>`_
 
 `PTM <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKUL_charlesvseal%2Fcharlesvseal.ptm>`_
 
 `glTF <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKUL_charlesvseal%2FglTF%2Finfo.gltf>`_
-
-
 
 
 Japanese Print
@@ -231,11 +227,7 @@ Japanese print
 Open in web viewer
 ------------------
 
-`White Light ZUN <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKUL_japaneseprint%2Fjapaneseprint.zun>`_
-
-`HSH RTI <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKUL_japaneseprint%2Fjapaneseprint.rti>`_
-
-`glTF <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKUL_japaneseprint%2FglTF%2Finfo.gltf>`_
+`White Light ZUN <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKUL_japaneseprint%2Fjapaneseprint.zun>`_ | `HSH RTI <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKUL_japaneseprint%2Fjapaneseprint.rti>`_ | `glTF <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKUL_japaneseprint%2FglTF%2Finfo.gltf>`_
 
 .. IR.1034 RTI
 .. ===========
