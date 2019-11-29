@@ -77,13 +77,13 @@ Cuneiform tablet
 
 .. raw:: html
 
-    <img src="_static/images/samples_cuneiform.gif" height="350px">
+    <img src="_static/images/sample_cuneiform.gif" height="350px">
 
 Reverse of Ur III period (21st c. BCE) cuneifrom tablet with writen characterss and a seal impression (© RMAH: `O.181 <https://www.carmentis.be:443/eMP/eMuseumPlus?service=ExternalInterface&module=collection&objectId=86744&viewType=detailView>`_) 
 
 What
 ----
-Static compilation: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Animated gif: The interactive relighting of the RGB rendering of the surface of a cuneiform tablet virtually simulates the interaction how light casts on the relief when a reader of the document identifies the scribal characters and the seal impression’s iconography. Secondly, by excluding the RGB texture map (‘shaded’ rendering) the relief during virtual relighting appears even more profound. A third added value of single-camera multi-light reflectance is the ability to automatically accentuate particular relief features. In this case, the ‘sketch1’ rendering makes the cuneiform signs impressed downwards in the clay to appear in black; and the ‘sketch2’ rendering differentiates the seal impression which protrudes on top of the main surface.  
 
 Type dataset
 ------------
