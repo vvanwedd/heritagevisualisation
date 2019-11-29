@@ -2,8 +2,9 @@ PLD
 ************
 Hardware
 =========
+.. raw:: html
 
-.. figure:: _static/images/msmicrodome.jpg
+    <img src="_static/images/msmicrodome.jpg" height="400px">
   
   Use of multispectral microdome (PLD system) to scan an Egyptian coffin (@ Art and History Museum, Brussels)
   
