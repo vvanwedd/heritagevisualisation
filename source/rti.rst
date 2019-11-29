@@ -6,7 +6,9 @@ Hardware
 
     <img src="_static/images/dome7OxfordClassics.jpg" height="350px">
   
-Example of a RTI dome as produced by custom-imaging.co.uk '<https://www.scienceopen.com/document_file/2b51d42a-6882-4caa-b773-5d451da05208/ScienceOpen/174_MacDonald.pdf>' (their Dome 7).
+Example of a RTI dome as produced by `custom-imaging.co.uk <https://www.scienceopen.com/document_file/2b51d42a-6882-4caa-b773-5d451da05208/ScienceOpen/174_MacDonald.pdf>' (their Dome 7).
+
+Ms. 1092 <http://dx.doi.org/10.5076/e-codices-csg-1092>`_
   
 There is a large variety of scanning equipment available, but in essence, both PLD and RTI require a set of images of an object that is illuminated from various known directions. 
 RTI has 2 types of recording equipment: The dome setups and the highlight RTI setup.
