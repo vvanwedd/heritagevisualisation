@@ -55,18 +55,18 @@ Face side of a Siculo-Punique tetradrachme coin, 330-253 BCE (© KBR: `2A112_32 
 
 What
 ----
-Static compilation: Three manners in which the interactive data can be generated are fading into each other. These visualisations make it possible to study the surface and/or automatically simplify the relief. Left: Standard RGB rendering, as it appears to the human eye (based on the albedo values); Middle: Automated drawing or sketch1 rendering, the steep variations in the surface are accentuated in shades of grey; Right: Normal mapping, the color variations conceal information on the surface orientations.  
+    Static compilation: Three manners in which the interactive data can be generated are fading into each other. These visualisations make it possible to study the surface and/or automatically simplify the relief. Left: Standard RGB rendering, as it appears to the human eye (based on the albedo values); Middle: Automated drawing or sketch1 rendering, the steep variations in the surface are accentuated in shades of grey; Right: Normal mapping, the color variations conceal information on the surface orientations.  
 
 Type dataset
 ------------
-White light single-camera multi-light acquisition dome (WL Minidome, PLD system), capture by Vanessa Boschloos.
+    White light single-camera multi-light acquisition dome (WL Minidome, PLD system), capture by Vanessa Boschloos.
 
 Open in web viewer
 ------------------
 
-`White light ZUN <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKBR_Coin%2Fcoin.zun>`_ | `HSH RTI <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKBR_Coin%2Fcoin.rti>`_ | `glTF <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKBR_Coin%2FglTF%2Finfo.gltf>`_
+    `White light ZUN <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKBR_Coin%2Fcoin.zun>`_ | `HSH RTI <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKBR_Coin%2Fcoin.rti>`_ | `glTF <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKBR_Coin%2FglTF%2Finfo.gltf>`_
 
-note: these three datasets have all been processed with one and the same original (see Type dataset) set of captured images. 
+    note: these three datasets have all been processed with one and the same original (see Type dataset) set of captured images. 
 
 Cuneiform tablet
 ================
@@ -79,16 +79,16 @@ Reverse of Ur III period (21st c. BCE) cuneifrom tablet with writen characterss 
 
 What
 ----
-Animated gif: The interactive relighting of the RGB rendering of the surface of a cuneiform tablet virtually simulates the interaction how light casts on the relief when a reader of the document identifies the scribal characters and the seal impression’s iconography. Secondly, by excluding the RGB texture map (‘shaded’ rendering) the relief during virtual relighting appears even more profound. A third added value of single-camera multi-light reflectance is the ability to automatically accentuate particular relief features. In this case, the ‘sketch1’ rendering makes the cuneiform signs impressed downwards in the clay to appear in black; and the ‘sketch2’ rendering differentiates the seal impression which protrudes on top of the main surface.  
+    Animated gif: The interactive relighting of the RGB rendering of the surface of a cuneiform tablet virtually simulates the interaction how light casts on the relief when a reader of the document identifies the scribal characters and the seal impression’s iconography. Secondly, by excluding the RGB texture map (‘shaded’ rendering) the relief during virtual relighting appears even more profound. A third added value of single-camera multi-light reflectance is the ability to automatically accentuate particular relief features. In this case, the ‘sketch1’ rendering makes the cuneiform signs impressed downwards in the clay to appear in black; and the ‘sketch2’ rendering differentiates the seal impression which protrudes on top of the main surface.  
 
 Type dataset
 ------------
-White light single-camera multi-light acquisition dome (WL Minidome, PLD system), capture by Hendrik Hameeuw.
+    White light single-camera multi-light acquisition dome (WL Minidome, PLD system), capture by Hendrik Hameeuw.
 
 Open in web viewer
 ------------------
 
-`White light ZUN <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples/KMKG_cuneiformtablet/cuneiformtablet.zun>`_
+    `White light ZUN <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples/KMKG_cuneiformtablet/cuneiformtablet.zun>`_
 
 Bible of Anjou
 ==============
@@ -101,16 +101,16 @@ Large section on folio 3 verso of the Bible of Anjou, ca. 1340 (© KU Leuven: `M
 
 What
 ----
-Static compilation: To the left the RGB rendering (based on the obtained albedo values) represents the drawing as it appaers to the human eye; to the right the shaded rendering reveals the smallest unevennesses on the topography of the surface.
+    Static compilation: To the left the RGB rendering (based on the obtained albedo values) represents the drawing as it appaers to the human eye; to the right the shaded rendering reveals the smallest unevennesses on the topography of the surface.
 
 Type dataset
 ------------
-White light and Multispectral single-camera multi-light acquisition dome (WL Microdome & MS Microdome, PLD system), capture by Bruno Vandermeulen.
+    White light and Multispectral single-camera multi-light acquisition dome (WL Microdome & MS Microdome, PLD system), capture by Bruno Vandermeulen.
 
 Open in web viewer
 ------------------
 
-`White Light ZUN <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKUL_bible_of_Anjou%2FSABBE_MS1_003V_1.3x.zun>`_ | `Multi Spectral ZUN <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKUL_bible_of_Anjou%2FGBIB_MS1_001V_MS_01.3x.zun>`_
+    `White Light ZUN <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKUL_bible_of_Anjou%2FSABBE_MS1_003V_1.3x.zun>`_ | `Multi Spectral ZUN <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKUL_bible_of_Anjou%2FGBIB_MS1_001V_MS_01.3x.zun>`_
 
 Persian relief
 ==============
@@ -123,16 +123,16 @@ Detail on a stone relief depicting a Mede ascendingn a staircase (5th-4th c. BCE
 
 What 
 ----
-Animated gif: The RGB, specular enhancement and the normal map rendering blend into eachother. It visualizes a number of different aspects of the stone surface. 
+    Animated gif: The RGB, specular enhancement and the normal map rendering blend into eachother. It visualizes a number of different aspects of the stone surface. 
 
 Type dataset
 ------------
-Highlight RTI-HSH (RTI builder), capture by Hendrik Hameeuw.
+    Highlight RTI-HSH (RTI builder), capture by Hendrik Hameeuw.
 
 Open in web viewer
 ------------------
 
-`Multi Spectral ZUN <>`_
+    `Multi Spectral ZUN <>`_
 
 Rijmbijbel illumination
 =======================
@@ -145,16 +145,16 @@ Detail of illumination on folio 106 verso of Rijmbijbel of Jacob van Maerlant (c
 
 What 
 ----
-Static images: By comparing the RGB rendering to the left (how the object appears to the human eye) with the rendering based on the reflections from the 850nm infrared light sources (in the middle), it can be observed the faces of the figures in the illumination have been over repainted at a certain moment in time. The false color rendering (to the right, combination of the infrared, red and green albedo responses: IRG) shows evidence different materials were used for this restoration when these additives are compared to the original pigments and inks. 
+    Static images: By comparing the RGB rendering to the left (how the object appears to the human eye) with the rendering based on the reflections from the 850nm infrared light sources (in the middle), it can be observed the faces of the figures in the illumination have been over repainted at a certain moment in time. The false color rendering (to the right, combination of the infrared, red and green albedo responses: IRG) shows evidence different materials were used for this restoration when these additives are compared to the original pigments and inks. 
 
 Type dataset
 ------------
-Multispectral single-camera multi-light acquisition dome (MS Microdome, PLD system), capture by Dieter Daemen.
+    Multispectral single-camera multi-light acquisition dome (MS Microdome, PLD system), capture by Dieter Daemen.
 
 Open in web viewer
 ------------------
 
-`Multi Spectral ZUN <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKUL_rijmbijbel%2Frijmbijbel.zun>`_
+    `Multi Spectral ZUN <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKUL_rijmbijbel%2Frijmbijbel.zun>`_
 
 Egyptian coffin
 ===============
@@ -167,16 +167,16 @@ Detail on the Egyptian coffin (outer box) of Butehamun (10th-9th c. BCE) depicti
 
 What 
 ----
-Static compilation: Combination of renderings presenting the abilities of multispectral multi-light reflectance datasets. The surface integrity of this polychromic coffin is greatly affected/damaged and layers of original deteriorated varnish obscure the original design of the depictions. The RGB color renderings are on the left alternated with a texture less ‘shaded’ rendering which reveals the current surface condition of the paint and underlying gypsum layers. More to the right, an infrared rendering (based on the spectral albedo values obtained in the IR, 850nm) provides better insights on the polychromic depictions. 
+    Static compilation: Combination of renderings presenting the abilities of multispectral multi-light reflectance datasets. The surface integrity of this polychromic coffin is greatly affected/damaged and layers of original deteriorated varnish obscure the original design of the depictions. The RGB color renderings are on the left alternated with a texture less ‘shaded’ rendering which reveals the current surface condition of the paint and underlying gypsum layers. More to the right, an infrared rendering (based on the spectral albedo values obtained in the IR, 850nm) provides better insights on the polychromic depictions. 
 
 Type dataset
 ------------
-Multispectral single-camera multi-light acquisition dome (MS Microdome, PLD system), capture by Athena Van der Perre, Luc Delvaux, Hendrik Hameeuw.
+    Multispectral single-camera multi-light acquisition dome (MS Microdome, PLD system), capture by Athena Van der Perre, Luc Delvaux, Hendrik Hameeuw.
 
 Open in web viewer
 ------------------
 
-`Multi Spectral ZUN <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKMKG_egyptiancoffin%2Fegyptiancoffin.zun>`_
+    `Multi Spectral ZUN <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKMKG_egyptiancoffin%2Fegyptiancoffin.zun>`_
 
 Charles V seal
 ==============
@@ -189,15 +189,15 @@ Detail on face side of the seal of Emperor Charles V, 1519-1556 (© KU Leuven Ar
 
 What 
 ----
-Static compilation: The relief (surface orientations based on the normal map) of the seal can be accentuated or simplified into a an automated white/black rendering; rapid changes in the surface orientations between pixels receive a dark shade of grey; white for neighboring pixels without difference in surface orientation (= sketch 1 rendering).
+    Static compilation: The relief (surface orientations based on the normal map) of the seal can be accentuated or simplified into a an automated white/black rendering; rapid changes in the surface orientations between pixels receive a dark shade of grey; white for neighboring pixels without difference in surface orientation (= sketch 1 rendering).
 
 Type dataset
 ------------
-White light single-camera multi-light acquisition dome (WL Minidodome, PLD system), capture by Bruno Vandermeulen.
+    White light single-camera multi-light acquisition dome (WL Minidodome, PLD system), capture by Bruno Vandermeulen.
 
 Open in web viewer
 ------------------
-`White Light ZUN <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKUL_charlesvseal%2Fcharlesvseal.zun>`_ | `HSH RTI <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKUL_charlesvseal%2Fcharlesvseal.rti>`_ | `PTM <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKUL_charlesvseal%2Fcharlesvseal.ptm>`_ | `glTF <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKUL_charlesvseal%2FglTF%2Finfo.gltf>`_
+    `White Light ZUN <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKUL_charlesvseal%2Fcharlesvseal.zun>`_ | `HSH RTI <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKUL_charlesvseal%2Fcharlesvseal.rti>`_ | `PTM <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKUL_charlesvseal%2Fcharlesvseal.ptm>`_ | `glTF <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKUL_charlesvseal%2FglTF%2Finfo.gltf>`_
 
 
 Japanese Print
@@ -211,16 +211,16 @@ Japanese print on paper (© KU Leuven Libraries collections)
 
 What 
 ----
-Static compilation: By switching between the RGB textured and the shaded un-textured rendering the shallow variations in the paper, print marks and the thin pigment layers become very profound. 
+    Static compilation: By switching between the RGB textured and the shaded un-textured rendering the shallow variations in the paper, print marks and the thin pigment layers become very profound. 
 
 Type dataset
 ------------
-White light single-camera multi-light acquisition dome (WL Minidodome, PLD system), capture by Bruno Vandermeulen.
+    White light single-camera multi-light acquisition dome (WL Minidodome, PLD system), capture by Bruno Vandermeulen.
 
 Open in web viewer
 ------------------
 
-`White Light ZUN <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKUL_japaneseprint%2Fjapaneseprint.zun>`_ | `HSH RTI <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKUL_japaneseprint%2Fjapaneseprint.rti>`_ | `glTF <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKUL_japaneseprint%2FglTF%2Finfo.gltf>`_
+    `White Light ZUN <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKUL_japaneseprint%2Fjapaneseprint.zun>`_ | `HSH RTI <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKUL_japaneseprint%2Fjapaneseprint.rti>`_ | `glTF <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKUL_japaneseprint%2FglTF%2Finfo.gltf>`_
 
 .. IR.1034 RTI
 .. ===========
