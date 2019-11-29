@@ -59,7 +59,7 @@ What
 
 Type dataset
 ------------
-    White light single-camera multi-light acquisition dome (WL Minidome, PLD system), capture by Vanessa Boschloos.
+    White light single-camera multi-light acquisition dome (WL mecano Minidome, PLD system), capture by Vanessa Boschloos.
 
 Open in web viewer
 ------------------
@@ -83,7 +83,7 @@ What
 
 Type dataset
 ------------
-    White light single-camera multi-light acquisition dome (WL Minidome, PLD system), capture by Hendrik Hameeuw.
+    White light single-camera multi-light acquisition dome (WL mecano Minidome, PLD system), capture by Hendrik Hameeuw.
 
 Open in web viewer
 ------------------
@@ -193,12 +193,13 @@ What
 
 Type dataset
 ------------
-    White light single-camera multi-light acquisition dome (WL Minidodome, PLD system), capture by Bruno Vandermeulen.
+    White light single-camera multi-light acquisition dome (WL mecano Minidodome, PLD system), capture by Bruno Vandermeulen.
 
 Open in web viewer
 ------------------
     `White Light ZUN <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKUL_charlesvseal%2Fcharlesvseal.zun>`_ | `HSH RTI <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKUL_charlesvseal%2Fcharlesvseal.rti>`_ | `PTM <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKUL_charlesvseal%2Fcharlesvseal.ptm>`_ | `glTF <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKUL_charlesvseal%2FglTF%2Finfo.gltf>`_
-
+    
+    note: these four datasets have all been processed with one and the same original (see Type dataset) set of captured images.
 
 Japanese Print
 ==============
@@ -215,12 +216,14 @@ What
 
 Type dataset
 ------------
-    White light single-camera multi-light acquisition dome (WL Minidodome, PLD system), capture by Bruno Vandermeulen.
+    White light single-camera multi-light acquisition dome (WL mecano Minidodome, PLD system), capture by Bruno Vandermeulen.
 
 Open in web viewer
 ------------------
 
     `White Light ZUN <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKUL_japaneseprint%2Fjapaneseprint.zun>`_ | `HSH RTI <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKUL_japaneseprint%2Fjapaneseprint.rti>`_ | `glTF <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKUL_japaneseprint%2FglTF%2Finfo.gltf>`_
+    
+    note: these three datasets have all been processed with one and the same original (see Type dataset) set of captured images.
 
 .. IR.1034 RTI
 .. ===========
