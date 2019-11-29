@@ -16,7 +16,9 @@ We humans typically have 3 types of cells in our eyes to distiguish color. Some 
 
 A spectrum of light is being filtered in 3 different ways. First consider a spectral power distribution curve (of the light that is falling in our eye at a specific solid angle) 
 
-.. figure:: _static/images/fluorescentlightingSPD.svg
+.. raw:: html
+    
+    <img src="_static/images/fluorescentlightingSPD.svg" height="250px">
 
   The spectral density of a fluorescent light as a function of optical wavelength shows peaks at atomic transitions, indicated by the numbered arrows. Original:  Deglr6328 at English Wikipedia Derivative work:  RicHard-59 [CC BY-SA 3.0 (http://creativecommons.org/licenses/by-sa/3.0/)]
 
