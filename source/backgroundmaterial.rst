@@ -8,7 +8,9 @@ So color seems to correlate with a specific wavelength. This is however an overs
 
 We humans typically have 3 types of cells in our eyes to distiguish color. Some men have 2, some women even have 4, but most of us have 3. 
 
-.. figure:: _static/images/Cones_SMJ2_E.svg.png
+.. raw:: html
+    
+    <img src="_static/images/Cones_SMJ2_E.svg.png" height="250px">
 
   Normalized typical human cone cell responses (S, M, and L types) to monochromatic spectral stimuli. By Vanessaezekowitz at en.wikipedia, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=10514373
 
