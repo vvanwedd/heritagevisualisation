@@ -33,7 +33,7 @@ Detail on original graphic work drawn by Pieter Bruegel the Elder in 1557 (© KB
 
 What
 ----
-Animated gif: The RGB rendering represents the drawing as it appaers to the human eye, with the shaded rendering the topography of the surface can be studied. In this case, it visualizes the tracing lines (very shallow indentations in the paper) made by a stylus used by the engraver to transfer Bruegel's design from the paper version onto the copper plates to produce prints. No other visualization technique documents this feature with the same succes rate. 
+Animated gif: The RGB rendering represents the drawing as it appaers to the human eye (based on albedo values), with the shaded rendering the topography of the surface can be studied. In this case, it visualizes the tracing lines (very shallow indentations in the paper) made by a stylus used by the engraver to transfer Bruegel's design from the paper version onto the copper plates to produce prints. No other visualization technique documents this feature with the same succes rate. 
 
 Type dataset
 ------------
@@ -77,7 +77,7 @@ Cuneiform tablet
 
 .. raw:: html
 
-    <img src="_static/images/sample_cuneiform.jpg" height="350px">
+    <img src="_static/images/samples_cuneiform.gif" height="350px">
 
 Reverse of Ur III period (21st c. BCE) cuneifrom tablet with writen characterss and a seal impression (© RMAH: `O.181 <https://www.carmentis.be:443/eMP/eMuseumPlus?service=ExternalInterface&module=collection&objectId=86744&viewType=detailView>`_) 
 
