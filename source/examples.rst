@@ -79,7 +79,7 @@ Reverse of Ur III period (21st c. BCE) cuneifrom tablet with writen characterss 
 
 What
 ----
-    Animated gif: The interactive relighting of the RGB rendering of the surface of a cuneiform tablet virtually simulates the interaction how light casts on the relief when a reader of the document identifies the scribal characters and the seal impression’s iconography. Secondly, by excluding the RGB texture map (‘shaded’ rendering) the relief during virtual relighting appears even more profound. A third added value of single-camera multi-light reflectance is the ability to automatically accentuate particular relief features. In this case, the ‘sketch1’ rendering makes the cuneiform signs impressed downwards in the clay to appear in black; and the ‘sketch2’ rendering differentiates the seal impression which protrudes on top of the main surface.  
+    Animated gif: The interactive relighting of the RGB rendering of the surface of a cuneiform tablet virtually simulates the interaction how light casts on the relief when a reader of the document identifies the scribal characters and the seal impression’s iconography. Secondly, by excluding the RGB texture map (‘shaded’ rendering) the relief during virtual relighting appears even more profound. A third added value of single-camera multi-light reflectance is the ability to automatically accentuate particular relief features. In this case, the ‘sketch1’ rendering makes the cuneiform signs impressed downwards in the clay to appear in black; and the ‘sketch2’ rendering differentiates the seal impression which protrudes on top of the main surface. For more results with this type of datasets see [VAST2005]_ and [Akkadica2011]_.
 
 Type dataset
 ------------
@@ -101,7 +101,7 @@ Large section on folio 3 verso of the Bible of Anjou, ca. 1340 (© KU Leuven: `M
 
 What
 ----
-    Static compilation: To the left the RGB rendering (based on the obtained albedo values) represents the drawing as it appaers to the human eye; to the right the shaded rendering reveals the smallest unevennesses on the topography of the surface. For more results with these datasets see [AppliedPhysicsA2016]_ 
+    Static compilation: To the left the RGB rendering (based on the obtained albedo values) represents the drawing as it appaers to the human eye; to the right the shaded rendering reveals the smallest unevennesses on the topography of the surface. For more results with these datasets see [AppliedPhysicsA2016]_.
 
 Type dataset
 ------------
@@ -228,6 +228,8 @@ Open in web viewer
 .. rubric:: Footnotes
 
 .. [AppliedPhysicsA2016] https://doi.org/10.1007/s00339-016-0499-4
+.. [VAST2005] https://www.researchgate.net/publication/263128756_Easy_and_cost-effective_cuneiform_digitizing
+.. [Akkadica2011] https://www.researchgate.net/publication/263128428_New_Visualization_Techniques_for_Cuneiform_Texts_and_Sealings
 
 .. IR.1034 RTI
 .. ===========
