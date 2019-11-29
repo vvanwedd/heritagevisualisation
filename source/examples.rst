@@ -3,24 +3,26 @@ Examples
 
 Plan of Sankt Gallen
 ====================
-    .. raw:: html
+.. raw:: html
 
     <img src="_static/images/samples_stgallen.jpg" height="450px">
 
-    The parchment architectural plan of the building complex of the Sankt Gallen monastery, 827-830 / end of the 12th century (© Stiftsbibliothek Sankt Gallen: `Ms. 1092 <http://dx.doi.org/10.5076/e-codices-csg-1092>`_)
+The parchment architectural plan of the building complex of the Sankt Gallen monastery, 827-830 / end of the 12th century (© Stiftsbibliothek Sankt Gallen: `Ms. 1092 <http://dx.doi.org/10.5076/e-codices-csg-1092>`_)
 
-    What
-    ----
-    ... (VINCENT/PAUL, your call)
+What
+----
 
-    Type dataset
-    ------------
-    Stitching of XX recordings with multispectral single-camera multi-light acquisition dome (MS Microdome, PLD system), captures by Vincent Vanweddingen & Paul Konijn.
 
-    Open in web viewer
-    ------------------
+ ... (VINCENT/PAUL, your call)
 
-    `glTF <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2Fstgallen%2Finfo.gltf>`_
+Type dataset
+------------
+Stitching of XX recordings with multispectral single-camera multi-light acquisition dome (MS Microdome, PLD system), captures by Vincent Vanweddingen & Paul Konijn.
+
+Open in web viewer
+------------------
+
+`glTF <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2Fstgallen%2Finfo.gltf>`_
 
 Bruegel drawing
 ===============
@@ -185,7 +187,7 @@ Charles V seal
 
     <img src="_static/images/samples_charlesVSeal.jpg" height="300px">
 
-Detail on face side of the seal of Emperor Charles V, 1519-1556 (© KU Leuven).
+Detail on face side of the seal of Emperor Charles V, 1519-1556 (© KU Leuven Archives).
 
 What 
 ----
@@ -207,11 +209,11 @@ Japanese Print
 
     <img src="_static/images/samples_japaneseprint.png" height="300px">
 
-Japanese print from the KU Leuven Libraries collections 
+Japanese print on paper (© KU Leuven Libraries collections) 
 
 What 
 ----
-Static compilation: By switsing 
+Static compilation: By switching between the RGB textured and the shaded un-textured rendering the shallow variations in the paper, print marks and the thin pigment layers become very profound. 
 
 Type dataset
 ------------
