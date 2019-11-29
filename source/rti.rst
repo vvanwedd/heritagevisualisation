@@ -2,8 +2,9 @@ RTI
 ************
 Hardware
 =========
+.. raw:: html
 
-.. figure:: _static/images/rtidome.jpg
+    <img src="_static/images/rtidome.jpg" height="350px">
   
   An RTI dome
   
