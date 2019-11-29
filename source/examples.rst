@@ -189,9 +189,17 @@ Charles V seal
 
 .. raw:: html
 
-    <img src="_static/images/samples_charlesVSeal.gif" height="300px">
+    <img src="_static/images/" height="250px">
 
-Large section on folio 3 verso of the Bible of Anjou, ca. 1340 (© KU Leuven: `Ms. 1 <https://limo.libis.be/primo-explore/fulldisplay?docid=32LIBIS_ALMA_DS71169080710001471&context=L&vid=KULeuven&search_scope=ALL_CONTENT&tab=all_content_tab&lang=en_US>`_)Charles V Seal
+Face side of  3 verso of the Bible of Anjou, ca. 1340 (© KU Leuven: `Ms. 1 <https://limo.libis.be/primo-explore/fulldisplay?docid=32LIBIS_ALMA_DS71169080710001471&context=L&vid=KULeuven&search_scope=ALL_CONTENT&tab=all_content_tab&lang=en_US>`_)Charles V Seal
+
+What 
+----
+Static compilation: 
+
+Type dataset
+------------
+White light single-camera multi-light acquisition dome (WL Minidodome, PLD system), capture by Bruno Vandermeulen.
 
 
 Open in web viewer
