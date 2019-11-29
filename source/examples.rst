@@ -3,24 +3,24 @@ Examples
 
 Plan of Sankt Gallen
 ====================
-.. raw:: html
+    .. raw:: html
 
     <img src="_static/images/samples_stgallen.jpg" height="450px">
 
-The parchment architectural plan of the building complex of the Sankt Gallen monastery, 827-830 / end of the 12th century (© Stiftsbibliothek Sankt Gallen: `Ms. 1092 <http://dx.doi.org/10.5076/e-codices-csg-1092>`_)
+    The parchment architectural plan of the building complex of the Sankt Gallen monastery, 827-830 / end of the 12th century (© Stiftsbibliothek Sankt Gallen: `Ms. 1092 <http://dx.doi.org/10.5076/e-codices-csg-1092>`_)
 
-What
-----
-... (VINCENT/PAUL, your call)
+    What
+    ----
+    ... (VINCENT/PAUL, your call)
 
-Type dataset
-------------
-Stitching of XX recordings with multispectral single-camera multi-light acquisition dome (MS Microdome, PLD system), captures by Vincent Vanweddingen & Paul Konijn.
+    Type dataset
+    ------------
+    Stitching of XX recordings with multispectral single-camera multi-light acquisition dome (MS Microdome, PLD system), captures by Vincent Vanweddingen & Paul Konijn.
 
-Open in web viewer
-------------------
+    Open in web viewer
+    ------------------
 
-`glTF <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2Fstgallen%2Finfo.gltf>`_
+    `glTF <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2Fstgallen%2Finfo.gltf>`_
 
 Bruegel drawing
 ===============
