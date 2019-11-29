@@ -33,7 +33,7 @@ Detail on original graphic work drawn by Pieter Bruegel the Elder in 1557 (© KB
 
 What
 ----
-    Animated gif: The RGB rendering represents the drawing as it appaers to the human eye (based on albedo values), with the shaded rendering the topography of the surface can be studied. In this case, it visualizes the tracing lines (very shallow indentations in the paper) made by a stylus used by the engraver to transfer Bruegel's design from the paper version onto the copper plates to produce prints. No other visualization technique documents this feature with the same succes rate. For more results with this dataset see [Archieving2018]_.
+    Animated gif: The RGB rendering represents the drawing as it appaers to the human eye (based on albedo values), with the shaded rendering the topography of the surface can be studied. In this case, it visualizes the tracing lines (very shallow indentations in the paper) made by a stylus used by the engraver to transfer Bruegel's design from the paper version onto the copper plates to produce prints. No other visualization technique documents this feature with the same succes rate. For more results with this dataset see [Archiving2018]_.
 
 Type dataset
 ------------
