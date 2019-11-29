@@ -183,36 +183,39 @@ Charles V seal
 
 .. raw:: html
 
-    <img src="_static/images/samples_charlesVSeal.jpg" height="250px">
+    <img src="_static/images/samples_charlesVSeal.jpg" height="300px">
 
-Detail on face side of the seal of Emperor Charles V, 1519-1556 (© KU Leuven)
+Detail on face side of the seal of Emperor Charles V, 1519-1556 (© KU Leuven).
 
 What 
 ----
-Static compilation: 
+Static compilation: The relief (surface orientations based on the normal map) of the seal can be accentuated or simplified into a an automated white/black rendering; rapid changes in the surface orientations between pixels receive a dark shade of grey; white for neighboring pixels without difference in surface orientation (= sketch 1 rendering).
 
 Type dataset
 ------------
 White light single-camera multi-light acquisition dome (WL Minidodome, PLD system), capture by Bruno Vandermeulen.
 
-
 Open in web viewer
 ------------------
-
 `White Light ZUN <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKUL_charlesvseal%2Fcharlesvseal.zun>`_ | `HSH RTI <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKUL_charlesvseal%2Fcharlesvseal.rti>`_ | `PTM <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKUL_charlesvseal%2Fcharlesvseal.ptm>`_ | `glTF <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKUL_charlesvseal%2FglTF%2Finfo.gltf>`_
 
 
 Japanese Print
 ==============
-.. figure:: _static/images/samples_japaneseprint.png
-   :figwidth: 50%
 
-   Japanese Print
+.. raw:: html
 
-What can be seen in this multi light single camera scan?
----------------------------------------------------------
+    <img src="_static/images/samples_japaneseprint.png" height="300px">
 
-Japanese print
+Japanese print from the KU Leuven Libraries collections 
+
+What 
+----
+Static compilation: By switsing 
+
+Type dataset
+------------
+White light single-camera multi-light acquisition dome (WL Minidodome, PLD system), capture by Bruno Vandermeulen.
 
 Open in web viewer
 ------------------
