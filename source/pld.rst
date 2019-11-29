@@ -2,13 +2,17 @@ PLD
 ************
 Hardware
 =========
+There is a large variety of scanning equipment available, but in essence, both PLD and RTI require a set of images of an object that is illuminated from various known directions. PLD has a set of scanning domes, both with white light LEDs as well as narrow band near infrared, red, green, blue and near ultra violet light LEDs for multi spectral recordings. Can be listed:
+
+White Light Mecano Minidome | Multispectral Minidome | White Light Microdome | Multispectral Microdome
+
+
 .. raw:: html
 
     <img src="_static/images/msmicrodome.jpg" height="400px">
   
   Use of multispectral microdome (PLD system) to scan an Egyptian coffin (@ Art and History Museum, Brussels)
   
-There is a large variety of scanning equipment available, but in essence, both PLD and RTI require a set of images of an object that is illuminated from various known directions. PLD has a set of scanning domes, both with white light LEDs as well as narrow band near infrared, red, green, blue and near ultra violet light LEDs for multi spectral recordings. 
 
 .. _PLDAlgorithm:
 
