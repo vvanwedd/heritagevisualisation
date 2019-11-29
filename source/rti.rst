@@ -12,8 +12,8 @@ There is a large variety of scanning equipment available, but in essence, both P
 RTI has 2 types of recording equipment: The dome setups and the highlight RTI setup.
 The dome setup functions in the similar manner as the PLD domes.
 
-Highlight RTI utilizes chrome/specular spheres to estimate the direction of a point light source (e.g. a flash). This technology is typically cheaper and more flexible in terms of object size to be scanned.
-The downside is that it generally is slower, requires more intervention and is less accurate, as light sources have to be calculated using the specular reflection in the reflective spheres.
+Highlight RTI utilizes chrome/specular spheres to estimate the direction of a point light source (e.g. a flash). This technology is typically cheaper and more flexible in terms of object size to be scanned; for a manual to the procedure see [CHI2013]
+The downside is that it generally is slower, requires more intervention and is less accurate, as light sources have to be calculated using the specular reflection in the reflective spheres. 
 
 Algorithm
 =========
@@ -75,3 +75,4 @@ RTI
 .. [CHI] http://culturalheritageimaging.org/What_We_Offer/Downloads/
 .. [Mudge2008] http://culturalheritageimaging.org/What_We_Do/Publications/eurographics2008/eurographics_2008_tutorial_notes.pdf
 .. [Lam2012] https://ieeexplore.ieee.org/document/6141180
+.. [CHI2013] http://culturalheritageimaging.org/What_We_Offer/Downloads/RTI_Hlt_Capture_Guide_v2_0.pdf
