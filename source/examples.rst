@@ -11,18 +11,16 @@ The parchment architectural plan of the building complex of the Sankt Gallen mon
 
 What
 ----
-
-
- ... (VINCENT/PAUL, your call)
+    ... (VINCENT/PAUL, your call)
 
 Type dataset
 ------------
-Stitching of XX recordings with multispectral single-camera multi-light acquisition dome (MS Microdome, PLD system), captures by Vincent Vanweddingen & Paul Konijn.
+    Stitching of XX recordings with multispectral single-camera multi-light acquisition dome (MS Microdome, PLD system), captures by Vincent Vanweddingen & Paul Konijn.
 
 Open in web viewer
 ------------------
 
-`glTF <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2Fstgallen%2Finfo.gltf>`_
+    `glTF <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2Fstgallen%2Finfo.gltf>`_
 
 Bruegel drawing
 ===============
@@ -35,16 +33,16 @@ Detail on original graphic work drawn by Pieter Bruegel the Elder in 1557 (© KB
 
 What
 ----
-Animated gif: The RGB rendering represents the drawing as it appaers to the human eye (based on albedo values), with the shaded rendering the topography of the surface can be studied. In this case, it visualizes the tracing lines (very shallow indentations in the paper) made by a stylus used by the engraver to transfer Bruegel's design from the paper version onto the copper plates to produce prints. No other visualization technique documents this feature with the same succes rate. 
+    Animated gif: The RGB rendering represents the drawing as it appaers to the human eye (based on albedo values), with the shaded rendering the topography of the surface can be studied. In this case, it visualizes the tracing lines (very shallow indentations in the paper) made by a stylus used by the engraver to transfer Bruegel's design from the paper version onto the copper plates to produce prints. No other visualization technique documents this feature with the same succes rate. 
 
 Type dataset
 ------------
-Multispectral single-camera multi-light acquisition dome (MS Microdome, PLD system), capture by Hendrik Hameeuw.
+    Multispectral single-camera multi-light acquisition dome (MS Microdome, PLD system), capture by Hendrik Hameeuw.
 
 Open in web viewer
 ------------------
 
-`Multi Spectral ZUN <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKBR_Bruegel%2Fbruegel.zun>`_
+    `Multi Spectral ZUN <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKBR_Bruegel%2Fbruegel.zun>`_
 
 Antique coin 
 ============
