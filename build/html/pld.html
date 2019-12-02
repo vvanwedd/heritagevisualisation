@@ -171,19 +171,18 @@
 <h1>PLD<a class="headerlink" href="#pld" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="hardware">
 <h2>Hardware<a class="headerlink" href="#hardware" title="Permalink to this headline">¶</a></h2>
-<div class="figure align-default" id="id6">
-<img alt="_images/msmicrodome.jpg" src="_images/msmicrodome.jpg" />
-<p class="caption"><span class="caption-text">Use of multispectral microdome (PLD system) to scan an Egyptian coffin (&#64; Art and History Museum, Brussels)</span><a class="headerlink" href="#id6" title="Permalink to this image">¶</a></p>
-</div>
-<p>There is a large variety of scanning equipment available, but in essence, both PLD and RTI require a set of images of an object that is illuminated from various known directions. PLD has a set of scanning domes, both with white light LEDs as well as narrow band near infrared, red, green, blue and near ultra violet light LEDs for multi spectral recordings.</p>
-</div>
+<p>There is a large variety of scanning equipment available, but in essence, both PLD and RTI require a set of images of an object that is illuminated from various known directions. PLD has a set of scanning domes, both with white light LEDs as well as narrow band near infrared, red, green, blue and near ultra violet light LEDs for multi spectral recordings. Can be listed:</p>
+<p>White Light Mecano Minidome | Multispectral Minidome | White Light Microdome | Multispectral Microdome</p>
+  <img src="_static/images/msmicrodome.jpg" height="400px">
+
+Use of multispectral microdome (PLD system) to scan an Egyptian coffin (@ Art and History Museum, Brussels)</div>
 <div class="section" id="algorithm">
 <span id="pldalgorithm"></span><h2>Algorithm<a class="headerlink" href="#algorithm" title="Permalink to this headline">¶</a></h2>
 <p>PLD uses certain light material interaction models to estimate material properties.</p>
-<p>When light interacts with matter, it can be amongst other things absorbed, transmitted or reflected. In what follows, we make abstraction of effects like interference, diffraction, scattering and the photoelectric effect <a class="footnote-reference brackets" href="#id5" id="id1">1</a>. They definitely are useful to study and model certain properties - e.g. Rayleigh scattering to explain why the sky is blue and Mie scattering why clouds are greyish white, but are generally not used in 3D scanning approaches.</p>
+<p>When light interacts with matter, it can be amongst other things absorbed, transmitted or reflected. In what follows, we make abstraction of effects like interference, diffraction, scattering and the photoelectric effect <a class="footnote-reference" href="#id5" id="id1">[1]</a>. They definitely are useful to study and model certain properties - e.g. Rayleigh scattering to explain why the sky is blue and Mie scattering why clouds are greyish white, but are generally not used in 3D scanning approaches.</p>
 <p>Certain materials are perfectly matte; They reflect light isotropically. The observed reflected intensity is proportional to the cosine of the angle between the direction of the incident light and the surface orientation. This is sometimes refered to as Lambert’s cosine law or Lambertian reflectance.</p>
 <p>Unfinished wood or blotted paper are examples of Lambertian reflective materials. The Moon however is not. If it were, the edges should be completely dark during a full Moon, as the cosine of the angle between the sun rays and the surface is 0.</p>
-<p>In 1980 Woodham published the first paper on Photometric Stereo <a class="reference internal" href="#woodham1980" id="id2"><span>[Woodham1980]</span></a>. Photometric stereo is a computer vision technique that exploits this Lambertian reflectance of certain materials to find the surface orientation.
+<p>In 1980 Woodham published the first paper on Photometric Stereo <a class="reference internal" href="#woodham1980" id="id2">[Woodham1980]</a>. Photometric stereo is a computer vision technique that exploits this Lambertian reflectance of certain materials to find the surface orientation.
 An object is illuminated from several, known, light directions. Each time a photo is taken.
 The result is a set of apparent brightness values and the corresponding light directions. This can be solved for the surface orientation. Note that this algorithm is applied per pixel.</p>
 <p>The algorithm has been extended to cope with self shadowing, interreflections, image noise and non-ideal point light sources.</p>
@@ -198,10 +197,10 @@ The result is a set of apparent brightness values and the corresponding light di
 g = (\mathbf{n}_y + 1)*\frac{1}{2}*255\\
 b = (\mathbf{n}_z + 1)*\frac{1}{2}*255\end{split}\]</div>
 <ul class="simple">
-<li><p>Note that normal <span class="math notranslate nohighlight">\(\mathbf{n}\)</span> is normalized, meaning the x, y or z components can range from -1 to 1.</p></li>
-<li><p>Note that 255 corresponds to storing the normal in an 8 bit image. Depending on the bit depth of the image, this should be changed. An r value of 0 thus corresponds to an x component of -1 and a b value of 255 to a z component of 1</p></li>
-<li><p>Note also that this conversion to a 3 channel color bitmap introduces quantization artifacts, as the normal is typically calculated in floating point arithmetic, but has to be stored to the nearest integer color value according to the equation above.</p></li>
-<li><p>If the visualization pipeline supports floating point textures, the normal map can be stored using the floating point x, y, z values directly. Typically newer GPU models support floating point textures. In WebGL, this can be checked with a flag <a class="reference internal" href="#oes-floating-point" id="id3"><span>[OES_floating_point]</span></a></p></li>
+<li>Note that normal <span class="math notranslate nohighlight">\(\mathbf{n}\)</span> is normalized, meaning the x, y or z components can range from -1 to 1.</li>
+<li>Note that 255 corresponds to storing the normal in an 8 bit image. Depending on the bit depth of the image, this should be changed. An r value of 0 thus corresponds to an x component of -1 and a b value of 255 to a z component of 1</li>
+<li>Note also that this conversion to a 3 channel color bitmap introduces quantization artifacts, as the normal is typically calculated in floating point arithmetic, but has to be stored to the nearest integer color value according to the equation above.</li>
+<li>If the visualization pipeline supports floating point textures, the normal map can be stored using the floating point x, y, z values directly. Typically newer GPU models support floating point textures. In WebGL, this can be checked with a flag <a class="reference internal" href="#oes-floating-point" id="id3">[OES_floating_point]</a></li>
 </ul>
 </div>
 <div class="section" id="albedo-map">
@@ -222,26 +221,34 @@ b = (\mathbf{n}_z + 1)*\frac{1}{2}*255\end{split}\]</div>
 </div>
 <div class="section" id="file-formats">
 <h2>File formats<a class="headerlink" href="#file-formats" title="Permalink to this headline">¶</a></h2>
-<p>The recorded images are stored before they are debayered and before a gamma correction is applied. Thus, the corresponding pixel values correlate with the (spectrally filtered) observed intensities. The images are stored as <a class="reference internal" href="#pgm" id="id4"><span>[PGM]</span></a></p>
+<p>The recorded images are stored before they are debayered and before a gamma correction is applied. Thus, the corresponding pixel values correlate with the (spectrally filtered) observed intensities. The images are stored as <a class="reference internal" href="#pgm" id="id4">[PGM]</a></p>
 <p>After processing, a CFD file contains the various texture maps and metadata.
 Next to this file, 2 filetypes are used to easily exchange data: CUN (textures bzip2 compressed) and ZUN (textures gunzip compressed). Note that the normal textures are stored in a packed way, allowing a smaller file size.</p>
 <p class="rubric">Footnotes</p>
-<dl class="footnote brackets">
-<dt class="label" id="id5"><span class="brackets"><a class="fn-backref" href="#id1">1</a></span></dt>
-<dd><p><a class="reference external" href="https://www.pearson.com/us/higher-education/program/Hecht-Optics-5th-Edition/PGM45350.html">https://www.pearson.com/us/higher-education/program/Hecht-Optics-5th-Edition/PGM45350.html</a></p>
-</dd>
-</dl>
-<dl class="citation">
-<dt class="label" id="woodham1980"><span class="brackets"><a class="fn-backref" href="#id2">Woodham1980</a></span></dt>
-<dd><p><a class="reference external" href="https://www.cs.ubc.ca/~woodham/papers/Woodham80c.pdf">https://www.cs.ubc.ca/~woodham/papers/Woodham80c.pdf</a></p>
-</dd>
-<dt class="label" id="oes-floating-point"><span class="brackets"><a class="fn-backref" href="#id3">OES_floating_point</a></span></dt>
-<dd><p><a class="reference external" href="https://developer.mozilla.org/en-US/docs/Web/API/OES_texture_float">https://developer.mozilla.org/en-US/docs/Web/API/OES_texture_float</a></p>
-</dd>
-<dt class="label" id="pgm"><span class="brackets"><a class="fn-backref" href="#id4">PGM</a></span></dt>
-<dd><p><a class="reference external" href="https://en.wikipedia.org/wiki/Netpbm_format">https://en.wikipedia.org/wiki/Netpbm_format</a></p>
-</dd>
-</dl>
+<table class="docutils footnote" frame="void" id="id5" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id1">[1]</a></td><td><a class="reference external" href="https://www.pearson.com/us/higher-education/program/Hecht-Optics-5th-Edition/PGM45350.html">https://www.pearson.com/us/higher-education/program/Hecht-Optics-5th-Edition/PGM45350.html</a></td></tr>
+</tbody>
+</table>
+<table class="docutils citation" frame="void" id="woodham1980" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id2">[Woodham1980]</a></td><td><a class="reference external" href="https://www.cs.ubc.ca/~woodham/papers/Woodham80c.pdf">https://www.cs.ubc.ca/~woodham/papers/Woodham80c.pdf</a></td></tr>
+</tbody>
+</table>
+<table class="docutils citation" frame="void" id="oes-floating-point" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id3">[OES_floating_point]</a></td><td><a class="reference external" href="https://developer.mozilla.org/en-US/docs/Web/API/OES_texture_float">https://developer.mozilla.org/en-US/docs/Web/API/OES_texture_float</a></td></tr>
+</tbody>
+</table>
+<table class="docutils citation" frame="void" id="pgm" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id4">[PGM]</a></td><td><a class="reference external" href="https://en.wikipedia.org/wiki/Netpbm_format">https://en.wikipedia.org/wiki/Netpbm_format</a></td></tr>
+</tbody>
+</table>
 </div>
 </div>
 

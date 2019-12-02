@@ -1,26 +1,6 @@
 Examples
 ********
 
-Plan of Sankt Gallen
-====================
-.. raw:: html
-
-    <img src="_static/images/samples_stgallen.jpg" height="450px">
-
-The parchment architectural plan of the building complex of the Sankt Gallen monastery, 827-830 / end of the 12th century (© Stiftsbibliothek Sankt Gallen: `Ms. 1092 <http://dx.doi.org/10.5076/e-codices-csg-1092>`_)
-
-What
-----
-    ... (VINCENT/PAUL, your call)
-
-Type dataset
-------------
-    Stitching of XX recordings with multispectral single-camera multi-light acquisition dome (MS Microdome, PLD system), captures by Vincent Vanweddingen & Paul Konijn.
-
-Open in web viewer
-------------------
-
-    `glTF <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2Fstgallen%2Finfo.gltf>`_
 
 Bruegel drawing
 ===============
@@ -42,7 +22,7 @@ Type dataset
 Open in web viewer
 ------------------
 
-    `Multi Spectral ZUN <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKBR_Bruegel%2Fbruegel.zun>`_
+    `Multi Spectral ZUN <http://www.heritage-visualisation.org/viewer/viewer.php?file=data%2Fsamples%2FKBR_Bruegel%2Fbruegel.zun>`_
 
 Antique coin 
 ============
@@ -64,7 +44,7 @@ Type dataset
 Open in web viewer
 ------------------
 
-    `White light ZUN <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKBR_Coin%2Fcoin.zun>`_ | `HSH RTI <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKBR_Coin%2Fcoin.rti>`_ | `glTF <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKBR_Coin%2FglTF%2Finfo.gltf>`_
+    `White light ZUN <http://www.heritage-visualisation.org/viewer/viewer.php?file=data%2Fsamples%2FKBR_Coin%2Fcoin.zun>`_ | `HSH RTI <http://www.heritage-visualisation.org/viewer/viewer.php?file=data%2Fsamples%2FKBR_Coin%2Fcoin.rti>`_ | `glTF <http://www.heritage-visualisation.org/viewer/viewer.php?file=data%2Fsamples%2FKBR_Coin%2FglTF%2Finfo.gltf>`_
 
     note: these three datasets have all been processed with one and the same original (see Type dataset) set of captured images. 
 
@@ -88,7 +68,7 @@ Type dataset
 Open in web viewer
 ------------------
 
-    `White light ZUN <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples/KMKG_cuneiformtablet/cuneiformtablet.zun>`_
+    `White light ZUN <http://www.heritage-visualisation.org/viewer/viewer.php?file=data%2Fsamples/KMKG_cuneiformtablet/cuneiformtablet.zun>`_
 
 Bible of Anjou
 ==============
@@ -101,7 +81,7 @@ Large section on folio 3 verso of the Bible of Anjou, ca. 1340 (© KU Leuven: `M
 
 What
 ----
-    Static compilation: To the left the RGB rendering (based on the obtained albedo values) represents the drawing as it appaers to the human eye; to the right the shaded rendering reveals the smallest unevennesses on the topography of the surface. For more results with these datasets see [AppliedPhysicsA2016]_ and [Archieving2018]_.
+    Static compilation: To the left the RGB rendering (based on the obtained albedo values) represents the drawing as it appaers to the human eye; to the right the shaded rendering reveals the smallest unevennesses on the topography of the surface. For more results with these datasets see [AppliedPhysicsA2016]_ and [Archiving2018]_.
 
 Type dataset
 ------------
@@ -110,7 +90,7 @@ Type dataset
 Open in web viewer
 ------------------
 
-    `White Light ZUN <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKUL_bible_of_Anjou%2FSABBE_MS1_003V_1.3x.zun>`_ | `Multi Spectral ZUN <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKUL_bible_of_Anjou%2FGBIB_MS1_001V_MS_01.3x.zun>`_
+    `White Light ZUN <http://www.heritage-visualisation.org/viewer/viewer.php?file=data%2Fsamples%2FKUL_bible_of_Anjou%2FSABBE_MS1_003V_1.3x.zun>`_ | `Multi Spectral ZUN <http://www.heritage-visualisation.org/viewer/viewer.php?file=data%2Fsamples%2FKUL_bible_of_Anjou%2FGBIB_MS1_001V_MS_01.3x.zun>`_
 
 Persian relief
 ==============
@@ -119,7 +99,7 @@ Persian relief
 
     <img src="_static/images/samples_persian-relief.gif" height="350px">
 
-Detail on a stone relief depicting a Mede ascendingn a staircase (5th-4th c. BCE) (© Art and History Museum: `IR.1034 <>`_) 
+Detail on a stone relief depicting a Mede ascendingn a staircase (5th-4th c. BCE) (© Art and History Museum: `IR.1034 <https://www.kmkg-mrah.be>`_) 
 
 What 
 ----
@@ -132,7 +112,7 @@ Type dataset
 Open in web viewer
 ------------------
 
-    `Multi Spectral ZUN <>`_
+    `Highlight RTI-HSH <http://www.heritage-visualisation.org/viewer/viewer.php?file=data%2Fsamples%2FKMKG_relief%2FIR1034_cropped_2042.rti>`_
 
 Rijmbijbel illumination
 =======================
@@ -154,7 +134,7 @@ Type dataset
 Open in web viewer
 ------------------
 
-    `Multi Spectral ZUN <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKUL_rijmbijbel%2Frijmbijbel.zun>`_
+    `Multi Spectral ZUN <http://www.heritage-visualisation.org/viewer/viewer.php?file=data%2Fsamples%2FKUL_rijmbijbel%2Frijmbijbel.zun>`_
 
 Egyptian coffin
 ===============
@@ -176,7 +156,7 @@ Type dataset
 Open in web viewer
 ------------------
 
-    `Multi Spectral ZUN <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKMKG_egyptiancoffin%2Fegyptiancoffin.zun>`_
+    `Multi Spectral ZUN <http://www.heritage-visualisation.org/viewer/viewer.php?file=data%2Fsamples%2FKMKG_egyptiancoffin%2Fegyptiancoffin.zun>`_
 
 Charles V seal
 ==============
@@ -197,7 +177,7 @@ Type dataset
 
 Open in web viewer
 ------------------
-    `White Light ZUN <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKUL_charlesvseal%2Fcharlesvseal.zun>`_ | `HSH RTI <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKUL_charlesvseal%2Fcharlesvseal.rti>`_ | `PTM <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKUL_charlesvseal%2Fcharlesvseal.ptm>`_ | `glTF <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKUL_charlesvseal%2FglTF%2Finfo.gltf>`_
+    `White Light ZUN <http://www.heritage-visualisation.org/viewer/viewer.php?file=data%2Fsamples%2FKUL_charlesvseal%2Fcharlesvseal.zun>`_ | `HSH RTI <http://www.heritage-visualisation.org/viewer/viewer.php?file=data%2Fsamples%2FKUL_charlesvseal%2Fcharlesvseal.rti>`_ | `PTM <http://www.heritage-visualisation.org/viewer/viewer.php?file=data%2Fsamples%2FKUL_charlesvseal%2Fcharlesvseal.ptm>`_ | `glTF <http://www.heritage-visualisation.org/viewer/viewer.php?file=data%2Fsamples%2FKUL_charlesvseal%2FglTF%2Finfo.gltf>`_
     
     note: these four datasets have all been processed with one and the same original (see Type dataset) set of captured images.
 
@@ -221,9 +201,31 @@ Type dataset
 Open in web viewer
 ------------------
 
-    `White Light ZUN <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKUL_japaneseprint%2Fjapaneseprint.zun>`_ | `HSH RTI <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKUL_japaneseprint%2Fjapaneseprint.rti>`_ | `glTF <https://homes.esat.kuleuven.be/~vvanwedd/pixelplusviewer/viewer.php?file=data%2Fsamples%2FKUL_japaneseprint%2FglTF%2Finfo.gltf>`_
+    `White Light ZUN <http://www.heritage-visualisation.org/viewer/viewer.php?file=data%2Fsamples%2FKUL_japaneseprint%2Fjapaneseprint.zun>`_ | `HSH RTI <http://www.heritage-visualisation.org/viewer/viewer.php?file=data%2Fsamples%2FKUL_japaneseprint%2Fjapaneseprint.rti>`_ | `glTF <http://www.heritage-visualisation.org/viewer/viewer.php?file=data%2Fsamples%2FKUL_japaneseprint%2FglTF%2Finfo.gltf>`_
     
     note: these three datasets have all been processed with one and the same original (see Type dataset) set of captured images.
+
+Plan of Sankt Gallen
+====================
+.. raw:: html
+
+    <img src="_static/images/samples_stgallen.jpg" height="450px">
+
+The parchment architectural plan of the building complex of the Sankt Gallen monastery, 827-830 / end of the 12th century (© Stiftsbibliothek Sankt Gallen: `Ms. 1092 <http://dx.doi.org/10.5076/e-codices-csg-1092>`_)
+
+What
+----
+    ... (VINCENT/PAUL, your call)
+
+Type dataset
+------------
+    Stitching of XX recordings with multispectral single-camera multi-light acquisition dome (MS Microdome, PLD system), captures by Vincent Vanweddingen & Paul Konijn.
+
+Open in web viewer
+------------------
+
+    `glTF <http://www.heritage-visualisation.org/viewer/viewer.php?file=data%2Fsamples%2Fstgallen%2Finfo.gltf>`_
+
 
 .. rubric:: Footnotes
 

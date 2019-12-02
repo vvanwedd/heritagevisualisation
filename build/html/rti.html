@@ -96,7 +96,7 @@
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#file-formats">File formats</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#ptm">PTM</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id4">RTI</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id5">RTI</a></li>
 </ul>
 </li>
 </ul>
@@ -172,23 +172,20 @@
 <h1>RTI<a class="headerlink" href="#rti" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="hardware">
 <h2>Hardware<a class="headerlink" href="#hardware" title="Permalink to this headline">¶</a></h2>
-<div class="figure align-default" id="id8">
-<img alt="_images/rtidome.jpg" src="_images/rtidome.jpg" />
-<p class="caption"><span class="caption-text">An RTI dome</span><a class="headerlink" href="#id8" title="Permalink to this image">¶</a></p>
-</div>
+<img src="_static/images/dome7OxfordClassics.jpg" height="350px"><p>Example of a RTI dome as produced by <a class="reference external" href="https://custom-imaging.co.uk/projects/dome-7/">custom-imaging.co.uk</a> (their Dome 7).</p>
 <p>There is a large variety of scanning equipment available, but in essence, both PLD and RTI require a set of images of an object that is illuminated from various known directions.
-RTI has 2 types of recording equipment: Dome setups and a Highlight RTI setup.
-The dome setup functions in the same way as the domes of PLD.</p>
-<p>Highlight RTI utilizes chrome spheres to estimate the direction of a point light source (e.g. a flash). This technology is typically cheaper and more flexible in terms of object size to be scanned.
+RTI has 2 types of recording equipment: The dome setups and the highlight RTI setup.
+The dome setup functions in the similar manner as the PLD domes.</p>
+<p>Highlight RTI utilizes chrome/specular spheres to estimate the direction of a point light source (e.g. a flash). This technology is typically cheaper and more flexible in terms of object size to be scanned; for a manual to the procedure see <a class="reference internal" href="#chi2013" id="id1">[CHI2013]</a>.
 The downside is that it generally is slower, requires more intervention and is less accurate, as light sources have to be calculated using the specular reflection in the reflective spheres.</p>
 </div>
 <div class="section" id="algorithm">
 <h2>Algorithm<a class="headerlink" href="#algorithm" title="Permalink to this headline">¶</a></h2>
 <p>Reflectance Transformation Imaging is a per pixel function fitting technique to interactively display objects under varying light conditions.
-It was originally developed by Tom Malzbender in the form of Polynomial Texture Maps <a class="reference internal" href="#malzbender2001" id="id1"><span>[Malzbender2001]</span></a>.</p>
+It was originally developed by Tom Malzbender in the form of Polynomial Texture Maps <a class="reference internal" href="#malzbender2001" id="id2">[Malzbender2001]</a>.</p>
 <p>The observed intensity at a pixel is described a function of the light direction, in the case of PTM as a biquadratic polynomial, but other representations exist. A set of equations relating the observed intensity with the light direction for every image of the image set is then solved for the coefficients.</p>
 <p>Besides PTM, another popular RTI method uses hemispherical harmonical functions. Because it can model the light space better, hard shadows and bright specularities are better preserved.</p>
-<p>A newer approach uses Principle Component Analysis + Radial Basis Function interpolation <a class="reference internal" href="#ponchio" id="id2"><span>[ponchio]</span></a></p>
+<p>A newer approach uses Principle Component Analysis + Radial Basis Function interpolation <a class="reference internal" href="#ponchio" id="id3">[ponchio]</a></p>
 <p>The goal of RTI is to view objects interactively under varying incident light directions. As such, RTI doesn’t use physical laws like PLD to extract surface material characteristics. Effects like self shadowing, interreflections and complicated light-matter interactions (e.g. subsurface scattering, complicated BRDFs) are not taken into account, though their contribution is captured in the fitting/interpolation function. As such, the relighting output appears to be photorealistic - especially for virtual light positions that are close to one of the input images.</p>
 </div>
 <div class="section" id="output">
@@ -209,44 +206,63 @@ Any spatial blurring that seems to exist is because the PTM or HSH coefficients 
 <div class="section" id="ptm">
 <h3>PTM<a class="headerlink" href="#ptm" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
-<li><p>RGB PTM: PTM coefficients are being calculated and saved per color channel (in 8 bit mode), resulting in 3*6 bytes per pixel</p></li>
-<li><p>LRGB PTM: PTM coefficients are being calculated for the luminance channel and stores non varying RGB values. As the chromaticity doesn’t change too much under varying light directions, this method saves on storage, resulting in 6+3 bytes per pixel</p></li>
-<li><p>JPEG compression of RGB PTM</p></li>
-<li><p>JPEG compression of LRGB PTM</p></li>
-<li><p>JPEGLS compression of RGB PTM</p></li>
-<li><p>JPEGLS compression of LRGB PTM</p></li>
-<li><p>Look Up Table PTM</p></li>
-<li><p>YCrCb color space PTM</p></li>
+<li>RGB PTM: PTM coefficients are being calculated and saved per color channel (in 8 bit mode), resulting in 3*6 bytes per pixel</li>
+<li>LRGB PTM: PTM coefficients are being calculated for the luminance channel and stores non varying RGB values. As the chromaticity doesn’t change too much under varying light directions, this method saves on storage, resulting in 6+3 bytes per pixel</li>
+<li>JPEG compression of RGB PTM</li>
+<li>JPEG compression of LRGB PTM</li>
+<li>JPEGLS compression of RGB PTM</li>
+<li>JPEGLS compression of LRGB PTM</li>
+<li>Look Up Table PTM</li>
+<li>YCrCb color space PTM</li>
 </ul>
-<p>The upper 2 versions are the most popular PTM file types, as they are supported by CHI’s processing and viewing software <a class="reference internal" href="#chi" id="id3"><span>[CHI]</span></a></p>
+<p>The upper 2 versions are the most popular PTM file types, as they are supported by CHI’s processing and viewing software <a class="reference internal" href="#chi" id="id4">[CHI]</a></p>
 </div>
-<div class="section" id="id4">
-<h3>RTI<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id5">
+<h3>RTI<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
-<li><p>PTM RTI: Polynomial Texture Mapping RTI <a class="reference internal" href="#malzbender2001" id="id5"><span>[Malzbender2001]</span></a></p></li>
-<li><p>HSH RTI: Hemispherical Harmonics RTI <a class="reference internal" href="#mudge2008" id="id6"><span>[Mudge2008]</span></a></p></li>
-<li><p>SH RTI: Spherical Harmonics RTI</p></li>
-<li><p>EHSH RTI: Eigen Hemispherical Harmonics RTI <a class="reference internal" href="#lam2012" id="id7"><span>[Lam2012]</span></a></p></li>
-<li><p>Adaptive basis RTI</p></li>
+<li>PTM RTI: Polynomial Texture Mapping RTI <a class="reference internal" href="#malzbender2001" id="id6">[Malzbender2001]</a></li>
+<li>HSH RTI: Hemispherical Harmonics RTI <a class="reference internal" href="#mudge2008" id="id7">[Mudge2008]</a></li>
+<li>SH RTI: Spherical Harmonics RTI</li>
+<li>EHSH RTI: Eigen Hemispherical Harmonics RTI <a class="reference internal" href="#lam2012" id="id8">[Lam2012]</a></li>
+<li>Adaptive basis RTI</li>
 </ul>
 <p class="rubric">Footnotes</p>
-<dl class="citation">
-<dt class="label" id="malzbender2001"><span class="brackets">Malzbender2001</span><span class="fn-backref">(<a href="#id1">1</a>,<a href="#id5">2</a>)</span></dt>
-<dd><p><a class="reference external" href="https://www.hpl.hp.com/research/ptm/papers/ptm.pdf">https://www.hpl.hp.com/research/ptm/papers/ptm.pdf</a></p>
-</dd>
-<dt class="label" id="ponchio"><span class="brackets"><a class="fn-backref" href="#id2">ponchio</a></span></dt>
-<dd><p><a class="reference external" href="https://pc-ponchio.isti.cnr.it/relight/compact-representation-relightable.pdf">https://pc-ponchio.isti.cnr.it/relight/compact-representation-relightable.pdf</a></p>
-</dd>
-<dt class="label" id="chi"><span class="brackets"><a class="fn-backref" href="#id3">CHI</a></span></dt>
-<dd><p><a class="reference external" href="http://culturalheritageimaging.org/What_We_Offer/Downloads/">http://culturalheritageimaging.org/What_We_Offer/Downloads/</a></p>
-</dd>
-<dt class="label" id="mudge2008"><span class="brackets"><a class="fn-backref" href="#id6">Mudge2008</a></span></dt>
-<dd><p><a class="reference external" href="http://culturalheritageimaging.org/What_We_Do/Publications/eurographics2008/eurographics_2008_tutorial_notes.pdf">http://culturalheritageimaging.org/What_We_Do/Publications/eurographics2008/eurographics_2008_tutorial_notes.pdf</a></p>
-</dd>
-<dt class="label" id="lam2012"><span class="brackets"><a class="fn-backref" href="#id7">Lam2012</a></span></dt>
-<dd><p><a class="reference external" href="https://ieeexplore.ieee.org/document/6141180">https://ieeexplore.ieee.org/document/6141180</a></p>
-</dd>
-</dl>
+<table class="docutils citation" frame="void" id="malzbender2001" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label">[Malzbender2001]</td><td><em>(<a class="fn-backref" href="#id2">1</a>, <a class="fn-backref" href="#id6">2</a>)</em> <a class="reference external" href="https://www.hpl.hp.com/research/ptm/papers/ptm.pdf">https://www.hpl.hp.com/research/ptm/papers/ptm.pdf</a></td></tr>
+</tbody>
+</table>
+<table class="docutils citation" frame="void" id="ponchio" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id3">[ponchio]</a></td><td><a class="reference external" href="https://pc-ponchio.isti.cnr.it/relight/compact-representation-relightable.pdf">https://pc-ponchio.isti.cnr.it/relight/compact-representation-relightable.pdf</a></td></tr>
+</tbody>
+</table>
+<table class="docutils citation" frame="void" id="chi" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id4">[CHI]</a></td><td><a class="reference external" href="http://culturalheritageimaging.org/What_We_Offer/Downloads/">http://culturalheritageimaging.org/What_We_Offer/Downloads/</a></td></tr>
+</tbody>
+</table>
+<table class="docutils citation" frame="void" id="chi2013" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id1">[CHI2013]</a></td><td><a class="reference external" href="http://culturalheritageimaging.org/What_We_Offer/Downloads/RTI_Hlt_Capture_Guide_v2_0.pdf">http://culturalheritageimaging.org/What_We_Offer/Downloads/RTI_Hlt_Capture_Guide_v2_0.pdf</a></td></tr>
+</tbody>
+</table>
+<table class="docutils citation" frame="void" id="mudge2008" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id7">[Mudge2008]</a></td><td><a class="reference external" href="http://culturalheritageimaging.org/What_We_Do/Publications/eurographics2008/eurographics_2008_tutorial_notes.pdf">http://culturalheritageimaging.org/What_We_Do/Publications/eurographics2008/eurographics_2008_tutorial_notes.pdf</a></td></tr>
+</tbody>
+</table>
+<table class="docutils citation" frame="void" id="lam2012" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id8">[Lam2012]</a></td><td><a class="reference external" href="https://ieeexplore.ieee.org/document/6141180">https://ieeexplore.ieee.org/document/6141180</a></td></tr>
+</tbody>
+</table>
 </div>
 </div>
 </div>
