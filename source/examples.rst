@@ -163,7 +163,7 @@ Egyptian coffin
 
     <img src="_static/images/samples_egyptiancoffin.jpg" height="300px">
 
-Detail on the Egyptian coffin (outer box) of Butehamun (10th-9th c. BCE) depicting Bes and the 'solar cat' (© Art and History Museum: `E.5288 <>`_)
+Detail on the Egyptian coffin (outer box) of Butehamun (10th-9th c. BCE) depicting Bes and the 'solar cat' (© Art and History Museum: `E.5288 <https://www.carmentis.be:443/eMP/eMuseumPlus?service=ExternalInterface&module=collection&objectId=81297&viewType=detailView>`_)
 
 What 
 ----
