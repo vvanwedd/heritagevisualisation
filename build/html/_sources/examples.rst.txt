@@ -7,7 +7,7 @@ Bruegel drawing
 
 .. raw:: html
 
-    <img src="_static/images/samples_bruegel_detail_RGBandShaded.gif" height="350px">
+    <img src="_static/images/samples_bruegel_detail_RGBandShaded.gif" style="height:350px !important;">
 
 Detail on original graphic work drawn by Pieter Bruegel the Elder in 1557 (© KBR: `SII132816 <https://opac.kbr.be/Library/doc/SYRACUSE/15794384/luxuria-graphic>`_, Luxuria)
 
@@ -29,7 +29,7 @@ Antique coin
 
 .. raw:: html
 
-    <img src="_static/images/samples_coin_RGB-Sketch-normals.jpg" height="350px">
+    <img src="_static/images/samples_coin_RGB-Sketch-normals.jpg" style="height:350px !important;">
 
 Face side of a Siculo-Punique tetradrachme coin, 330-253 BCE (© KBR: `2A112_32 <https://www.kbr.be/en/collections/coins-and-medals/>`_) 
 
@@ -53,7 +53,7 @@ Cuneiform tablet
 
 .. raw:: html
 
-    <img src="_static/images/sample_cuneiform.gif" height="350px">
+    <img src="_static/images/sample_cuneiform.gif" style="height:350px !important;">
 
 Reverse of Ur III period (21st c. BCE) cuneifrom tablet with writen characterss and a seal impression (© Art and History Museum: `O.181 <https://www.carmentis.be:443/eMP/eMuseumPlus?service=ExternalInterface&module=collection&objectId=86744&viewType=detailView>`_) 
 
@@ -75,7 +75,7 @@ Bible of Anjou
 
 .. raw:: html
 
-    <img src="_static/images/samples_Anjou.jpg" height="450px">
+    <img src="_static/images/samples_Anjou.jpg" style="height:450px !important;">
 
 Large section on folio 3 verso of the Bible of Anjou, ca. 1340 (© KU Leuven: `Ms. 1 <https://limo.libis.be/primo-explore/fulldisplay?docid=32LIBIS_ALMA_DS71169080710001471&context=L&vid=KULeuven&search_scope=ALL_CONTENT&tab=all_content_tab&lang=en_US>`_)
 
@@ -97,9 +97,9 @@ Persian relief
 
 .. raw:: html
 
-    <img src="_static/images/samples_persian-relief.gif" height="350px">
+    <img src="_static/images/samples_persian-relief.gif" style="height:350px !important;">
 
-Detail on a stone relief depicting a Mede ascendingn a staircase (5th-4th c. BCE) (© Art and History Museum: `IR.1034 <https://www.kmkg-mrah.be>`_) 
+Detail on a stone relief depicting a Mede ascendingn a staircase (5th-4th c. BCE) (© Art and History Museum: `IR.1034 <https://www.carmentis.be:443/eMP/eMuseumPlus?service=ExternalInterface&module=collection&objectId=91823&viewType=detailView>`_) 
 
 What 
 ----
@@ -119,7 +119,7 @@ Rijmbijbel illumination
 
 .. raw:: html
 
-    <img src="_static/images/samples_rijmbijbel_RGBandIR.jpg" height="250px">
+    <img src="_static/images/samples_rijmbijbel_RGBandIR.jpg" style="height:250px !important;">
 
 Detail of illumination on folio 106 verso of Rijmbijbel of Jacob van Maerlant (ca. 1225-1291) (© KBR: `MS15001 <https://opac.kbr.be/Library/doc/SYRACUSE/17000895/rijmbijbel-ms-15001>`_) 
 
@@ -141,9 +141,9 @@ Egyptian coffin
 
 .. raw:: html
 
-    <img src="_static/images/samples_egyptiancoffin.jpg" height="300px">
+    <img src="_static/images/samples_egyptiancoffin.jpg" style="height:300px !important;">
 
-Detail on the Egyptian coffin (outer box) of Butehamun (10th-9th c. BCE) depicting Bes and the 'solar cat' (© Art and History Museum: `E.5288 <>`_)
+Detail on the Egyptian coffin (outer box) of Butehamun (10th-9th c. BCE) depicting Bes and the 'solar cat' (© Art and History Museum: `E.5288 <https://www.carmentis.be:443/eMP/eMuseumPlus?service=ExternalInterface&module=collection&objectId=81297&viewType=detailView>`_)
 
 What 
 ----
@@ -163,7 +163,7 @@ Charles V seal
 
 .. raw:: html
 
-    <img src="_static/images/samples_charlesVSeal.jpg" height="300px">
+    <img src="_static/images/samples_charlesVSeal.jpg" style="height:300px !important;">
 
 Detail on face side of the seal of Emperor Charles V, 1519-1556 (© KU Leuven Archives).
 
@@ -186,7 +186,7 @@ Japanese Print
 
 .. raw:: html
 
-    <img src="_static/images/samples_japaneseprint.png" height="300px">
+    <img src="_static/images/samples_japaneseprint.png" style="height:300px !important;" >
 
 Japanese print on paper (© KU Leuven Libraries collections) 
 
@@ -209,7 +209,7 @@ Plan of Sankt Gallen
 ====================
 .. raw:: html
 
-    <img src="_static/images/samples_stgallen.jpg" height="450px">
+    <img src="_static/images/samples_stgallen.jpg" style="height:450px !important;">
 
 The parchment architectural plan of the building complex of the Sankt Gallen monastery, 827-830 / end of the 12th century (© Stiftsbibliothek Sankt Gallen: `Ms. 1092 <http://dx.doi.org/10.5076/e-codices-csg-1092>`_)
 
