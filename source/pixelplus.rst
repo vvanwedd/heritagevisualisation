@@ -43,7 +43,7 @@ Project partners
 * `Royal Museums of Art and History (RMAH) <http://www.kmkg-mrah.be/>`_ – coordinator
 * `KU Leuven Department of Electical Engineering (ESAT) <https://www.esat.kuleuven.be/psi>`_
 * `Illuminare <http://www.illuminare.be/team/>`_
-* `KU Leuven Bibliotheken BD Digitalisering <https://bib.kuleuven.be/BD/digitalisering-en-document-delivery/digitalisering/digitalisering>`_
+* `KU Leuven Libraries (BD Digitalisering) <https://bib.kuleuven.be/BD/digitalisering-en-document-delivery/digitalisering/digitalisering>`_
 * `Royal Library of Belgium (KBR) <https://www.kbr.be/en/>`_
 
 
