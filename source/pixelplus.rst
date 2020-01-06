@@ -21,7 +21,7 @@ Based on processed output files
 
     <img src="_static/images/integration1.jpg" height="450px">
   
-   Given the multitude of collections that have been scanned with both technologies, Pixel+ allows to view processed files (cun, zun for PLD and ptm, rti for RTI) with filters of both technologies. It achieves this by calculating intermediate data file formats like normal maps and ambient maps.
+   Given the multitude of collections that have been scanned with both technologies, pixel+ allows to view processed files (cun, zun for PLD and ptm, rti for RTI) with filters of both technologies. It achieves this by calculating intermediate data file formats like normal maps and ambient maps.
 
 Based on original input files
 -------------------------------
