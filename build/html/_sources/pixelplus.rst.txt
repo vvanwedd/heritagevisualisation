@@ -3,14 +3,15 @@ pixel+
 
 Motivation
 ==========
-Researchers or museum curators who want to study, document or disseminate cultural artifacts have a vast toolbox of HD imaging methods and 3D scanners at hand. A careful choice must be made, depending on the shape, size, location and materiality of the artifact and which characteristic is of interest. In the pixel+ project, we are focusing on single-camera multi-light imaging methods. 
+Researchers or museum curators who want to study, document or disseminate cultural artifacts have a vast toolbox of HD imaging methods and 3D scanners at hand. A careful choice must be made, depending on the shape, size, location and materiality of the artifact and which characteristic is of interest. The pixel+ project and viewer delivers solutions single-camera multi-light reflectance imaging methods. 
 
-pixel+ aims to bring single camera multi light scanning techniques closer together on several levels of integration:
+pixel+ aims to bring various existing single-camera multi-light reflectance scanning techniques closer together on several levels of integration:
 
-* Existing processed RTI and PLD files can be opened in one web viewer with their respective viewing modes
-* Existing processed RTI and PLD files can be reprocessed so that the viewing modes of the other technology become available.
-* Existing RTI and PLD source data can be processed in both an RTI and a PLD pipeline.
-* This document provides (background) information on various aspects of single camera multi light scanning techniques.
+* Existing processed RTI, PTM and PLD files can be opened in one web viewer with their respective viewing modes
+* Existing processed RTI, PTM and PLD files can be reprocessed so that the viewing modes of the other technology become available.
+* Existing RTI, PTM and PLD source data can be processed in both an RTI/PTM and a PLD pipeline.
+
+>>>This document provides (background) information on various aspects of single-camera multi-light reflectance scanning techniques.
 
 Integration
 ===========
@@ -20,7 +21,7 @@ Based on processed output files
 
     <img src="_static/images/integration1.jpg" height="450px">
   
-   Given the multitude of collections that have been scanned with both technologies, Pixel+ allows to view processed files (cun, zun for PLD and ptm, rti for RTI) with filters of both technologies. It achieves this by calculating intermediate data file formats like normal maps and ambient maps.
+   Given the multitude of collections that have been scanned with both technologies, pixel+ allows to view processed files (cun, zun for PLD and ptm, rti for RTI) with filters of both technologies. It achieves this by calculating intermediate data file formats like normal maps and ambient maps.
 
 Based on original input files
 -------------------------------
