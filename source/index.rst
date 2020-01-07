@@ -9,7 +9,7 @@ To fully appreciate what the pixel+ viewer can reveal, it is paramount to unders
 
 For an overview of the 3D scanning technologies making these kinds of recordings possible, ie. RTI, PLD, PTM, look at the :ref:`technologies:Technologies`.
 
-Finally, on the :ref:`background:Background material` page, you can read about topics like color, multispectral imaging and long term preservation. 
+Finally, on the :ref:`backgroundmaterial:Background material` page, you can read about topics like color, multispectral imaging and long term preservation. 
 
 .. toctree::
    :caption: Contents:
