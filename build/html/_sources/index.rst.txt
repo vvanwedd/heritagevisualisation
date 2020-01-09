@@ -14,12 +14,13 @@ Finally, on the :ref:`backgroundmaterial:Background material` page, you can read
 .. toctree::
    :caption: Contents:
 
+   pixelplusviewer
    pixelplus 
    examples
    visualstyles
    technologies
    backgroundmaterial
-
+   contact
 
 .. Indices and tables
 .. ==================

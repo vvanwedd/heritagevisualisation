@@ -23,8 +23,8 @@ import sphinx_rtd_theme
 
 # -- Project information -----------------------------------------------------
 
-project = 'pixel+'
-copyright = '2019, KMKG-MRAH, KU Leuven and KBR'
+project = 'heritage-visualisation.org'
+copyright = '2020, KMKG-MRAH, KU Leuven and KBR'
 author = 'Vincent Vanweddingen'
 
 # The short X.Y version
@@ -107,7 +107,22 @@ html_theme = 'sphinx_rtd_theme'
 # documentation.
 #
 # html_theme_options = {}
-
+html_theme_options = {
+    'canonical_url': 'http://www.heritage-visualisation.org/',
+    'analytics_id': 'UA-155530128-1',  #  Provided by Google in your dashboard
+    'logo_only': False,
+    'display_version': True,
+    'prev_next_buttons_location': 'bottom',
+    'style_external_links': False,
+    'vcs_pageview_mode': '',
+    'style_nav_header_background': '#737373',
+    # Toc options
+    'collapse_navigation': True,
+    'sticky_navigation': True,
+    'navigation_depth': 4,
+    'includehidden': True,
+    'titles_only': False
+}
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".

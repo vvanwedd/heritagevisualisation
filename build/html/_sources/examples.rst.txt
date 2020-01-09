@@ -204,15 +204,15 @@ Plan of Sankt Gallen
 
     <img src="_static/images/samples_stgallen2.jpg" style="height:450px !important;">
 
-The parchment architectural plan of the building complex of the Sankt Gallen monastery, 827-830 / end of the 12th century (© Stiftsbibliothek Sankt Gallen: `Ms. 1092 <http://dx.doi.org/10.5076/e-codices-csg-1092>`_)
+The Plan of Sankt Gallen (820-830) (© Stiftsbibliothek Sankt Gallen: `Ms. 1092 <http://dx.doi.org/10.5076/e-codices-csg-1092>`_)
 
-.. rubric:: What
+.. .. rubric:: What
 
-... (VINCENT/PAUL, your call)
+.. High resolution stitched 
 
 .. rubric:: Type dataset
 
-Stitching of XX recordings with multispectral single-camera multi-light acquisition dome (MS Microdome, PLD system), captures by Vincent Vanweddingen & Paul Konijn.
+Multi spectral single-camera multi-light acquisition dome (MS Minidome, WL Minidome, PLD system), captures by Vincent Vanweddingen & Paul Konijn.
 
 .. rubric:: Open in web viewer
 

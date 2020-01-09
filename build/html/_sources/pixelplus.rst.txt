@@ -1,4 +1,4 @@
-pixel+ 
+pixel+ project
 ************
 
 Motivation
@@ -47,4 +47,5 @@ Project partners
 * `KU Leuven Libraries (BD Digitalisering) <https://bib.kuleuven.be/BD/digitalisering-en-document-delivery/digitalisering/digitalisering>`_
 * `Royal Library of Belgium (KBR) <https://www.kbr.be/en/>`_
 
-
+Project timeline
+=================

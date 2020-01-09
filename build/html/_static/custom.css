@@ -1,3 +1,8 @@
 .wy-nav-content {
     max-width: 1600px !important;
 }
+
+#footer-images img{
+    margin-top: 20px;
+    height: 70px; 
+}
