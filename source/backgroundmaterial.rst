@@ -1,4 +1,4 @@
-Background material
+Background Material
 *******************
 Color
 =================================

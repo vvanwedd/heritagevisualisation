@@ -1,29 +1,34 @@
-pixel+ viewer
+heritage-visualisation.org
 ===================================
 
-The pixel+ viewer is a WebGL based viewer for single camera, multi light recordings. Go directly to `the viewer <http://www.heritage-visualisation.org/viewer/viewer.php>`_ 
+Thanks to technological advancements heritage scholars have nowadays a plethora of tools available to examine cultural heritage artefacts. 
+
+This website tries to provide an overview of these :ref:`technologies:Heritage Scanning Methods` and focusses on one particular type, i.e. :ref:`singlecameramultilight:Single-Camera, Multi-Light Technology`.
+
+The pixel+ viewer is a WebGL based viewer for single camera, multi light recordings, i.e. PLD, RTI, PTM recordings. Go directly to `the viewer <http://www.heritage-visualisation.org/viewer/viewer.php>`_ 
 
 Look at the :ref:`examples:Examples` for a brief glimpse of what can be seen with these kinds of recordings. Note that deep links to open these examples directly in the viewer have been made available as well.
 
-To fully appreciate what the pixel+ viewer can reveal, it is paramount to understand the various :ref:`visualstyles:Visual styles`.
+To fully appreciate what the pixel+ viewer can reveal, it is paramount to understand the various :ref:`visualstyles:Visual Styles`.
 
-For an overview of the 3D scanning technologies making these kinds of recordings possible, ie. RTI, PLD, PTM, look at the :ref:`technologies:Technologies`.
+Learn more about the :ref:`pixelplus:pixel+ Project`, of which this website and the pixel+ viewer are the major outcomes.
 
-Finally, on the :ref:`backgroundmaterial:Background material` page, you can read about topics like color, multispectral imaging and long term preservation. 
+Finally, on the :ref:`backgroundmaterial:Background Material` page, you can read about topics like color, multispectral imaging and long term preservation. 
 
 .. toctree::
    :caption: Contents:
-
+   
    pixelplusviewer
+   technologies
+   singlecameramultilight
    pixelplus 
    examples
    visualstyles
-   technologies
    backgroundmaterial
    contact
 
-.. Indices and tables
-.. ==================
+.... Indices and tables
+.... ==================
 
 .. * :ref:`genindex`
 .. * :ref:`modindex`

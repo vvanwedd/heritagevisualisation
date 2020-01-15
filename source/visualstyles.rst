@@ -1,4 +1,4 @@
-Visual styles
+Visual Styles
 *************
 Introduction
 =================================

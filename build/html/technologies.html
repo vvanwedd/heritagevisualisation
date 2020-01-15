@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Technologies &mdash; heritage-visualisation.org 0.9 documentation</title>
+  <title>Heritage Scanning Methods &mdash; heritage-visualisation.org 0.9 documentation</title>
   
 
   
@@ -39,8 +39,8 @@
   <link rel="stylesheet" href="_static/custom.css" type="text/css" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Background material" href="backgroundmaterial.html" />
-    <link rel="prev" title="Visual styles" href="visualstyles.html" />
+    <link rel="next" title="Single-Camera, Multi-Light Technology" href="singlecameramultilight.html" />
+    <link rel="prev" title="pixel+ Viewer" href="pixelplusviewer.html" />
     <link href="_static/custom.css" rel="stylesheet" type="text/css">
     <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155530128-1"></script>
@@ -98,43 +98,26 @@
             
               <p class="caption"><span class="caption-text">Contents:</span></p>
 <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="pixelplusviewer.html">pixel+ viewer</a></li>
-<li class="toctree-l1"><a class="reference internal" href="pixelplus.html">pixel+ project</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pixelplusviewer.html">pixel+ Viewer</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Heritage Scanning Methods</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#single-camera-multi-light-technology-rti-ptm-pld">Single-Camera, Multi-Light Technology (RTI, PTM, PLD)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#infrared-photography">Infrared Photography</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#multispectral-imaging">Multispectral Imaging</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#optical-coherence-tomography">Optical Coherence Tomography</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#phase-contrast-x-ray-imaging">Phase-Contrast X-ray Imaging</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#radiography">Radiography</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#raking-light-illumination">Raking Light Illumination</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#terahertz-imaging">Terahertz Imaging</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#ultraviolet-photography">Ultraviolet Photography</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#x-ray-fluorescence">X-ray Fluorescence</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#x-ray-microtomography">X-ray Microtomography</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="singlecameramultilight.html">Single-Camera, Multi-Light Technology</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pixelplus.html">pixel+ Project</a></li>
 <li class="toctree-l1"><a class="reference internal" href="examples.html">Examples</a></li>
-<li class="toctree-l1"><a class="reference internal" href="visualstyles.html">Visual styles</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Technologies</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#rti">RTI</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#hardware">Hardware</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#algorithm">Algorithm</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#output">Output</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#ptm-hsh-coefficients">PTM / HSH coefficients</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#normal-map">Normal map</a></li>
-</ul>
-</li>
-<li class="toctree-l3"><a class="reference internal" href="#file-formats">File formats</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#ptm">PTM</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#id5">RTI</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li class="toctree-l2"><a class="reference internal" href="#pld">PLD</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#id9">Hardware</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#pldalgorithm">Algorithm</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id13">Output</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#normalmap">Normal map</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#albedo-map">Albedo map</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#ambient-map">Ambient map</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#reflection-map">Reflection map</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#height-map-and-depth-profile">Height map and depth profile</a></li>
-</ul>
-</li>
-<li class="toctree-l3"><a class="reference internal" href="#id16">File formats</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="backgroundmaterial.html">Background material</a></li>
+<li class="toctree-l1"><a class="reference internal" href="visualstyles.html">Visual Styles</a></li>
+<li class="toctree-l1"><a class="reference internal" href="backgroundmaterial.html">Background Material</a></li>
 <li class="toctree-l1"><a class="reference internal" href="contact.html">Contact</a></li>
 </ul>
 
@@ -181,7 +164,7 @@
     
       <li><a href="index.html">Docs</a> &raquo;</li>
         
-      <li>Technologies</li>
+      <li>Heritage Scanning Methods</li>
     
     
 
@@ -193,164 +176,45 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="technologies">
-<h1>Technologies<a class="headerlink" href="#technologies" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="rti">
-<h2>RTI<a class="headerlink" href="#rti" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="hardware">
-<h3>Hardware<a class="headerlink" href="#hardware" title="Permalink to this headline">¶</a></h3>
-<img src="_static/images/dome7OxfordClassics.jpg" height="350px"><p>Example of a RTI dome as produced by <a class="reference external" href="https://custom-imaging.co.uk/projects/dome-7/">custom-imaging.co.uk</a> (their Dome 7).</p>
-<p>There is a large variety of scanning equipment available, but in essence, both PLD and RTI require a set of images of an object that is illuminated from various known directions.
-RTI has 2 types of recording equipment: The dome setups and the highlight RTI setup.
-The dome setup functions in the similar manner as the PLD domes.</p>
-<p>Highlight RTI utilizes chrome/specular spheres to estimate the direction of a point light source (e.g. a flash). This technology is typically cheaper and more flexible in terms of object size to be scanned; for a manual to the procedure see <a class="reference internal" href="#chi2013" id="id1"><span>[CHI2013]</span></a>.
-The downside is that it generally is slower, requires more intervention and is less accurate, as light sources have to be calculated using the specular reflection in the reflective spheres.</p>
+  <div class="section" id="heritage-scanning-methods">
+<h1>Heritage Scanning Methods<a class="headerlink" href="#heritage-scanning-methods" title="Permalink to this headline">¶</a></h1>
+<p>Plenty of methods exist to capture our heritage artefacts.
+A method’s type of output, its benefits and shortcomings are very much technology dependent. Understanding and carefully documenting which method was used, will help to valiorize scientific research results. See also the <a class="reference external" href="http://culturalheritageimaging.org/Technologies/Digital_Lab_Notebook/index.html">Digital Lab Notebook</a> initiative.
+For <a class="reference internal" href="singlecameramultilight.html#single-camera-multi-light-technology"><span class="std std-ref">Single-Camera, Multi-Light Technology</span></a>, the main focus of this website, we’ve tried to provide the necessary reading material to appreciate this form of heritage capture. We’ve also provided a web viewer for these kinds of files and proposed a novel open source file type, based on popular existing file types, to make sure these kinds of recordings can be consulted in the future.</p>
+<p>What is next is an overview of heritage scanning methods.</p>
+<div class="section" id="single-camera-multi-light-technology-rti-ptm-pld">
+<h2>Single-Camera, Multi-Light Technology (RTI, PTM, PLD)<a class="headerlink" href="#single-camera-multi-light-technology-rti-ptm-pld" title="Permalink to this headline">¶</a></h2>
+<p>See <a class="reference internal" href="singlecameramultilight.html#single-camera-multi-light-technology"><span class="std std-ref">Single-Camera, Multi-Light Technology</span></a></p>
 </div>
-<div class="section" id="algorithm">
-<h3>Algorithm<a class="headerlink" href="#algorithm" title="Permalink to this headline">¶</a></h3>
-<p>Reflectance Transformation Imaging is a per pixel function fitting technique to interactively display objects under varying light conditions.
-It was originally developed by Tom Malzbender in the form of Polynomial Texture Maps <a class="reference internal" href="#malzbender2001" id="id2"><span>[Malzbender2001]</span></a>.</p>
-<p>The observed intensity at a pixel is described a function of the light direction, in the case of PTM as a biquadratic polynomial, but other representations exist. A set of equations relating the observed intensity with the light direction for every image of the image set is then solved for the coefficients.</p>
-<p>Besides PTM, another popular RTI method uses hemispherical harmonical functions. Because it can model the light space better, hard shadows and bright specularities are better preserved.</p>
-<p>A newer approach uses Principle Component Analysis + Radial Basis Function interpolation <a class="reference internal" href="#ponchio" id="id3"><span>[ponchio]</span></a></p>
-<p>The goal of RTI is to view objects interactively under varying incident light directions. As such, RTI doesn’t use physical laws like PLD to extract surface material characteristics. Effects like self shadowing, interreflections and complicated light-matter interactions (e.g. subsurface scattering, complicated BRDFs) are not taken into account, though their contribution is captured in the fitting/interpolation function. As such, the relighting output appears to be photorealistic - especially for virtual light positions that are close to one of the input images.</p>
+<div class="section" id="infrared-photography">
+<h2>Infrared Photography<a class="headerlink" href="#infrared-photography" title="Permalink to this headline">¶</a></h2>
 </div>
-<div class="section" id="output">
-<h3>Output<a class="headerlink" href="#output" title="Permalink to this headline">¶</a></h3>
-<div class="section" id="ptm-hsh-coefficients">
-<h4>PTM / HSH coefficients<a class="headerlink" href="#ptm-hsh-coefficients" title="Permalink to this headline">¶</a></h4>
-<p>The output of the RTI fitting algorithm are coefficients, e.g. PTM for a PTM RTI and HSH for a HSH RTI. These coefficients are calculated per pixel and stored in a map.</p>
+<div class="section" id="multispectral-imaging">
+<h2>Multispectral Imaging<a class="headerlink" href="#multispectral-imaging" title="Permalink to this headline">¶</a></h2>
 </div>
-<div class="section" id="normal-map">
-<h4>Normal map<a class="headerlink" href="#normal-map" title="Permalink to this headline">¶</a></h4>
-<p>From certain types of RTI files, ie. from PTM and HSH RTI files, a normal map can be calculated.</p>
-<p>Generally, a normal map originating from an HSH RTI is of higher quality than one generated from PTM coefficients.
-Any spatial blurring that seems to exist is because the PTM or HSH coefficients don’t capture the light space function perfectly. The resulting normal map can therefore also be more blurred than a result optained with a photometric stereo approach such as PLD.</p>
+<div class="section" id="optical-coherence-tomography">
+<h2>Optical Coherence Tomography<a class="headerlink" href="#optical-coherence-tomography" title="Permalink to this headline">¶</a></h2>
 </div>
+<div class="section" id="phase-contrast-x-ray-imaging">
+<h2>Phase-Contrast X-ray Imaging<a class="headerlink" href="#phase-contrast-x-ray-imaging" title="Permalink to this headline">¶</a></h2>
 </div>
-<div class="section" id="file-formats">
-<h3>File formats<a class="headerlink" href="#file-formats" title="Permalink to this headline">¶</a></h3>
-<div class="section" id="ptm">
-<h4>PTM<a class="headerlink" href="#ptm" title="Permalink to this headline">¶</a></h4>
-<ul class="simple">
-<li><p>RGB PTM: PTM coefficients are being calculated and saved per color channel (in 8 bit mode), resulting in 3*6 bytes per pixel</p></li>
-<li><p>LRGB PTM: PTM coefficients are being calculated for the luminance channel and stores non varying RGB values. As the chromaticity doesn’t change too much under varying light directions, this method saves on storage, resulting in 6+3 bytes per pixel</p></li>
-<li><p>JPEG compression of RGB PTM</p></li>
-<li><p>JPEG compression of LRGB PTM</p></li>
-<li><p>JPEGLS compression of RGB PTM</p></li>
-<li><p>JPEGLS compression of LRGB PTM</p></li>
-<li><p>Look Up Table PTM</p></li>
-<li><p>YCrCb color space PTM</p></li>
-</ul>
-<p>The upper 2 versions are the most popular PTM file types, as they are supported by CHI’s processing and viewing software <a class="reference internal" href="#chi" id="id4"><span>[CHI]</span></a></p>
+<div class="section" id="radiography">
+<h2>Radiography<a class="headerlink" href="#radiography" title="Permalink to this headline">¶</a></h2>
 </div>
-<div class="section" id="id5">
-<h4>RTI<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h4>
-<ul class="simple">
-<li><p>PTM RTI: Polynomial Texture Mapping RTI <a class="reference internal" href="#malzbender2001" id="id6"><span>[Malzbender2001]</span></a></p></li>
-<li><p>HSH RTI: Hemispherical Harmonics RTI <a class="reference internal" href="#mudge2008" id="id7"><span>[Mudge2008]</span></a></p></li>
-<li><p>SH RTI: Spherical Harmonics RTI</p></li>
-<li><p>EHSH RTI: Eigen Hemispherical Harmonics RTI <a class="reference internal" href="#lam2012" id="id8"><span>[Lam2012]</span></a></p></li>
-<li><p>Adaptive basis RTI</p></li>
-</ul>
+<div class="section" id="raking-light-illumination">
+<h2>Raking Light Illumination<a class="headerlink" href="#raking-light-illumination" title="Permalink to this headline">¶</a></h2>
 </div>
+<div class="section" id="terahertz-imaging">
+<h2>Terahertz Imaging<a class="headerlink" href="#terahertz-imaging" title="Permalink to this headline">¶</a></h2>
 </div>
+<div class="section" id="ultraviolet-photography">
+<h2>Ultraviolet Photography<a class="headerlink" href="#ultraviolet-photography" title="Permalink to this headline">¶</a></h2>
 </div>
-<div class="section" id="pld">
-<h2>PLD<a class="headerlink" href="#pld" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="id9">
-<h3>Hardware<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h3>
-<p>There is a large variety of scanning equipment available, but in essence, both PLD and RTI require a set of images of an object that is illuminated from various known directions. PLD has a set of scanning domes, both with white light LEDs as well as narrow band near infrared, red, green, blue and near ultra violet light LEDs for multi spectral recordings. Can be listed:</p>
-<p>White Light Mecano Minidome | Multispectral Minidome | White Light Microdome | Multispectral Microdome</p>
-  <img src="_static/images/msmicrodome.jpg" height="400px">
-
-Use of multispectral microdome (PLD system) to scan an Egyptian coffin (@ Art and History Museum, Brussels)</div>
-<div class="section" id="pldalgorithm">
-<span id="id10"></span><h3>Algorithm<a class="headerlink" href="#pldalgorithm" title="Permalink to this headline">¶</a></h3>
-<p>PLD uses certain light material interaction models to estimate material properties.</p>
-<p>When light interacts with matter, it can be amongst other things absorbed, transmitted or reflected. In what follows, we make abstraction of effects like interference, diffraction, scattering and the photoelectric effect <a class="footnote-reference brackets" href="#id18" id="id11">1</a>. They definitely are useful to study and model certain properties - e.g. Rayleigh scattering to explain why the sky is blue and Mie scattering why clouds are greyish white, but are generally not used in 3D scanning approaches.</p>
-<p>Certain materials are perfectly matte; They reflect light isotropically. The observed reflected intensity is proportional to the cosine of the angle between the direction of the incident light and the surface orientation. This is sometimes refered to as Lambert’s cosine law or Lambertian reflectance.</p>
-<p>Unfinished wood or blotted paper are examples of Lambertian reflective materials. The Moon however is not. If it were, the edges should be completely dark during a full Moon, as the cosine of the angle between the sun rays and the surface is 0.</p>
-<p>In 1980 Woodham published the first paper on Photometric Stereo <a class="reference internal" href="#woodham1980" id="id12"><span>[Woodham1980]</span></a>. Photometric stereo is a computer vision technique that exploits this Lambertian reflectance of certain materials to find the surface orientation.
-An object is illuminated from several, known, light directions. Each time a photo is taken.
-The result is a set of apparent brightness values and the corresponding light directions. This can be solved for the surface orientation. Note that this algorithm is applied per pixel.</p>
-<p>The algorithm has been extended to cope with self shadowing, interreflections, image noise and non-ideal point light sources.</p>
+<div class="section" id="x-ray-fluorescence">
+<h2>X-ray Fluorescence<a class="headerlink" href="#x-ray-fluorescence" title="Permalink to this headline">¶</a></h2>
 </div>
-<div class="section" id="id13">
-<h3>Output<a class="headerlink" href="#id13" title="Permalink to this headline">¶</a></h3>
-<div class="section" id="normalmap">
-<span id="id14"></span><h4>Normal map<a class="headerlink" href="#normalmap" title="Permalink to this headline">¶</a></h4>
-<p>The surface orientation is described by a vector that is perpendicular to the surface and is being refered to as the normal vector or more simply the normal. This calculation is performed for every pixel, resulting in a normal map or normal texture. The x, y and z components of the normal vector <span class="math notranslate nohighlight">\(\mathbf{n}\)</span> at a particular pixel are stored as red, green and blue values using the following convention:</p>
-<div class="math notranslate nohighlight">
-\[\begin{split}r = (\mathbf{n}_x + 1)*\frac{1}{2}*255\\
-g = (\mathbf{n}_y + 1)*\frac{1}{2}*255\\
-b = (\mathbf{n}_z + 1)*\frac{1}{2}*255\end{split}\]</div>
-<ul class="simple">
-<li><p>Note that normal <span class="math notranslate nohighlight">\(\mathbf{n}\)</span> is normalized, meaning the x, y or z components can range from -1 to 1.</p></li>
-<li><p>Note that 255 corresponds to storing the normal in an 8 bit image. Depending on the bit depth of the image, this should be changed. An r value of 0 thus corresponds to an x component of -1 and a b value of 255 to a z component of 1</p></li>
-<li><p>Note also that this conversion to a 3 channel color bitmap introduces quantization artifacts, as the normal is typically calculated in floating point arithmetic, but has to be stored to the nearest integer color value according to the equation above.</p></li>
-<li><p>If the visualization pipeline supports floating point textures, the normal map can be stored using the floating point x, y, z values directly. Typically newer GPU models support floating point textures. In WebGL, this can be checked with a flag <a class="reference internal" href="#oes-floating-point" id="id15"><span>[OES_floating_point]</span></a></p></li>
-</ul>
-</div>
-<div class="section" id="albedo-map">
-<span id="albedomap"></span><h4>Albedo map<a class="headerlink" href="#albedo-map" title="Permalink to this headline">¶</a></h4>
-<p>Besides the normal, the albedo is another material property that is calculated. The albedo is the amount of diffuse reflected light. In radiometric terms, the albedo corresponds to the radiosity (ie. radiant flux leaving the surface per unit area) to the irradiance (ie. the radiant flux received by the surface per unit area).</p>
-</div>
-<div class="section" id="ambient-map">
-<span id="ambientmap"></span><h4>Ambient map<a class="headerlink" href="#ambient-map" title="Permalink to this headline">¶</a></h4>
-<p>The ambient map consists of a per pixel averaged color of all images from the taken sequence.</p>
-</div>
-<div class="section" id="reflection-map">
-<span id="reflectionmap"></span><h4>Reflection map<a class="headerlink" href="#reflection-map" title="Permalink to this headline">¶</a></h4>
-</div>
-<div class="section" id="height-map-and-depth-profile">
-<span id="heightmap"></span><h4>Height map and depth profile<a class="headerlink" href="#height-map-and-depth-profile" title="Permalink to this headline">¶</a></h4>
-<p>The normal map encodes the surface direction, ie. gradient. Often times, the user is not only interested in the surface gradient, but also the surface itself. Surface integration algorithms calculate the surface starting from a normal map.</p>
-</div>
-</div>
-<div class="section" id="id16">
-<h3>File formats<a class="headerlink" href="#id16" title="Permalink to this headline">¶</a></h3>
-<p>The recorded images are stored before they are debayered and before a gamma correction is applied. Thus, the corresponding pixel values correlate with the (spectrally filtered) observed intensities. The images are stored as <a class="reference internal" href="#pgm" id="id17"><span>[PGM]</span></a></p>
-<p>After processing, a CFD file contains the various texture maps and metadata.
-Next to this file, 2 filetypes are used to easily exchange data: CUN (textures bzip2 compressed) and ZUN (textures gunzip compressed). Note that the normal textures are stored in a packed way, allowing a smaller file size.</p>
-<p class="rubric">Footnotes</p>
-<dl class="citation">
-<dt class="label" id="malzbender2001"><span class="brackets">Malzbender2001</span><span class="fn-backref">(<a href="#id2">1</a>,<a href="#id6">2</a>)</span></dt>
-<dd><p><a class="reference external" href="https://www.hpl.hp.com/research/ptm/papers/ptm.pdf">https://www.hpl.hp.com/research/ptm/papers/ptm.pdf</a></p>
-</dd>
-<dt class="label" id="ponchio"><span class="brackets"><a class="fn-backref" href="#id3">ponchio</a></span></dt>
-<dd><p><a class="reference external" href="https://pc-ponchio.isti.cnr.it/relight/compact-representation-relightable.pdf">https://pc-ponchio.isti.cnr.it/relight/compact-representation-relightable.pdf</a></p>
-</dd>
-<dt class="label" id="chi"><span class="brackets"><a class="fn-backref" href="#id4">CHI</a></span></dt>
-<dd><p><a class="reference external" href="http://culturalheritageimaging.org/What_We_Offer/Downloads/">http://culturalheritageimaging.org/What_We_Offer/Downloads/</a></p>
-</dd>
-<dt class="label" id="chi2013"><span class="brackets"><a class="fn-backref" href="#id1">CHI2013</a></span></dt>
-<dd><p><a class="reference external" href="http://culturalheritageimaging.org/What_We_Offer/Downloads/RTI_Hlt_Capture_Guide_v2_0.pdf">http://culturalheritageimaging.org/What_We_Offer/Downloads/RTI_Hlt_Capture_Guide_v2_0.pdf</a></p>
-</dd>
-<dt class="label" id="mudge2008"><span class="brackets"><a class="fn-backref" href="#id7">Mudge2008</a></span></dt>
-<dd><p><a class="reference external" href="http://culturalheritageimaging.org/What_We_Do/Publications/eurographics2008/eurographics_2008_tutorial_notes.pdf">http://culturalheritageimaging.org/What_We_Do/Publications/eurographics2008/eurographics_2008_tutorial_notes.pdf</a></p>
-</dd>
-<dt class="label" id="lam2012"><span class="brackets"><a class="fn-backref" href="#id8">Lam2012</a></span></dt>
-<dd><p><a class="reference external" href="https://ieeexplore.ieee.org/document/6141180">https://ieeexplore.ieee.org/document/6141180</a></p>
-</dd>
-</dl>
-<dl class="footnote brackets">
-<dt class="label" id="id18"><span class="brackets"><a class="fn-backref" href="#id11">1</a></span></dt>
-<dd><p><a class="reference external" href="https://www.pearson.com/us/higher-education/program/Hecht-Optics-5th-Edition/PGM45350.html">https://www.pearson.com/us/higher-education/program/Hecht-Optics-5th-Edition/PGM45350.html</a></p>
-</dd>
-</dl>
-<dl class="citation">
-<dt class="label" id="woodham1980"><span class="brackets"><a class="fn-backref" href="#id12">Woodham1980</a></span></dt>
-<dd><p><a class="reference external" href="https://www.cs.ubc.ca/~woodham/papers/Woodham80c.pdf">https://www.cs.ubc.ca/~woodham/papers/Woodham80c.pdf</a></p>
-</dd>
-<dt class="label" id="oes-floating-point"><span class="brackets"><a class="fn-backref" href="#id15">OES_floating_point</a></span></dt>
-<dd><p><a class="reference external" href="https://developer.mozilla.org/en-US/docs/Web/API/OES_texture_float">https://developer.mozilla.org/en-US/docs/Web/API/OES_texture_float</a></p>
-</dd>
-<dt class="label" id="pgm"><span class="brackets"><a class="fn-backref" href="#id17">PGM</a></span></dt>
-<dd><p><a class="reference external" href="https://en.wikipedia.org/wiki/Netpbm_format">https://en.wikipedia.org/wiki/Netpbm_format</a></p>
-</dd>
-</dl>
-</div>
+<div class="section" id="x-ray-microtomography">
+<h2>X-ray Microtomography<a class="headerlink" href="#x-ray-microtomography" title="Permalink to this headline">¶</a></h2>
 </div>
 </div>
 
@@ -362,10 +226,10 @@ Next to this file, 2 filetypes are used to easily exchange data: CUN (textures b
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="backgroundmaterial.html" class="btn btn-neutral float-right" title="Background material" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="singlecameramultilight.html" class="btn btn-neutral float-right" title="Single-Camera, Multi-Light Technology" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="visualstyles.html" class="btn btn-neutral float-left" title="Visual styles" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="pixelplusviewer.html" class="btn btn-neutral float-left" title="pixel+ Viewer" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

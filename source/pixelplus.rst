@@ -1,4 +1,4 @@
-pixel+ project
+pixel+ Project
 ************
 
 Motivation
