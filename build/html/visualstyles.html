@@ -99,14 +99,14 @@
               <p class="caption"><span class="caption-text">Contents:</span></p>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="pixelplusviewer.html">pixel+ Viewer</a></li>
-<li class="toctree-l1"><a class="reference internal" href="technologies.html">Heritage Scanning Technologies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="technologies.html">Heritage Scanning Methods</a></li>
 <li class="toctree-l1"><a class="reference internal" href="singlecameramultilight.html">Single-Camera, Multi-Light Technology</a></li>
 <li class="toctree-l1"><a class="reference internal" href="pixelplus.html">pixel+ Project</a></li>
 <li class="toctree-l1"><a class="reference internal" href="examples.html">Examples</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Visual Styles</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#introduction">Introduction</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#pld">PLD</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#color">Color</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#default-color">Default Color</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#parameters">Parameters</a></li>
 </ul>
 </li>
@@ -210,27 +210,31 @@
 </div>
 <div class="section" id="pld">
 <h2>PLD<a class="headerlink" href="#pld" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="color">
-<h3>Color<a class="headerlink" href="#color" title="Permalink to this headline">¶</a></h3>
-<p>The ‘Color’ style implements how a diffuse material reflects light and is as such the inverse of the principle of Photometric Stereo (in which the albedo and surface normal get disentangled, see <a class="reference internal" href="technologies.html#pldalgorithm"><span class="std std-ref">Algorithm</span></a>). In computer graphics and computer vision, this model is sometimes referred to as Lambertian reflectance. The reflected intensity is proportional to the cosine of the angle between the light direction and the normal vector.</p>
+<div class="section" id="default-color">
+<h3>Default Color<a class="headerlink" href="#default-color" title="Permalink to this headline">¶</a></h3>
+<p>The ‘Default Color’ style implements how a diffuse material reflects light and is as such the inverse of the principle of Photometric Stereo (in which the albedo and surface normal get disentangled, see <span class="xref std std-ref">PLDAlgorithm</span>). In computer graphics and computer vision, this model is sometimes referred to as Lambertian reflectance. The reflected intensity is proportional to the cosine of the angle between the light direction and the normal vector.</p>
 <p>A beam of light falling on an object has a certain amount of energy. If the surface of the object is perpendicular to the light direction, it receives the highest amount of energy per area. When the surface is tilted with respect to the light direction, the same amount of energy gets spread across a bigger area, resulting in a lower energy density received by the surface.</p>
 <p>The brightness of a Lambertian object does not depend on the viewing position, i.e. a Lambertian object looks equally bright from all positions. More physical background can be found <a class="reference external" href="http://hyperphysics.phy-astr.gsu.edu/hbase/vision/photom.html">here</a> and <a class="reference external" href="https://en.wikipedia.org/wiki/Lambert%27s_cosine_law">here</a></p>
-<p>In terms of computer graphics, the light paths used in this style consist of a single bounce at the surface ( point light source -&gt; surface and surface-&gt;camera )
-Interreflections (i.e. light paths with several bounces) and self shadowing (part of the object can cast a shadow on another part, especially noticable at grazing light directions) are not modeled.</p>
+<p>In terms of computer graphics, the light paths used in this style consist of a single bounce at the surface ( point light source -&gt; surface and surface -&gt; camera )
+Interreflections (i.e. light paths with several bounces) and self shadowing (part of the object can cast a shadow on another part, especially noticable at grazing light directions) are therefore not modeled.</p>
 <div class="section" id="parameters">
 <h4>Parameters<a class="headerlink" href="#parameters" title="Permalink to this headline">¶</a></h4>
 <ul class="simple">
 <li><p>The direction of the virtual light sources</p></li>
 <li><p>The brightness of the virtual light sources</p></li>
 <li><p>The color source: For white light recordings, this can be an RGB image or each red, green or blue channel separately. For Multi Spectral recordings, more combinations are possible. E.g. IRG will be displayed as a false color image with the infrared channel as red, the red channel as green and the green channel as blue.</p></li>
-<li><p>Reflectance source: Albedo (see <a class="reference internal" href="technologies.html#albedomap"><span class="std std-ref">Albedo map</span></a>) vs. Ambient (see <a class="reference internal" href="technologies.html#ambientmap"><span class="std std-ref">Ambient map</span></a>)</p></li>
+<li><p>Reflectance source: Albedo (see <span class="xref std std-ref">albedoMap</span>) vs. Ambient (see <span class="xref std std-ref">ambientMap</span>)</p></li>
 <li><p>Normal source. For white light recordings, a single normal map is calculated. For multi spectral recordings, a normal map per spectral band is calculated.</p></li>
 </ul>
+<div class="figure align-default" id="id9">
+<a class="reference internal image-reference" href="_images/visualstyle_pld_defColor.gif"><img alt="_images/visualstyle_pld_defColor.gif" src="_images/visualstyle_pld_defColor.gif" style="width: 905.5px; height: 701.5px;" /></a>
+<p class="caption"><span class="caption-text">Alternating the virtual light position in PLD’s Default Color style.</span><a class="headerlink" href="#id9" title="Permalink to this image">¶</a></p>
+</div>
 </div>
 </div>
 <div class="section" id="shaded">
 <h3>Shaded<a class="headerlink" href="#shaded" title="Permalink to this headline">¶</a></h3>
-<p>This visual style is the same as the Color style, except that the Albedo is set to a uniform value. By removing the local color information from the image, a more careful study of the surface orientation (see <a class="reference internal" href="technologies.html#normalmap"><span class="std std-ref">Normal map</span></a>) is possible by carefully changing the virtual light direction.</p>
+<p>This visual style is the same as the Default Color style, except that the Albedo is set to a uniform value. By removing the local color information from the image, a more careful study of the surface orientation (see <span class="xref std std-ref">normalMap</span>) is possible by carefully changing the virtual light direction.</p>
 <div class="section" id="id2">
 <h4>Parameters<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h4>
 <ul class="simple">
@@ -238,6 +242,10 @@ Interreflections (i.e. light paths with several bounces) and self shadowing (par
 <li><p>The brightness of the virtual light sources</p></li>
 <li><p>Normal source. For white light recordings, a single normal map is calculated. For multi spectral recordings, a normal map per spectral band is calculated.</p></li>
 </ul>
+<div class="figure align-default" id="id10">
+<a class="reference internal image-reference" href="_images/visualstyle_pld_shaded.gif"><img alt="_images/visualstyle_pld_shaded.gif" src="_images/visualstyle_pld_shaded.gif" style="width: 905.5px; height: 701.5px;" /></a>
+<p class="caption"><span class="caption-text">PLD’s shaded mode allows for a more careful study of surface orientation w.r.t. the Default Color style.</span><a class="headerlink" href="#id10" title="Permalink to this image">¶</a></p>
+</div>
 </div>
 </div>
 <div class="section" id="shaded-exaggerated">
@@ -250,11 +258,15 @@ Interreflections (i.e. light paths with several bounces) and self shadowing (par
 <li><p>The brightness of the virtual light sources</p></li>
 <li><p>Normal source. For white light recordings, a single normal map is calculated. For multi spectral recordings, a normal map per spectral band is calculated.</p></li>
 </ul>
+<div class="figure align-default" id="id11">
+<a class="reference internal image-reference" href="_static/images/visualstyle_pld_shadedExag.gif"><img alt="_static/images/visualstyle_pld_shadedExag.gif" src="_static/images/visualstyle_pld_shadedExag.gif" /></a>
+<p class="caption"><span class="caption-text">Alternating view of the Shaded and Shaded Exaggerated style.</span><a class="headerlink" href="#id11" title="Permalink to this image">¶</a></p>
+</div>
 </div>
 </div>
 <div class="section" id="sharpen">
 <h3>Sharpen<a class="headerlink" href="#sharpen" title="Permalink to this headline">¶</a></h3>
-<p>This visual style is the same as the Color style, except that the color map is sharpened. 2 parameters control the sharpening: Percentage and Size. See also <cite>Unsharp masking &lt;https://en.wikipedia.org/wiki/Unsharp_masking#Digital_unsharp_masking&gt;</cite>.</p>
+<p>This visual style is the same as the Color style, except that the color map is sharpened. 2 parameters control the sharpening: Percentage and Size. See also <a class="reference external" href="https://en.wikipedia.org/wiki/Unsharp_masking#Digital_unsharp_masking">Unsharp masking</a>.</p>
 <div class="section" id="id4">
 <h4>Parameters<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h4>
 <ul class="simple">
@@ -262,10 +274,18 @@ Interreflections (i.e. light paths with several bounces) and self shadowing (par
 <li><p>The brightness of the virtual light sources</p></li>
 <li><p>The color source: For white light recordings, this can be an RGB image or each red, green or blue channel separately. For Multi Spectral recordings, more combinations are possible. E.g. IRG will be displayed as a false color image with the infrared channel as red, the red channel as green and the green channel as blue.</p></li>
 <li><p>Normal source. For white light recordings, a single normal map is calculated. For multi spectral recordings, a normal map per spectral band is calculated.</p></li>
-<li><p>Reflectance source: Albedo (see <a class="reference internal" href="technologies.html#albedomap"><span class="std std-ref">Albedo map</span></a>) vs. Ambient (see <a class="reference internal" href="technologies.html#ambientmap"><span class="std std-ref">Ambient map</span></a>)</p></li>
+<li><p>Reflectance source: Albedo (see <span class="xref std std-ref">albedoMap</span>) vs. Ambient (see <span class="xref std std-ref">ambientMap</span>)</p></li>
 <li><p>Percentage</p></li>
 <li><p>Size</p></li>
 </ul>
+<div class="figure align-default" id="id12">
+<a class="reference internal image-reference" href="_images/visualstyle_pld_sharpen.gif"><img alt="_images/visualstyle_pld_sharpen.gif" src="_images/visualstyle_pld_sharpen.gif" style="width: 905.5px; height: 701.5px;" /></a>
+<p class="caption"><span class="caption-text">Influence of the Percentage parameter of the Sharpen style</span><a class="headerlink" href="#id12" title="Permalink to this image">¶</a></p>
+</div>
+<div class="figure align-default" id="id13">
+<a class="reference internal image-reference" href="_images/visualstyle_pld_sharpenBis.gif"><img alt="_images/visualstyle_pld_sharpenBis.gif" src="_images/visualstyle_pld_sharpenBis.gif" style="width: 905.5px; height: 701.5px;" /></a>
+<p class="caption"><span class="caption-text">Influence of the Size parameter of the Sharpen style.</span><a class="headerlink" href="#id13" title="Permalink to this image">¶</a></p>
+</div>
 </div>
 </div>
 <div class="section" id="sketch-1">
@@ -278,6 +298,14 @@ Interreflections (i.e. light paths with several bounces) and self shadowing (par
 <li><p>Sensitivity</p></li>
 <li><p>Thickness</p></li>
 </ul>
+<div class="figure align-default" id="id14">
+<a class="reference internal image-reference" href="_images/visualstyle_pld_sketch1.gif"><img alt="_images/visualstyle_pld_sketch1.gif" src="_images/visualstyle_pld_sketch1.gif" style="width: 905.5px; height: 701.5px;" /></a>
+<p class="caption"><span class="caption-text">Influence of the Thickness parameter of the Sketch 1 style</span><a class="headerlink" href="#id14" title="Permalink to this image">¶</a></p>
+</div>
+<div class="figure align-default" id="id15">
+<a class="reference internal image-reference" href="_images/visualstyle_pld_sketch1Bis.gif"><img alt="_images/visualstyle_pld_sketch1Bis.gif" src="_images/visualstyle_pld_sketch1Bis.gif" style="width: 905.5px; height: 701.5px;" /></a>
+<p class="caption"><span class="caption-text">Influence of the Sensitivity parameter of the Sketch 1 style.</span><a class="headerlink" href="#id15" title="Permalink to this image">¶</a></p>
+</div>
 </div>
 </div>
 <div class="section" id="sketch-2">
@@ -304,7 +332,11 @@ Interreflections (i.e. light paths with several bounces) and self shadowing (par
 </div>
 <div class="section" id="normals">
 <h3>Normals<a class="headerlink" href="#normals" title="Permalink to this headline">¶</a></h3>
-<p>See <a class="reference internal" href="technologies.html#normalmap"><span class="std std-ref">Normal map</span></a>.</p>
+<p>See <a class="reference internal" href="pld.html#normal-map"><span class="std std-ref">Normal map</span></a>.</p>
+<div class="figure align-default" id="id16">
+<a class="reference internal image-reference" href="_images/visualstyle_pld_normals.png"><img alt="_images/visualstyle_pld_normals.png" src="_images/visualstyle_pld_normals.png" style="width: 905.5px; height: 701.5px;" /></a>
+<p class="caption"><span class="caption-text">Normal style showing the surface orientation. For more information see <a class="reference internal" href="pld.html#normal-map"><span class="std std-ref">Normal map</span></a>.</span><a class="headerlink" href="#id16" title="Permalink to this image">¶</a></p>
+</div>
 <div class="section" id="id8">
 <h4>Parameters<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h4>
 <ul class="simple">
