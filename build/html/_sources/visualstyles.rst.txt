@@ -6,9 +6,9 @@ PLD and RTI have developed a plethora of styles to visualize their higher dimens
 
 PLD
 ====
-Default Color
+Default color
 --------------
-The 'Default Color' style implements how a diffuse material reflects light and is as such the inverse of the principle of Photometric Stereo (in which the albedo and surface normal get disentangled, see :ref:`PLDAlgorithm`). In computer graphics and computer vision, this model is sometimes referred to as Lambertian reflectance. The reflected intensity is proportional to the cosine of the angle between the light direction and the normal vector. 
+The 'Default color' style implements how a diffuse material reflects light and is as such the inverse of the principle of Photometric Stereo (in which the albedo and surface normal get disentangled, see :ref:`PLDAlgorithm`). In computer graphics and computer vision, this model is sometimes referred to as Lambertian reflectance. The reflected intensity is proportional to the cosine of the angle between the light direction and the normal vector. 
 
 A beam of light falling on an object has a certain amount of energy. If the surface of the object is perpendicular to the light direction, it receives the highest amount of energy per area. When the surface is tilted with respect to the light direction, the same amount of energy gets spread across a bigger area, resulting in a lower energy density received by the surface. 
 
@@ -28,12 +28,12 @@ Parameters
 .. figure:: _static/images/visualstyle_pld_defColor.gif
    :scale: 50 %
 
-   Alternating the virtual light position in PLD's Default Color style.
+   Alternating the virtual light position in PLD's Default color style.
 
 Shaded
 -------
 
-This visual style is the same as the Default Color style, except that the Albedo is set to a uniform value. By removing the local color information from the image, a more careful study of the surface orientation (see :ref:`normalMap`) is possible by carefully changing the virtual light direction.
+This visual style is the same as the Default color style, except that the Albedo is set to a uniform value. By removing the local color information from the image, a more careful study of the surface orientation (see :ref:`normalMap`) is possible by carefully changing the virtual light direction.
 
 Parameters
 +++++++++++
@@ -44,7 +44,7 @@ Parameters
 .. figure:: _static/images/visualstyle_pld_shaded.gif
    :scale: 50 %
 
-   PLD's shaded mode allows for a more careful study of surface orientation w.r.t. the Default Color style.
+   PLD's shaded mode allows for a more careful study of surface orientation w.r.t. the Default color style.
 
 Shaded exaggerated
 -------------------
@@ -142,5 +142,22 @@ Parameters
 +++++++++++
 * Normal source. For white light recordings, a single normal map is calculated. For multi spectral recordings, a normal map per spectral band is calculated.
 
-RTI
+HSH RTI
+=======
+Default color
+-------------
+
+Specular enhancement
+---------------------
+
+HSH sharpening
+--------------
+
+PTM 
 ====
+
+Default color
+-------------
+
+Specular enhancement
+---------------------
