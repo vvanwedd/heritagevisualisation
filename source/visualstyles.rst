@@ -6,6 +6,7 @@ PLD and RTI have developed a plethora of styles to visualize their higher dimens
 
 PLD
 ====
+
 Default color
 --------------
 The 'Default color' style implements how a diffuse material reflects light and is as such the inverse of the principle of Photometric Stereo (in which the albedo and surface normal get disentangled, see :ref:`PLDAlgorithm`). In computer graphics and computer vision, this model is sometimes referred to as Lambertian reflectance. The reflected intensity is proportional to the cosine of the angle between the light direction and the normal vector. 
@@ -29,6 +30,12 @@ Parameters
    :scale: 50 %
 
    Alternating the virtual light position in PLD's Default color style.
+   
+Necessary input maps
+++++++++++++++++++++
+
+* :ref:`normalMap`
+* either an :ref:`albedoMap` or :ref:`ambientMap`
 
 Shaded
 -------
@@ -45,6 +52,11 @@ Parameters
    :scale: 50 %
 
    PLD's shaded mode allows for a more careful study of surface orientation w.r.t. the Default color style.
+   
+ Necessary input maps
+++++++++++++++++++++
+
+* :ref:`normalMap`
 
 Shaded exaggerated
 -------------------
@@ -61,6 +73,11 @@ Parameters
    :scale: 50 %
 
    Alternating view of the Shaded and Shaded Exaggerated style.
+   
+Necessary input maps
+++++++++++++++++++++
+
+* :ref:`normalMap`
 
 Sharpen
 --------
@@ -86,6 +103,12 @@ Parameters
    :scale: 50 %
 
    Influence of the Size parameter of the Sharpen style.
+   
+Necessary input maps
+++++++++++++++++++++
+
+* :ref:`normalMap`
+* either an :ref:`albedoMap` or :ref:`ambientMap`
 
 Sketch 1
 ---------
@@ -107,6 +130,11 @@ Parameters
    :scale: 50 %
 
    Influence of the Sensitivity parameter of the Sketch 1 style.
+   
+Necessary input maps
+++++++++++++++++++++
+
+* :ref:`normalMap`
 
 Sketch 2
 ---------
@@ -118,6 +146,12 @@ Parameters
 * Sensitivity
 * Thickness
 
+Necessary input maps
+++++++++++++++++++++
+
+* :ref:`normalMap`
+* either an :ref:`albedoMap` or :ref:`ambientMap`
+
 Curvature
 -----------
 
@@ -127,6 +161,11 @@ Parameters
 * Normal source. For white light recordings, a single normal map is calculated. For multi spectral recordings, a normal map per spectral band is calculated.
 * Intensity
 * Area
+
+Necessary input maps
+++++++++++++++++++++
+
+* :ref:`normalMap`
 
 Normals
 --------
@@ -142,22 +181,101 @@ Parameters
 +++++++++++
 * Normal source. For white light recordings, a single normal map is calculated. For multi spectral recordings, a normal map per spectral band is calculated.
 
+Necessary input maps
+++++++++++++++++++++
+
+* :ref:`normalMap`
+
 HSH RTI
 =======
 Default color
 -------------
 
+The 'Default color' style renders the object in a photorealistic way. The level of light-varying detail that is captured depends on the amount of HSH basis functions that is used (which order is chosen during the creation of the HSH RTI file)
+
+Parameters
++++++++++++
+
+* The direction of the virtual light sources
+* The brightness of the virtual light sources
+
+Necessary input maps
+++++++++++++++++++++
+
+* HSH coefficients encoded either directly in an HSH RTI file or grouped per 3 as image data
+
 Specular enhancement
 ---------------------
 
+Sometimes, it's worthwhile to artificially boost the surface detail visibility. The Specular enhancement style achieves this by introducing a specular Phong term in the rendering equation. See also `Phong reflection model <https://en.wikipedia.org/wiki/Phong_reflection_model>`_. 
+
+Parameters
++++++++++++
+
+* The direction of the virtual light sources
+* The brightness of the virtual light sources
+* exp: Also sometimes known as alpha or the shininess constant. Increasing this value makes the appearance more mirrorlike - smaller specular highlights. 
+* Ks: The ratio of specular reflection on the incoming light
+* Kd: The ratio of diffuse reflection on the incoming light
+* Normal source
+
+Necessary input maps
+++++++++++++++++++++
+
+* HSH coefficients encoded either directly in an HSH RTI file or grouped per 3 as image data
+* Normal map, either calculated from the HSH coefficients or possibly, when using glTF, using another method (e.g. PLD or PTM)
+
 HSH sharpening
 --------------
+The 'HSH sharpening' style is the same as the 'Default color' style, but with the option to sharpen the HSH components. 2 parameters control the sharpening: Percentage and Size. See also `Unsharp masking <https://en.wikipedia.org/wiki/Unsharp_masking#Digital_unsharp_masking>`_.
+
+Parameters
++++++++++++
+* The direction of the virtual light sources
+* The brightness of the virtual light sources
+* Percentage
+* Size
+
+Necessary input maps
+++++++++++++++++++++
+
+* HSH coefficients encoded either directly in an HSH RTI file or grouped per 3 as image data
 
 PTM 
 ====
 
 Default color
 -------------
+The 'Default color' style renders the object in a photorealistic way. The level of light-varying detail that is captured depends on the order of the polynomial that is used during the creation of the PTM file.
+
+Parameters
++++++++++++
+* The direction of the virtual light sources
+* The brightness of the virtual light sources
+
+Necessary input maps
+++++++++++++++++++++
+
+* PTM basis functions encoded either directly in an HSH RTI file or grouped per 3 as image data
+
 
 Specular enhancement
 ---------------------
+
+Sometimes, it's worthwhile to artificially boost the surface detail visibility. The Specular enhancement style achieves this by introducing a specular Phong term in the rendering equation. See also `Phong reflection model <https://en.wikipedia.org/wiki/Phong_reflection_model>`_. 
+
+Parameters
++++++++++++
+* The direction of the virtual light sources
+* The brightness of the virtual light sources
+* exp: Also sometimes known as alpha or the shininess constant. Increasing this value makes the appearance more mirrorlike - smaller specular highlights. 
+* Ks: The ratio of specular reflection on the incoming light
+* Kd: The ratio of diffuse reflection on the incoming light
+* Normal source
+
+Necessary input maps
+++++++++++++++++++++
+
+* PTM coefficients encoded either directly in a PTM file or grouped per 3 as image data
+* Normal map, either calculated from the PTM coefficients or possibly, when using glTF, using another method (e.g. PLD or HSH RTI)
+
