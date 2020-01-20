@@ -57,7 +57,7 @@ heritage-visualisation.org
     <div class="carousel-item">
       <!--Mask color-->
       <div class="view">
-           <img class="d-block w-100" src="_static/images/index_carousel_domes.png" alt="Single Camera Multi Light Scanning">
+           <img class="d-block w-100" src="_static/images/index_carousel_multilightsinglecamera.jpg" alt="Single Camera Multi Light Scanning">
       </div>
 
       <!--Caption-->
