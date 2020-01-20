@@ -1,7 +1,7 @@
 pixel+ Viewer
 ===================================
 
-The pixel+ viewer is a WebGL based viewer for single camera, multi light recordings. Go directly to `the viewer <http://www.heritage-visualisation.org/viewer/viewer.php>`_ 
+The pixel+ viewer is a WebGL based viewer for single-camera, multi-light recordings. Go directly to `the viewer <http://www.heritage-visualisation.org/viewer/viewer.php>`_ 
 
 **How to cite the pixel+ viewer:**
 
