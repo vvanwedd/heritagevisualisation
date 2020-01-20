@@ -4,11 +4,11 @@ RTI
 =====
 Hardware
 ---------
-.. raw:: html
+.. figure:: _static/images/dome7OxfordClassics.jpg
+   :scale: 50 %
+   :alt: Example of an RTI dome
 
-    <img src="_static/images/dome7OxfordClassics.jpg" height="350px">
-  
-Example of a RTI dome as produced by `custom-imaging.co.uk <https://custom-imaging.co.uk/projects/dome-7/>`_ (their Dome 7).
+   Example of an RTI dome as produced by `custom-imaging.co.uk <https://custom-imaging.co.uk/projects/dome-7/>`_ (their Dome 7).
 
 There is a large variety of scanning equipment available, but in essence, both PLD and RTI require a set of images of an object that is illuminated from various known directions. 
 RTI has 2 types of recording equipment: The dome setups and the highlight RTI setup.
@@ -78,13 +78,13 @@ There is a large variety of scanning equipment available, but in essence, both P
 
 White Light Mecano Minidome | Multispectral Minidome | White Light Microdome | Multispectral Microdome
 
+.. figure:: _static/images/msmicrodome.jpg
+   :scale: 50 %
+   :alt:   Use of multispectral microdome (PLD system) to scan an Egyptian coffin (@ Art and History Museum, Brussels)
+   :figwidth: image
 
-.. raw:: html
+   Use of multispectral microdome (PLD system) to scan an Egyptian coffin (@ Art and History Museum, Brussels)
 
-    <img src="_static/images/msmicrodome.jpg" height="400px">
-  
-  Use of multispectral microdome (PLD system) to scan an Egyptian coffin (@ Art and History Museum, Brussels)
-  
 
 .. _PLDAlgorithm:
 

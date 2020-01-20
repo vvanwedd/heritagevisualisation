@@ -46,7 +46,7 @@ heritage-visualisation.org
       <div class="carousel-caption">
         <div class="animated fadeInDown">
             <a href="visualstyles.html"> <h2 class="h2-responsive">Visual Styles</h3></a>
-          <p>Discover the various visual styles with which single camera multi light recordingds can be viewed</p>
+          <p>Discover the various visual styles with which single camera multi light recordings can be viewed</p>
         </div>
       </div>
       <!--Caption-->

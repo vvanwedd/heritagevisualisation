@@ -8,19 +8,19 @@ So color seems to correlate with a specific wavelength. This is however an overs
 
 We humans typically have 3 types of cells in our eyes to distiguish color. Some men have 2, some women even have 4, but most of us have 3. 
 
-.. raw:: html
-    
-    <img src="_static/images/Cones_SMJ2_E.svg.png" height="250px">
+.. figure:: _static/images/Cones_SMJ2_E.svg.png
+   :scale: 20%
+   :alt: 
 
-  Normalized typical human cone cell responses (S, M, and L types) to monochromatic spectral stimuli. By Vanessaezekowitz at en.wikipedia, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=10514373
+   Normalized typical human cone cell responses (S, M, and L types) to monochromatic spectral stimuli. By Vanessaezekowitz at en.wikipedia, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=10514373
 
 A spectrum of light is being filtered in 3 different ways. First consider a spectral power distribution curve (of the light that is falling in our eye at a specific solid angle) 
 
-.. raw:: html
-    
-    <img src="_static/images/fluorescentlightingSPD.svg" height="250px">
+.. figure:: _static/images/fluorescentlightingSPD.svg
+   :scale: 13%
+   :alt:
 
-  The spectral density of a fluorescent light as a function of optical wavelength shows peaks at atomic transitions, indicated by the numbered arrows. Original:  Deglr6328 at English Wikipedia Derivative work:  RicHard-59 [CC BY-SA 3.0 (http://creativecommons.org/licenses/by-sa/3.0/)]
+   The spectral density of a fluorescent light as a function of optical wavelength shows peaks at atomic transitions, indicated by the numbered arrows. Original:  Deglr6328 at English Wikipedia Derivative work:  RicHard-59 [CC BY-SA 3.0 (http://creativecommons.org/licenses/by-sa/3.0/)]
 
 This light is filtered by our cones (ie. the SPD is multiplied by the S, M or L filtering function) Then, the integral across the entire spectrum is taken (ie. the area beneath the resulting curve of the multiplication) The end result are 3 numbers, the so called tristimulus values. The entire spectral power distribution curve is being compacted into 3 numbers, that we use to figure out the color.
 

@@ -118,6 +118,7 @@
 <li class="toctree-l2"><a class="reference internal" href="#pld">PLD</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#default-color">Default color</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#parameters">Parameters</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#necessary-input-maps">Necessary input maps</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="#shaded">Shaded</a><ul>
@@ -126,39 +127,65 @@
 </li>
 <li class="toctree-l3"><a class="reference internal" href="#shaded-exaggerated">Shaded exaggerated</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#id3">Parameters</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id4">Necessary input maps</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="#sharpen">Sharpen</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#id4">Parameters</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id5">Parameters</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id6">Necessary input maps</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="#sketch-1">Sketch 1</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#id5">Parameters</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id7">Parameters</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id8">Necessary input maps</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="#sketch-2">Sketch 2</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#id6">Parameters</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id9">Parameters</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id10">Necessary input maps</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="#curvature">Curvature</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#id7">Parameters</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id11">Parameters</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id12">Necessary input maps</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="#normals">Normals</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#id8">Parameters</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id13">Parameters</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id14">Necessary input maps</a></li>
 </ul>
 </li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#hsh-rti">HSH RTI</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#id9">Default color</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#specular-enhancement">Specular enhancement</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#hsh-sharpening">HSH sharpening</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id15">Default color</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id16">Parameters</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id17">Necessary input maps</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#specular-enhancement">Specular enhancement</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id18">Parameters</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id19">Necessary input maps</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#hsh-sharpening">HSH sharpening</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id21">Parameters</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id22">Necessary input maps</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#ptm">PTM</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#id10">Default color</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id11">Specular enhancement</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id23">Default color</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id24">Parameters</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id25">Necessary input maps</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#id26">Specular enhancement</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id28">Parameters</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id29">Necessary input maps</a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -246,10 +273,17 @@ Interreflections (i.e. light paths with several bounces) and self shadowing (par
 <li><p>Reflectance source: Albedo (see <a class="reference internal" href="singlecameramultilight.html#albedomap"><span class="std std-ref">Albedo map</span></a>) vs. Ambient (see <a class="reference internal" href="singlecameramultilight.html#ambientmap"><span class="std std-ref">Ambient map</span></a>)</p></li>
 <li><p>Normal source. For white light recordings, a single normal map is calculated. For multi spectral recordings, a normal map per spectral band is calculated.</p></li>
 </ul>
-<div class="figure align-default" id="id12">
+<div class="figure align-default" id="id30">
 <a class="reference internal image-reference" href="_images/visualstyle_pld_defColor.gif"><img alt="_images/visualstyle_pld_defColor.gif" src="_images/visualstyle_pld_defColor.gif" style="width: 905.5px; height: 701.5px;" /></a>
-<p class="caption"><span class="caption-text">Alternating the virtual light position in PLD’s Default color style.</span><a class="headerlink" href="#id12" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">Alternating the virtual light position in PLD’s Default color style.</span><a class="headerlink" href="#id30" title="Permalink to this image">¶</a></p>
 </div>
+</div>
+<div class="section" id="necessary-input-maps">
+<h4>Necessary input maps<a class="headerlink" href="#necessary-input-maps" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><a class="reference internal" href="singlecameramultilight.html#normalmap"><span class="std std-ref">Normal map</span></a></p></li>
+<li><p>either an <a class="reference internal" href="singlecameramultilight.html#albedomap"><span class="std std-ref">Albedo map</span></a> or <a class="reference internal" href="singlecameramultilight.html#ambientmap"><span class="std std-ref">Ambient map</span></a></p></li>
+</ul>
 </div>
 </div>
 <div class="section" id="shaded">
@@ -262,10 +296,13 @@ Interreflections (i.e. light paths with several bounces) and self shadowing (par
 <li><p>The brightness of the virtual light sources</p></li>
 <li><p>Normal source. For white light recordings, a single normal map is calculated. For multi spectral recordings, a normal map per spectral band is calculated.</p></li>
 </ul>
-<div class="figure align-default" id="id13">
-<a class="reference internal image-reference" href="_images/visualstyle_pld_shaded.gif"><img alt="_images/visualstyle_pld_shaded.gif" src="_images/visualstyle_pld_shaded.gif" style="width: 905.5px; height: 701.5px;" /></a>
-<p class="caption"><span class="caption-text">PLD’s shaded mode allows for a more careful study of surface orientation w.r.t. the Default color style.</span><a class="headerlink" href="#id13" title="Permalink to this image">¶</a></p>
+<div class="figure align-default">
+<img alt="_static/images/visualstyle_pld_shaded.gif:scale:50%" src="_static/images/visualstyle_pld_shaded.gif:scale:50%" />
 </div>
+<hr class="docutils" />
+<ul class="simple">
+<li><p><a class="reference internal" href="singlecameramultilight.html#normalmap"><span class="std std-ref">Normal map</span></a></p></li>
+</ul>
 </div>
 </div>
 <div class="section" id="shaded-exaggerated">
@@ -278,17 +315,23 @@ Interreflections (i.e. light paths with several bounces) and self shadowing (par
 <li><p>The brightness of the virtual light sources</p></li>
 <li><p>Normal source. For white light recordings, a single normal map is calculated. For multi spectral recordings, a normal map per spectral band is calculated.</p></li>
 </ul>
-<div class="figure align-default" id="id14">
+<div class="figure align-default" id="id31">
 <a class="reference internal image-reference" href="_static/images/visualstyle_pld_shadedExag.gif"><img alt="_static/images/visualstyle_pld_shadedExag.gif" src="_static/images/visualstyle_pld_shadedExag.gif" /></a>
-<p class="caption"><span class="caption-text">Alternating view of the Shaded and Shaded Exaggerated style.</span><a class="headerlink" href="#id14" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">Alternating view of the Shaded and Shaded Exaggerated style.</span><a class="headerlink" href="#id31" title="Permalink to this image">¶</a></p>
 </div>
+</div>
+<div class="section" id="id4">
+<h4>Necessary input maps<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><a class="reference internal" href="singlecameramultilight.html#normalmap"><span class="std std-ref">Normal map</span></a></p></li>
+</ul>
 </div>
 </div>
 <div class="section" id="sharpen">
 <h3>Sharpen<a class="headerlink" href="#sharpen" title="Permalink to this headline">¶</a></h3>
 <p>This visual style is the same as the Color style, except that the color map is sharpened. 2 parameters control the sharpening: Percentage and Size. See also <a class="reference external" href="https://en.wikipedia.org/wiki/Unsharp_masking#Digital_unsharp_masking">Unsharp masking</a>.</p>
-<div class="section" id="id4">
-<h4>Parameters<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h4>
+<div class="section" id="id5">
+<h4>Parameters<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h4>
 <ul class="simple">
 <li><p>The direction of the virtual light sources</p></li>
 <li><p>The brightness of the virtual light sources</p></li>
@@ -298,92 +341,206 @@ Interreflections (i.e. light paths with several bounces) and self shadowing (par
 <li><p>Percentage</p></li>
 <li><p>Size</p></li>
 </ul>
-<div class="figure align-default" id="id15">
+<div class="figure align-default" id="id32">
 <a class="reference internal image-reference" href="_images/visualstyle_pld_sharpen.gif"><img alt="_images/visualstyle_pld_sharpen.gif" src="_images/visualstyle_pld_sharpen.gif" style="width: 905.5px; height: 701.5px;" /></a>
-<p class="caption"><span class="caption-text">Influence of the Percentage parameter of the Sharpen style</span><a class="headerlink" href="#id15" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">Influence of the Percentage parameter of the Sharpen style</span><a class="headerlink" href="#id32" title="Permalink to this image">¶</a></p>
 </div>
-<div class="figure align-default" id="id16">
+<div class="figure align-default" id="id33">
 <a class="reference internal image-reference" href="_images/visualstyle_pld_sharpenBis.gif"><img alt="_images/visualstyle_pld_sharpenBis.gif" src="_images/visualstyle_pld_sharpenBis.gif" style="width: 905.5px; height: 701.5px;" /></a>
-<p class="caption"><span class="caption-text">Influence of the Size parameter of the Sharpen style.</span><a class="headerlink" href="#id16" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">Influence of the Size parameter of the Sharpen style.</span><a class="headerlink" href="#id33" title="Permalink to this image">¶</a></p>
 </div>
+</div>
+<div class="section" id="id6">
+<h4>Necessary input maps<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><a class="reference internal" href="singlecameramultilight.html#normalmap"><span class="std std-ref">Normal map</span></a></p></li>
+<li><p>either an <a class="reference internal" href="singlecameramultilight.html#albedomap"><span class="std std-ref">Albedo map</span></a> or <a class="reference internal" href="singlecameramultilight.html#ambientmap"><span class="std std-ref">Ambient map</span></a></p></li>
+</ul>
 </div>
 </div>
 <div class="section" id="sketch-1">
 <h3>Sketch 1<a class="headerlink" href="#sketch-1" title="Permalink to this headline">¶</a></h3>
 <p>This visual style is inspired by pencil drawings of objects with local relief like cuneiform tablets. Where the surface direction locally abrubtly changes, a black pixel value is set.</p>
-<div class="section" id="id5">
-<h4>Parameters<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h4>
+<div class="section" id="id7">
+<h4>Parameters<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h4>
 <ul class="simple">
 <li><p>Normal source. For white light recordings, a single normal map is calculated. For multi spectral recordings, a normal map per spectral band is calculated.</p></li>
 <li><p>Sensitivity</p></li>
 <li><p>Thickness</p></li>
 </ul>
-<div class="figure align-default" id="id17">
+<div class="figure align-default" id="id34">
 <a class="reference internal image-reference" href="_images/visualstyle_pld_sketch1.gif"><img alt="_images/visualstyle_pld_sketch1.gif" src="_images/visualstyle_pld_sketch1.gif" style="width: 905.5px; height: 701.5px;" /></a>
-<p class="caption"><span class="caption-text">Influence of the Thickness parameter of the Sketch 1 style</span><a class="headerlink" href="#id17" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">Influence of the Thickness parameter of the Sketch 1 style</span><a class="headerlink" href="#id34" title="Permalink to this image">¶</a></p>
 </div>
-<div class="figure align-default" id="id18">
+<div class="figure align-default" id="id35">
 <a class="reference internal image-reference" href="_images/visualstyle_pld_sketch1Bis.gif"><img alt="_images/visualstyle_pld_sketch1Bis.gif" src="_images/visualstyle_pld_sketch1Bis.gif" style="width: 905.5px; height: 701.5px;" /></a>
-<p class="caption"><span class="caption-text">Influence of the Sensitivity parameter of the Sketch 1 style.</span><a class="headerlink" href="#id18" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">Influence of the Sensitivity parameter of the Sketch 1 style.</span><a class="headerlink" href="#id35" title="Permalink to this image">¶</a></p>
 </div>
+</div>
+<div class="section" id="id8">
+<h4>Necessary input maps<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><a class="reference internal" href="singlecameramultilight.html#normalmap"><span class="std std-ref">Normal map</span></a></p></li>
+</ul>
 </div>
 </div>
 <div class="section" id="sketch-2">
 <h3>Sketch 2<a class="headerlink" href="#sketch-2" title="Permalink to this headline">¶</a></h3>
-<div class="section" id="id6">
-<h4>Parameters<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h4>
+<div class="section" id="id9">
+<h4>Parameters<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h4>
 <ul class="simple">
 <li><p>Normal source. For white light recordings, a single normal map is calculated. For multi spectral recordings, a normal map per spectral band is calculated.</p></li>
 <li><p>Sensitivity</p></li>
 <li><p>Thickness</p></li>
+</ul>
+</div>
+<div class="section" id="id10">
+<h4>Necessary input maps<a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><a class="reference internal" href="singlecameramultilight.html#normalmap"><span class="std std-ref">Normal map</span></a></p></li>
+<li><p>either an <a class="reference internal" href="singlecameramultilight.html#albedomap"><span class="std std-ref">Albedo map</span></a> or <a class="reference internal" href="singlecameramultilight.html#ambientmap"><span class="std std-ref">Ambient map</span></a></p></li>
 </ul>
 </div>
 </div>
 <div class="section" id="curvature">
 <h3>Curvature<a class="headerlink" href="#curvature" title="Permalink to this headline">¶</a></h3>
-<div class="section" id="id7">
-<h4>Parameters<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h4>
+<div class="section" id="id11">
+<h4>Parameters<a class="headerlink" href="#id11" title="Permalink to this headline">¶</a></h4>
 <ul class="simple">
 <li><p>Normal source. For white light recordings, a single normal map is calculated. For multi spectral recordings, a normal map per spectral band is calculated.</p></li>
 <li><p>Intensity</p></li>
 <li><p>Area</p></li>
 </ul>
 </div>
+<div class="section" id="id12">
+<h4>Necessary input maps<a class="headerlink" href="#id12" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><a class="reference internal" href="singlecameramultilight.html#normalmap"><span class="std std-ref">Normal map</span></a></p></li>
+</ul>
+</div>
 </div>
 <div class="section" id="normals">
 <h3>Normals<a class="headerlink" href="#normals" title="Permalink to this headline">¶</a></h3>
 <p>See <a class="reference internal" href="pld.html#normal-map"><span class="std std-ref">Normal map</span></a>.</p>
-<div class="figure align-default" id="id19">
+<div class="figure align-default" id="id36">
 <a class="reference internal image-reference" href="_images/visualstyle_pld_normals.png"><img alt="_images/visualstyle_pld_normals.png" src="_images/visualstyle_pld_normals.png" style="width: 905.5px; height: 701.5px;" /></a>
-<p class="caption"><span class="caption-text">Normal style showing the surface orientation. For more information see <a class="reference internal" href="pld.html#normal-map"><span class="std std-ref">Normal map</span></a>.</span><a class="headerlink" href="#id19" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">Normal style showing the surface orientation. For more information see <a class="reference internal" href="pld.html#normal-map"><span class="std std-ref">Normal map</span></a>.</span><a class="headerlink" href="#id36" title="Permalink to this image">¶</a></p>
 </div>
-<div class="section" id="id8">
-<h4>Parameters<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h4>
+<div class="section" id="id13">
+<h4>Parameters<a class="headerlink" href="#id13" title="Permalink to this headline">¶</a></h4>
 <ul class="simple">
 <li><p>Normal source. For white light recordings, a single normal map is calculated. For multi spectral recordings, a normal map per spectral band is calculated.</p></li>
+</ul>
+</div>
+<div class="section" id="id14">
+<h4>Necessary input maps<a class="headerlink" href="#id14" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><a class="reference internal" href="singlecameramultilight.html#normalmap"><span class="std std-ref">Normal map</span></a></p></li>
 </ul>
 </div>
 </div>
 </div>
 <div class="section" id="hsh-rti">
 <h2>HSH RTI<a class="headerlink" href="#hsh-rti" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="id9">
-<h3>Default color<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id15">
+<h3>Default color<a class="headerlink" href="#id15" title="Permalink to this headline">¶</a></h3>
+<p>The ‘Default color’ style renders the object in a photorealistic way. The level of light-varying detail that is captured depends on the amount of HSH basis functions that is used (which order is chosen during the creation of the HSH RTI file)</p>
+<div class="section" id="id16">
+<h4>Parameters<a class="headerlink" href="#id16" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>The direction of the virtual light sources</p></li>
+<li><p>The brightness of the virtual light sources</p></li>
+</ul>
+</div>
+<div class="section" id="id17">
+<h4>Necessary input maps<a class="headerlink" href="#id17" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>HSH coefficients encoded either directly in an HSH RTI file or grouped per 3 as image data</p></li>
+</ul>
+</div>
 </div>
 <div class="section" id="specular-enhancement">
 <h3>Specular enhancement<a class="headerlink" href="#specular-enhancement" title="Permalink to this headline">¶</a></h3>
+<p>Sometimes, it’s worthwhile to artificially boost the surface detail visibility. The Specular enhancement style achieves this by introducing a specular Phong term in the rendering equation. See also <a class="reference external" href="https://en.wikipedia.org/wiki/Phong_reflection_model">Phong reflection model</a>.</p>
+<div class="section" id="id18">
+<h4>Parameters<a class="headerlink" href="#id18" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>The direction of the virtual light sources</p></li>
+<li><p>The brightness of the virtual light sources</p></li>
+<li><p>exp: Also sometimes known as alpha or the shininess constant. Increasing this value makes the appearance more mirrorlike - smaller specular highlights.</p></li>
+<li><p>Ks: The ratio of specular reflection on the incoming light</p></li>
+<li><p>Kd: The ratio of diffuse reflection on the incoming light</p></li>
+<li><p>Normal source</p></li>
+</ul>
+</div>
+<div class="section" id="id19">
+<h4>Necessary input maps<a class="headerlink" href="#id19" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>HSH coefficients encoded either directly in an HSH RTI file or grouped per 3 as image data</p></li>
+<li><p>Normal map, either calculated from the HSH coefficients or possibly, when using glTF, using another method (e.g. PLD or PTM)</p></li>
+</ul>
+</div>
 </div>
 <div class="section" id="hsh-sharpening">
 <h3>HSH sharpening<a class="headerlink" href="#hsh-sharpening" title="Permalink to this headline">¶</a></h3>
+<p>The ‘HSH sharpening’ style is the same as the ‘Default color’ style, but with the option to sharpen the HSH components. 2 parameters control the sharpening: Percentage and Size. See also <a class="reference external" href="https://en.wikipedia.org/wiki/Unsharp_masking#Digital_unsharp_masking">Unsharp masking</a>.</p>
+<div class="section" id="id21">
+<h4>Parameters<a class="headerlink" href="#id21" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>The direction of the virtual light sources</p></li>
+<li><p>The brightness of the virtual light sources</p></li>
+<li><p>Percentage</p></li>
+<li><p>Size</p></li>
+</ul>
+</div>
+<div class="section" id="id22">
+<h4>Necessary input maps<a class="headerlink" href="#id22" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>HSH coefficients encoded either directly in an HSH RTI file or grouped per 3 as image data</p></li>
+</ul>
+</div>
 </div>
 </div>
 <div class="section" id="ptm">
 <h2>PTM<a class="headerlink" href="#ptm" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="id10">
-<h3>Default color<a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id23">
+<h3>Default color<a class="headerlink" href="#id23" title="Permalink to this headline">¶</a></h3>
+<p>The ‘Default color’ style renders the object in a photorealistic way. The level of light-varying detail that is captured depends on the order of the polynomial that is used during the creation of the PTM file.</p>
+<div class="section" id="id24">
+<h4>Parameters<a class="headerlink" href="#id24" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>The direction of the virtual light sources</p></li>
+<li><p>The brightness of the virtual light sources</p></li>
+</ul>
 </div>
-<div class="section" id="id11">
-<h3>Specular enhancement<a class="headerlink" href="#id11" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id25">
+<h4>Necessary input maps<a class="headerlink" href="#id25" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>PTM basis functions encoded either directly in an HSH RTI file or grouped per 3 as image data</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="id26">
+<h3>Specular enhancement<a class="headerlink" href="#id26" title="Permalink to this headline">¶</a></h3>
+<p>Sometimes, it’s worthwhile to artificially boost the surface detail visibility. The Specular enhancement style achieves this by introducing a specular Phong term in the rendering equation. See also <a class="reference external" href="https://en.wikipedia.org/wiki/Phong_reflection_model">Phong reflection model</a>.</p>
+<div class="section" id="id28">
+<h4>Parameters<a class="headerlink" href="#id28" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>The direction of the virtual light sources</p></li>
+<li><p>The brightness of the virtual light sources</p></li>
+<li><p>exp: Also sometimes known as alpha or the shininess constant. Increasing this value makes the appearance more mirrorlike - smaller specular highlights.</p></li>
+<li><p>Ks: The ratio of specular reflection on the incoming light</p></li>
+<li><p>Kd: The ratio of diffuse reflection on the incoming light</p></li>
+<li><p>Normal source</p></li>
+</ul>
+</div>
+<div class="section" id="id29">
+<h4>Necessary input maps<a class="headerlink" href="#id29" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>PTM coefficients encoded either directly in a PTM file or grouped per 3 as image data</p></li>
+<li><p>Normal map, either calculated from the PTM coefficients or possibly, when using glTF, using another method (e.g. PLD or HSH RTI)</p></li>
+</ul>
+</div>
 </div>
 </div>
 </div>

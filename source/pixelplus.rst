@@ -17,17 +17,17 @@ Integration
 ===========
 Based on processed output files
 -------------------------------
-.. raw:: html
+.. figure:: _static/images/integration1.jpg
+   :scale: 17 %
+   :alt:
 
-    <img src="_static/images/integration1.jpg" height="450px">
-  
    Given the multitude of collections that have been scanned with both technologies, pixel+ allows to view processed files (cun, zun for PLD and ptm, rti for RTI) with filters of both technologies. It achieves this by calculating intermediate data file formats like normal maps and ambient maps.
 
 Based on original input files
 -------------------------------
-.. raw:: html
-
-    <img src="_static/images/integration2.jpg" height="450px">
+.. figure:: _static/images/integration2.jpg
+   :scale: 17 %
+   :alt:
  
    The best possible form of integration starts from the original input images as, compared to the previous integration method, no information is thrown away. Because both technologies require the same sort of input, i.e. a set of images lighted from various light directions, Pixel+ allows to apply both the PLD as well as the RTI pipeline on both RTI and PLD input data.
 
