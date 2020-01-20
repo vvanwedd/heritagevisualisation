@@ -1,11 +1,17 @@
 pixel+ Viewer
 ===================================
 
-The pixel+ viewer is a WebGL based viewer for single camera, multi light recordings. Go directly to `the viewer <http://www.heritage-visualisation.org/viewer/viewer.php>`_ 
+The pixel+ viewer is a WebGL based viewer for single-camera, multi-light recordings. Go directly to `the viewer <http://www.heritage-visualisation.org/viewer/viewer.php>`_ 
 
-The usage of the viewer is completely free, but please cite the following paper when publishing:
+**How to cite the pixel+ viewer:**
 
-Vanweddingen, V., Vastenhoud, C., Proesmans, M., Hameeuw, H., Vandermeulen, B., Van der Perre, A., ... & Van Gool, L. (2018, October). A Status Quaestionis and Future Solutions for Using Multi-light Reflectance Imaging Approaches for Preserving Cultural Heritage Artifacts. In Euro-Mediterranean Conference (pp. 204-211). Springer, Cham.
+If you are using the pixel+ viewer or results from the pixel+ viewer in one of your research articles or otherwise want to refer to it, please use the following format:
+
+  Vanweddingen V., Proesmans, M., Hameeuw, H., Vandermeulen, B., Van der Perre, A., Vastenhoud C., Lemmers F., Watteeuw. L., Van Gool L.  (2020). Pixel+ viewer, available from http://www.heritage-visualisation.org
+
+**Further reading:** 
+
+  Vanweddingen et al. (2018, October). A Status Quaestionis and Future Solutions for Using Multi-light Reflectance Imaging Approaches for Preserving Cultural Heritage Artifacts. In Euro-Mediterranean Conference (pp. 204-211). Springer, Cham.
 
 .. code ::
 
