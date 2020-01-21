@@ -40,7 +40,7 @@
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Contact" href="contact.html" />
-    <link rel="prev" title="Visual Styles" href="visualstyles.html" />
+    <link rel="prev" title="glTF" href="gltf.html" />
 <script src="_static/js/jquery.min.js"></script>
 <script src="_static/js/bootstrap.min.js"></script>
 
@@ -114,6 +114,7 @@
 <li class="toctree-l1"><a class="reference internal" href="pixelplus.html">pixel+ Project</a></li>
 <li class="toctree-l1"><a class="reference internal" href="examples.html">Examples</a></li>
 <li class="toctree-l1"><a class="reference internal" href="visualstyles.html">Visual Styles</a></li>
+<li class="toctree-l1"><a class="reference internal" href="gltf.html">glTF</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Background Material</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#color">Color</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#multi-spectral-imaging">Multi Spectral Imaging</a></li>
@@ -246,7 +247,7 @@ Secondly, we cannot rely on the fact that software that is written now will stil
         <a href="contact.html" class="btn btn-neutral float-right" title="Contact" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="visualstyles.html" class="btn btn-neutral float-left" title="Visual Styles" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="gltf.html" class="btn btn-neutral float-left" title="glTF" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -266,7 +267,19 @@ Secondly, we cannot rely on the fact that software that is written now will stil
   <a href="http://www.kbr.be"><img src="_static/images/logo_kbr.png"></a>
   <a href="http://www.belspo.be"><img src="_static/images/logo_belspo.jpg"></a>
 </div>
-
+<script>
+    $(window).on('load', function(){
+   /* $( ".wy-nav-content" ).add( "div" )
+                          .css({'position' : 'fixed', 'top':'0px', 'width':'100px', 'height':'100px', 'background-color':'yellow'});*/
+    var xPosViewerLinkDiv = $(document).width() - ($('.wy-nav-content').offset().left + $('.wy-nav-content').outerWidth())+10;
+   $( ".wy-nav-content" ).append('<div id="pixelplusViewerDiv" style="position:fixed;top:10px; width:200px;height:70px;z-index:10; right:'+xPosViewerLinkDiv+'px"><button onclick="window.location.href=\'http://www.heritage-visualisation.org/viewer/viewer.php\'">go to pixel+ Viewer</button></div>');                 
+  });
+  $(window).on('resize', function(){
+  
+   var xPosViewerLinkDiv = $(document).width() - ($('.wy-nav-content').offset().left + $('.wy-nav-content').outerWidth())-10;
+    $("#pixelplusViewerDiv").css('right',xPosViewerLinkDiv+'px');
+  });
+</script>
 
 
 </footer>
@@ -302,10 +315,7 @@ Secondly, we cannot rely on the fact that software that is written now will stil
 
     
   
-<!--<footer>
-<a href="http://www.kmkg-mrah.be/art-history-museum-0"><img src="_static/images/logo_ahm.png"></a>
-</footer>
- -->
+
 
 
 </body>
