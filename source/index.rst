@@ -81,7 +81,7 @@ heritage-visualisation.org
       <!--Caption-->
       <div class="carousel-caption">
         <div class="animated fadeInDown">
-            <a href="backgroundmaterial.html#gltf"> <h2 class="h2-responsive">glTF: The JPEG of 3D</h3></a>
+            <a href="gltf.html"> <h2 class="h2-responsive">glTF: The JPEG of 3D</h3></a>
           <p>Convert PLD, RTI and PTM file formats to glTF</p>
         </div>
       </div>
@@ -132,6 +132,7 @@ Finally, on the :ref:`backgroundmaterial:Background Material` page, you can read
    pixelplus 
    examples
    visualstyles
+   gltf
    backgroundmaterial
    contact
 
