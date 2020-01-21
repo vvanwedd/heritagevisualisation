@@ -49,3 +49,34 @@ Project partners
 
 Project timeline
 =================
+* Literature study of Single-Camera, Multi-Light scanning: Jan 2018 - Feb 2018
+* Proof of concept implementation in OS viewer of PLD-RTI-PTM integration based on processed output files: Mar 2018 - Jun 2018
+* Dissemination: Presenting "Pixel : Visualising Our Heritage." at DH Benelux 2018
+* Proof of concept implementation in OS viewer of PLD-RTI-PTM integration based on original input files: Jul 2018 - Sep 2018
+* pixel+ viewer: Framework + support for multi spectral + white light CUN/ZUN: Oct 2018 - Dec 2018
+* Dissemination: Presenting Euromed 2018 paper + poster in Cyprus: Oct 2018
+* Dissemination: Organizing workshop at Digital Heritage 2018 in San Francisco 
+* Documentation of PLD technology: Jan 2019 - Feb 2019
+* pixel+ viewer: implementation of PLD-RTI-PTM integration 1: Mar 2019 - May 2019
+* glTF implementation: June 2019
+* Dissemination web site: Framework + content: Jul 2019 - Oct 2019
+* First version of web viewer and dissemination site online: Nov 2019
+* Implementing changes to web viewer and dissemination site based on user's input: Dec 2019 - Present
+
+Future work:
+
+* glTF Conversion Tool: Feb 2020 - Mar 2020
+* Dissemination: Optics, Photonics and Digital Technologies for Imaging Applications VI, SPIE Photonics Europe 2020 29 March 2020 - 2 April 2020
+* pixel+ viewer: support for Relight RTI
+* Meta data handling in glTF
+* Saving of shader parameters
+
+Publications
+============
+
+* Hameeuw, H., Vanweddingen, V., Van Gool, L., Proesmans, M., Vastenhoud, C., Van Der Perre, A., Vandermeulen, B. and Watteeuw, G. "Pixel : Visualising Our Heritage." 2018. DH Benelux.
+* Vanweddingen, V., Vastenhoud, C., Proesmans, M., Hameeuw, H., Vandermeulen, B., Van der Perre, A., Lemmers, F., Watteeuw, L., Van Gool, L. "A Status Quaestionis and Future Solutions for Using Multi-Light Reflectance Imaging Approaches for Preserving Cultural Heritage Artifacts." Digital Heritage. Progress in Cultural Heritage: Documentation, Preservation, and Protection. EuroMed 2018. Lecture Notes in Computer Science, vol. 11197, 2018, pp. 204–211. (Best poster award)
+* Hameeuw, H., Vanweddingen, V., Proesmans, M., Vastenhoud, C.,  Vandermeulen, B., Van der Perre, A., Watteeuw, L., Lemmers, F.,  Van Gool, L., Schroer, C., Mudge, M., Earl, G. "Portable Light Domes in PIXEL+: Acquisition, Viewing, and Analysis." Digital Heritage 2018 3rd International Congress & Expo (San Fransisco)
+* Hameeuw, H., Vanweddingen, V.,  Vandermeulen, B., Vastenhoud, C., Watteeuw, L., Lemmers, F., Van der Perre, A., Konijn, P., Van Gool, L., Proesmans, M. "PIXEL+: integrating and standardizing of various interactive pixel-based imagery" SPIE Optics, Photonics and Digital Technologies for Imaging Applications VI 2020
+
+

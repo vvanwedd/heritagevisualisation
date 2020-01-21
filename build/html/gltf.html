@@ -209,42 +209,47 @@
 <h2>glTF<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
 <p><a class="reference external" href="https://www.khronos.org/gltf/">GL Transmission Format</a> is a specification that tackles this problem of slow runtime decoding and preparing of the data before it can be sent to the GPU.
 For Single-Camera, Multi-Light files, a minimal glTF implementation consists of a JSON typed file describing the various textures, including offset and scale values and images containing the per pixel RTI coefficients, PTM coefficients (both grouped as a triplet), Normal, Albedo and/or Ambient values.</p>
-<div class="highlight-json notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
-<span class="nt">&quot;width&quot;</span><span class="p">:</span> <span class="mi">2513</span><span class="p">,</span> <span class="nt">&quot;height&quot;</span><span class="p">:</span> <span class="mi">2190</span><span class="p">,</span>
-<span class="nt">&quot;pld&quot;</span><span class="p">:</span> <span class="p">[</span>
- <span class="p">{</span>
-   <span class="nt">&quot;ambTex&quot;</span><span class="p">:</span> <span class="s2">&quot;PLD_amb.png&quot;</span><span class="p">,</span>
-   <span class="nt">&quot;albTex&quot;</span><span class="p">:</span> <span class="s2">&quot;PLD_alb.png&quot;</span><span class="p">,</span>
-   <span class="nt">&quot;normalTex&quot;</span><span class="p">:</span> <span class="s2">&quot;PLD_nor.png&quot;</span>
- <span class="p">}</span>
- <span class="p">],</span>
-<span class="nt">&quot;hsh&quot;</span><span class="p">:</span> <span class="p">[</span>
-<span class="p">{</span>
- <span class="nt">&quot;hshCoef0&quot;</span><span class="p">:</span> <span class="p">[</span>
- <span class="p">{</span>
-  <span class="nt">&quot;bias&quot;</span><span class="p">:</span> <span class="mf">0.0189997</span><span class="p">,</span>
-  <span class="nt">&quot;scale&quot;</span><span class="p">:</span> <span class="mf">1.92338</span><span class="p">,</span>
-  <span class="nt">&quot;path&quot;</span><span class="p">:</span> <span class="s2">&quot;HSH_hsh0.png&quot;</span>
- <span class="p">}],</span>
- <span class="nt">&quot;hshCoef1&quot;</span><span class="p">:</span> <span class="p">[</span>
- <span class="p">{</span>
-  <span class="nt">&quot;bias&quot;</span><span class="p">:</span> <span class="mf">-0.910697</span><span class="p">,</span>
-  <span class="nt">&quot;scale&quot;</span><span class="p">:</span> <span class="mf">1.71449</span><span class="p">,</span>
-  <span class="nt">&quot;path&quot;</span><span class="p">:</span> <span class="s2">&quot;HSH_hsh1.png&quot;</span>
- <span class="p">}],</span>
- <span class="nt">&quot;hshCoef2&quot;</span><span class="p">:</span> <span class="p">[</span>
- <span class="p">{</span>
-  <span class="nt">&quot;bias&quot;</span><span class="p">:</span> <span class="mf">-0.2255</span><span class="p">,</span>
-  <span class="nt">&quot;scale&quot;</span><span class="p">:</span> <span class="mf">1.09892</span><span class="p">,</span>
-  <span class="nt">&quot;path&quot;</span><span class="p">:</span> <span class="s2">&quot;HSH_hsh2.png&quot;</span>
- <span class="p">}],</span>
- <span class="nt">&quot;hshCoef3&quot;</span><span class="p">:</span> <span class="p">[</span>
- <span class="p">{</span>
-  <span class="nt">&quot;bias&quot;</span><span class="p">:</span> <span class="mf">-0.829841</span><span class="p">,</span>
-  <span class="nt">&quot;scale&quot;</span><span class="p">:</span> <span class="mf">1.67125</span><span class="p">,</span>
-  <span class="nt">&quot;path&quot;</span><span class="p">:</span> <span class="s2">&quot;HSH_hsh3.png&quot;</span>
- <span class="p">}]</span>
-<span class="p">}</span>
+<div class="highlight-json notranslate"><div class="highlight"><pre><span></span>{
+&quot;width&quot;: 2513, &quot;height&quot;: 2190,
+&quot;pld&quot;: [
+ {
+   &quot;ambTex&quot;: &quot;PLD_amb.png&quot;,
+   &quot;albTex&quot;: &quot;PLD_alb.png&quot;,
+   &quot;normalTex&quot;: &quot;PLD_nor.png&quot;
+ }
+ ],
+&quot;hsh&quot;: [
+{
+ &quot;hshCoef0&quot;: [
+ {
+  &quot;bias&quot;: 0.0189997,
+  &quot;scale&quot;: 1.92338,
+  &quot;path&quot;: &quot;HSH_hsh0.png&quot;
+ }],
+ &quot;hshCoef1&quot;: [
+ {
+  &quot;bias&quot;: -0.910697,
+  &quot;scale&quot;: 1.71449,
+  &quot;path&quot;: &quot;HSH_hsh1.png&quot;
+ }],
+ &quot;hshCoef2&quot;: [
+ {
+  &quot;bias&quot;: -0.2255,
+  &quot;scale&quot;: 1.09892,
+  &quot;path&quot;: &quot;HSH_hsh2.png&quot;
+ }],
+ &quot;hshCoef3&quot;: [
+ {
+  &quot;bias&quot;: -0.829841,
+  &quot;scale&quot;: 1.67125,
+  &quot;path&quot;: &quot;HSH_hsh3.png&quot;
+ }]
+}
+
+glTF Conversion Tool
+====================
+
+Coming soon
 </pre></div>
 </div>
 </div>

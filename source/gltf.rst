@@ -67,4 +67,9 @@ For Single-Camera, Multi-Light files, a minimal glTF implementation consists of 
      "path": "HSH_hsh3.png"
     }]
    }
+
+   glTF Conversion Tool
+   ====================
+
+   Coming soon
     
