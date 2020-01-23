@@ -1,5 +1,33 @@
 heritage-visualisation.org
 ===================================
+Welcome to the website of Heritage–Visualisation.org.
+
+For the general public
+-----------------------
+Did you ever see what is hidden underneath the surface of an illumination or illustration? You know the how to read clay tablets more easily? How to share information with colleagues worldwide?
+Thanks to technological advancements, heritage scholars have nowadays a variety of tools available for –non destructive- research and examination of cultural heritage artefacts.
+By browsing the examples and following the instructions for lighting you will be able to view seemingly flat images from different perspectives.
+
+For Professionals
+------------------
+Thanks to technological advancements heritage scholars have nowadays a plethora of tools available to examine cultural heritage artefacts.
+
+This website tries to provide an overview of these :ref:`technologies:Heritage Scanning Methods` and focusses on one particular type, i.e. :ref:`singlecameramultilight:Single-Camera, Multi-Light Technology`.
+
+The pixel+ viewer is a WebGL based viewer for single camera, multi light recordings, i.e. PLD, RTI, PTM recordings. Go directly to `the viewer <http://www.heritage-visualisation.org/viewer/viewer.php>`_.
+
+Look at the :ref:`examples:Examples` for a brief glimpse of what can be seen with these kinds of recordings. Note that deep links to open these examples directly in the viewer have been made available as well.
+
+To fully appreciate what the pixel+ viewer can reveal, it is paramount to understand the various :ref:`visualstyles:Visual Styles`.
+
+Learn more about the :ref:`pixelplus:pixel+ Project`, of which this website and the pixel+ viewer are the major outcomes.
+
+Finally, on the :ref:`backgroundmaterial:Background Material` page, you can read about topics like color, multispectral imaging and long term preservation.
+
+Authors
+--------
+This site is maintained by a group of researchers in the Computer Vision and Cultural Heritage domains. The group focusses on spreading and development of new technologies for visualisation, beyond the human-eye. The group operates internationally and has its origin in Belgium.
+
 
 .. raw:: html
   
@@ -104,20 +132,6 @@ heritage-visualisation.org
   </div>
   <h2></h2>
   <!--Carousel Wrapper-->
-
-Thanks to technological advancements heritage scholars have nowadays a plethora of tools available to examine cultural heritage artefacts. 
-
-This website tries to provide an overview of these :ref:`technologies:Heritage Scanning Methods` and focusses on one particular type, i.e. :ref:`singlecameramultilight:Single-Camera, Multi-Light Technology`.
-
-The pixel+ viewer is a WebGL based viewer for single camera, multi light recordings, i.e. PLD, RTI, PTM recordings. Go directly to `the viewer <http://www.heritage-visualisation.org/viewer/viewer.php>`_. 
-
-Look at the :ref:`examples:Examples` for a brief glimpse of what can be seen with these kinds of recordings. Note that deep links to open these examples directly in the viewer have been made available as well.
-
-To fully appreciate what the pixel+ viewer can reveal, it is paramount to understand the various :ref:`visualstyles:Visual Styles`.
-
-Learn more about the :ref:`pixelplus:pixel+ Project`, of which this website and the pixel+ viewer are the major outcomes.
-
-Finally, on the :ref:`backgroundmaterial:Background Material` page, you can read about topics like color, multispectral imaging and long term preservation. 
 
 .. raw:: html
 
