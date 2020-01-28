@@ -31,30 +31,68 @@ Multiple Vantage Points Methods
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Passive Stereo
 --------------
+2 images of an object, taken at the same time but from different viewpoints. Typically the camera parameters (i.e. positions, orientations, focal lengths, radial and tangential distortion coefficients) are known, such that the position of a 3D point can be found using `triangulation <https://en.wikipedia.org/wiki/Triangulation_(computer_vision)>`_. This process can be repeated for every matched 2D keypoint pair in both images, resulting in a (sparse) point cloud. For a more in depth understanding of stereo vision and its extensions, the reference work on this topic is `Multiple View Geometry in computer vision <https://www.cambridge.org/core/books/multiple-view-geometry-in-computer-vision/0B6F289C78B2B23F596CAA76D3D43F7A>`_. The hardware typically consists of 2 cameras, placed in a rigid enclosure. The disparity (distance between the cameras) and camera parameters are typically chosen depending on the object to be scanned.
+
 Structure from Motion
 ---------------------
+For stationary objects, SfM allows the user to scan the object by taking several photos while moving a (regular consumer) camera. Depending on the exact algorithm and assumptions, the self-calibrated algorithm only needs a couple of images to estimate the camera parameters. 
+The hardware typically only consists of a single camera, although sometimes a collection of lenses and a lighting setup can be used to improve the results (of next parts of the pipeline). Free and Open Source implementations include `OpenSfM <https://github.com/mapillary/OpenSfM>`_ and `OpenMVG <https://github.com/openMVG/openMVG>`_. The result is a (sparse) point cloud and calibrated cameras. To get a dense point cloud or more detailed mesh reconstruction, Multi-View stereo libraries like `OpenMVS <https://github.com/cdcseacave/openMVS>`_ can be used. SfM is the first step of the popular software `Agisoft Metashape <https://www.agisoft.com/>`_.
+
 Shape from Silhouettes
 ----------------------
+Voxel carving, visual hull
+
 Active Methods
 ++++++++++++++
 Single Vantage Point Methods
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Time of Flight
 --------------
+A Time of Flight camera sends out coded signals (e.g. using NIR LEDs or lasers) and detects the round trip delay to the particular point, corresponding to the point's distance to the sensor. Typically the spatial resolution is much lower than other methods, as the sensor 
+
 Shape from Shading
 ------------------
 Multiple Vantage Points Methods
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Structured Light
 ----------------
+If the object to be scanned doesn't have enough textural variation or small 3D variation, feature detection and feature matching, 2 steps in the passive stereo algorithm, might fail. By replacing one of the cameras with a projector, a series of grids (e.g. a Gray code pattern sequence) or a single grid (e.g. for non-rigid objects) can be projected onto the object. Typically the camera-projector pair is, like the camera-camera pair of passive stereo, fully calibrated, so that triangulation becomes a relatively easy problem. 
 Active Stereo
 --------------
 Photometric Stereo
 -------------------
 
-Single-Camera, Multi-Light Technology (RTI, PTM, PLD)
+Multi-Light Technology
 =====================================================
-See :ref:`singlecameramultilight:Single-Camera, Multi-Light Technology`
+For a more in depth overview of RTI, PTM, PLD, see :ref:`singlecameramultilight:Single-Camera, Multi-Light Technology`
+
+Related work:
+
+- PTM/RTI: 
+    - Malzbender, T., Gelb, D., & Wolters, H. (2001, August). Polynomial texture maps. In Proceedings of the 28th annual conference on Computer graphics and interactive techniques (pp. 519-528).
+    - Drew, M. S., Hel-Or, Y., Malzbender, T., & Hajari, N. (2012). Robust estimation of surface properties and interpolation of shadow/specularity components. Image and Vision Computing, 30(4-5), 317-331.
+    - Zhang, M., & Drew, M. S. (2014). Efficient robust image interpolation and surface properties using polynomial texture mapping. EURASIP Journal on Image and Video Processing, 2014(1), 25.
+    - MacDonald, L. W. (2015). Realistic visualisation of cultural heritage objects (Doctoral dissertation, UCL (University College London)).
+    - Ponchio, F., Corsini, M., & Scopigno, R. (2018, June). A compact representation of relightable images for the web. In Proceedings of the 23rd International ACM Conference on 3D Web Technology (pp. 1-10).
+    - Irina, M. C., Tinsae, G. D., Andrea, G., Ruggero, P., Alberto, J. V., & Enrico, G. (2018, June). Artworks in the spotlight: characterization with a multispectral LED dome. In IOP Conference Series: Materials Science and Engineering (Vol. 364, No. 1, p. 012025). IOP Publishing.
+    - Pintus, R., Giachetti, A., Pintore, G., & Gobbetti, E. (2017). Guided robust matte-model fitting for accelerating multi-light reflectance processing techniques.
+
+
+- Photometric Stereo:
+    - Woodham, R. J. (1980). Photometric method for determining surface orientation from multiple images. Optical engineering, 19(1), 191139.
+    - Ackermann, J., & Goesele, M. (2015). A survey of photometric stereo techniques. Foundations and Trends® in Computer Graphics and Vision, 9(3-4), 149-254.
+    - Vandermeulen, B., Hameeuw, H., Watteeuw, L., Van Gool, L., & Proesmans, M. (2018, April). Bridging Multi-light & Multi-Spectral images to study, preserve and disseminate archival documents. In Archiving Conference (Vol. 2018, No. 1, pp. 64-69). Society for Imaging Science and Technology.
+    - Van der Perre, A., Hameeuw, H., Boschloos, V., Delvaux, L., Proesmans, M., Vandermeulen, B., ... & Watteeuw, L. (2016). Towards a combined use of IR, UV and 3D-Imaging for the study of small inscribed and illuminated artefacts. Lights on… Cultural Heritage and Museums!, 163-192.
+    - Watteeuw, L., Vandermeulen, B., & Proesmans, M. (2015). On the surface and beyond. an new approach with multispectral photometric stereo to assess illuminated manuscripts and their condition. Science and Engineering in Arts, Heritage and Archaeology, book of abstracts, 1, 103-103.
+
+
+- Multi-Light:
+    - Fattal, R., Agrawala, M., & Rusinkiewicz, S. (2007). Multiscale shape and detail enhancement from multi-light image collections. ACM Transactions on Graphics (TOG), 26(3), 51.
+    - Zheng, J., Li, Z., Rahardja, S., Yao, S., & Yao, W. (2010, March). Collaborative image processing algorithm for detail refinement and enhancement via multi-light images. In 2010 IEEE International Conference on Acoustics, Speech and Signal Processing (pp. 1382-1385). IEEE.
+    - Raskar, R., Tan, K. H., Feris, R., Yu, J., & Turk, M. (2004). Non-photorealistic camera: depth edge detection and stylized rendering using multi-flash imaging. ACM transactions on graphics (TOG), 23(3), 679-688.
+    - Cosentino, A., Stout, S., & Scandurra, C. (2015). Innovative imaging techniques for examination and documentation of mural paintings and historical graffiti in the catacombs of San Giovanni, Syracuse. International Journal of Conservation Science, 6(1), 23-34.
+
+
 
 Infrared Photography
 ====================
