@@ -1,33 +1,6 @@
 heritage-visualisation.org
 ===================================
-Welcome to the website of Heritage–Visualisation.org.
-
-For the general public
------------------------
-Did you ever see what is hidden underneath the surface of an illumination or illustration? You know the how to read clay tablets more easily? How to share information with colleagues worldwide?
-Thanks to technological advancements, heritage scholars have nowadays a variety of tools available for –non destructive- research and examination of cultural heritage artefacts.
-By browsing the examples and following the instructions for lighting you will be able to view seemingly flat images from different perspectives.
-
-For Professionals
-------------------
-Thanks to technological advancements heritage scholars have nowadays a plethora of tools available to examine cultural heritage artefacts.
-
-This website tries to provide an overview of these :ref:`technologies:Heritage Scanning Methods` and focusses on one particular type, i.e. :ref:`singlecameramultilight:Single-Camera, Multi-Light Technology`.
-
-The pixel+ viewer is a WebGL based viewer for single camera, multi light recordings, i.e. PLD, RTI, PTM recordings. Go directly to `the viewer <http://www.heritage-visualisation.org/viewer/viewer.php>`_.
-
-Look at the :ref:`examples:Examples` for a brief glimpse of what can be seen with these kinds of recordings. Note that deep links to open these examples directly in the viewer have been made available as well.
-
-To fully appreciate what the pixel+ viewer can reveal, it is paramount to understand the various :ref:`visualstyles:Visual Styles`.
-
-Learn more about the :ref:`pixelplus:pixel+ Project`, of which this website and the pixel+ viewer are the major outcomes.
-
-Finally, on the :ref:`backgroundmaterial:Background Material` page, you can read about topics like color, multispectral imaging and long term preservation.
-
-Authors
---------
-This site is maintained by a group of researchers in the Computer Vision and Cultural Heritage domains. The group focusses on spreading and development of new technologies for visualisation, beyond the human-eye. The group operates internationally and has its origin in Belgium.
-
+Welcome to the website of heritage–visualisation.org
 
 .. raw:: html
   
@@ -48,7 +21,7 @@ This site is maintained by a group of researchers in the Computer Vision and Cul
     <div class="carousel-item active">
       <!--Mask color-->
       <div class="view">
-       <img class="d-block w-100" src="_static/images/index_carousel_pixelplusviewer.png" alt="pixel+ Viewer">
+       <img class="d-block w-100" src="_static/images/index_carousel_pixelplusviewer_cropped.png" alt="pixel+ Viewer">
       </div>
       <!--Caption-->
       <div class="carousel-caption">
@@ -65,7 +38,7 @@ This site is maintained by a group of researchers in the Computer Vision and Cul
     <div class="carousel-item">
       <!--Mask color-->
       <div class="view">
-           <img class="d-block w-100" src="_static/images/index_carousel_visualstyles.png" alt="Visual Styles">
+           <img class="d-block w-100" src="_static/images/index_carousel_visualstyles_cropped.png" alt="Visual Styles">
 
         <!--<div class="mask rgba-purple-slight"></div>-->
       </div>
@@ -85,7 +58,7 @@ This site is maintained by a group of researchers in the Computer Vision and Cul
     <div class="carousel-item">
       <!--Mask color-->
       <div class="view">
-           <img class="d-block w-100" src="_static/images/index_carousel_multilightsinglecamera.jpg" alt="Single Camera Multi Light Scanning">
+           <img class="d-block w-100" src="_static/images/index_carousel_multilightsinglecamera_cropped.png" alt="Single Camera Multi Light Scanning">
       </div>
 
       <!--Caption-->
@@ -103,7 +76,7 @@ This site is maintained by a group of researchers in the Computer Vision and Cul
     <div class="carousel-item">
       <!--Mask color-->
       <div class="view">
-           <img class="d-block w-100" src="_static/images/index_carousel_gltf.png" alt="glTF: The JPEG of 3D">
+           <img class="d-block w-100" src="_static/images/index_carousel_gltf_cropped.png" alt="glTF: The JPEG of 3D">
       </div>
 
       <!--Caption-->
@@ -133,12 +106,42 @@ This site is maintained by a group of researchers in the Computer Vision and Cul
   <h2></h2>
   <!--Carousel Wrapper-->
 
+
+General public
+-----------------------
+Did you ever see what is hidden underneath the surface of an illumination or illustration? Do you know how to read clay tablets more easily? How to share information with colleagues worldwide?
+Thanks to technological advancements, heritage scholars have nowadays a variety of tools available for -non destructive- research and examination of cultural heritage artefacts.
+By browsing the :ref:`examples:Examples` and following the instructions for lighting you will be able to view seemingly flat images from different perspectives.
+
+Professionals
+------------------
+Thanks to technological advancements heritage scholars have nowadays a plethora of tools available to examine cultural heritage artefacts.
+
+This website tries to provide an overview of these :ref:`technologies:Heritage Scanning Methods` and focusses on one particular type, i.e. :ref:`singlecameramultilight:Single-Camera, Multi-Light Technology`.
+
+The pixel+ viewer is a WebGL based viewer for single camera, multi light recordings, i.e. PLD, RTI, PTM recordings. Go directly to `the viewer <http://www.heritage-visualisation.org/viewer/viewer.php>`_.
+
+Look at the :ref:`examples:Examples` for a brief glimpse of what can be seen with these kinds of recordings. Note that deep links to open these examples directly in the viewer have been made available as well.
+
+To fully appreciate what the pixel+ viewer can reveal, it is paramount to understand the various :ref:`visualstyles:Visual Styles`.
+
+Learn more about the :ref:`pixelplus:pixel+ Project`, of which this website and the pixel+ viewer are the major outcomes.
+
+Finally, on the :ref:`backgroundmaterial:Background Material` page, you can read about topics like color, multispectral imaging and long term preservation.
+
+Authors
+--------
+This site is maintained by a group of researchers in the Computer Vision and Cultural Heritage domains. The group focusses on spreading and development of new technologies for visualisation, beyond the human-eye. The group operates internationally and has its origin in Belgium.
+
+
+
+
 .. raw:: html
 
   <div style = "visibility: hidden; display:none;">
 
 .. toctree::
-   :caption: Table of Contents:
+   :caption: Contents:
    
    pixelplusviewer
    technologies

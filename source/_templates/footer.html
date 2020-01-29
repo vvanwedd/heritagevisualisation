@@ -21,5 +21,8 @@
    var xPosViewerLinkDiv = $(document).width() - ($('.wy-nav-content').offset().left + $('.wy-nav-content').outerWidth())-10;
     $("#pixelplusViewerDiv").css('right',xPosViewerLinkDiv+'px');
   });
+
+  $("[aria-label='breadcrumbs navigation']").css('display', 'none');
+  $(".rst-footer-buttons").css('display', 'none');
 </script>
 {% endblock %}

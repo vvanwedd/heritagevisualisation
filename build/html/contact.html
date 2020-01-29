@@ -71,7 +71,7 @@
     
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
-        <div class="wy-side-nav-search"  style="background: #737373" >
+        <div class="wy-side-nav-search"  style="background: #343131" >
           
 
           
@@ -105,7 +105,7 @@
               
             
             
-              <p class="caption"><span class="caption-text">Table of Contents:</span></p>
+              <p class="caption"><span class="caption-text">Contents:</span></p>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="pixelplusviewer.html">pixel+ Viewer</a></li>
 <li class="toctree-l1"><a class="reference internal" href="technologies.html">Heritage Scanning Methods</a></li>
@@ -231,6 +231,9 @@
    var xPosViewerLinkDiv = $(document).width() - ($('.wy-nav-content').offset().left + $('.wy-nav-content').outerWidth())-10;
     $("#pixelplusViewerDiv").css('right',xPosViewerLinkDiv+'px');
   });
+
+  $("[aria-label='breadcrumbs navigation']").css('display', 'none');
+  $(".rst-footer-buttons").css('display', 'none');
 </script>
 
 

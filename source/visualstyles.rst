@@ -53,7 +53,7 @@ Parameters
 
    PLD's shaded mode allows for a more careful study of surface orientation w.r.t. the Default color style.
    
- Necessary input maps
+Necessary input maps
 ++++++++++++++++++++
 
 * :ref:`normalMap`
@@ -69,7 +69,7 @@ Parameters
 * The brightness of the virtual light sources
 * Normal source. For white light recordings, a single normal map is calculated. For multi spectral recordings, a normal map per spectral band is calculated.
 
-.. figure:: _static/images/visualstyle_pld_shadedExag.gif
+.. figure:: _static/images/visualstyle_pld_shadedExa.gif
    :scale: 50 %
 
    Alternating view of the Shaded and Shaded Exaggerated style.
