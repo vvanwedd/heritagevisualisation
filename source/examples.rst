@@ -128,7 +128,7 @@ Static images: By comparing the RGB rendering to the left (how the object appear
 
 .. rubric:: Type dataset
 
-Multispectral single-camera multi-light acquisition dome (MS Microdome, PLD system), capture by Dieter Daemen.
+Multispectral single-camera multi-light acquisition dome (MS Microdome, PLD system), capture by Bruno Vandermeulen.
 
 .. rubric:: Open in web viewer
 
