@@ -3,7 +3,7 @@ heritage-visualisation.org
 Welcome to the website of heritage–visualisation.org
 
 .. raw:: html
-  
+
    <!--Carousel Wrapper-->
   <div id="video-carousel-example2" class="carousel slide carousel-fade" data-ride="carousel">
   <!--Indicators-->
@@ -142,15 +142,15 @@ This site is maintained by a group of researchers in the Computer Vision and Cul
 
 .. toctree::
    :caption: Contents:
-   
+
    pixelplusviewer
-   technologies
    singlecameramultilight
-   pixelplus 
+   pixelplus
+   gltf
    examples
    visualstyles
-   gltf
    backgroundmaterial
+   technologies
    contact
 
 .. raw:: html

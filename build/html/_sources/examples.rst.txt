@@ -124,11 +124,11 @@ Detail of illumination on folio 106 verso of Rijmbijbel of Jacob van Maerlant (c
 
 .. rubric:: What 
 
-Static images: By comparing the RGB rendering to the left (how the object appears to the human eye) with the rendering based on the reflections from the 850nm infrared light sources (in the middle), it can be observed the faces of the figures in the illumination have been over repainted at a certain moment in time. The false color rendering (to the right, combination of the infrared, red and green albedo responses: IRG) shows evidence different materials were used for this restoration when these additives are compared to the original pigments and inks. 
+Static images: By comparing the RGB rendering to the left (how the object appears to the human eye) with the rendering based on the reflections from the 850nm infrared light sources (in the middle), it can be observed the faces of the figures in the illumination have been over repainted at a certain moment in time. The false color rendering (to the right, combination of the infrared, red and green albedo responses: IRG) shows evidence different materials were used for this restoration when these additives are compared to the original pigments and inks. For more results with the Rijmbijbel datasets see [Microchemical2020]_.
 
 .. rubric:: Type dataset
 
-Multispectral single-camera multi-light acquisition dome (MS Microdome, PLD system), capture by Dieter Daemen.
+Multispectral single-camera multi-light acquisition dome (MS Microdome, PLD system), capture by Bruno Vandermeulen.
 
 .. rubric:: Open in web viewer
 
@@ -225,6 +225,7 @@ Multi spectral single-camera multi-light acquisition dome (MS Minidome, WL Minid
 .. [AppliedPhysicsA2016] https://doi.org/10.1007/s00339-016-0499-4
 .. [VAST2005] https://www.researchgate.net/publication/263128756_Easy_and_cost-effective_cuneiform_digitizing
 .. [Akkadica2011] https://www.researchgate.net/publication/263128428_New_Visualization_Techniques_for_Cuneiform_Texts_and_Sealings
+.. [Microchemical2020] https://doi.org/10.1016/j.microc.2019.104582 
 
 .. IR.1034 RTI
 .. ===========

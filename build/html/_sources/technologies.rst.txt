@@ -35,7 +35,7 @@ Passive Stereo
 
 Structure from Motion
 ---------------------
-For stationary objects, SfM allows the user to scan the object by taking several photos while moving a (regular consumer) camera. Depending on the exact algorithm and assumptions, the self-calibrated algorithm only needs a couple of images to estimate the camera parameters. 
+For stationary objects, SfM allows the user to scan the object by taking several photos while moving a (regular consumer) camera. Depending on the exact algorithm and assumptions, the self-calibrated algorithm only needs a couple of images to estimate the camera parameters.
 The hardware typically only consists of a single camera, although sometimes a collection of lenses and a lighting setup can be used to improve the results (of next parts of the pipeline). Free and Open Source implementations include `OpenSfM <https://github.com/mapillary/OpenSfM>`_ and `OpenMVG <https://github.com/openMVG/openMVG>`_. The result is a (sparse) point cloud and calibrated cameras. To get a dense point cloud or more detailed mesh reconstruction, Multi-View stereo libraries like `OpenMVS <https://github.com/cdcseacave/openMVS>`_ can be used. SfM is the first step of the popular software `Agisoft Metashape <https://www.agisoft.com/>`_.
 
 Shape from Silhouettes
@@ -48,7 +48,7 @@ Single Vantage Point Methods
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Time of Flight
 --------------
-A Time of Flight camera sends out coded signals (e.g. using NIR LEDs or lasers) and detects the round trip delay to the particular point, corresponding to the point's distance to the sensor. Typically the spatial resolution is much lower than other methods, as the sensor 
+A Time of Flight camera sends out coded signals (e.g. using NIR LEDs or lasers) and detects the round trip delay to the particular point, corresponding to the point's distance to the sensor. Typically the spatial resolution is much lower than other methods, as the sensor
 
 Shape from Shading
 ------------------
@@ -56,7 +56,8 @@ Multiple Vantage Points Methods
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Structured Light
 ----------------
-If the object to be scanned doesn't have enough textural variation or small 3D variation, feature detection and feature matching, 2 steps in the passive stereo algorithm, might fail. By replacing one of the cameras with a projector, a series of grids (e.g. a Gray code pattern sequence) or a single grid (e.g. for non-rigid objects) can be projected onto the object. Typically the camera-projector pair is, like the camera-camera pair of passive stereo, fully calibrated, so that triangulation becomes a relatively easy problem. 
+If the object to be scanned doesn't have enough textural variation or small 3D variation, feature detection and feature matching, 2 steps in the passive stereo algorithm, might fail. By replacing one of the cameras with a projector, a series of grids (e.g. a Gray code pattern sequence) or a single grid (e.g. for non-rigid objects) can be projected onto the object. Typically the camera-projector pair is, like the camera-camera pair of passive stereo, fully calibrated, so that triangulation becomes a relatively easy problem.
+
 Active Stereo
 --------------
 Photometric Stereo
@@ -64,26 +65,59 @@ Photometric Stereo
 
 Multi-Light Technology
 =====================================================
-For a more in depth overview of RTI, PTM, PLD, see :ref:`singlecameramultilight:Single-Camera, Multi-Light Technology`
+
+Single-Camera Multi-Light technology is a well studied research topic. This website and the pixel+ viewer focuses on PTM, HSH RTI, RELIGHT RTI and PLD. For a more in depth overview of these types, see :ref:`singlecameramultilight:Single-Camera, Multi-Light Technology`. Other RTI interpolation models for photo realistic relighting include Spherical Harmonics, Discrete Modal Decomposition and Deep Learning methods. From the set of multi light images directly or from the coefficients of the interpolation models, non photo realistic viewing styles have been developed to accentuate and reveal surface details. PLD follows a different approach and disentangles the shape and appearance information. The shape is modeled based on Photometric Stereo, whereas the appearance information is represented as a sparsely sampled lower dimensional BRDF. Shape and appearance modeling is studied in the fields of Computer Vision, Computer Graphics, and Optics and less relevant for heritage visualisation in Medical Imaging, Remote Sensing, Astrophysics, etc. Below is a compiled list of related material for background reading.
 
 Related work:
 
-- PTM/RTI: 
-    - Malzbender, T., Gelb, D., & Wolters, H. (2001, August). Polynomial texture maps. In Proceedings of the 28th annual conference on Computer graphics and interactive techniques (pp. 519-528).
-    - Drew, M. S., Hel-Or, Y., Malzbender, T., & Hajari, N. (2012). Robust estimation of surface properties and interpolation of shadow/specularity components. Image and Vision Computing, 30(4-5), 317-331.
++-----------------------------------------------------------------------------------+---------------------------+
+| Paper                                                                             | Keywords                  |
++===================================================================================+===========================+
+| | Malzbender, T., Gelb, D., & Wolters, H. (2001, August). Polynomial texture maps.|                           |
+| | In Proceedings of the 28th annual conference on Computer graphics and           | | PTM, RTI,               |
+| | interactive techniques (pp. 519-528).                                           | | Relightable Images      |
++-----------------------------------------------------------------------------------+---------------------------+
+| | Mudge, M., Malzbender, T., Chalmers, A., Scopigno, R., Davis, J., Wang, O., ... |                           |
+| | & Barbosa, J. (2008). Image-Based Empirical Information Acquisition, Scientific |                           |
+| | Reliability, and Long-Term Digital Preservation for the Natural Sciences and    | | PTM, RTI, HSH,          |
+| | Cultural Heritage. Eurographics (Tutorials), 2(4).                              | | Relightable Images      |
++-----------------------------------------------------------------------------------+---------------------------+
+| | Pitard, G., Le Goïc, G., Mansouri, A., Favrelière, H., Desage, S. F., Samper,   |                           |
+| | S. & Pillet, M. (2017). Discrete Modal Decomposition: a new approach for the    |                           |
+| | reflectance modeling and rendering of real surfaces. Machine Vision and         | | RTI, DCT,               |
+| | Applications, 28(5-6), 607-621.                                                 | | Relightable Images      |
++-----------------------------------------------------------------------------------+---------------------------+
+| | Drew, M. S., Hel-Or, Y., Malzbender, T., & Hajari, N. (2012). Robust estimation |                           |
+| | of surface properties and interpolation of shadow/specularity components. Image | | PTM, RTI,               |
+| | and Vision Computing, 30(4-5), 317-331.                                         |                           |
++-----------------------------------------------------------------------------------+---------------------------+
+| | Woodham, R. J. (1980). Photometric method for determining surface orientation   | | Photometric Stereo,     |
+| | from multiple images. Optical engineering, 19(1), 191139.                       | | Shape Extraction        |
++-----------------------------------------------------------------------------------+---------------------------+
+| | Ackermann, J., & Goesele, M. (2015). A survey of photometric stereo techniques. | | Photometric Stereo,     |
+| | Foundations and Trends® in Computer Graphics and Vision, 9(3-4), 149-254.       | | Shape Extraction, Depth |
+| |                                                                                 | | Integration             |
++-----------------------------------------------------------------------------------+---------------------------+
++-----------------------------------------------------------------------------------+---------------------------+
+
+- PTM/RTI:
     - Zhang, M., & Drew, M. S. (2014). Efficient robust image interpolation and surface properties using polynomial texture mapping. EURASIP Journal on Image and Video Processing, 2014(1), 25.
     - MacDonald, L. W. (2015). Realistic visualisation of cultural heritage objects (Doctoral dissertation, UCL (University College London)).
     - Ponchio, F., Corsini, M., & Scopigno, R. (2018, June). A compact representation of relightable images for the web. In Proceedings of the 23rd International ACM Conference on 3D Web Technology (pp. 1-10).
     - Irina, M. C., Tinsae, G. D., Andrea, G., Ruggero, P., Alberto, J. V., & Enrico, G. (2018, June). Artworks in the spotlight: characterization with a multispectral LED dome. In IOP Conference Series: Materials Science and Engineering (Vol. 364, No. 1, p. 012025). IOP Publishing.
     - Pintus, R., Giachetti, A., Pintore, G., & Gobbetti, E. (2017). Guided robust matte-model fitting for accelerating multi-light reflectance processing techniques.
+    -
+
+    - Peter, F., Andrea, B., Aeneas, K., & Lukas, R. (2017). Enhanced RTI for gloss reproduction. Electronic Imaging, 2017(8), 66-72.
+
 
 
 - Photometric Stereo:
-    - Woodham, R. J. (1980). Photometric method for determining surface orientation from multiple images. Optical engineering, 19(1), 191139.
-    - Ackermann, J., & Goesele, M. (2015). A survey of photometric stereo techniques. Foundations and Trends® in Computer Graphics and Vision, 9(3-4), 149-254.
+
     - Vandermeulen, B., Hameeuw, H., Watteeuw, L., Van Gool, L., & Proesmans, M. (2018, April). Bridging Multi-light & Multi-Spectral images to study, preserve and disseminate archival documents. In Archiving Conference (Vol. 2018, No. 1, pp. 64-69). Society for Imaging Science and Technology.
     - Van der Perre, A., Hameeuw, H., Boschloos, V., Delvaux, L., Proesmans, M., Vandermeulen, B., ... & Watteeuw, L. (2016). Towards a combined use of IR, UV and 3D-Imaging for the study of small inscribed and illuminated artefacts. Lights on… Cultural Heritage and Museums!, 163-192.
     - Watteeuw, L., Vandermeulen, B., & Proesmans, M. (2015). On the surface and beyond. an new approach with multispectral photometric stereo to assess illuminated manuscripts and their condition. Science and Engineering in Arts, Heritage and Archaeology, book of abstracts, 1, 103-103.
+    - Basri, R., Jacobs, D., & Kemelmacher, I. (2007). Photometric stereo with general, unknown lighting. International Journal of computer vision, 72(3), 239-257.
 
 
 - Multi-Light:
@@ -112,7 +146,7 @@ Optical Coherence Tomography
 Phase-Contrast X-ray Imaging
 ============================
 
-- Albertin, Fauzia & Astolfo, Alberto & Peccenini, Eva & Hwu, Yeukuang & Kaplan, Frederic & Margaritondo, G.. (2015). Ancient administrative handwritten documents: X-ray analysis and imaging. Journal of Synchrotron Radiation. 22. `doi: 10.1107/S1600577515000314 <https://doi.org/10.1107/S1600577515000314>_ 
+- Albertin, Fauzia & Astolfo, Alberto & Peccenini, Eva & Hwu, Yeukuang & Kaplan, Frederic & Margaritondo, G.. (2015). Ancient administrative handwritten documents: X-ray analysis and imaging. Journal of Synchrotron Radiation. 22. `doi: 10.1107/S1600577515000314 <https://doi.org/10.1107/S1600577515000314>_
 
 Photogrammetry
 ==============
@@ -128,7 +162,7 @@ Terahertz Imaging
 
 - Pastorelli, G., Trafela, T., Taday, P. F., Portieri, A., Lowe, D., Fukunaga, K., & Strlič, M. (2012). Characterisation of historic plastics using terahertz time-domain spectroscopy and pulsed imaging. Analytical and bioanalytical chemistry, 403(5), 1405-1414. `doi: 10.1007/s00216-012-5931-9 <https://doi.org/10.1007/s00216-012-5931-9>`_
 
-- `"Terahertz for Conservation of Paintings, Manuscripts and Artefacts" <https://web.archive.org/web/20130603025727/http://www.teraview.com/applications/nondestructive-testing/art.html>`_. TeraView. Archived from the original on 2013-06-03. 
+- `"Terahertz for Conservation of Paintings, Manuscripts and Artefacts" <https://web.archive.org/web/20130603025727/http://www.teraview.com/applications/nondestructive-testing/art.html>`_. TeraView. Archived from the original on 2013-06-03.
 
 Ultraviolet Photography
 =======================

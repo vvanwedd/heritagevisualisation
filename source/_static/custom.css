@@ -1,6 +1,10 @@
 body{
-    font-family: "Lato","proxima-nova","Helvetica Neue",Arial,sans-serif;
-
+    /*font-family: "Lato","proxima-nova","Helvetica Neue",Arial,sans-serif;*/
+    /*font-family: "Century Gothic","Apple Gothic",AppleGothic,"URW Gothic L","Avant Garde",Futura,sans-serif;*/
+    font-family: 'Didact Gothic', sans-serif !important;
+}
+h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend{
+  font-family: 'Didact Gothic', sans-serif !important;
 }
 .wy-nav-content {
     max-width: 1600px !important;
@@ -8,7 +12,7 @@ body{
 
 #footer-images img{
     margin-top: 20px;
-    height: 70px; 
+    height: 70px;
 }
 .carousel{
     margin-bottom: 25px;
@@ -24,7 +28,7 @@ body{
 
 }
 #pixelplusViewerDiv button{
-    background-color: #326A8F; 
+    background-color: #326A8F;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -38,24 +42,24 @@ body{
 h1, .h1 {
     font-size: 2.5rem;
   }
-  
+
   h2, .h2 {
     font-size: 1.75rem;
     margin-left: 20px;
   }
-  
+
   h3, .h3 {
     font-size: 1.5rem;
   }
-  
+
   h4, .h4 {
     font-size: 1.25rem;
   }
-  
+
   h5, .h5 {
     font-size: 1.12rem;
   }
-  
+
   h6, .h6 {
     font-size: 1rem;
   }

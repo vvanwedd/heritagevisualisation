@@ -39,13 +39,15 @@
   <link rel="stylesheet" href="_static/custom.css" type="text/css" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Single-Camera, Multi-Light Technology" href="singlecameramultilight.html" />
-    <link rel="prev" title="pixel+ Viewer" href="pixelplusviewer.html" />
+    <link rel="next" title="Contact" href="contact.html" />
+    <link rel="prev" title="Background Material" href="backgroundmaterial.html" />
 <script src="_static/js/jquery.min.js"></script>
 <script src="_static/js/bootstrap.min.js"></script>
 
+  <link href="https://fonts.googleapis.com/css?family=Didact+Gothic&display=swap&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext" rel="stylesheet">
+
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <!--<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">-->
   <!-- Bootstrap core CSS -->
   <link href="_static/css/bootstrap.min.css" rel="stylesheet">
   <!-- Material Design Bootstrap -->
@@ -109,6 +111,12 @@
               <p class="caption"><span class="caption-text">Contents:</span></p>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="pixelplusviewer.html">pixel+ Viewer</a></li>
+<li class="toctree-l1"><a class="reference internal" href="singlecameramultilight.html">Single-Camera, Multi-Light Technology</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pixelplus.html">pixel+ Project</a></li>
+<li class="toctree-l1"><a class="reference internal" href="gltf.html">glTF</a></li>
+<li class="toctree-l1"><a class="reference internal" href="examples.html">Examples</a></li>
+<li class="toctree-l1"><a class="reference internal" href="visualstyles.html">Visual Styles</a></li>
+<li class="toctree-l1"><a class="reference internal" href="backgroundmaterial.html">Background Material</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Heritage Scanning Methods</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#d-reconstruction-methods">3D Reconstruction Methods</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#passive-methods">Passive Methods</a><ul>
@@ -137,12 +145,6 @@
 <li class="toctree-l2"><a class="reference internal" href="#x-ray-microtomography">X-ray Microtomography</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="singlecameramultilight.html">Single-Camera, Multi-Light Technology</a></li>
-<li class="toctree-l1"><a class="reference internal" href="pixelplus.html">pixel+ Project</a></li>
-<li class="toctree-l1"><a class="reference internal" href="examples.html">Examples</a></li>
-<li class="toctree-l1"><a class="reference internal" href="visualstyles.html">Visual Styles</a></li>
-<li class="toctree-l1"><a class="reference internal" href="gltf.html">glTF</a></li>
-<li class="toctree-l1"><a class="reference internal" href="backgroundmaterial.html">Background Material</a></li>
 <li class="toctree-l1"><a class="reference internal" href="contact.html">Contact</a></li>
 </ul>
 
@@ -263,46 +265,136 @@ The hardware typically only consists of a single camera, although sometimes a co
 <h4>Multiple Vantage Points Methods<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h4>
 <div class="section" id="structured-light">
 <h5>Structured Light<a class="headerlink" href="#structured-light" title="Permalink to this headline">¶</a></h5>
-<p>If the object to be scanned doesn’t have enough textural variation or small 3D variation, feature detection and feature matching, 2 steps in the passive stereo algorithm, might fail. By replacing one of the cameras with a projector, a series of grids (e.g. a Gray code pattern sequence) or a single grid (e.g. for non-rigid objects) can be projected onto the object. Typically the camera-projector pair is, like the camera-camera pair of passive stereo, fully calibrated, so that triangulation becomes a relatively easy problem.
-Active Stereo
-————–
-Photometric Stereo
-——————-</p>
+<p>If the object to be scanned doesn’t have enough textural variation or small 3D variation, feature detection and feature matching, 2 steps in the passive stereo algorithm, might fail. By replacing one of the cameras with a projector, a series of grids (e.g. a Gray code pattern sequence) or a single grid (e.g. for non-rigid objects) can be projected onto the object. Typically the camera-projector pair is, like the camera-camera pair of passive stereo, fully calibrated, so that triangulation becomes a relatively easy problem.</p>
+</div>
+<div class="section" id="active-stereo">
+<h5>Active Stereo<a class="headerlink" href="#active-stereo" title="Permalink to this headline">¶</a></h5>
+</div>
+<div class="section" id="photometric-stereo">
+<h5>Photometric Stereo<a class="headerlink" href="#photometric-stereo" title="Permalink to this headline">¶</a></h5>
 </div>
 </div>
 </div>
 </div>
 <div class="section" id="multi-light-technology">
 <h2>Multi-Light Technology<a class="headerlink" href="#multi-light-technology" title="Permalink to this headline">¶</a></h2>
-<p>For a more in depth overview of RTI, PTM, PLD, see <a class="reference internal" href="singlecameramultilight.html#single-camera-multi-light-technology"><span class="std std-ref">Single-Camera, Multi-Light Technology</span></a></p>
+<p>Single-Camera Multi-Light technology is a well studied research topic. This website and the pixel+ viewer focuses on PTM, HSH RTI, RELIGHT RTI and PLD. For a more in depth overview of these types, see <a class="reference internal" href="singlecameramultilight.html#single-camera-multi-light-technology"><span class="std std-ref">Single-Camera, Multi-Light Technology</span></a>. Other RTI interpolation models for photo realistic relighting include Spherical Harmonics, Discrete Modal Decomposition and Deep Learning methods. From the set of multi light images directly or from the coefficients of the interpolation models, non photo realistic viewing styles have been developed to accentuate and reveal surface details. PLD follows a different approach and disentangles the shape and appearance information. The shape is modeled based on Photometric Stereo, whereas the appearance information is represented as a sparsely sampled lower dimensional BRDF. Shape and appearance modeling is studied in the fields of Computer Vision, Computer Graphics, and Optics and less relevant for heritage visualisation in Medical Imaging, Remote Sensing, Astrophysics, etc. Below is a compiled list of related material for background reading.</p>
 <p>Related work:</p>
-<ul class="simple">
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 75%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Paper</p></th>
+<th class="head"><p>Keywords</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><div class="line-block">
+<div class="line">Malzbender, T., Gelb, D., &amp; Wolters, H. (2001, August). Polynomial texture maps.</div>
+<div class="line">In Proceedings of the 28th annual conference on Computer graphics and</div>
+<div class="line">interactive techniques (pp. 519-528).</div>
+</div>
+</td>
+<td><div class="line-block">
+<div class="line">PTM, RTI,</div>
+<div class="line">Relightable Images</div>
+</div>
+</td>
+</tr>
+<tr class="row-odd"><td><div class="line-block">
+<div class="line">Mudge, M., Malzbender, T., Chalmers, A., Scopigno, R., Davis, J., Wang, O., …</div>
+<div class="line">&amp; Barbosa, J. (2008). Image-Based Empirical Information Acquisition, Scientific</div>
+<div class="line">Reliability, and Long-Term Digital Preservation for the Natural Sciences and</div>
+<div class="line">Cultural Heritage. Eurographics (Tutorials), 2(4).</div>
+</div>
+</td>
+<td><div class="line-block">
+<div class="line">PTM, RTI, HSH,</div>
+<div class="line">Relightable Images</div>
+</div>
+</td>
+</tr>
+<tr class="row-even"><td><div class="line-block">
+<div class="line">Pitard, G., Le Goïc, G., Mansouri, A., Favrelière, H., Desage, S. F., Samper,</div>
+<div class="line">S. &amp; Pillet, M. (2017). Discrete Modal Decomposition: a new approach for the</div>
+<div class="line">reflectance modeling and rendering of real surfaces. Machine Vision and</div>
+<div class="line">Applications, 28(5-6), 607-621.</div>
+</div>
+</td>
+<td><div class="line-block">
+<div class="line">RTI, DCT,</div>
+<div class="line">Relightable Images</div>
+</div>
+</td>
+</tr>
+<tr class="row-odd"><td><div class="line-block">
+<div class="line">Drew, M. S., Hel-Or, Y., Malzbender, T., &amp; Hajari, N. (2012). Robust estimation</div>
+<div class="line">of surface properties and interpolation of shadow/specularity components. Image</div>
+<div class="line">and Vision Computing, 30(4-5), 317-331.</div>
+</div>
+</td>
+<td><div class="line-block">
+<div class="line">PTM, RTI,</div>
+</div>
+</td>
+</tr>
+<tr class="row-even"><td><div class="line-block">
+<div class="line">Woodham, R. J. (1980). Photometric method for determining surface orientation</div>
+<div class="line">from multiple images. Optical engineering, 19(1), 191139.</div>
+</div>
+</td>
+<td><div class="line-block">
+<div class="line">Photometric Stereo,</div>
+<div class="line">Shape Extraction</div>
+</div>
+</td>
+</tr>
+<tr class="row-odd"><td><div class="line-block">
+<div class="line">Ackermann, J., &amp; Goesele, M. (2015). A survey of photometric stereo techniques.</div>
+<div class="line">Foundations and Trends® in Computer Graphics and Vision, 9(3-4), 149-254.</div>
+<div class="line"><br /></div>
+</div>
+</td>
+<td><div class="line-block">
+<div class="line">Photometric Stereo,</div>
+<div class="line">Shape Extraction, Depth</div>
+<div class="line">Integration</div>
+</div>
+</td>
+</tr>
+<tr class="row-even"><td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul>
 <li><dl class="simple">
-<dt>PTM/RTI:</dt><dd><ul>
-<li><p>Malzbender, T., Gelb, D., &amp; Wolters, H. (2001, August). Polynomial texture maps. In Proceedings of the 28th annual conference on Computer graphics and interactive techniques (pp. 519-528).</p></li>
-<li><p>Drew, M. S., Hel-Or, Y., Malzbender, T., &amp; Hajari, N. (2012). Robust estimation of surface properties and interpolation of shadow/specularity components. Image and Vision Computing, 30(4-5), 317-331.</p></li>
+<dt>PTM/RTI:</dt><dd><ul class="simple">
 <li><p>Zhang, M., &amp; Drew, M. S. (2014). Efficient robust image interpolation and surface properties using polynomial texture mapping. EURASIP Journal on Image and Video Processing, 2014(1), 25.</p></li>
 <li><p>MacDonald, L. W. (2015). Realistic visualisation of cultural heritage objects (Doctoral dissertation, UCL (University College London)).</p></li>
 <li><p>Ponchio, F., Corsini, M., &amp; Scopigno, R. (2018, June). A compact representation of relightable images for the web. In Proceedings of the 23rd International ACM Conference on 3D Web Technology (pp. 1-10).</p></li>
 <li><p>Irina, M. C., Tinsae, G. D., Andrea, G., Ruggero, P., Alberto, J. V., &amp; Enrico, G. (2018, June). Artworks in the spotlight: characterization with a multispectral LED dome. In IOP Conference Series: Materials Science and Engineering (Vol. 364, No. 1, p. 012025). IOP Publishing.</p></li>
 <li><p>Pintus, R., Giachetti, A., Pintore, G., &amp; Gobbetti, E. (2017). Guided robust matte-model fitting for accelerating multi-light reflectance processing techniques.</p></li>
+<li></li>
+<li><p>Peter, F., Andrea, B., Aeneas, K., &amp; Lukas, R. (2017). Enhanced RTI for gloss reproduction. Electronic Imaging, 2017(8), 66-72.</p></li>
 </ul>
 </dd>
 </dl>
 </li>
-<li><dl class="simple">
-<dt>Photometric Stereo:</dt><dd><ul>
-<li><p>Woodham, R. J. (1980). Photometric method for determining surface orientation from multiple images. Optical engineering, 19(1), 191139.</p></li>
-<li><p>Ackermann, J., &amp; Goesele, M. (2015). A survey of photometric stereo techniques. Foundations and Trends® in Computer Graphics and Vision, 9(3-4), 149-254.</p></li>
+<li><p>Photometric Stereo:</p>
+<blockquote>
+<div><ul class="simple">
 <li><p>Vandermeulen, B., Hameeuw, H., Watteeuw, L., Van Gool, L., &amp; Proesmans, M. (2018, April). Bridging Multi-light &amp; Multi-Spectral images to study, preserve and disseminate archival documents. In Archiving Conference (Vol. 2018, No. 1, pp. 64-69). Society for Imaging Science and Technology.</p></li>
 <li><p>Van der Perre, A., Hameeuw, H., Boschloos, V., Delvaux, L., Proesmans, M., Vandermeulen, B., … &amp; Watteeuw, L. (2016). Towards a combined use of IR, UV and 3D-Imaging for the study of small inscribed and illuminated artefacts. Lights on… Cultural Heritage and Museums!, 163-192.</p></li>
 <li><p>Watteeuw, L., Vandermeulen, B., &amp; Proesmans, M. (2015). On the surface and beyond. an new approach with multispectral photometric stereo to assess illuminated manuscripts and their condition. Science and Engineering in Arts, Heritage and Archaeology, book of abstracts, 1, 103-103.</p></li>
+<li><p>Basri, R., Jacobs, D., &amp; Kemelmacher, I. (2007). Photometric stereo with general, unknown lighting. International Journal of computer vision, 72(3), 239-257.</p></li>
 </ul>
-</dd>
-</dl>
+</div></blockquote>
 </li>
 <li><dl class="simple">
-<dt>Multi-Light:</dt><dd><ul>
+<dt>Multi-Light:</dt><dd><ul class="simple">
 <li><p>Fattal, R., Agrawala, M., &amp; Rusinkiewicz, S. (2007). Multiscale shape and detail enhancement from multi-light image collections. ACM Transactions on Graphics (TOG), 26(3), 51.</p></li>
 <li><p>Zheng, J., Li, Z., Rahardja, S., Yao, S., &amp; Yao, W. (2010, March). Collaborative image processing algorithm for detail refinement and enhancement via multi-light images. In 2010 IEEE International Conference on Acoustics, Speech and Signal Processing (pp. 1382-1385). IEEE.</p></li>
 <li><p>Raskar, R., Tan, K. H., Feris, R., Yu, J., &amp; Turk, M. (2004). Non-photorealistic camera: depth edge detection and stylized rendering using multi-flash imaging. ACM transactions on graphics (TOG), 23(3), 679-688.</p></li>
@@ -379,10 +471,10 @@ Photometric Stereo
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="singlecameramultilight.html" class="btn btn-neutral float-right" title="Single-Camera, Multi-Light Technology" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="contact.html" class="btn btn-neutral float-right" title="Contact" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="pixelplusviewer.html" class="btn btn-neutral float-left" title="pixel+ Viewer" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="backgroundmaterial.html" class="btn btn-neutral float-left" title="Background Material" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
