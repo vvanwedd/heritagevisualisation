@@ -66,39 +66,50 @@ Photometric Stereo
 Multi-Light Technology
 =====================================================
 
-Single-Camera Multi-Light technology is a well studied research topic. This website and the pixel+ viewer focuses on PTM, HSH RTI, RELIGHT RTI and PLD. For a more in depth overview of these types, see :ref:`singlecameramultilight:Single-Camera, Multi-Light Technology`. Other RTI interpolation models for photo realistic relighting include Spherical Harmonics, Discrete Modal Decomposition and Deep Learning methods. From the set of multi light images directly or from the coefficients of the interpolation models, non photo realistic viewing styles have been developed to accentuate and reveal surface details. PLD follows a different approach and disentangles the shape and appearance information. The shape is modeled based on Photometric Stereo, whereas the appearance information is represented as a sparsely sampled lower dimensional BRDF. Shape and appearance modeling is studied in the fields of Computer Vision, Computer Graphics, and Optics and less relevant for heritage visualisation in Medical Imaging, Remote Sensing, Astrophysics, etc. Below is a compiled list of related material for background reading.
+Single-Camera Multi-Light technology is a well studied research topic. This website and the pixel+ viewer focuses on PTM, HSH RTI, RELIGHT RTI and PLD. For a more in depth overview of these types, see :ref:`singlecameramultilight:Single-Camera, Multi-Light Technology`. Other RTI interpolation models for photo realistic relighting include Spherical Harmonics, Discrete Modal Decomposition and Deep Learning methods. From the set of multi light images directly or from the coefficients of the interpolation models, non photo realistic viewing styles have been developed to accentuate and reveal surface details. PLD follows a different approach and disentangles the shape and appearance information. The shape is modeled based on Photometric Stereo, whereas the appearance information is represented as a sparsely sampled lower dimensional BRDF. Shape and appearance modeling is studied in the fields of Computer Vision, Computer Graphics, Digital Heritage, and Optics and less relevant for heritage visualisation in Medical Imaging, Remote Sensing, Astrophysics, etc. Below is a compiled list of related material for background reading.
 
-Related work:
+.. list-table:: Single Camera Multi Light Background Material
+   :widths: 75 25
+   :header-rows: 1
 
-+-----------------------------------------------------------------------------------+---------------------------+
-| Paper                                                                             | Keywords                  |
-+===================================================================================+===========================+
-| | Malzbender, T., Gelb, D., & Wolters, H. (2001, August). Polynomial texture maps.|                           |
-| | In Proceedings of the 28th annual conference on Computer graphics and           | | PTM, RTI,               |
-| | interactive techniques (pp. 519-528).                                           | | Relightable Images      |
-+-----------------------------------------------------------------------------------+---------------------------+
-| | Mudge, M., Malzbender, T., Chalmers, A., Scopigno, R., Davis, J., Wang, O., ... |                           |
-| | & Barbosa, J. (2008). Image-Based Empirical Information Acquisition, Scientific |                           |
-| | Reliability, and Long-Term Digital Preservation for the Natural Sciences and    | | PTM, RTI, HSH,          |
-| | Cultural Heritage. Eurographics (Tutorials), 2(4).                              | | Relightable Images      |
-+-----------------------------------------------------------------------------------+---------------------------+
-| | Pitard, G., Le Goïc, G., Mansouri, A., Favrelière, H., Desage, S. F., Samper,   |                           |
-| | S. & Pillet, M. (2017). Discrete Modal Decomposition: a new approach for the    |                           |
-| | reflectance modeling and rendering of real surfaces. Machine Vision and         | | RTI, DCT,               |
-| | Applications, 28(5-6), 607-621.                                                 | | Relightable Images      |
-+-----------------------------------------------------------------------------------+---------------------------+
-| | Drew, M. S., Hel-Or, Y., Malzbender, T., & Hajari, N. (2012). Robust estimation |                           |
-| | of surface properties and interpolation of shadow/specularity components. Image | | PTM, RTI,               |
-| | and Vision Computing, 30(4-5), 317-331.                                         |                           |
-+-----------------------------------------------------------------------------------+---------------------------+
-| | Woodham, R. J. (1980). Photometric method for determining surface orientation   | | Photometric Stereo,     |
-| | from multiple images. Optical engineering, 19(1), 191139.                       | | Shape Extraction        |
-+-----------------------------------------------------------------------------------+---------------------------+
-| | Ackermann, J., & Goesele, M. (2015). A survey of photometric stereo techniques. | | Photometric Stereo,     |
-| | Foundations and Trends® in Computer Graphics and Vision, 9(3-4), 149-254.       | | Shape Extraction, Depth |
-| |                                                                                 | | Integration             |
-+-----------------------------------------------------------------------------------+---------------------------+
-+-----------------------------------------------------------------------------------+---------------------------+
+   * - Paper
+     - Keywords
+   * - Malzbender, T., Gelb, D., & Wolters, H. (2001, August). Polynomial texture maps. In Proceedings of the 28th annual conference on Computer graphics and interactive techniques (pp. 519-528).
+     - PTM, RTI, Photorealistic Relighting
+   * - Mudge, M., Malzbender, T., Chalmers, A., Scopigno, R., Davis, J., Wang, O., ... & Barbosa, J. (2008). Image-Based Empirical Information Acquisition, Scientific Reliability, and Long-Term Digital Preservation for the Natural Sciences and Cultural Heritage. Eurographics (Tutorials), 2(4).
+     - PTM, HSH, RTI, Photorealistic Relighting
+   * - Pitard, G., Le Goïc, G., Mansouri, A., Favrelière, H., Desage, S. F., Samper, S. & Pillet, M. (2017). Discrete Modal Decomposition: a new approach for the reflectance modeling and rendering of real surfaces. Machine Vision and Applications, 28(5-6), 607-621.
+     - RTI, DCT, Photorealistic Relighting
+   * - Drew, M. S., Hel-Or, Y., Malzbender, T., & Hajari, N. (2012). Robust estimation of surface properties and interpolation of shadow/specularity components. Image and Vision Computing, 30(4-5), 317-331.
+     - PTM, RTI, Photorealistic Relighting
+   * - Woodham, R. J. (1980). Photometric method for determining surface orientation from multiple images. Optical engineering, 19(1), 191139.
+     - Photometric Stereo, Shape Modeling
+   * - Ackermann, J., & Goesele, M. (2015). A survey of photometric stereo techniques. Foundations and Trends® in Computer Graphics and Vision, 9(3-4), 149-254.
+     - Photometric Stereo, Shape Modeling, Depth Integration
+   * - Hameeuw, H., Willems, G., Verbiest, F., Moreau, W., Van Lerberghe, K., & Van Gool, L. (2005). Easy and cost-effective cuneiform digitizing. In The 6th International Symposium on Virtual Reality, Archaeology and Cultural Heritage (VAST 2005) (pp. 73-80). Eurographics Association.
+     - PLD, Photometric Stereo, Photorealistic Relighting
+   * - Verbiest, F., Willems, G., & Van Gool, L. (2006). Image-based rendering for photo-realistic visualization. Virtual and Physical Prototyping, 1(1), 19-30.
+     - PLD, Photometric Stereo, Photorealistic Relighting
+   * - Willems, G., Verbiest, F., Vergauwen, M., & Van Gool, L. (2005, June). Real-time image based rendering from uncalibrated images. In Fifth International Conference on 3-D Digital Imaging and Modeling (3DIM'05) (pp. 221-228). IEEE 2005
+     - PLD, Photometric stereo, Photorealistic Relighting
+   * - Hameeuw, H., & Willems, G. (2011). New visualization techniques for cuneiform texts and sealings. Akkadica, 132(2), 163-178.
+     - PLD, Photometric stereo
+   * -  Watteeuw, L., Vandermeulen, B., & Proesmans, M. (2015). On the surface and beyond. an new approach with multispectral photometric stereo to assess illuminated manuscripts and their condition. Science and Engineering in Arts, Multispectral Imaging Heritage and Archaeology, book of abstracts, 1, 103-103.
+     - PLD, Photometric Stereo, Multispectral Imaging, Photorealistic Relighting
+   * - Van der Perre, A., Hameeuw, H., Boschloos, V., Delvaux, L., Proesmans, M., Vandermeulen, B., ... & Watteeuw, L. (2016). Towards a combined use of IR, UV and 3D-Imaging for the study of small inscribed and illuminated artefacts. Multispectral Imaging Lights on… Cultural Heritage and Museums!, 163-192.
+     - PLD, Photometric Stereo, Multispectral Imaging, Photorealistic Relighting
+   * - Vandermeulen, B., Hameeuw, H., Watteeuw, L., Van Gool, L., & Proesmans, M. (2018, April). Bridging Multi-light & Multi-Spectral images to study, preserve and disseminate archival documents. In Archiving Conference (Vol. 2018, No. 1, pp. 64-69). Society for Imaging Science and Technology.
+     - PLD, Photometric Stereo, Multispectral Imaging, Photorealistic Relighting
+   * - Hameeuw, H., Vanweddingen, V., Van Gool, L., Proesmans, M., Vastenhoud, C., Van Der Perre, A., Vandermeulen, B. and Watteeuw, G. Pixel : Visualising Our Heritage. 2018. DH Benelux.
+     - PLD, PTM, HSH, RTI, Photorealistic Relighting
+   * - Vanweddingen, V., Vastenhoud, C., Proesmans, M., Hameeuw, H., Vandermeulen, B., Van der Perre, A., Lemmers, F., Watteeuw, L., Van Gool, L. A Status Quaestionis and Future Solutions for Using Multi-Light Reflectance Imaging Approaches for Preserving Cultural Heritage Artifacts. Digital Heritage. Progress in Cultural Heritage: Documentation, Preservation, and Protection. EuroMed 2018. Lecture Notes in Computer Science, vol. 11197, 2018, pp. 204–211.
+     - PLD, PTM, HSH, RTI, Photorealistic Relighting
+   * - Hameeuw, H., Vanweddingen, V., Proesmans, M., Vastenhoud, C.,  Vandermeulen, B., Van der Perre, A., Watteeuw, L., Lemmers, F.,  Van Gool, L., Schroer, C., Mudge, M., Earl, G. Portable Light Domes in PIXEL+: Acquisition, Viewing, and Analysis. Digital Heritage 2018 3rd International Congress & Expo (San Fransisco)
+     - PLD, PTM, HSH, RTI, Photorealistic Relighting, Data Preservation
+   * - Hameeuw, H., Vanweddingen, V.,  Vandermeulen, B., Vastenhoud, C., Watteeuw, L., Lemmers, F., Van der Perre, A., Konijn, P., Van Gool, L., Proesmans, M. PIXEL+: integrating and standardizing of various interactive pixel-based imagery. SPIE Optics, Photonics and Digital Technologies for Imaging Applications VI 2020
+     - PLD, PTM, HSH, RTI, RELIGHT, Photorealistic Relighting, Data Preservation
+
+
 
 - PTM/RTI:
     - Zhang, M., & Drew, M. S. (2014). Efficient robust image interpolation and surface properties using polynomial texture mapping. EURASIP Journal on Image and Video Processing, 2014(1), 25.
@@ -114,9 +125,7 @@ Related work:
 
 - Photometric Stereo:
 
-    - Vandermeulen, B., Hameeuw, H., Watteeuw, L., Van Gool, L., & Proesmans, M. (2018, April). Bridging Multi-light & Multi-Spectral images to study, preserve and disseminate archival documents. In Archiving Conference (Vol. 2018, No. 1, pp. 64-69). Society for Imaging Science and Technology.
-    - Van der Perre, A., Hameeuw, H., Boschloos, V., Delvaux, L., Proesmans, M., Vandermeulen, B., ... & Watteeuw, L. (2016). Towards a combined use of IR, UV and 3D-Imaging for the study of small inscribed and illuminated artefacts. Lights on… Cultural Heritage and Museums!, 163-192.
-    - Watteeuw, L., Vandermeulen, B., & Proesmans, M. (2015). On the surface and beyond. an new approach with multispectral photometric stereo to assess illuminated manuscripts and their condition. Science and Engineering in Arts, Heritage and Archaeology, book of abstracts, 1, 103-103.
+
     - Basri, R., Jacobs, D., & Kemelmacher, I. (2007). Photometric stereo with general, unknown lighting. International Journal of computer vision, 72(3), 239-257.
 
 
