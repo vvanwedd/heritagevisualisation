@@ -3,10 +3,35 @@ Introduction
 About
 ######
 
-Plenty of methods exist to capture and study our heritage artefacts. Sadly, information about these methods is scattered across the Internet. This page tries to provide a high level overview.
+heritage-visualisation.org website is an initiative of the pixel+ project to promote enhanced visualisation solutions for the heritage community. It provides an overview of heritage scanning methods and focusses on one in particular: Single-Camera, Multi-Light technology.
+
+Several methods to capture and study heritage artifacts with the Single-Camera, Multi-Light technology exist. This website aims to bring together existing methods. To achieve this a new file format standard and integrated viewer platform have been created. 
+
+The website hosts the WebGL based `pixel+ viewer <http://culturalheritageimaging.org/Technologies/Digital_Lab_Notebook/index.html>`_which can handle several single-camera, multi-light datasets. 
+
+
+
+heritage-visualisation.org is maintained by a group of researchers in the Computer Vision and Cultural Heritage domains. The group focusses on the dissemination and development of new technologies for visualisation and has its origin in Belgium.
+
+
 
 A method's type of output, its benefits and shortcomings are very much technology dependent. Understanding and carefully documenting which method and scanning methodology was used, will help to valiorize scientific research results. See also the `Digital Lab Notebook <http://culturalheritageimaging.org/Technologies/Digital_Lab_Notebook/index.html>`_ initiative.
 For :ref:`singlecameramultilight:Single-Camera, Multi-Light Technology`, the main focus of this website, we've tried to provide the necessary reading material to appreciate this form of heritage capture. We've also provided a web viewer for these kinds of files and proposed a novel open source file type, based on popular existing file types, to make sure these kinds of recordings can be consulted in the future.
+
+
+
+
+
+Look at the Examples for a brief glimpse of what can be seen with these kinds of recordings. Note that deep links to open these examples directly in the viewer have been made available as well.
+
+To fully appreciate what the pixel+ viewer can reveal, it is paramount to understand the various Visual Styles.
+
+Learn more about the pixel+ Project, of which this website and the pixel+ viewer are the major outcomes.
+
+Finally, on the Background Material page, you can read about topics like color, multispectral imaging and long term preservation.
+Authors
+
+
 
 Heritage Visualisation Methods
 ###############################
