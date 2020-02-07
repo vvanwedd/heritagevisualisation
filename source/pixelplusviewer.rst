@@ -7,6 +7,13 @@ The unique features of the viewer are that it supports various interactive singl
 
 Go directly to `the viewer <http://www.heritage-visualisation.org/viewer/viewer.php>`_ 
 
+**Hands on**
+
+Pixel + provides @ :ref:`examples:Examples` a number of datasets of various heritage artifacts enabeling to explore the functionalities of the viewer.
+
+In order to explore the datasets the pixel+ viewer offers various :ref:`visualstyles:Visual styles`.
+
+
 
 **Further reading:** 
 
@@ -18,10 +25,11 @@ If you are using the pixel+ viewer or results from the pixel+ viewer in one of y
 
   Vanweddingen V., Proesmans, M., Hameeuw, H., Vandermeulen, B., Van der Perre, A., Vastenhoud C., Lemmers F., Watteeuw. L., Van Gool L.  (2020). Pixel+ viewer, available from http://www.heritage-visualisation.org
 
+**>>>**
 
-Look at the :ref:`examples:Examples` for a brief glimpse of what can be seen with these kinds of recordings. Note that deep links to open these examples directly in the viewer have been made available as well.
 
-To fully appreciate what the pixel+ viewer can reveal, it is paramount to understand the various :ref:`visualstyles:Visual styles`.
+
+
 
 For an overview of the 3D scanning technologies making these kinds of recordings possible, ie. RTI, PLD, PTM, look at the :ref:`singlecameramultilight:Single-Camera, Multi-Light Technology` page.
 
