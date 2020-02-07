@@ -7,11 +7,6 @@ The unique features of the viewer are that it supports various interactive singl
 
 Go directly to `the viewer <http://www.heritage-visualisation.org/viewer/viewer.php>`_ 
 
-**How to cite the pixel+ viewer:**
-
-If you are using the pixel+ viewer or results from the pixel+ viewer in one of your research articles or otherwise want to refer to it, please use the following format:
-
-  Vanweddingen V., Proesmans, M., Hameeuw, H., Vandermeulen, B., Van der Perre, A., Vastenhoud C., Lemmers F., Watteeuw. L., Van Gool L.  (2020). Pixel+ viewer, available from http://www.heritage-visualisation.org
 
 **Further reading:** 
 
@@ -27,6 +22,12 @@ If you are using the pixel+ viewer or results from the pixel+ viewer in one of y
     year={2018},
     organization={Springer}
   }
+
+**How to cite the pixel+ viewer:**
+
+If you are using the pixel+ viewer or results from the pixel+ viewer in one of your research articles or otherwise want to refer to it, please use the following format:
+
+  Vanweddingen V., Proesmans, M., Hameeuw, H., Vandermeulen, B., Van der Perre, A., Vastenhoud C., Lemmers F., Watteeuw. L., Van Gool L.  (2020). Pixel+ viewer, available from http://www.heritage-visualisation.org
 
 
 Look at the :ref:`examples:Examples` for a brief glimpse of what can be seen with these kinds of recordings. Note that deep links to open these examples directly in the viewer have been made available as well.
