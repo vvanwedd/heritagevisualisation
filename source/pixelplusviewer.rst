@@ -12,17 +12,6 @@ Go directly to `the viewer <http://www.heritage-visualisation.org/viewer/viewer.
 
   Vanweddingen et al. (2018, October). A Status Quaestionis and Future Solutions for Using Multi-light Reflectance Imaging Approaches for Preserving Cultural Heritage Artifacts. In Euro-Mediterranean Conference (pp. 204-211). Springer, Cham.
 
-.. code ::
-
-  @inproceedings{vanweddingen2018status,
-    title={A Status Quaestionis and Future Solutions for Using Multi-light Reflectance Imaging Approaches for Preserving Cultural Heritage Artifacts},
-    author={Vanweddingen, Vincent and Vastenhoud, Chris and Proesmans, Marc and Hameeuw, Hendrik and Vandermeulen, Bruno and Van der Perre, Athena and Lemmers, Frederic and Watteeuw, Lieve and Van Gool, Luc},
-    booktitle={Euro-Mediterranean Conference},
-    pages={204--211},
-    year={2018},
-    organization={Springer}
-  }
-
 **How to cite the pixel+ viewer:**
 
 If you are using the pixel+ viewer or results from the pixel+ viewer in one of your research articles or otherwise want to refer to it, please use the following format:
