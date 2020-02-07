@@ -1,7 +1,15 @@
 pixel+ Viewer
 ===================================
 
-The pixel+ viewer is an open source tool to upload various interactive single-camera multi-light datasets: CUN, ZUN, PTM, RTI or glTF. 
+The pixel+ viewer is a tool to visually analyse the surface of artifacts. It provides a realistic view of the interation between material and light. It goes beyond traditional photography as it allows the user to virtually interact with the surface of the object by manipulating the light and enlighting particular characteristics of the surface. 
+
+It acts as a light simulator   
+
+the multilayerd information of pixel 
+
+The pixel+ viewer is an open source tool to upload various interactive single-camera multi-light `datasets <http://www.heritage-visualisation.org/gltf.html>`_: CUN, ZUN, PTM, RTI or glTF. It offers the opportunity to combine the  
+
+
 is a WebGL based viewer for single-camera, multi-light recordings. Go directly to `the viewer <http://www.heritage-visualisation.org/viewer/viewer.php>`_ 
 
 **How to cite the pixel+ viewer:**
