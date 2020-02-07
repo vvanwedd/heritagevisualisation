@@ -7,21 +7,18 @@ The unique features of the viewer are that it supports various interactive singl
 
 Go directly to `the viewer <http://www.heritage-visualisation.org/viewer/viewer.php>`_ 
 
-**Hands on**
-
-Pixel + provides @ :ref:`examples:Examples` a number of datasets of various heritage artifacts enabeling to explore the functionalities of the viewer.
+Pixel + provides @ :ref:`examples:Examples` a number of datasets of various heritage artifacts enabling to explore the functionalities of the viewer.
 
 To explore the datasets the pixel+ viewer offers various :ref:`visualstyles:Visual styles`.
 
 
-
 **Further reading:** 
 
-  Vanweddingen et al. (2018, October). A Status Quaestionis and Future Solutions for Using Multi-light Reflectance Imaging Approaches for Preserving Cultural Heritage Artifacts. In Euro-Mediterranean Conference (pp. 204-211). Springer, Cham.
+Vanweddingen et al. (2018, October). A Status Quaestionis and Future Solutions for Using Multi-light Reflectance Imaging Approaches for Preserving Cultural Heritage Artifacts. In Euro-Mediterranean Conference (pp. 204-211). Springer, Cham.
 
 **How to cite the pixel+ viewer:**
 
-If you are using the pixel+ viewer or results from the pixel+ viewer in one of your research articles or otherwise want to refer to it, please use the following format:
+If you are using the pixel+ viewer or results from the pixel+ viewer in research papers or otherwise, and want to refer to it, please use the following format:
 
-  Vanweddingen V., Proesmans, M., Hameeuw, H., Vandermeulen, B., Van der Perre, A., Vastenhoud C., Lemmers F., Watteeuw. L., Van Gool L.  (2020). Pixel+ viewer, available from http://www.heritage-visualisation.org
+Vanweddingen V., Proesmans, M., Hameeuw, H., Vandermeulen, B., Van der Perre, A., Vastenhoud C., Lemmers F., Watteeuw. L., Van Gool L.  (2020). Pixel+ viewer, available from http://www.heritage-visualisation.org
 
