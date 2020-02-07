@@ -8,14 +8,14 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>glTF &mdash; Heritage-Visualisation.org</title>
+  <title>Technology &mdash; Heritage-Visualisation.org</title>
   
 
   
   
   
   
-    <link rel="canonical" href="http://www.heritage-visualisation.org/gltf.html"/>
+    <link rel="canonical" href="http://www.heritage-visualisation.org/professionals.html"/>
   
 
   
@@ -39,6 +39,8 @@
   <link rel="stylesheet" href="_static/custom.css" type="text/css" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Contact" href="contact.html" />
+    <link rel="prev" title="pixel+ Viewer" href="pixelplusviewer.html" />
 <script src="_static/js/jquery.min.js"></script>
 <script src="_static/js/bootstrap.min.js"></script>
 
@@ -107,11 +109,16 @@
             
             
               <p class="caption"><span class="caption-text">Contents:</span></p>
-<ul>
+<ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="heritagevisualisation.html">Introduction</a></li>
 <li class="toctree-l1"><a class="reference internal" href="pixelplus.html">pixel+ Project</a></li>
 <li class="toctree-l1"><a class="reference internal" href="pixelplusviewer.html">pixel+ Viewer</a></li>
-<li class="toctree-l1"><a class="reference internal" href="professionals.html">Technology</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Technology</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#capture-technology">Capture Technology</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#processing-technology">Processing Technology</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#viewing-technology">Viewing Technology</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="contact.html">Contact</a></li>
 </ul>
 
@@ -158,7 +165,7 @@
     
       <li><a href="index.html">Docs</a> &raquo;</li>
         
-      <li>glTF</li>
+      <li>Technology</li>
     
     
 
@@ -170,79 +177,16 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="gltf">
-<h1>glTF<a class="headerlink" href="#gltf" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="overview-of-existing-single-camera-multi-light-file-formats">
-<h2>Overview of existing Single-Camera, Multi-Light file formats<a class="headerlink" href="#overview-of-existing-single-camera-multi-light-file-formats" title="Permalink to this headline">¶</a></h2>
-<p>Single-Camera, Multi-Light methods output several kinds of files.</p>
-<ul>
-<li><p>After acquisition: Typically a folder of images, and technical and other meta data.</p></li>
-<li><p>After processing:  Intermediate results (e.g. the light positions obtained from Highlight RTI)</p></li>
-<li><p>Final exports: These custom file types contain the processed results and can be opened in a custom viewer (or the pixel+ viewer)</p>
-<blockquote>
-<div><ul class="simple">
-<li><p>CUN: PLD’s default format containing metadata and losslessly compressed Albedo maps, Ambient maps, and Normal maps. CUN can save up to 6 sides of a recording (Top, Bottom, Left, Right, Front, and back) which are displayed as a <a class="reference external" href="https://en.wikipedia.org/wiki/Net_(polyhedron)">net</a>. Recordings with white light LEDs have RGB Albedo and Ambient maps and a single Normal map. Multispectral recordings have 5 (NIR, R, G, B, NUV) greyscale Albedo and Ambient maps and 5 Normal maps.</p></li>
-<li><p>ZUN: Web optimized version of CUN, resulting in bigger files, but much faster decoding times in the browser.</p></li>
-<li><p>PTM: See <a class="reference external" href="https://www.loc.gov/preservation/digital/formats/fdd/fdd000487.shtml">www.loc.gov</a></p></li>
-<li><p>RTI: See <a class="reference external" href="https://www.loc.gov/preservation/digital/formats/fdd/fdd000486.shtml">www.log.gov</a></p></li>
-</ul>
-</div></blockquote>
-</li>
-</ul>
+  <div class="section" id="technology">
+<h1>Technology<a class="headerlink" href="#technology" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="capture-technology">
+<h2>Capture Technology<a class="headerlink" href="#capture-technology" title="Permalink to this headline">¶</a></h2>
 </div>
-<div class="section" id="need-for-an-open-web-optimized-format">
-<h2>Need for an open, web optimized format<a class="headerlink" href="#need-for-an-open-web-optimized-format" title="Permalink to this headline">¶</a></h2>
-<p>All final Single-Camera, Multi-Light file types (CUN, ZUN, PTM, RTI) contain (technical) meta data and per pixel rastered texture data (PTM coefficients, HSH coefficients, Albedo values, normals…). Efforts have been made to decrease the transfer time (compression) and time to open these files on desktop viewing applications.</p>
-<p>Most browsers support WebGL, which can leverage the power of a GPU to efficiently render 3D scenes including the various visual styles of Single-Camera, Multi-Light files. Whereas a CPU implementation has to sequentially loop over all pixels, a GPU implementation can calculate the color value of each texel in parallel.</p>
-<p>Before the GPU can be put to work however, the files have to be parsed and decoded, followed by a preparation and transfer of (texture) data from CPU memory to GPU memory. Both steps can take some time - as can be seen when loading CUN, RTI, PTM files in the pixel+ viewer.</p>
+<div class="section" id="processing-technology">
+<h2>Processing Technology<a class="headerlink" href="#processing-technology" title="Permalink to this headline">¶</a></h2>
 </div>
-<div class="section" id="id1">
-<h2>glTF<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://www.khronos.org/gltf/">GL Transmission Format</a> is a specification that tackles this problem of slow runtime decoding and preparing of the data before it can be sent to the GPU.
-For Single-Camera, Multi-Light files, a minimal glTF implementation consists of a JSON typed file describing the various textures, including offset and scale values and images containing the per pixel RTI coefficients, PTM coefficients (both grouped as a triplet), Normal, Albedo and/or Ambient values.</p>
-<div class="highlight-json notranslate"><div class="highlight"><pre><span></span>{
-&quot;width&quot;: 2513, &quot;height&quot;: 2190,
-&quot;pld&quot;: [
- {
-   &quot;ambTex&quot;: &quot;PLD_amb.png&quot;,
-   &quot;albTex&quot;: &quot;PLD_alb.png&quot;,
-   &quot;normalTex&quot;: &quot;PLD_nor.png&quot;
- }
- ],
-&quot;hsh&quot;: [
-{
- &quot;hshCoef0&quot;: [
- {
-  &quot;bias&quot;: 0.0189997,
-  &quot;scale&quot;: 1.92338,
-  &quot;path&quot;: &quot;HSH_hsh0.png&quot;
- }],
- &quot;hshCoef1&quot;: [
- {
-  &quot;bias&quot;: -0.910697,
-  &quot;scale&quot;: 1.71449,
-  &quot;path&quot;: &quot;HSH_hsh1.png&quot;
- }],
- &quot;hshCoef2&quot;: [
- {
-  &quot;bias&quot;: -0.2255,
-  &quot;scale&quot;: 1.09892,
-  &quot;path&quot;: &quot;HSH_hsh2.png&quot;
- }],
- &quot;hshCoef3&quot;: [
- {
-  &quot;bias&quot;: -0.829841,
-  &quot;scale&quot;: 1.67125,
-  &quot;path&quot;: &quot;HSH_hsh3.png&quot;
- }]
-}
-
-glTF Conversion Tool
-====================
-
-Coming soon
-</pre></div>
-</div>
+<div class="section" id="viewing-technology">
+<h2>Viewing Technology<a class="headerlink" href="#viewing-technology" title="Permalink to this headline">¶</a></h2>
 </div>
 </div>
 
@@ -251,6 +195,15 @@ Coming soon
            
           </div>
           <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="contact.html" class="btn btn-neutral float-right" title="Contact" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="pixelplusviewer.html" class="btn btn-neutral float-left" title="pixel+ Viewer" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
   
 
   <hr/>

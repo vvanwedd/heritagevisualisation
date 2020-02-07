@@ -70,7 +70,7 @@ h1, .h1 {
   }
   .wy-nav-side a:hover{
 
-    text-shadow: 0px 1px 0px #254D69;
+    text-shadow: 0px 1px 0px rgba(0,0,0, 0.2);
     color: #3F86B5;
   }
   .carousel-indicators li
@@ -90,4 +90,20 @@ h1, .h1 {
    .wy-table-responsive {
       overflow: visible !important;
    }
+}
+
+dl.citation dt, dl.footnote dt{ 
+margin: 0 !important;
+border: 0 !important;
+padding: 0 !important;
+background : initial !important;
+
+}
+
+.wy-menu-vertical, .wy-side-nav-search, .wy-nav-side{
+width: 250px !important;
+}
+
+.wy-side-scroll {
+width: 270px !important;
 }

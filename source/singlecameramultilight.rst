@@ -140,6 +140,7 @@ The ambient map consists of a per pixel averaged color of all images from the ta
 
 Reflection map
 +++++++++++++++
+Once the surface orientation is estimated, the reflected color for each led that was lit can be represented on a map. This sparsely sampled lower dimensional representation of a BRDF can be used to classify materials, based on their appearance (and explicitely disregarding shape). This map can also be used to fit an analytic BRDF model, which can then be used for photorealistic rendering.
 
 .. _heightMap:
 

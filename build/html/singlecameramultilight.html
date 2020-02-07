@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Single-Camera, Multi-Light Technology &mdash; heritage-visualisation.org 0.9 documentation</title>
+  <title>Single-Camera, Multi-Light Technology &mdash; Heritage-Visualisation.org</title>
   
 
   
@@ -39,8 +39,6 @@
   <link rel="stylesheet" href="_static/custom.css" type="text/css" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="pixel+ Project" href="pixelplus.html" />
-    <link rel="prev" title="pixel+ Viewer" href="pixelplusviewer.html" />
 <script src="_static/js/jquery.min.js"></script>
 <script src="_static/js/bootstrap.min.js"></script>
 
@@ -82,11 +80,11 @@
           
 
           
+            
+            <img src="_static/logo2.png" class="logo" alt="Logo"/>
+          
           </a>
 
-          
-            
-            
           
 
           
@@ -109,46 +107,11 @@
             
             
               <p class="caption"><span class="caption-text">Contents:</span></p>
-<ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="pixelplusviewer.html">pixel+ Viewer</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Single-Camera, Multi-Light Technology</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#rti">RTI</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#hardware">Hardware</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#algorithm">Algorithm</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#output">Output</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#ptm-hsh-coefficients">PTM / HSH coefficients</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#normal-map">Normal map</a></li>
-</ul>
-</li>
-<li class="toctree-l3"><a class="reference internal" href="#file-formats">File formats</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#ptm">PTM</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#id5">RTI</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li class="toctree-l2"><a class="reference internal" href="#pld">PLD</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#id9">Hardware</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#pldalgorithm">Algorithm</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id13">Output</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#normalmap">Normal map</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#albedo-map">Albedo map</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#ambient-map">Ambient map</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#reflection-map">Reflection map</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#height-map-and-depth-profile">Height map and depth profile</a></li>
-</ul>
-</li>
-<li class="toctree-l3"><a class="reference internal" href="#id16">File formats</a></li>
-</ul>
-</li>
-</ul>
-</li>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="heritagevisualisation.html">Introduction</a></li>
 <li class="toctree-l1"><a class="reference internal" href="pixelplus.html">pixel+ Project</a></li>
-<li class="toctree-l1"><a class="reference internal" href="gltf.html">glTF</a></li>
-<li class="toctree-l1"><a class="reference internal" href="examples.html">Examples</a></li>
-<li class="toctree-l1"><a class="reference internal" href="visualstyles.html">Visual Styles</a></li>
-<li class="toctree-l1"><a class="reference internal" href="backgroundmaterial.html">Background Material</a></li>
-<li class="toctree-l1"><a class="reference internal" href="technologies.html">Heritage Scanning Methods</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pixelplusviewer.html">pixel+ Viewer</a></li>
+<li class="toctree-l1"><a class="reference internal" href="professionals.html">Technology</a></li>
 <li class="toctree-l1"><a class="reference internal" href="contact.html">Contact</a></li>
 </ul>
 
@@ -321,6 +284,7 @@ b = (\mathbf{n}_z + 1)*\frac{1}{2}*255\end{split}\]</div>
 </div>
 <div class="section" id="reflection-map">
 <span id="reflectionmap"></span><h4>Reflection map<a class="headerlink" href="#reflection-map" title="Permalink to this headline">¶</a></h4>
+<p>Once the surface orientation is estimated, the reflected color for each led that was lit can be represented on a map. This sparsely sampled lower dimensional representation of a BRDF can be used to classify materials, based on their appearance (and explicitely disregarding shape). This map can also be used to fit an analytic BRDF model, which can then be used for photorealistic rendering.</p>
 </div>
 <div class="section" id="height-map-and-depth-profile">
 <span id="heightmap"></span><h4>Height map and depth profile<a class="headerlink" href="#height-map-and-depth-profile" title="Permalink to this headline">¶</a></h4>
@@ -379,15 +343,6 @@ Next to this file, 2 filetypes are used to easily exchange data: CUN (textures b
           </div>
           <footer>
   
-    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-      
-        <a href="pixelplus.html" class="btn btn-neutral float-right" title="pixel+ Project" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
-      
-      
-        <a href="pixelplusviewer.html" class="btn btn-neutral float-left" title="pixel+ Viewer" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
-      
-    </div>
-  
 
   <hr/>
 
@@ -408,17 +363,19 @@ Next to this file, 2 filetypes are used to easily exchange data: CUN (textures b
     $(window).on('load', function(){
    /* $( ".wy-nav-content" ).add( "div" )
                           .css({'position' : 'fixed', 'top':'0px', 'width':'100px', 'height':'100px', 'background-color':'yellow'});*/
-    var xPosViewerLinkDiv = $(document).width() - ($('.wy-nav-content').offset().left + $('.wy-nav-content').outerWidth())+10;
+    /*var xPosViewerLinkDiv = $(document).width() - ($('.wy-nav-content').offset().left + $('.wy-nav-content').outerWidth())+10;
    $( ".wy-nav-content" ).append('<div id="pixelplusViewerDiv" style="position:fixed;top:10px; width:200px;height:70px;z-index:10; right:'+xPosViewerLinkDiv+'px"><button onclick="window.location.href=\'http://www.heritage-visualisation.org/viewer/viewer.php\'">go to pixel+ Viewer</button></div>');                 
   });
   $(window).on('resize', function(){
   
    var xPosViewerLinkDiv = $(document).width() - ($('.wy-nav-content').offset().left + $('.wy-nav-content').outerWidth())-10;
     $("#pixelplusViewerDiv").css('right',xPosViewerLinkDiv+'px');
-  });
+  });*/
+
 
   $("[aria-label='breadcrumbs navigation']").css('display', 'none');
   $(".rst-footer-buttons").css('display', 'none');
+    });
 </script>
 
 

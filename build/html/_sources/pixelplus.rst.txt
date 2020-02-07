@@ -1,5 +1,5 @@
 pixel+ Project
-************
+***************
 
 Motivation
 ==========
@@ -41,10 +41,10 @@ In 2017 the `RMAH <https://www.artandhistory.museum>`_ and its partners in the p
 Project partners
 ================
 
-* `Royal Museums of Art and History (RMAH) <http://www.kmkg-mrah.be/>`_ – coordinator
-* `KU Leuven Department of Electical Engineering (ESAT) <https://www.esat.kuleuven.be/psi>`_
-* `Illuminare <http://www.illuminare.be/team/>`_
-* `KU Leuven Libraries (BD Digitalisering) <https://bib.kuleuven.be/english/BD/digit/digitisation>`_
+* `Art & History Museum <https://www.artandhistory.museum>`_ – coordinator
+* `KU Leuven Department of Electrical Engineering (ESAT) <https://www.esat.kuleuven.be/psi>`_
+* `KU Leuven Illuminare <http://www.illuminare.be/team/>`_
+* `KU Leuven Libraries <https://bib.kuleuven.be/english/BD/digit/digitisation>`_
 * `Royal Library of Belgium (KBR) <https://www.kbr.be/en/>`_
 
 Project timeline

@@ -1,18 +1,26 @@
-Heritage Scanning Methods
-*************************
+Introduction
+*************
+About
+######
+
 Plenty of methods exist to capture and study our heritage artefacts. Sadly, information about these methods is scattered across the Internet. This page tries to provide a high level overview.
 
 A method's type of output, its benefits and shortcomings are very much technology dependent. Understanding and carefully documenting which method and scanning methodology was used, will help to valiorize scientific research results. See also the `Digital Lab Notebook <http://culturalheritageimaging.org/Technologies/Digital_Lab_Notebook/index.html>`_ initiative.
 For :ref:`singlecameramultilight:Single-Camera, Multi-Light Technology`, the main focus of this website, we've tried to provide the necessary reading material to appreciate this form of heritage capture. We've also provided a web viewer for these kinds of files and proposed a novel open source file type, based on popular existing file types, to make sure these kinds of recordings can be consulted in the future.
 
+Heritage Visualisation Methods
+###############################
+
 3D Reconstruction Methods
 =========================
+
 Plenty of methods exist to reconstruct a 3D representation of cultural artefacts. Depending on the used technology, some methods work better on objects with certain shapes and materials than others. Most of the time, these algorithms have parameters that the user should set and scanning methodologies that the user should follow carefully to obtain optimal results. 
 The output file type can be open or closed, widely popular or scarcely used. 
 
 The ideal 3D Reconstruction is a very small sized file containing all information of the object, i.e. a true virtual clone. In reality, 3D reconstructions only contain a small fraction of the information of an object. A mesh or point cloud contains information about the shape of an object's surface, but not what's inside. A 3D vector field, like the output of a X-ray microtomography scan, contains volume information. A 3D model can include an appearance models. The appearance of a material is caracterized by how that material interacts with light. Appearance models can vary between a single RGB color and a highly dimensional radiometric function describing how incident energy is scattered at a surface. For example, the appearance of the wings of butterflies cannot be synthetized into a single RGB color without loss of information, but require a higher dimensional scattering function.
 
 In what follows in this section, we follow the taxonomy of methods for 3D shape extraction as described by 
+
 Passive Methods
 +++++++++++++++
 Single Vantage Point Methods

@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pixel+ Project &mdash; heritage-visualisation.org 0.9 documentation</title>
+  <title>pixel+ Project &mdash; Heritage-Visualisation.org</title>
   
 
   
@@ -39,8 +39,8 @@
   <link rel="stylesheet" href="_static/custom.css" type="text/css" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="glTF" href="gltf.html" />
-    <link rel="prev" title="Single-Camera, Multi-Light Technology" href="singlecameramultilight.html" />
+    <link rel="next" title="pixel+ Viewer" href="pixelplusviewer.html" />
+    <link rel="prev" title="Introduction" href="heritagevisualisation.html" />
 <script src="_static/js/jquery.min.js"></script>
 <script src="_static/js/bootstrap.min.js"></script>
 
@@ -82,11 +82,11 @@
           
 
           
+            
+            <img src="_static/logo2.png" class="logo" alt="Logo"/>
+          
           </a>
 
-          
-            
-            
           
 
           
@@ -110,8 +110,7 @@
             
               <p class="caption"><span class="caption-text">Contents:</span></p>
 <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="pixelplusviewer.html">pixel+ Viewer</a></li>
-<li class="toctree-l1"><a class="reference internal" href="singlecameramultilight.html">Single-Camera, Multi-Light Technology</a></li>
+<li class="toctree-l1"><a class="reference internal" href="heritagevisualisation.html">Introduction</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">pixel+ Project</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#motivation">Motivation</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#integration">Integration</a><ul>
@@ -125,11 +124,8 @@
 <li class="toctree-l2"><a class="reference internal" href="#publications">Publications</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="gltf.html">glTF</a></li>
-<li class="toctree-l1"><a class="reference internal" href="examples.html">Examples</a></li>
-<li class="toctree-l1"><a class="reference internal" href="visualstyles.html">Visual Styles</a></li>
-<li class="toctree-l1"><a class="reference internal" href="backgroundmaterial.html">Background Material</a></li>
-<li class="toctree-l1"><a class="reference internal" href="technologies.html">Heritage Scanning Methods</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pixelplusviewer.html">pixel+ Viewer</a></li>
+<li class="toctree-l1"><a class="reference internal" href="professionals.html">Technology</a></li>
 <li class="toctree-l1"><a class="reference internal" href="contact.html">Contact</a></li>
 </ul>
 
@@ -226,10 +222,10 @@
 <div class="section" id="project-partners">
 <h2>Project partners<a class="headerlink" href="#project-partners" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
-<li><p><a class="reference external" href="http://www.kmkg-mrah.be/">Royal Museums of Art and History (RMAH)</a> – coordinator</p></li>
-<li><p><a class="reference external" href="https://www.esat.kuleuven.be/psi">KU Leuven Department of Electical Engineering (ESAT)</a></p></li>
-<li><p><a class="reference external" href="http://www.illuminare.be/team/">Illuminare</a></p></li>
-<li><p><a class="reference external" href="https://bib.kuleuven.be/english/BD/digit/digitisation">KU Leuven Libraries (BD Digitalisering)</a></p></li>
+<li><p><a class="reference external" href="https://www.artandhistory.museum">Art &amp; History Museum</a> – coordinator</p></li>
+<li><p><a class="reference external" href="https://www.esat.kuleuven.be/psi">KU Leuven Department of Electrical Engineering (ESAT)</a></p></li>
+<li><p><a class="reference external" href="http://www.illuminare.be/team/">KU Leuven Illuminare</a></p></li>
+<li><p><a class="reference external" href="https://bib.kuleuven.be/english/BD/digit/digitisation">KU Leuven Libraries</a></p></li>
 <li><p><a class="reference external" href="https://www.kbr.be/en/">Royal Library of Belgium (KBR)</a></p></li>
 </ul>
 </div>
@@ -278,10 +274,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="gltf.html" class="btn btn-neutral float-right" title="glTF" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="pixelplusviewer.html" class="btn btn-neutral float-right" title="pixel+ Viewer" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="singlecameramultilight.html" class="btn btn-neutral float-left" title="Single-Camera, Multi-Light Technology" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="heritagevisualisation.html" class="btn btn-neutral float-left" title="Introduction" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -305,17 +301,19 @@
     $(window).on('load', function(){
    /* $( ".wy-nav-content" ).add( "div" )
                           .css({'position' : 'fixed', 'top':'0px', 'width':'100px', 'height':'100px', 'background-color':'yellow'});*/
-    var xPosViewerLinkDiv = $(document).width() - ($('.wy-nav-content').offset().left + $('.wy-nav-content').outerWidth())+10;
+    /*var xPosViewerLinkDiv = $(document).width() - ($('.wy-nav-content').offset().left + $('.wy-nav-content').outerWidth())+10;
    $( ".wy-nav-content" ).append('<div id="pixelplusViewerDiv" style="position:fixed;top:10px; width:200px;height:70px;z-index:10; right:'+xPosViewerLinkDiv+'px"><button onclick="window.location.href=\'http://www.heritage-visualisation.org/viewer/viewer.php\'">go to pixel+ Viewer</button></div>');                 
   });
   $(window).on('resize', function(){
   
    var xPosViewerLinkDiv = $(document).width() - ($('.wy-nav-content').offset().left + $('.wy-nav-content').outerWidth())-10;
     $("#pixelplusViewerDiv").css('right',xPosViewerLinkDiv+'px');
-  });
+  });*/
+
 
   $("[aria-label='breadcrumbs navigation']").css('display', 'none');
   $(".rst-footer-buttons").css('display', 'none');
+    });
 </script>
 
 

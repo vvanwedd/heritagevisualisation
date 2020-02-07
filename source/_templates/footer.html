@@ -13,16 +13,18 @@
     $(window).on('load', function(){
    /* $( ".wy-nav-content" ).add( "div" )
                           .css({'position' : 'fixed', 'top':'0px', 'width':'100px', 'height':'100px', 'background-color':'yellow'});*/
-    var xPosViewerLinkDiv = $(document).width() - ($('.wy-nav-content').offset().left + $('.wy-nav-content').outerWidth())+10;
+    /*var xPosViewerLinkDiv = $(document).width() - ($('.wy-nav-content').offset().left + $('.wy-nav-content').outerWidth())+10;
    $( ".wy-nav-content" ).append('<div id="pixelplusViewerDiv" style="position:fixed;top:10px; width:200px;height:70px;z-index:10; right:'+xPosViewerLinkDiv+'px"><button onclick="window.location.href=\'http://www.heritage-visualisation.org/viewer/viewer.php\'">go to pixel+ Viewer</button></div>');                 
   });
   $(window).on('resize', function(){
   
    var xPosViewerLinkDiv = $(document).width() - ($('.wy-nav-content').offset().left + $('.wy-nav-content').outerWidth())-10;
     $("#pixelplusViewerDiv").css('right',xPosViewerLinkDiv+'px');
-  });
+  });*/
+
 
   $("[aria-label='breadcrumbs navigation']").css('display', 'none');
   $(".rst-footer-buttons").css('display', 'none');
+    });
 </script>
 {% endblock %}

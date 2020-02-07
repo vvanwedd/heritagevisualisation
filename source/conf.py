@@ -30,7 +30,7 @@ author = 'Vincent Vanweddingen'
 # The short X.Y version
 version = ''
 # The full version, including alpha/beta/rc tags
-release = '0.9'
+release = '1.0'
 
 html_sidebars = {
     '**': [ 'about.html',
@@ -111,7 +111,7 @@ html_theme_options = {
     'canonical_url': 'http://www.heritage-visualisation.org/',
     'analytics_id': 'UA-155530128-1',  #  Provided by Google in your dashboard
     'logo_only': False,
-    'display_version': True,
+    'display_version': False,
     'prev_next_buttons_location': 'bottom',
     'style_external_links': False,
     'style_nav_header_background': '#343131',
@@ -127,6 +127,9 @@ html_theme_options = {
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
+html_logo = "_static/images/logo2.png"
+
+html_title = "Heritage-Visualisation.org"
 # Custom sidebar templates, must be a dictionary that maps document names
 # to template names.
 #

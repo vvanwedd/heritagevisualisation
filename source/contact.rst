@@ -1,6 +1,8 @@
 Contact
 ===================================
 
+Contact the pixel+ team.
+
 .. raw:: html
   
   <form action="https://formspree.io/mdoarrro" method="POST">
