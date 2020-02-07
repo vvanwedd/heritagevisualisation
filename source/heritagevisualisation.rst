@@ -7,7 +7,7 @@ heritage-visualisation.org website is an initiative of the pixel+ project to pro
 
 Several methods to capture and study heritage artifacts with the Single-Camera, Multi-Light technology exist. This website aims to bring together existing methods. To achieve this a new file format standard and integrated viewer platform have been created. 
 
-The website hosts the WebGL based `pixel+ viewer <http://culturalheritageimaging.org/Technologies/Digital_Lab_Notebook/index.html>`_which can handle several single-camera, multi-light datasets. 
+The website hosts the WebGL based `pixel+ viewer <http://www.heritage-visualisation.org/viewer/viewer.php>`_which can handle several single-camera, multi-light datasets. 
 
 
 
