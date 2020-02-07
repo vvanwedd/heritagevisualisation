@@ -2,6 +2,7 @@ pixel+ Viewer
 ===================================
 
 The pixel+ viewer is an open source tool to visually analyse the surface of artifacts. It provides a realistic view of the interaction between material and light. It goes beyond traditional photography as it allows the user to virtually interact with the surface of the object by manipulating the light and enhance specific characteristics of the surface. 
+
 The unique features of the viewer are that it supports various interactive single-camera multi-light `file formats <http://www.heritage-visualisation.org/gltf.html>`_ (CUN, ZUN, PTM, RTI or glTF) and combines the predefined simulations from both the PLD and RTI platforms within one interface.  
 
 Go directly to `the viewer <http://www.heritage-visualisation.org/viewer/viewer.php>`_ 
