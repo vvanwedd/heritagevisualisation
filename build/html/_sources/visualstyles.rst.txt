@@ -1,5 +1,5 @@
 Visual Styles
-*************
+#############
 Introduction
 =================================
 PLD and RTI have developed a plethora of styles to visualize their higher dimensional data. Each one of them accentuates certain aspects of the surface. In order to interpret the results, a summary of each visual style is provided.

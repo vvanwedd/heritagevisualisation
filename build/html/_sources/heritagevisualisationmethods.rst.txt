@@ -1,13 +1,3 @@
-Introduction
-*************
-About
-######
-
-Plenty of methods exist to capture and study our heritage artefacts. Sadly, information about these methods is scattered across the Internet. This page tries to provide a high level overview.
-
-A method's type of output, its benefits and shortcomings are very much technology dependent. Understanding and carefully documenting which method and scanning methodology was used, will help to valiorize scientific research results. See also the `Digital Lab Notebook <http://culturalheritageimaging.org/Technologies/Digital_Lab_Notebook/index.html>`_ initiative.
-For :ref:`singlecameramultilight:Single-Camera, Multi-Light Technology`, the main focus of this website, we've tried to provide the necessary reading material to appreciate this form of heritage capture. We've also provided a web viewer for these kinds of files and proposed a novel open source file type, based on popular existing file types, to make sure these kinds of recordings can be consulted in the future.
-
 Heritage Visualisation Methods
 ###############################
 

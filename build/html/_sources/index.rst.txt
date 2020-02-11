@@ -120,12 +120,12 @@ Did you ever wonder what is hidden underneath the surface of an illumination? Is
   <div style = "visibility: hidden; display:none;">
 
 .. toctree::
-   :caption: Contents:
+   :caption: Contents
 
-   heritagevisualisation 
+   introduction
    pixelplus
    pixelplusviewer
-   professionals
+   technology
    contact 
      
 .. raw:: html

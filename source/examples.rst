@@ -3,7 +3,7 @@
 :titlesonly:
 .. _examples:
 Examples
-********
+#########
 
 Bruegel drawing
 ===============
@@ -24,7 +24,7 @@ Multispectral single-camera multi-light acquisition dome (MS Microdome, PLD syst
 
 .. rubric:: Open in web viewer
 
-`Multi Spectral ZUN <http://www.heritage-visualisation.org/viewer/viewer.php?file=data%2Fsamples%2FKBR_Bruegel%2Fbruegel.zun>`_
+`Multi Spectral ZUN <http://www.heritage-visualisation.org/viewer/?ds=data/samples/KBR_Bruegel/bruegel.zun>`_
 
 Antique coin 
 ============
@@ -46,7 +46,7 @@ White light single-camera multi-light acquisition dome (WL mecano Minidome, PLD 
 .. rubric:: Open in web viewer
 
 
-`White light ZUN <http://www.heritage-visualisation.org/viewer/viewer.php?file=data%2Fsamples%2FKBR_Coin%2Fcoin.zun>`_ | `HSH RTI <http://www.heritage-visualisation.org/viewer/viewer.php?file=data%2Fsamples%2FKBR_Coin%2Fcoin.rti>`_ | `glTF <http://www.heritage-visualisation.org/viewer/viewer.php?file=data%2Fsamples%2FKBR_Coin%2FglTF%2Finfo.gltf>`_
+`White light ZUN <http://www.heritage-visualisation.org/viewer/?ds=data/samples/KBR_Coin/coin.zun>`_ | `HSH RTI <http://www.heritage-visualisation.org/viewer/?ds=data/samples/KBR_Coin/coin.rti>`_ | `glTF <http://www.heritage-visualisation.org/viewer/?ds=data/samples/KBR_Coin/glTF/info.gltf>`_
 
 note: these three datasets have all been processed with one and the same original (see Type dataset) set of captured images. 
 
@@ -69,7 +69,7 @@ White light single-camera multi-light acquisition dome (WL mecano Minidome, PLD 
 
 .. rubric:: Open in web viewer
 
-`White light ZUN <http://www.heritage-visualisation.org/viewer/viewer.php?file=data%2Fsamples/KMKG_cuneiformtablet/cuneiformtablet.zun>`_
+`White light ZUN <http://www.heritage-visualisation.org/viewer/?ds=data/samples/KMKG_cuneiformtablet/cuneiformtablet.zun>`_
 
 Bible of Anjou
 ==============
@@ -90,7 +90,7 @@ White light and Multispectral single-camera multi-light acquisition dome (WL Mic
 
 .. rubric:: Open in web viewer
 
-`White Light ZUN <http://www.heritage-visualisation.org/viewer/viewer.php?file=data%2Fsamples%2FKUL_bible_of_Anjou%2FSABBE_MS1_003V_1.3x.zun>`_ | `Multi Spectral ZUN <http://www.heritage-visualisation.org/viewer/viewer.php?file=data%2Fsamples%2FKUL_bible_of_Anjou%2FGBIB_MS1_001V_MS_01.3x.zun>`_
+`White Light ZUN <http://www.heritage-visualisation.org/viewer/?ds=data/samples/KUL_bible_of_Anjou/SABBE_MS1_003V_1.3x.zun>`_ | `Multi Spectral ZUN <http://www.heritage-visualisation.org/viewer/?ds=data/samples/KUL_bible_of_Anjou/GBIB_MS1_001V_MS_01.3x.zun>`_
 
 Persian relief
 ==============
@@ -111,7 +111,7 @@ Highlight RTI-HSH (RTI builder), capture by Hendrik Hameeuw.
 
 .. rubric:: Open in web viewer
 
-`Highlight RTI-HSH <http://www.heritage-visualisation.org/viewer/viewer.php?file=data%2Fsamples%2FKMKG_relief%2FIR1034_cropped_2042.rti>`_
+`Highlight RTI-HSH <http://www.heritage-visualisation.org/viewer/?ds=data/samples/KMKG_relief/IR1034_cropped_2042.rti>`_
 
 Rijmbijbel illumination
 =======================
@@ -132,7 +132,7 @@ Multispectral single-camera multi-light acquisition dome (MS Microdome, PLD syst
 
 .. rubric:: Open in web viewer
 
-`Multi Spectral ZUN <http://www.heritage-visualisation.org/viewer/viewer.php?file=data%2Fsamples%2FKUL_rijmbijbel%2Frijmbijbel.zun>`_
+`Multi Spectral ZUN <http://www.heritage-visualisation.org/viewer/?ds=data/samples/KUL_rijmbijbel/rijmbijbel.zun>`_
 
 Egyptian coffin
 ===============
@@ -152,7 +152,7 @@ Multispectral single-camera multi-light acquisition dome (MS Microdome, PLD syst
 
 .. rubric:: Open in web viewer
 
-`Multi Spectral ZUN <http://www.heritage-visualisation.org/viewer/viewer.php?file=data%2Fsamples%2FKMKG_egyptiancoffin%2Fegyptiancoffin.zun>`_
+`Multi Spectral ZUN <http://www.heritage-visualisation.org/viewer/?ds=data/samples/KMKG_egyptiancoffin/egyptiancoffin.zun>`_
 
 Charles V seal
 ==============
@@ -173,7 +173,7 @@ White light single-camera multi-light acquisition dome (WL mecano Minidodome, PL
 
 .. rubric:: Open in web viewer
 
-`White Light ZUN <http://www.heritage-visualisation.org/viewer/viewer.php?file=data%2Fsamples%2FKUL_charlesvseal%2Fcharlesvseal.zun>`_ | `HSH RTI <http://www.heritage-visualisation.org/viewer/viewer.php?file=data%2Fsamples%2FKUL_charlesvseal%2Fcharlesvseal.rti>`_ | `PTM <http://www.heritage-visualisation.org/viewer/viewer.php?file=data%2Fsamples%2FKUL_charlesvseal%2Fcharlesvseal.ptm>`_ | `glTF <http://www.heritage-visualisation.org/viewer/viewer.php?file=data%2Fsamples%2FKUL_charlesvseal%2FglTF%2Finfo.gltf>`_
+`White Light ZUN <http://www.heritage-visualisation.org/viewer/?ds=data/samples/KUL_charlesvseal/charlesvseal.zun>`_ | `HSH RTI <http://www.heritage-visualisation.org/viewer/?ds=data/samples/KUL_charlesvseal/charlesvseal.rti>`_ | `PTM <http://www.heritage-visualisation.org/viewer/?ds=data/samples/KUL_charlesvseal/charlesvseal.ptm>`_ | `glTF <http://www.heritage-visualisation.org/viewer/?ds=data/samples/KUL_charlesvseal/glTF/info.gltf>`_
     
 note: these four datasets have all been processed with one and the same original (see Type dataset) set of captured images.
 
@@ -194,7 +194,7 @@ White light single-camera multi-light acquisition dome (WL mecano Minidodome, PL
 
 .. rubric:: Open in web viewer
 
-`White Light ZUN <http://www.heritage-visualisation.org/viewer/viewer.php?file=data%2Fsamples%2FKUL_japaneseprint%2Fjapaneseprint.zun>`_ | `HSH RTI <http://www.heritage-visualisation.org/viewer/viewer.php?file=data%2Fsamples%2FKUL_japaneseprint%2Fjapaneseprint.rti>`_ | `glTF <http://www.heritage-visualisation.org/viewer/viewer.php?file=data%2Fsamples%2FKUL_japaneseprint%2FglTF%2Finfo.gltf>`_
+`White Light ZUN <http://www.heritage-visualisation.org/viewer/?ds=data/samples/KUL_japaneseprint/japaneseprint.zun>`_ | `HSH RTI <http://www.heritage-visualisation.org/viewer/?ds=data/samples/KUL_japaneseprint/japaneseprint.rti>`_ | `glTF <http://www.heritage-visualisation.org/viewer/?ds=data/samples/KUL_japaneseprint/glTF/info.gltf>`_
     
 note: these three datasets have all been processed with one and the same original (see Type dataset) set of captured images.
 
@@ -216,7 +216,7 @@ Multi spectral single-camera multi-light acquisition dome (MS Minidome, WL Minid
 
 .. rubric:: Open in web viewer
 
-`glTF <http://www.heritage-visualisation.org/viewer/viewer.php?file=data%2Fsamples%2Fstgallen%2Finfo.gltf>`_
+`glTF <http://www.heritage-visualisation.org/viewer/?ds=data/samples/stgallen/info.gltf>`_
 
 
 .. rubric:: Footnotes
