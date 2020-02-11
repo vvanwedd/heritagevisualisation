@@ -93,7 +93,7 @@
 </div>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
-    <input type="text" name="q" placeholder="Search docs" />
+    <input type="text" name="q" placeholder="Search heritage-visualisation.org" />
     <input type="hidden" name="check_keywords" value="yes" />
     <input type="hidden" name="area" value="default" />
   </form>
@@ -182,16 +182,16 @@
 <p>There is a large variety of scanning equipment available, but in essence, both PLD and RTI require a set of images of an object that is illuminated from various known directions.
 RTI has 2 types of recording equipment: The dome setups and the highlight RTI setup.
 The dome setup functions in the similar manner as the PLD domes.</p>
-<p>Highlight RTI utilizes chrome/specular spheres to estimate the direction of a point light source (e.g. a flash). This technology is typically cheaper and more flexible in terms of object size to be scanned; for a manual to the procedure see <a class="reference internal" href="singlecameramultilight.html#chi2013" id="id1"><span>[CHI2013]</span></a>.
+<p>Highlight RTI utilizes chrome/specular spheres to estimate the direction of a point light source (e.g. a flash). This technology is typically cheaper and more flexible in terms of object size to be scanned; for a manual to the procedure see <a class="reference internal" href="technology_view.html#chi2013" id="id1"><span>[CHI2013]</span></a>.
 The downside is that it generally is slower, requires more intervention and is less accurate, as light sources have to be calculated using the specular reflection in the reflective spheres.</p>
 </div>
 <div class="section" id="algorithm">
 <h2>Algorithm<a class="headerlink" href="#algorithm" title="Permalink to this headline">¶</a></h2>
 <p>Reflectance Transformation Imaging is a per pixel function fitting technique to interactively display objects under varying light conditions.
-It was originally developed by Tom Malzbender in the form of Polynomial Texture Maps <a class="reference internal" href="singlecameramultilight.html#malzbender2001" id="id2"><span>[Malzbender2001]</span></a>.</p>
+It was originally developed by Tom Malzbender in the form of Polynomial Texture Maps <a class="reference internal" href="technology_view.html#malzbender2001" id="id2"><span>[Malzbender2001]</span></a>.</p>
 <p>The observed intensity at a pixel is described a function of the light direction, in the case of PTM as a biquadratic polynomial, but other representations exist. A set of equations relating the observed intensity with the light direction for every image of the image set is then solved for the coefficients.</p>
 <p>Besides PTM, another popular RTI method uses hemispherical harmonical functions. Because it can model the light space better, hard shadows and bright specularities are better preserved.</p>
-<p>A newer approach uses Principle Component Analysis + Radial Basis Function interpolation <a class="reference internal" href="singlecameramultilight.html#ponchio" id="id3"><span>[ponchio]</span></a></p>
+<p>A newer approach uses Principle Component Analysis + Radial Basis Function interpolation <a class="reference internal" href="technology_view.html#ponchio" id="id3"><span>[ponchio]</span></a></p>
 <p>The goal of RTI is to view objects interactively under varying incident light directions. As such, RTI doesn’t use physical laws like PLD to extract surface material characteristics. Effects like self shadowing, interreflections and complicated light-matter interactions (e.g. subsurface scattering, complicated BRDFs) are not taken into account, though their contribution is captured in the fitting/interpolation function. As such, the relighting output appears to be photorealistic - especially for virtual light positions that are close to one of the input images.</p>
 </div>
 <div class="section" id="output">
@@ -221,15 +221,15 @@ Any spatial blurring that seems to exist is because the PTM or HSH coefficients 
 <li><p>Look Up Table PTM</p></li>
 <li><p>YCrCb color space PTM</p></li>
 </ul>
-<p>The upper 2 versions are the most popular PTM file types, as they are supported by CHI’s processing and viewing software <a class="reference internal" href="singlecameramultilight.html#chi" id="id4"><span>[CHI]</span></a></p>
+<p>The upper 2 versions are the most popular PTM file types, as they are supported by CHI’s processing and viewing software <a class="reference internal" href="technology_view.html#chi" id="id4"><span>[CHI]</span></a></p>
 </div>
 <div class="section" id="id5">
 <h3>RTI<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
-<li><p>PTM RTI: Polynomial Texture Mapping RTI <a class="reference internal" href="singlecameramultilight.html#malzbender2001" id="id6"><span>[Malzbender2001]</span></a></p></li>
-<li><p>HSH RTI: Hemispherical Harmonics RTI <a class="reference internal" href="singlecameramultilight.html#mudge2008" id="id7"><span>[Mudge2008]</span></a></p></li>
+<li><p>PTM RTI: Polynomial Texture Mapping RTI <a class="reference internal" href="technology_view.html#malzbender2001" id="id6"><span>[Malzbender2001]</span></a></p></li>
+<li><p>HSH RTI: Hemispherical Harmonics RTI <a class="reference internal" href="technology_view.html#mudge2008" id="id7"><span>[Mudge2008]</span></a></p></li>
 <li><p>SH RTI: Spherical Harmonics RTI</p></li>
-<li><p>EHSH RTI: Eigen Hemispherical Harmonics RTI <a class="reference internal" href="singlecameramultilight.html#lam2012" id="id8"><span>[Lam2012]</span></a></p></li>
+<li><p>EHSH RTI: Eigen Hemispherical Harmonics RTI <a class="reference internal" href="technology_view.html#lam2012" id="id8"><span>[Lam2012]</span></a></p></li>
 <li><p>Adaptive basis RTI</p></li>
 </ul>
 <p class="rubric">Footnotes</p>

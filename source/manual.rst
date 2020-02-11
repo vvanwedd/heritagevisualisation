@@ -1,8 +1,8 @@
 Manual
-########
+#######
 Introduction
-=================================
-PLD and RTI have developed a plethora of styles to visualize their higher dimensional data. Each one of them accentuates certain aspects of the surface. In order to interpret the results, a summary of each visual style is provided.
+============
+The pixel+ viewer is a WebGL based web viewer of :ref:`single-camera multi-light<technology:Technology>` files. The surface of objects that are scanned with this technology can be carefully examined by changing the virtual illumination or the :ref:`visual style<visualstyles:Visual Styles>`.
 
 PLD
 ====
