@@ -25,22 +25,12 @@ import sphinx_rtd_theme
 
 project = 'heritage-visualisation.org'
 copyright = '2020, KMKG-MRAH, KU Leuven and KBR'
-author = 'Vincent Vanweddingen'
+author = 'pixel+ team'
 
 # The short X.Y version
 version = ''
 # The full version, including alpha/beta/rc tags
 release = '1.0'
-
-html_sidebars = {
-    '**': [ 'about.html',
-            'postcard.html', 'navigation.html',
-            'recentposts.html', 'tagcloud.html',
-            'categories.html',  'archives.html',
-            'searchbox.html',
-            ],
-    }
-
 
 # -- General configuration ---------------------------------------------------
 

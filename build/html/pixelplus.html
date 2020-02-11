@@ -90,7 +90,9 @@
 
           
 
-          
+          <div id="wy-nav-side-subheading">
+	<p class="caption"><a href="http://www.heritage-visualisation.org/viewer">Go to pixel+ viewer</a></p>
+</div>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
     <input type="text" name="q" placeholder="Search docs" />
@@ -98,6 +100,7 @@
     <input type="hidden" name="area" value="default" />
   </form>
 </div>
+
 
           
         </div>
@@ -315,6 +318,10 @@
   $("[aria-label='breadcrumbs navigation']").css('display', 'none');
   $(".rst-footer-buttons").css('display', 'none');
     });
+$(document).ready(function() {
+    $("a[href^='http']").attr('target','_blank');
+});
+
 </script>
 
 

@@ -7,16 +7,15 @@ Contact the pixel+ team.
   
   <form action="https://formspree.io/mdoarrro" method="POST">
   <label>
-    Your email:
+    Your email:<br>
     <input type="text" name="_replyto" size="35">
-  </label>
+  </label><br>
   <label>
     Your message:
-    <textarea name="message" rows="20"></textarea>
+    <textarea name="message" rows="20" cols="40"></textarea>
   </label>
 
-  <!-- your other form fields go here -->
-
+  <br>
   <button type="submit">Send</button>
   </form>
 

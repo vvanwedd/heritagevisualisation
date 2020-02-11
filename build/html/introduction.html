@@ -90,7 +90,9 @@
 
           
 
-          
+          <div id="wy-nav-side-subheading">
+	<p class="caption"><a href="http://www.heritage-visualisation.org/viewer">Go to pixel+ viewer</a></p>
+</div>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
     <input type="text" name="q" placeholder="Search docs" />
@@ -98,6 +100,7 @@
     <input type="hidden" name="area" value="default" />
   </form>
 </div>
+
 
           
         </div>
@@ -185,7 +188,7 @@
 <div class="toctree-wrapper compound">
 </div>
 <div class="figure align-default" id="id1">
-<a class="reference internal image-reference" href="_images/intro_PLD_seleucid_tablet.jpg"><img alt="_images/intro_PLD_seleucid_tablet.jpg" src="_images/intro_PLD_seleucid_tablet.jpg" style="width: 600.0px; height: 358.0px;" /></a>
+<a class="reference internal image-reference" href="_images/intro_PLD_seleucid_tablet.jpg"><img alt="_images/intro_PLD_seleucid_tablet.jpg" src="_images/intro_PLD_seleucid_tablet.jpg" style="width: 840.0px; height: 501.2px;" /></a>
 <p class="caption"><span class="caption-text">A PLD dome lighting a Selecuid tablet</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
 </div>
@@ -238,6 +241,10 @@
   $("[aria-label='breadcrumbs navigation']").css('display', 'none');
   $(".rst-footer-buttons").css('display', 'none');
     });
+$(document).ready(function() {
+    $("a[href^='http']").attr('target','_blank');
+});
+
 </script>
 
 

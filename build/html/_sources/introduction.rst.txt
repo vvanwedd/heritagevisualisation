@@ -14,7 +14,7 @@ heritage-visualisation.org is maintained by a group of researchers in the Comput
    heritagevisualisationmethods
 
 .. figure:: _static/images/intro_PLD_seleucid_tablet.jpg
-   :scale: 50 %
+   :scale: 70 %
 
    A PLD dome lighting a Selecuid tablet
 

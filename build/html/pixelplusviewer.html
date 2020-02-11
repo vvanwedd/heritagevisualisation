@@ -90,7 +90,9 @@
 
           
 
-          
+          <div id="wy-nav-side-subheading">
+	<p class="caption"><a href="http://www.heritage-visualisation.org/viewer">Go to pixel+ viewer</a></p>
+</div>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
     <input type="text" name="q" placeholder="Search docs" />
@@ -98,6 +100,7 @@
     <input type="hidden" name="area" value="default" />
   </form>
 </div>
+
 
           
         </div>
@@ -184,7 +187,7 @@
 </div>
 <p>The pixel+ viewer is an open source tool to visually analyse the surface of artifacts. It provides a realistic view of the interaction between material and light. It goes beyond traditional photography as it allows the user to virtually interact with the surface of the object by manipulating the light and enhance specific characteristics of the surface.</p>
 <p>The unique features of the viewer are that it supports various interactive single-camera multi-light <a class="reference external" href="http://www.heritage-visualisation.org/gltf.html">file formats</a> (CUN, ZUN, PTM, RTI or glTF) and combines the predefined simulations from both the PLD and RTI platforms within one interface.</p>
-<p>Go directly to <a class="reference external" href="http://www.heritage-visualisation.org/viewer/viewer.php">the viewer</a></p>
+<p>Go directly to <a class="reference external" href="http://www.heritage-visualisation.org/viewer/">the viewer</a></p>
 <p>Pixel+ provides &#64; <a class="reference internal" href="examples.html#id1"><span class="std std-ref">Examples</span></a> a number of datasets of various heritage artifacts enabling to explore the functionalities of the viewer.</p>
 <p>To explore the datasets the pixel+ viewer offers various <a class="reference internal" href="visualstyles.html#visual-styles"><span class="std std-ref">Visual Styles</span></a>.</p>
 <p><strong>Further reading:</strong></p>
@@ -242,6 +245,10 @@
   $("[aria-label='breadcrumbs navigation']").css('display', 'none');
   $(".rst-footer-buttons").css('display', 'none');
     });
+$(document).ready(function() {
+    $("a[href^='http']").attr('target','_blank');
+});
+
 </script>
 
 
