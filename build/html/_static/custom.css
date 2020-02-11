@@ -115,13 +115,14 @@ h1, .h1 {
    }
 }
 
-dl.citation dt, dl.footnote dt{ 
+dl.citation dt, dl.footnote dt, dl.glossary.simple dt { 
 margin: 0 !important;
 border: 0 !important;
 padding: 0 !important;
 background : initial !important;
 
 }
+@media screen and (min-width: 767px) {
 
 .wy-menu-vertical, .wy-side-nav-search, .wy-nav-side{
 width: 250px !important;
@@ -140,4 +141,4 @@ float: left;
 font-weight: bold;
 padding-left: 10px;
 }
-
+}

@@ -46,10 +46,6 @@ Sadly we can't, but we can follow certain strategies to maximixe our chances.
 Firstly, we have to be sure that the physical medium on which we store our data keeps the data's integrity and that the filesystem can still be read. 
 Secondly, we cannot rely on the fact that software that is written now will still work in the future. Much better than opening a binary blob of data with a binary executable, we have to describe in plain text how to parse and interpret our stored data.
 
-glTF
--------
-commonly used filetypes
-
 .. rubric:: Footnotes
 
 .. [metamerism] https://en.wikipedia.org/wiki/Metamerism_(color)
