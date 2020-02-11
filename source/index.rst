@@ -1,6 +1,14 @@
+.. raw:: html
+   
+   <div style="display:none">
 
-.. heritage-visualisation.org
-.. ===================================
+Index
+===================================
+
+.. raw:: html
+   
+    </div> </div>
+
 .. Welcome to the website of heritage–visualisation.org
 
 
