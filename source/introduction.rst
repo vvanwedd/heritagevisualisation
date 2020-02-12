@@ -16,6 +16,6 @@ heritage-visualisation.org is maintained by a group of researchers in the Comput
 .. figure:: _static/images/intro_MS_PLD.jpg
    :scale: 90 %
 
-   A Multispectral PLD recording
+   A singe-camera multi-light recording with a multispectral aquisition device (MS MicroD) of an Egyptian execration figurine 
 
 
