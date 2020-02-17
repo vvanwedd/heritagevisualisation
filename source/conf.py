@@ -24,7 +24,7 @@ import sphinx_rtd_theme
 # -- Project information -----------------------------------------------------
 
 project = 'heritage-visualisation.org'
-copyright = '2020, KMKG-MRAH, KU Leuven and KBR'
+copyright = '2020, Art and History Museum, KU Leuven, and KBR'
 author = 'pixel+ team'
 
 # The short X.Y version
