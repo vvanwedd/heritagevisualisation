@@ -279,3 +279,41 @@ Necessary input maps
 * PTM coefficients encoded either directly in a PTM file or grouped per 3 as image data
 * Normal map, either calculated from the PTM coefficients or possibly, when using glTF, using another method (e.g. PLD or HSH RTI)
 
+RBF 
+====
+
+Default color
+-------------
+The 'Default color' style renders the object in a photorealistic way. The level of light-varying detail that is captured depends on the number of coefficients per pixel. Currently the pixel+ viewer supports up to 18 planes.
+
+Parameters
++++++++++++
+* The direction of the virtual light sources
+* The brightness of the virtual light sources
+
+Necessary input maps
+++++++++++++++++++++
+
+* RBF planes, saved in separate images and an info.json file. See also `Relight <http://vcg.isti.cnr.it/relight/>`
+
+
+Specular enhancement
+---------------------
+
+Sometimes, it's worthwhile to artificially boost the surface detail visibility. The Specular enhancement style achieves this by introducing a specular Phong term in the rendering equation. See also `Phong reflection model <https://en.wikipedia.org/wiki/Phong_reflection_model>`_.
+
+Parameters
++++++++++++
+* The direction of the virtual light sources
+* The brightness of the virtual light sources
+* exp: Also sometimes known as alpha or the shininess constant. Increasing this value makes the appearance more mirrorlike - smaller specular highlights.
+* Ks: The ratio of specular reflection on the incoming light
+* Kd: The ratio of diffuse reflection on the incoming light
+* Normal source
+
+Necessary input maps
+++++++++++++++++++++
+
+* PTM coefficients encoded either directly in a PTM file or grouped per 3 as image data
+* Normal map, either calculated from the PTM coefficients or possibly, when using glTF, using another method (e.g. PLD or HSH RTI)
+

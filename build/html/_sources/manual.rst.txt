@@ -16,7 +16,7 @@ A beam of light falling on an object has a certain amount of energy. If the surf
 The brightness of a Lambertian object does not depend on the viewing position, i.e. a Lambertian object looks equally bright from all positions. More physical background can be found `here <http://hyperphysics.phy-astr.gsu.edu/hbase/vision/photom.html>`_ and `here <https://en.wikipedia.org/wiki/Lambert%27s_cosine_law>`_ 
 
 In terms of computer graphics, the light paths used in this style consist of a single bounce at the surface ( point light source -> surface and surface -> camera ) 
-Interreflections (i.e. light paths with several bounces) and self shadowing (part of the object can cast a shadow on another part, especially noticable at grazing light directions) are therefore not modeled. 
+Interreflections (i.e. light paths with several bounces) and self shadowing (part of the object can cast a shadow on another part, especially noticeable at grazing light directions) are therefore not modeled. 
 
 Parameters
 +++++++++++
@@ -61,7 +61,7 @@ Necessary input maps
 Shaded exaggerated
 -------------------
 
-This visual style is the same as the Shaded style, except that surface orientation is exaggerated w.r.t. the orientation parallell to the camera direction.
+This visual style is the same as the Shaded style, except that surface orientation is exaggerated w.r.t. the orientation parallel to the camera direction.
 
 Parameters
 +++++++++++
