@@ -23,11 +23,11 @@
   
     
       <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
-        <script type="text/javascript" src="_static/jquery.js"></script>
-        <script type="text/javascript" src="_static/underscore.js"></script>
-        <script type="text/javascript" src="_static/doctools.js"></script>
-        <script type="text/javascript" src="_static/language_data.js"></script>
-        <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+        <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
     
     <script type="text/javascript" src="_static/js/theme.js"></script>
 
@@ -206,7 +206,7 @@
 <h2>3D Reconstruction Methods<a class="headerlink" href="#d-reconstruction-methods" title="Permalink to this headline">¶</a></h2>
 <p>Plenty of methods exist to reconstruct a 3D representation of cultural artefacts. Depending on the used technology, some methods work better on objects with certain shapes and materials than others. Most of the time, these algorithms have parameters that the user should set and scanning methodologies that the user should follow carefully to obtain optimal results.
 The output file type can be open or closed, widely popular or scarcely used.</p>
-<p>The ideal 3D Reconstruction is a very small sized file containing all information of the object, i.e. a true virtual clone. In reality, 3D reconstructions only contain a small fraction of the information of an object. A mesh or point cloud contains information about the shape of an object’s surface, but not what’s inside. A 3D vector field, like the output of a X-ray microtomography scan, contains volume information. A 3D model can include an appearance models. The appearance of a material is caracterized by how that material interacts with light. Appearance models can vary between a single RGB color and a highly dimensional radiometric function describing how incident energy is scattered at a surface. For example, the appearance of the wings of butterflies cannot be synthetized into a single RGB color without loss of information, but require a higher dimensional scattering function.</p>
+<p>The ideal 3D Reconstruction is a very small sized file containing all information of the object, i.e. a true virtual clone. In reality, 3D reconstructions only contain a small fraction of the information of an object. A mesh or point cloud contains information about the shape of an object’s surface, but not what’s inside. A 3D vector field, like the output of a X-ray microtomography scan, contains volume information. A 3D model can include an appearance models. The appearance of a material is characterized by how that material interacts with light. Appearance models can vary between a single RGB color and a highly dimensional radiometric function describing how incident energy is scattered at a surface. For example, the appearance of the wings of butterflies cannot be synthetized into a single RGB color without loss of information, but require a higher dimensional scattering function.</p>
 <p>In what follows in this section, we follow the taxonomy of methods for 3D shape extraction as described by</p>
 <div class="section" id="passive-methods">
 <h3>Passive Methods<a class="headerlink" href="#passive-methods" title="Permalink to this headline">¶</a></h3>

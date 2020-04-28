@@ -16,6 +16,6 @@ heritage-visualisation.org is maintained by a group of researchers in the Comput
 .. figure:: _static/images/intro_MS_PLD.jpg
    :scale: 90 %
 
-   A Singe-Camera Multi-Light recording with a multispectral aquisition device (MS MicroD) of an Egyptian execration figurine (Art & History Museum `E.7442 <https://www.carmentis.be:443/eMP/eMuseumPlus?service=ExternalInterface&module=collection&objectId=84503&viewType=detailView>`_)
+   A Single-Camera Multi-Light recording with a multispectral acquisition device (MS Microdome) of an Egyptian execration figurine (Art & History Museum `E.7442 <https://www.carmentis.be:443/eMP/eMuseumPlus?service=ExternalInterface&module=collection&objectId=84503&viewType=detailView>`_)
 
 

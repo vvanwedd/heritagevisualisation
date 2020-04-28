@@ -31,7 +31,7 @@ Based on original input files
  
    The best possible form of integration starts from the original input images as, compared to the previous integration method, no information is thrown away. Because both technologies require the same sort of input, i.e. a set of images lighted from various light directions, Pixel+ allows to apply both the PLD as well as the RTI pipeline on both RTI and PLD input data.
 
-PLD is developed with the goal of doing scientific measurements and as such, as much is thouroughly calibrated. RTI itself isn't focussed on extracting surface properties, so using RTI source data to produce PLD results poses some challenges. 
+PLD is developed with the goal of doing scientific measurements and as such, as much is thoroughly calibrated. RTI itself isn't focussed on extracting surface properties, so using RTI source data to produce PLD results poses some challenges. 
   
 Project funding
 ===============
@@ -62,12 +62,12 @@ Project timeline
 * Dissemination web site: Framework + content: Jul 2019 - Oct 2019
 * First version of web viewer and dissemination site online: Nov 2019
 * Implementing changes to web viewer and dissemination site based on user's input: Dec 2019 - Present
+* Dissemination: Optics, Photonics and Digital Technologies for Imaging Applications VI, SPIE Photonics Europe 2020 29 March 2020 - 2 April 2020
+* Support for high resolution files: March - April 2020
 
 Future work:
 
-* glTF Conversion Tool: Feb 2020 - Mar 2020
-* Dissemination: Optics, Photonics and Digital Technologies for Imaging Applications VI, SPIE Photonics Europe 2020 29 March 2020 - 2 April 2020
-* pixel+ viewer: support for Relight RTI
+* glTF Conversion Tool: May 2020
 * Meta data handling in glTF
 * Saving of shader parameters
 
@@ -77,6 +77,12 @@ Publications
 * Hameeuw, H., Vanweddingen, V., Van Gool, L., Proesmans, M., Vastenhoud, C., Van Der Perre, A., Vandermeulen, B. and Watteeuw, G. "Pixel : Visualising Our Heritage." 2018. DH Benelux.
 * Vanweddingen, V., Vastenhoud, C., Proesmans, M., Hameeuw, H., Vandermeulen, B., Van der Perre, A., Lemmers, F., Watteeuw, L., Van Gool, L. "A Status Quaestionis and Future Solutions for Using Multi-Light Reflectance Imaging Approaches for Preserving Cultural Heritage Artifacts." Digital Heritage. Progress in Cultural Heritage: Documentation, Preservation, and Protection. EuroMed 2018. Lecture Notes in Computer Science, vol. 11197, 2018, pp. 204–211. (Best poster award)
 * Hameeuw, H., Vanweddingen, V., Proesmans, M., Vastenhoud, C.,  Vandermeulen, B., Van der Perre, A., Watteeuw, L., Lemmers, F.,  Van Gool, L., Schroer, C., Mudge, M., Earl, G. "Portable Light Domes in PIXEL+: Acquisition, Viewing, and Analysis." Digital Heritage 2018 3rd International Congress & Expo (San Fransisco)
-* Vanweddingen, V., Hameeuw, H., Vandermeulen, B., Vastenhoud, C., Watteeuw, L., Lemmers, F., Van der Perre, A., Konijn, P., Van Gool, L., Proesmans, M. "PIXEL+: integrating and standardizing of various interactive pixel-based imagery" SPIE Optics, Photonics and Digital Technologies for Imaging Applications VI 2020
+* Vanweddingen, V., Hameeuw, H., Vandermeulen, B., Vastenhoud, C., Watteeuw, L., Lemmers, F., Van der Perre, A., Konijn, P., Van Gool, L., Proesmans, M. "pixel+: integrating and standardizing of various interactive single-camera, multi-light imagery" SPIE Optics, Photonics and Digital Technologies for Imaging Applications VI 2020 (`PDF <_static/images/PIXEL___integrating_and_standardizing_of_various_interactive_pixel_based_imagery.pdf>`_, video: see below)
 
+.. raw:: html
+
+   <video width="720" height="480" controls>
+    <source src="_static/images/spie2020.mp4" type="video/mp4">
+     Your browser does not support the HTML 5 video tag. Please upgrade.
+   </video>
 
