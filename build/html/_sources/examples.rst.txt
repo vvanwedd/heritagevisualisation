@@ -33,7 +33,7 @@ Antique coin
 
     <img src="_static/images/samples_coin_RGB-Sketch-normals.jpg" style="height:350px !important;">
 
-Face side of a Siculo-Punique tetradrachme coin, 330-253 BCE (© KBR: `2A112_32 <https://www.kbr.be/en/collections/coins-and-medals/>`_)
+Face side of a Siculo-Punique tetradrachm coin, 330-253 BCE (© KBR: `2A112_32 <https://www.kbr.be/en/collections/coins-and-medals/>`_)
 
 .. rubric:: What
 
@@ -99,7 +99,7 @@ Persian relief
 
     <img src="_static/images/samples_persian-relief.gif" style="height:350px !important;">
 
-Detail on a stone relief depicting a Mede ascendingn a staircase (5th-4th c. BCE) (© Art and History Museum: `IR.1034 <https://www.carmentis.be:443/eMP/eMuseumPlus?service=ExternalInterface&module=collection&objectId=91823&viewType=detailView>`_)
+Detail on a stone relief depicting a Mede ascending a staircase (5th-4th c. BCE) (© Art and History Museum: `IR.1034 <https://www.carmentis.be:443/eMP/eMuseumPlus?service=ExternalInterface&module=collection&objectId=91823&viewType=detailView>`_)
 
 .. rubric:: What
 

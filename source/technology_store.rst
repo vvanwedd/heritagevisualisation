@@ -11,10 +11,10 @@ The output of the RTI fitting algorithm are coefficients, e.g. PTM for a PTM RTI
 
 Normal map
 +++++++++++
-From certain types of RTI files, ie. from PTM and HSH RTI files, a normal map can be calculated.
+From certain types of RTI files, i.e. from PTM and HSH RTI files, a normal map can be calculated.
 
 Generally, a normal map originating from an HSH RTI is of higher quality than one generated from PTM coefficients.
-Any spatial blurring that seems to exist is because the PTM or HSH coefficients don't capture the light space function perfectly. The resulting normal map can therefore also be more blurred than a result optained with a photometric stereo approach such as PLD.
+Any spatial blurring that seems to exist is because the PTM or HSH coefficients don't capture the light space function perfectly. The resulting normal map can therefore also be more blurred than a result obtained with a photometric stereo approach such as PLD.
 
 .. check and elaborate
 
@@ -70,7 +70,7 @@ The surface orientation is described by a vector that is perpendicular to the su
 
 Albedo map
 +++++++++++
-Besides the normal, the albedo is another material property that is calculated. The albedo is the amount of diffuse reflected light. In radiometric terms, the albedo corresponds to the radiosity (ie. radiant flux leaving the surface per unit area) to the irradiance (ie. the radiant flux received by the surface per unit area).
+Besides the normal, the albedo is another material property that is calculated. The albedo is the amount of diffuse reflected light. In radiometric terms, the albedo corresponds to the radiosity (i.e. radiant flux leaving the surface per unit area) to the irradiance (i.e. the radiant flux received by the surface per unit area).
 
 .. _ambientMap:
 
@@ -88,14 +88,14 @@ Once the surface orientation is estimated, the reflected color for each led that
 
 Height map and depth profile
 +++++++++++++++++++++++++++++
-The normal map encodes the surface direction, ie. gradient. Often times, the user is not only interested in the surface gradient, but also the surface itself. Surface integration algorithms calculate the surface starting from a normal map.
+The normal map encodes the surface direction, i.e. gradient. Often times, the user is not only interested in the surface gradient, but also the surface itself. Surface integration algorithms calculate the surface starting from a normal map.
 
 File formats
 -------------
 The recorded images are stored before they are debayered and before a gamma correction is applied. Thus, the corresponding pixel values correlate with the (spectrally filtered) observed intensities. The images are stored as [PGM]_
 
 After processing, a CFD file contains the various texture maps and metadata.
-Next to this file, 2 filetypes are used to easily exchange data: CUN (textures bzip2 compressed) and ZUN (textures gunzip compressed). Note that the normal textures are stored in a packed way, allowing a smaller file size.
+Next to this file, 2 file types are used to easily exchange data: CUN (textures bzip2 compressed) and ZUN (textures gunzip compressed). Note that the normal textures are stored in a packed way, allowing a smaller file size.
 
 glTF
 ====

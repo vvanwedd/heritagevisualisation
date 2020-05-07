@@ -23,11 +23,11 @@
   
     
       <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
-        <script type="text/javascript" src="_static/jquery.js"></script>
-        <script type="text/javascript" src="_static/underscore.js"></script>
-        <script type="text/javascript" src="_static/doctools.js"></script>
-        <script type="text/javascript" src="_static/language_data.js"></script>
-        <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+        <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
     
     <script type="text/javascript" src="_static/js/theme.js"></script>
 
@@ -145,6 +145,7 @@
 <li class="toctree-l2"><a class="reference internal" href="glossary.html">Glossary</a></li>
 </ul>
 </li>
+<li class="toctree-l1"><a class="reference internal" href="news.html">News</a></li>
 <li class="toctree-l1"><a class="reference internal" href="contact.html">Contact</a></li>
 </ul>
 
@@ -217,9 +218,9 @@
 </div>
 <div class="section" id="normal-map">
 <h4>Normal map<a class="headerlink" href="#normal-map" title="Permalink to this headline">¶</a></h4>
-<p>From certain types of RTI files, ie. from PTM and HSH RTI files, a normal map can be calculated.</p>
+<p>From certain types of RTI files, i.e. from PTM and HSH RTI files, a normal map can be calculated.</p>
 <p>Generally, a normal map originating from an HSH RTI is of higher quality than one generated from PTM coefficients.
-Any spatial blurring that seems to exist is because the PTM or HSH coefficients don’t capture the light space function perfectly. The resulting normal map can therefore also be more blurred than a result optained with a photometric stereo approach such as PLD.</p>
+Any spatial blurring that seems to exist is because the PTM or HSH coefficients don’t capture the light space function perfectly. The resulting normal map can therefore also be more blurred than a result obtained with a photometric stereo approach such as PLD.</p>
 </div>
 </div>
 <div class="section" id="file-formats">
@@ -270,7 +271,7 @@ b = (\mathbf{n}_z + 1)*\frac{1}{2}*255\end{split}\]</div>
 </div>
 <div class="section" id="albedo-map">
 <span id="albedomap"></span><h4>Albedo map<a class="headerlink" href="#albedo-map" title="Permalink to this headline">¶</a></h4>
-<p>Besides the normal, the albedo is another material property that is calculated. The albedo is the amount of diffuse reflected light. In radiometric terms, the albedo corresponds to the radiosity (ie. radiant flux leaving the surface per unit area) to the irradiance (ie. the radiant flux received by the surface per unit area).</p>
+<p>Besides the normal, the albedo is another material property that is calculated. The albedo is the amount of diffuse reflected light. In radiometric terms, the albedo corresponds to the radiosity (i.e. radiant flux leaving the surface per unit area) to the irradiance (i.e. the radiant flux received by the surface per unit area).</p>
 </div>
 <div class="section" id="ambient-map">
 <span id="ambientmap"></span><h4>Ambient map<a class="headerlink" href="#ambient-map" title="Permalink to this headline">¶</a></h4>
@@ -282,14 +283,14 @@ b = (\mathbf{n}_z + 1)*\frac{1}{2}*255\end{split}\]</div>
 </div>
 <div class="section" id="height-map-and-depth-profile">
 <span id="heightmap"></span><h4>Height map and depth profile<a class="headerlink" href="#height-map-and-depth-profile" title="Permalink to this headline">¶</a></h4>
-<p>The normal map encodes the surface direction, ie. gradient. Often times, the user is not only interested in the surface gradient, but also the surface itself. Surface integration algorithms calculate the surface starting from a normal map.</p>
+<p>The normal map encodes the surface direction, i.e. gradient. Often times, the user is not only interested in the surface gradient, but also the surface itself. Surface integration algorithms calculate the surface starting from a normal map.</p>
 </div>
 </div>
 <div class="section" id="id9">
 <h3>File formats<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h3>
 <p>The recorded images are stored before they are debayered and before a gamma correction is applied. Thus, the corresponding pixel values correlate with the (spectrally filtered) observed intensities. The images are stored as <a class="reference internal" href="technology_view.html#pgm" id="id10"><span>[PGM]</span></a></p>
 <p>After processing, a CFD file contains the various texture maps and metadata.
-Next to this file, 2 filetypes are used to easily exchange data: CUN (textures bzip2 compressed) and ZUN (textures gunzip compressed). Note that the normal textures are stored in a packed way, allowing a smaller file size.</p>
+Next to this file, 2 file types are used to easily exchange data: CUN (textures bzip2 compressed) and ZUN (textures gunzip compressed). Note that the normal textures are stored in a packed way, allowing a smaller file size.</p>
 </div>
 </div>
 <div class="section" id="gltf">

@@ -113,7 +113,7 @@ Necessary input maps
 Sketch 1
 ---------
 
-This visual style is inspired by pencil drawings of objects with local relief like cuneiform tablets. Where the surface direction locally abrubtly changes, a black pixel value is set.
+This visual style is inspired by pencil drawings of objects with local relief like cuneiform tablets. Where the surface direction locally abruptly changes, a black pixel value is set.
 
 Parameters
 +++++++++++

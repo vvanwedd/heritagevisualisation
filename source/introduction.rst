@@ -4,7 +4,7 @@ The heritage-visualisation.org website is an initiative of the pixel+ project to
 
 Several methods to capture and study heritage artifacts with the Single-Camera, Multi-Light technology exist. This website aims to bring together existing methods. To achieve this an integrated viewer platform has been created.
 
-The website hosts the WebGL based `pixel+ viewer <http://www.heritage-visualisation.org/viewer>`_ which can handle several single-camera, multi-light datasets. This viewer allows the consultation of existing CUN, ZUN, PTM and RTI datasets and as a first uses the newly proposed glTF `glTF <http://www.heritage-visualisation.org/gltf.rst>`_ file format standard.
+The website hosts the WebGL based `pixel+ viewer <http://www.heritage-visualisation.org/viewer>`_ which can handle several single-camera, multi-light datasets. This viewer allows the consultation of existing CUN, ZUN, PTM and RTI datasets and as a first uses the newly proposed `SCML <http://www.heritage-visualisation.org/scml.rst>`_ file format standard.
 
 heritage-visualisation.org is maintained by a group of researchers in the Computer Vision and Cultural Heritage domains. The group focuses on the development and dissemination of new technologies for visualisation and has its origin in Belgium.
 

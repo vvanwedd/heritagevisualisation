@@ -1,4 +1,4 @@
-glTF
+SCML
 *******************
 Overview of existing Single-Camera, Multi-Light file formats
 =============================================================
@@ -23,11 +23,11 @@ Most browsers support WebGL, which can leverage the power of a GPU to efficientl
 
 Before the GPU can be put to work however, the files have to be parsed and decoded, followed by a preparation and transfer of (texture) data from CPU memory to GPU memory. Both steps can take some time - as can be seen when loading CUN, RTI, PTM files in the pixel+ viewer. 
 
-glTF
+SCML
 =====
 
 `GL Transmission Format <https://www.khronos.org/gltf/>`_ is a specification that tackles this problem of slow runtime decoding and preparing of the data before it can be sent to the GPU.
-For Single-Camera, Multi-Light files, a minimal glTF implementation consists of a JSON typed file describing the various textures, including offset and scale values and images containing the per pixel RTI coefficients, PTM coefficients (both grouped as a triplet), Normal, Albedo and/or Ambient values.
+For Single-Camera, Multi-Light files, a minimal SCML implementation consists of a JSON typed file describing the various textures, including offset and scale values and images containing the per pixel RTI coefficients, PTM coefficients (both grouped as a triplet), Normal, Albedo and/or Ambient values.
 
 .. code-block:: json
 
@@ -68,7 +68,7 @@ For Single-Camera, Multi-Light files, a minimal glTF implementation consists of 
     }]
    }
 
-   glTF Conversion Tool
+   SCML Conversion Tool
    ====================
 
    Coming soon

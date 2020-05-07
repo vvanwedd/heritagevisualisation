@@ -58,7 +58,7 @@ Project timeline
 * Dissemination: Organizing workshop at Digital Heritage 2018 in San Francisco 
 * Documentation of PLD technology: Jan 2019 - Feb 2019
 * pixel+ viewer: implementation of PLD-RTI-PTM integration 1: Mar 2019 - May 2019
-* glTF implementation: June 2019
+* SCML implementation: June 2019
 * Dissemination web site: Framework + content: Jul 2019 - Oct 2019
 * First version of web viewer and dissemination site online: Nov 2019
 * Implementing changes to web viewer and dissemination site based on user's input: Dec 2019 - Present
@@ -67,8 +67,8 @@ Project timeline
 
 Future work:
 
-* glTF Conversion Tool: May 2020
-* Meta data handling in glTF
+* SCML Conversion Tool: May 2020
+* Meta data handling in SCML
 * Saving of shader parameters
 
 Publications

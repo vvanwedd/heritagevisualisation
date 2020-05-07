@@ -134,6 +134,7 @@ Did you ever wonder what is hidden underneath the surface of an illumination? Is
    pixelplus
    pixelplusviewer
    technology
+   news
    contact 
      
 .. raw:: html
