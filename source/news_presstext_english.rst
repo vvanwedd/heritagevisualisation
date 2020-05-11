@@ -1,8 +1,10 @@
 English press text
 *************************************
-New dimensions take a deeper look at heritage
+.. raw:: html
 
-**Together with the Art & History Museum and the Royal Library of Belgium (KBR), KU Leuven is launching an online open access application to view heritage objects dynamically and interactively online. This pixel+ viewer allows you to view centuries-old objects in a different light and reveal hidden details.**
+   <h2>New dimensions take a deeper look at heritage</h2>
+
+   <h4>Together with the Art & History Museum and the Royal Library of Belgium (KBR), KU Leuven is launching an online open access application to view heritage objects dynamically and interactively online. This pixel+ viewer allows you to view centuries-old objects in a different light and reveal hidden details.</h4>
 
 As a result of the Coronavirus measures, museums and other heritage institutions are hardly accessible today, both in Belgium and abroad. It puts the consultation of objects and the study of our past under strong pressure. In part, we can fall back on digitised objects, notes and old publications. Yet these only represent part of the information and important details can thus be overlooked. Fortunately, the sector, in collaboration with engineers, is technologically ready to deal with this situation as well.
 In the heritage sector, the digitisation of objects has long been the focus of attention and experimentation. For the public, this usually results in an online photo that can be zoomed in or on which the contrast can be adjusted. These are purely colour images, standard digital photographs conceal no extra information. However, different types of image scanners register a lot more characteristics of a surface than just the colour. Being able to visualize this information in a handy online tool therefore offers new possibilities for anyone working with heritage objects. Think, for example, of the KBR drawings by Pieter Bruegel the Elder that were recently examined by KU Leuven. The researchers were able to study the paper down to the fibre using their Portable Light Dome (PLD) scanner. They also got a much better view of the extensive range of techniques used by the old master.
@@ -13,20 +15,24 @@ In the heritage sector, the digitisation of objects has long been the focus of a
  
    Detail on original Pieter Bruegel the Old drawing from 1557 (KBR: II132816, Luxuria), without colour the imprinted stylus traces of the engraver become visible (© Fingerprint, KBR and KU Leuven).
 
+.. raw:: html
 
-Software is the key
+   <h3>Software is the key</h3>
 
 Over the past 15 years, KU Leuven researchers, together with various partners from the heritage sector, have developed digital techniques that can visualise objects to an unprecedented level of detail: the PLD scanner. "With this method, they illuminate an object from a large number of angles and take photos of it, the so-called 'single-camera, multi-light recording', says Hendrik Hameeuw, co-coordinator of the project at KU Leuven. "The way in which this recording is subsequently processed determines which characteristics of the surface, such as relief or texture, the software can show and thus how the user experiences the object". 
 
-New universal file format
+.. raw:: html
 
- "To be entirely complete, we actually have to look at the file types of these interactive datasets," says Hameeuw. Most heritage institutions calculate and store these types of images of their heritage with a specific image format, usually RTI/HSH. The software developed in Leuven works with PLD files (ZUN, CUN) that have extra functionalities compared to those RTI/HSH files. Pixel+ now makes this way of calculation available to the whole world, not only by offering it online, but also by introducing a new kind of container file for it: SCML. "Compare it with an ordinary photo on your computer. It will probably be a JPEG or GIF file. But if you want to work with it in Photoshop, the program will turn the same image into a PSD file". These SCMLs are compatible with both the Leuven PLD and the RTI/HSH files. "With this we offer a new universal standard for this kind of images and we also open them immediately via the online pixel+ viewer, a kind of free photoshop for 'single-camera, multi-light recording' images". This allows both RTI/HSH and PLD files to be studied and compared within the same program for the first time.
+   <h3>New universal file format</h3>
 
-A new world
+"To be entirely complete, we actually have to look at the file types of these interactive datasets," says Hameeuw. Most heritage institutions calculate and store these types of images of their heritage with a specific image format, usually RTI/HSH. The software developed in Leuven works with PLD files (ZUN, CUN) that have extra functionalities compared to those RTI/HSH files. Pixel+ now makes this way of calculation available to the whole world, not only by offering it online, but also by introducing a new kind of container file for it: SCML. "Compare it with an ordinary photo on your computer. It will probably be a JPEG or GIF file. But if you want to work with it in Photoshop, the program will turn the same image into a PSD file". These SCMLs are compatible with both the Leuven PLD and the RTI/HSH files. "With this we offer a new universal standard for this kind of images and we also open them immediately via the online pixel+ viewer, a kind of free photoshop for 'single-camera, multi-light recording' images". This allows both RTI/HSH and PLD files to be studied and compared within the same program for the first time.
 
+.. raw:: html
+
+   <h3>A new world</h3>
 
 Pixel+ extracts a lot of extra information from the available data. The objects, such as old coins, miniatures or paintings, suddenly acquire extra dimensions after hundreds of years, which can be used for research on these objects to gain new insights. Especially in the field of 3D (geometry) and the correct understanding of the reflections of light on an object, the Leuven software is taking major steps forward.
- "The technology is interesting for many objects, from clay tablets over coins to paintings or medieval manuscripts," explains Hameeuw. "The software allows, among other things, the objects to be viewed virtually with different incidence of light, the relief to be mapped at pixel level or a 3D visualisation to be generated". By even combining it with multi-spectral imaging, researchers discovered, for example, that the heads of some of the figures in KBR's 13th-century Rijmbijbel were painted over at a later date. At the Art & History Museum, the technology was used to make heavily weathered texts on almost 4,000-year-old Egyptian figurines readable again.
+"The technology is interesting for many objects, from clay tablets over coins to paintings or medieval manuscripts," explains Hameeuw. "The software allows, among other things, the objects to be viewed virtually with different incidence of light, the relief to be mapped at pixel level or a 3D visualisation to be generated". By even combining it with multi-spectral imaging, researchers discovered, for example, that the heads of some of the figures in KBR's 13th-century Rijmbijbel were painted over at a later date. At the Art & History Museum, the technology was used to make heavily weathered texts on almost 4,000-year-old Egyptian figurines readable again.
  
 .. figure:: _static/images/samples_rijmbijbel_RGBandIR.jpg
    :scale: 10 %
