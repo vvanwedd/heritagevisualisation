@@ -1,5 +1,4 @@
 Dutch press text
-.. raw:: html
 
    <h2>Nieuwe dimensies werpen verdiepende blik op erfgoed</h2>
 
