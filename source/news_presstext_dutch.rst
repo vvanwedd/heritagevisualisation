@@ -4,6 +4,9 @@ Dutch press text
 
    <h2>Nieuwe dimensies werpen verdiepende blik op erfgoed</h2>
 
+Nieuwe dimensies werpen verdiepende blik op erfgoed
+*************************************
+
    <h4>De KU Leuven lanceert samen met het Museum Kunst & Geschiedenis en de Koninklijke Bibliotheek van België (KBR) een online open access toepassing om erfgoedobjecten dynamisch en op een interactieve manier online te bekijken. Deze pixel+ viewer laat toe om eeuwenoude objecten in een ander licht te bekijken en verborgen details zichtbaar te maken. </h4> 
 
 Naar aanleiding van de Coronavirus maatregelen zijn musea en andere erfgoedinstellingen vandaag nog nauwelijks toegankelijk, zowel in België, als in het buitenland. Het zet de consultatie van objecten en studie van ons verleden stevig onder druk. Voor een deel kan er terug gevallen worden op gedigitaliseerde objecten, notities en oude publicaties. Toch geven deze maar een deel van de informatie weer en kunnen zo belangrijke details over het hoofd gezien worden. Gelukkig staat de sector, in samenwerking met ingenieurs, technologisch klaar om ook deze situatie de baas te kunnen.
