@@ -1,19 +1,19 @@
 Dutch press text
-*************************************
+
 .. raw:: html
 
-   <h2>Nieuwe dimensies werpen verdiepende blik op erfgoed</h2>
+   <h2>Nieuwe dimensies werpen verdiepende blik op erfgoed </h2>
 
    <h4>De KU Leuven lanceert samen met het Museum Kunst & Geschiedenis en de Koninklijke Bibliotheek van België (KBR) een online open access toepassing om erfgoedobjecten dynamisch en op een interactieve manier online te bekijken. Deze pixel+ viewer laat toe om eeuwenoude objecten in een ander licht te bekijken en verborgen details zichtbaar te maken. </h4> 
 
 Naar aanleiding van de Coronavirus maatregelen zijn musea en andere erfgoedinstellingen vandaag nog nauwelijks toegankelijk, zowel in België, als in het buitenland. Het zet de consultatie van objecten en studie van ons verleden stevig onder druk. Voor een deel kan er terug gevallen worden op gedigitaliseerde objecten, notities en oude publicaties. Toch geven deze maar een deel van de informatie weer en kunnen zo belangrijke details over het hoofd gezien worden. Gelukkig staat de sector, in samenwerking met ingenieurs, technologisch klaar om ook deze situatie de baas te kunnen.
-In de erfgoedsector wordt reeds lang ingezet op en geëxperimenteerd met de digitalisering van objecten. Het resulteert voor het publiek meestal in een online foto die ingezoomd of waarop het contrast aangepast kan worden. Dit zijn louter kleurenbeelden, want meer informatie zit er niet in standaard digitale foto’s. Verschillende soorten beeldscanners registreren intussen echter heel wat meer karakteristieken van een oppervlak dan alleen de kleur. Ook die informatie kunnen visualiseren in een handige online tool biedt dan ook nieuwe mogelijkheden voor iedereen die met erfgoed objecten werkt. Denk bijvoorbeeld aan de tekeningen van KBR van Pieter Bruegel de Oude die recent door de KU Leuven onder de loep werden genomen. De onderzoekers konden het papier tot op de vezel bestuderen met behulp van hun Portable Light Dome (PLD) scanner. Ze kregen ook een veel beter zicht op het uitgebreide palet aan technieken die de oude meester gebruikte. 
+In de erfgoedsector wordt reeds lang ingezet op en geëxperimenteerd met de digitalisering van objecten. Het resulteert voor het publiek meestal in een online foto die ingezoomd of waarop het contrast aangepast kan worden. Dit zijn louter kleurenbeelden, want meer informatie zit er niet in standaard digitale foto’s. Verschillende soorten beeldscanners registreren intussen echter heel wat meer karakteristieken van een oppervlak dan alleen de kleur. Ook die informatie kunnen visualiseren in een handige online tool biedt dan ook nieuwe mogelijkheden voor iedereen die met erfgoed objecten werkt. Denk bijvoorbeeld aan de tekeningen van KBR van `Pieter Bruegel de Oude <https://nieuws.kuleuven.be/nl/campuskrant/2019-2020/campuskrant-2019-2020-nr-1/leuvense-onderzoekers-leggen-diepste-vezels-van-bruegel-tekeningen-bloot>`_ die recent door de KU Leuven onder de loep werden genomen. De onderzoekers konden het papier tot op de vezel bestuderen met behulp van hun Portable Light Dome (PLD) scanner. Ze kregen ook een veel beter zicht op het uitgebreide palet aan technieken die de oude meester gebruikte. 
 
 .. figure:: _static/images/samples_bruegel_detail_RGBandShaded.gif
    :scale: 30 %
    :alt:
 
-   Detail op originele Pieter Bruegel de Oude tekening uit 1557 (KBR: II132816, Luxuria), zonder kleur worden de ingedrukte stylussporen van de graveur zichtbaar (© Fingerprint, KBR en KU Leuven).
+   Detail op originele Pieter Bruegel de Oude tekening uit 1557 (KBR: `II132816 <https://opac.kbr.be/Library/doc/SYRACUSE/15794384/luxuria-graphic>`_, Luxuria), zonder kleur worden de ingedrukte stylussporen van de graveur zichtbaar (© Fingerprint, KBR en KU Leuven).
 
 .. raw:: html
 
@@ -33,7 +33,7 @@ In de afgelopen 15 jaar ontwikkelden onderzoekers van de KU Leuven, samen met ve
 
 Pixel+ haalt heel wat extra informatie uit de beschikbare data. De voorwerpen, zoals oude munten, miniaturen of schilderijen, krijgen zo na honderden jaren plots extra dimensies die voor het onderzoek op dergelijke objecten nieuwe inzichten kan verwerven. Vooral op het vlak van 3D (geometrie) en het correct begrijpen van de reflecties van licht op een object zet de Leuvense software grote stappen vooruit. 
 
-“De technologie is interessant voor tal van objecten, van kleitabletten over munten tot schilderijen of middeleeuwse manuscripten”, licht Hameeuw toe. “De software laat onder andere toe om de objecten virtueel met verschillende lichtinvallen te bekijken, het reliëf op pixelniveau in kaart te brengen of een 3D-visualisatie te genereren.” Door het zelfs te combineren met multi-spectrale beeldvorming kwamen onderzoekers er bijvoorbeeld achter dat de hoofden van enkele figuren in de 13de eeuwse Rijmbijbel van KBR op een later moment werden overschilderd. Aan het Museum Kunst & Geschiedenis werd de technologie dan weer ingezet om sterk verweerde teksten op bijna 4000 jaar oude Egyptische beeldjes opnieuw leesbaar te maken.
+“De technologie is interessant voor tal van objecten, van kleitabletten over munten tot schilderijen of middeleeuwse manuscripten”, licht Hameeuw toe. “De software laat onder andere toe om de objecten virtueel met verschillende lichtinvallen te bekijken, het reliëf op pixelniveau in kaart te brengen of een 3D-visualisatie te genereren.” Door het zelfs te combineren met multi-spectrale beeldvorming kwamen onderzoekers er bijvoorbeeld achter dat de hoofden van enkele figuren in de 13de eeuwse `Rijmbijbel <https://www.kbr.be/nl/rijmbijbel-12-miniaturen-onder-de-micro-dome/>`_ van KBR op een later moment werden overschilderd. Aan het Museum Kunst & Geschiedenis werd de technologie dan weer ingezet om sterk verweerde teksten op bijna 4000 jaar oude `Egyptische beeldjes <http://www.kmkg-mrah.be/nl/conservatie-ir-uv-3d-beeldvorming-de-egyptische-verwensingbeeldjes>`_ opnieuw leesbaar te maken.
  
 .. figure:: _static/images/samples_rijmbijbel_RGBandIR.jpg
    :scale: 10 %
