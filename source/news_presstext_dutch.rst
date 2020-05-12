@@ -1,7 +1,5 @@
 Dutch press text
 
-   <h2>Nieuwe dimensies werpen verdiepende blik op erfgoed</h2>
-
 Nieuwe dimensies werpen verdiepende blik op erfgoed
 *************************************
 
