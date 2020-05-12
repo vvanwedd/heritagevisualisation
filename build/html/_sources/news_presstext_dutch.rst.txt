@@ -1,8 +1,7 @@
-Dutch press text
+Nieuwe dimensies werpen verdiepende blik op erfgoed
+====================================================
 
 .. raw:: html
-
-   <h2>Nieuwe dimensies werpen verdiepende blik op erfgoed </h2>
 
    <h4>De KU Leuven lanceert samen met het Museum Kunst & Geschiedenis en de Koninklijke Bibliotheek van België (KBR) een online open access toepassing om erfgoedobjecten dynamisch en op een interactieve manier online te bekijken. Deze pixel+ viewer laat toe om eeuwenoude objecten in een ander licht te bekijken en verborgen details zichtbaar te maken. </h4> 
 
@@ -62,8 +61,9 @@ Contactlijst alle betrokken partners:
 * Frédéric Lemmers, KBR Digitisation Department,  02 519 56 64,  frederic.lemmers@kbr.be 
 
 Begin april 2020 presenteerden de projectmedewerkers van pixel+ reeds hun resultaten tijdens een online (ten gevolge Corona) SPIE-conferentie. Naar aanleiding daarvan de publicatie van onderstaande paper:  
-Vincent Vanweddingen, Hendrik Hameeuw, Bruno Vandermeulen, Chris Vastenhoud, Lieve Watteeuw, Frédéric Lemmers, Athena Van der Perre, Paul Konijn, Luc Van Gool, Marc Proesmans 2020: Pixel+: integrating and standardizing of various interactive pixel-based imagery, in: Peter Schelkens, Tomasz Kozacki (eds.) Optics, Photonics and Digital Technologies for Imaging Applications VI, Proc. of SPIE Vol. 11353, 113530G. (DOI: 10.1117/12.2555685)
-lees paper – bekijk presentatie
+Vincent Vanweddingen, Hendrik Hameeuw, Bruno Vandermeulen, Chris Vastenhoud, Lieve Watteeuw, Frédéric Lemmers, Athena Van der Perre, Paul Konijn, Luc Van Gool, Marc Proesmans 2020: Pixel+: integrating and standardizing of various interactive pixel-based imagery, in: Peter Schelkens, Tomasz Kozacki (eds.) Optics, Photonics and Digital Technologies for Imaging Applications VI, Proc. of SPIE Vol. 11353, 113530G. (DOI: `10.1117/12.2555685 <https://doi.org/10.1117/12.2555685>`_)
+
+`lees paper <http://www.heritage-visualisation.org/_static/images/PIXEL___integrating_and_standardizing_of_various_interactive_pixel_based_imagery.pdf>`_ – `bekijk presentatie <http://www.heritage-visualisation.org/pixelplus.html>`_
 
 
 Extra voorbeelden kunnen bekeken en aangemaakt worden op http://www.heritage-visualisation.org/examples.html

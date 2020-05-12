@@ -1,8 +1,7 @@
-French press text
-*************************************
-.. raw:: html
+De nouvelles dimensions pour un regard plus approfondi sur le patrimoine
+==========================================================================
 
-   <h2>De nouvelles dimensions pour un regard plus approfondi sur le patrimoine<h2>
+.. raw:: html
 
    <h4>En collaboration avec le Musée Art & Histoire et KBR (Bibliothèque royale de Belgique), la KU Leuven lance une application en ligne en libre accès permettant de visualiser des objets du patrimoine de manière dynamique et interactive. Cette visionneuse Pixel+ permet de voir des objets séculaires sous un autre angle et de révéler des détails cachés.</h4>
 
@@ -14,11 +13,11 @@ Dans le secteur du patrimoine, la numérisation des objets a longtemps été au 
    :scale: 40 %
    :alt:
 
-   Détail sur le dessin original de Pieter Bruegel l'Ancien de 1557 (KBR : II132816, Luxuria), sans couleur, les traces stylistiques imprimées du graveur deviennent visibles (© Fingerprint, KBR et KU Leuven).
+   Détail sur le dessin original de Pieter Bruegel l'Ancien de 1557 (KBR : `II132816 <https://opac.kbr.be/Library/detailstatic.aspx?RSC_BASE=SYRACUSE&RSC_DOCID=15794384&TITLE=%2Fluxuria-graphic&_lg=fr-BE>`_, Luxuria), sans couleur, les traces stylistiques imprimées du graveur deviennent visibles (© Fingerprint, KBR et KU Leuven).
 
    .. raw:: html
 
-   <h3>Le logiciel est la clé</h3>
+      <h3>Le logiciel est la clé</h3>
 
 Au cours des 15 dernières années, les chercheurs de la KU Leuven, en collaboration avec divers partenaires du secteur du patrimoine, ont mis au point des techniques numériques permettant de visualiser des objets à un niveau de détail sans précédent : le scanner PLD. "Avec cette méthode, ils éclairent un objet sous un grand nombre d'angles et prennent des photos de celui-ci, ce que l'on appelle "l'enregistrement single-camera, multi-light", explique Hendrik Hameeuw, coordinateur du projet pixel+ à la KU Leuven. "La manière dont cet enregistrement est ensuite traité détermine les caractéristiques de la surface, telles que le relief ou la texture, que le logiciel peut montrer et donc la manière dont l'utilisateur perçois l'objet". 
 
@@ -33,13 +32,13 @@ Au cours des 15 dernières années, les chercheurs de la KU Leuven, en collabora
    <h3>Un monde nouveau</h3>
 
 Pixel+ extrait de nombreuses informations supplémentaires des données disponibles. Les objets, tels que les vieilles pièces de monnaie, les miniatures ou les peintures, acquièrent soudainement, après des centaines d'années, des dimensions supplémentaires qui peuvent être utilisées pour la recherche sur ces objets afin d'acquérir de nouvelles connaissances. En particulier dans le domaine de la 3D (géométrie) et de la bonne compréhension des réflexions de la lumière sur un objet, le logiciel de Leuven fait de grands pas en avant. 
-"La technologie est intéressante pour de nombreux objets, des tablettes d'argile aux pièces de monnaie en passant par les peintures ou les manuscrits médiévaux", explique H. Hameeuw. "Le logiciel permet, entre autres, de visualiser virtuellement les objets avec différentes incidences lumineuses, de cartographier le relief au niveau du pixel ou de générer une visualisation 3D". En le combinant avec l'imagerie multispectrale, les chercheurs ont découvert, par exemple, que les têtes de certaines des figures de la Rijmbijbel du 13e siècle de la KBR ont été peintes par-dessus à une date ultérieure. Au Musée Art & Histoire, la technologie a été utilisée pour rendre à nouveau lisibles des textes très altérés sur des figurines égyptiennes vieilles de près de 4000 ans. 
+"La technologie est intéressante pour de nombreux objets, des tablettes d'argile aux pièces de monnaie en passant par les peintures ou les manuscrits médiévaux", explique H. Hameeuw. "Le logiciel permet, entre autres, de visualiser virtuellement les objets avec différentes incidences lumineuses, de cartographier le relief au niveau du pixel ou de générer une visualisation 3D". En le combinant avec l'imagerie multispectrale, les chercheurs ont découvert, par exemple, que les têtes de certaines des figures de la `Rijmbijbel <https://www.kbr.be/fr/la-rijmbijbel-12-miniatures-sous-le-micro-dome/>`_ du 13e siècle de la KBR ont été peintes par-dessus à une date ultérieure. Au Musée Art & Histoire, la technologie a été utilisée pour rendre à nouveau lisibles des textes très altérés sur des `figurines égyptiennes <http://www.kmkg-mrah.be/fr/conservation-ir-uv-imagerie-3d-les-statuettes-dex%C3%A9cration-%C3%A9gyptiennes>`_ vieilles de près de 4000 ans. 
 
 .. figure:: _static/images/samples_rijmbijbel_RGBandIR.jpg
    :scale: 10 %
    :alt:
 
-   Même détail de miniature (folio 106v) dans le Rijmbijbel de Jacob van Maerlant (MS15001, ca. 1225-1291) avec différentes visualisations du PLD multispectral, remarquez les lignes rouges autour des têtes (= ajouts postérieurs) (© KBR et KU Leuven).
+   Même détail de miniature (folio 106v) dans le Rijmbijbel de Jacob van Maerlant (`MS15001 <https://opac.kbr.be/Library/doc/SYRACUSE/17000895/rijmbijbel-ms-15001>`_, ca. 1225-1291) avec différentes visualisations du PLD multispectral, remarquez les lignes rouges autour des têtes (= ajouts postérieurs) (© KBR et KU Leuven).
 
 Des institutions du monde entier, du Metropolitan Museum of Art à New York (USA) au Regionaal Archeologisch Museum a/d Schelde à Avelgem, pourront télécharger, consulter et étudier leurs propres ensembles de données ou fichiers en pixel+. Le logiciel convertit les informations selon diverses nouvelles normes et permet aux utilisateurs d'accéder aux objets du patrimoine virtuel de manière interactive. "Ce développement est vraiment une étape importante pour le secteur du patrimoine", souligne Chris Vastenhoud, promoteur du projet au Museum of Art & History. "Un tout nouveau monde s'ouvrira pour les institutions du patrimoine du monde entier. Ils pourront documenter et partager de nombreuses informations supplémentaires afin de communiquer sur les objets de leurs collections".
 
@@ -61,8 +60,9 @@ Liste des contacts de tous les partenaires impliqués :
 * Frédéric Lemmers, KBR Digitisation Department, 02 519 56 64, frederic.lemmers@kbr.be 
 
 Début avril 2020, l'équipe du projet pixel+ a déjà présenté ses résultats lors d'une conférence SPIE en ligne (résultat de Corona). En conséquence, le document ci-dessous a été publié : 
-Vincent Vanweddingen, Hendrik Hameeuw, Bruno Vandermeulen, Chris Vastenhoud, Lieve Watteeuw, Frédéric Lemmers, Athena Van der Perre, Paul Konijn, Luc Van Gool, Marc Proesmans 2020: Pixel+: integrating and standardizing of various interactive pixel-based imagery, in: Peter Schelkens, Tomasz Kozacki (eds.) Optics, Photonics and Digital Technologies for Imaging Applications VI, Proc. of SPIE Vol. 11353, 113530G. (DOI: 10.1117/12.2555685)
-lire le document - voir la présentation
+Vincent Vanweddingen, Hendrik Hameeuw, Bruno Vandermeulen, Chris Vastenhoud, Lieve Watteeuw, Frédéric Lemmers, Athena Van der Perre, Paul Konijn, Luc Van Gool, Marc Proesmans 2020: Pixel+: integrating and standardizing of various interactive pixel-based imagery, in: Peter Schelkens, Tomasz Kozacki (eds.) Optics, Photonics and Digital Technologies for Imaging Applications VI, Proc. of SPIE Vol. 11353, 113530G. (DOI: `10.1117/12.2555685 <https://doi.org/10.1117/12.2555685>`_)
+
+`lire le document <http://www.heritage-visualisation.org/_static/images/PIXEL___integrating_and_standardizing_of_various_interactive_pixel_based_imagery.pdf>`_ - `voir la présentation <http://www.heritage-visualisation.org/pixelplus.html>`_
 
 
 Des exemples supplémentaires peuvent être consultés et créés à http://www.heritage-visualisation.org/examples.html
