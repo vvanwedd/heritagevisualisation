@@ -131,11 +131,11 @@
 <li class="toctree-l4"><a class="reference internal" href="#id9">File formats</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="#gltf">glTF</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#scml">SCML</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#overview-of-existing-single-camera-multi-light-file-formats">Overview of existing Single-Camera, Multi-Light file formats</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#need-for-an-open-web-optimized-format">Need for an open, web optimized format</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#id11">glTF</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#gltf-conversion-tool">glTF Conversion Tool</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id11">SCML</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#scml-conversion-tool">SCML Conversion Tool</a></li>
 </ul>
 </li>
 </ul>
@@ -237,15 +237,15 @@ Any spatial blurring that seems to exist is because the PTM or HSH coefficients 
 <li><p>Look Up Table PTM</p></li>
 <li><p>YCrCb color space PTM</p></li>
 </ul>
-<p>The upper 2 versions are the most popular PTM file types, as they are supported by CHI’s processing and viewing software <a class="reference internal" href="technology_view.html#chi" id="id1"><span>[CHI]</span></a></p>
+<p>The upper 2 versions are the most popular PTM file types, as they are supported by CHI’s processing and viewing software <a class="reference internal" href="#chi" id="id1"><span>[CHI]</span></a></p>
 </div>
 <div class="section" id="id2">
 <h4>RTI<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h4>
 <ul class="simple">
-<li><p>PTM RTI: Polynomial Texture Mapping RTI <a class="reference internal" href="technology_view.html#malzbender2001" id="id3"><span>[Malzbender2001]</span></a></p></li>
-<li><p>HSH RTI: Hemispherical Harmonics RTI <a class="reference internal" href="technology_view.html#mudge2008" id="id4"><span>[Mudge2008]</span></a></p></li>
+<li><p>PTM RTI: Polynomial Texture Mapping RTI <a class="reference internal" href="#malzbender2001" id="id3"><span>[Malzbender2001]</span></a></p></li>
+<li><p>HSH RTI: Hemispherical Harmonics RTI <a class="reference internal" href="#mudge2008" id="id4"><span>[Mudge2008]</span></a></p></li>
 <li><p>SH RTI: Spherical Harmonics RTI</p></li>
-<li><p>EHSH RTI: Eigen Hemispherical Harmonics RTI <a class="reference internal" href="technology_view.html#lam2012" id="id5"><span>[Lam2012]</span></a></p></li>
+<li><p>EHSH RTI: Eigen Hemispherical Harmonics RTI <a class="reference internal" href="#lam2012" id="id5"><span>[Lam2012]</span></a></p></li>
 <li><p>Adaptive basis RTI</p></li>
 </ul>
 </div>
@@ -266,7 +266,7 @@ b = (\mathbf{n}_z + 1)*\frac{1}{2}*255\end{split}\]</div>
 <li><p>Note that normal <span class="math notranslate nohighlight">\(\mathbf{n}\)</span> is normalized, meaning the x, y or z components can range from -1 to 1.</p></li>
 <li><p>Note that 255 corresponds to storing the normal in an 8 bit image. Depending on the bit depth of the image, this should be changed. An r value of 0 thus corresponds to an x component of -1 and a b value of 255 to a z component of 1</p></li>
 <li><p>Note also that this conversion to a 3 channel color bitmap introduces quantization artifacts, as the normal is typically calculated in floating point arithmetic, but has to be stored to the nearest integer color value according to the equation above.</p></li>
-<li><p>If the visualization pipeline supports floating point textures, the normal map can be stored using the floating point x, y, z values directly. Typically newer GPU models support floating point textures. In WebGL, this can be checked with a flag <a class="reference internal" href="technology_view.html#oes-floating-point" id="id8"><span>[OES_floating_point]</span></a></p></li>
+<li><p>If the visualization pipeline supports floating point textures, the normal map can be stored using the floating point x, y, z values directly. Typically newer GPU models support floating point textures. In WebGL, this can be checked with a flag <a class="reference internal" href="#oes-floating-point" id="id8"><span>[OES_floating_point]</span></a></p></li>
 </ul>
 </div>
 <div class="section" id="albedo-map">
@@ -288,13 +288,13 @@ b = (\mathbf{n}_z + 1)*\frac{1}{2}*255\end{split}\]</div>
 </div>
 <div class="section" id="id9">
 <h3>File formats<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h3>
-<p>The recorded images are stored before they are debayered and before a gamma correction is applied. Thus, the corresponding pixel values correlate with the (spectrally filtered) observed intensities. The images are stored as <a class="reference internal" href="technology_view.html#pgm" id="id10"><span>[PGM]</span></a></p>
+<p>The recorded images are stored before they are debayered and before a gamma correction is applied. Thus, the corresponding pixel values correlate with the (spectrally filtered) observed intensities. The images are stored as <a class="reference internal" href="#pgm" id="id10"><span>[PGM]</span></a></p>
 <p>After processing, a CFD file contains the various texture maps and metadata.
 Next to this file, 2 file types are used to easily exchange data: CUN (textures bzip2 compressed) and ZUN (textures gunzip compressed). Note that the normal textures are stored in a packed way, allowing a smaller file size.</p>
 </div>
 </div>
-<div class="section" id="gltf">
-<h2>glTF<a class="headerlink" href="#gltf" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="scml">
+<span id="scmlformat"></span><h2>SCML<a class="headerlink" href="#scml" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="overview-of-existing-single-camera-multi-light-file-formats">
 <h3>Overview of existing Single-Camera, Multi-Light file formats<a class="headerlink" href="#overview-of-existing-single-camera-multi-light-file-formats" title="Permalink to this headline">¶</a></h3>
 <p>Single-Camera, Multi-Light methods output several kinds of files.</p>
@@ -320,9 +320,9 @@ Next to this file, 2 file types are used to easily exchange data: CUN (textures 
 <p>Before the GPU can be put to work however, the files have to be parsed and decoded, followed by a preparation and transfer of (texture) data from CPU memory to GPU memory. Both steps can take some time - as can be seen when loading CUN, RTI, PTM files in the pixel+ viewer.</p>
 </div>
 <div class="section" id="id11">
-<h3>glTF<a class="headerlink" href="#id11" title="Permalink to this headline">¶</a></h3>
+<h3>SCML<a class="headerlink" href="#id11" title="Permalink to this headline">¶</a></h3>
 <p><a class="reference external" href="https://www.khronos.org/gltf/">GL Transmission Format</a> is a specification that tackles this problem of slow runtime decoding and preparing of the data before it can be sent to the GPU.
-For Single-Camera, Multi-Light files, a minimal glTF implementation consists of a JSON typed file describing the various textures, including offset and scale values and images containing the per pixel RTI coefficients, PTM coefficients (both grouped as a triplet), Normal, Albedo and/or Ambient values.</p>
+For Single-Camera, Multi-Light files, a minimal SCML implementation consists of a JSON typed file describing the various textures, including offset and scale values and images containing the per pixel RTI coefficients, PTM coefficients (both grouped as a triplet), Normal, Albedo and/or Ambient values.</p>
 <div class="highlight-json notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
   <span class="nt">&quot;width&quot;</span><span class="p">:</span> <span class="mi">2513</span><span class="p">,</span>
   <span class="nt">&quot;height&quot;</span><span class="p">:</span> <span class="mi">2190</span><span class="p">,</span>
@@ -369,8 +369,8 @@ For Single-Camera, Multi-Light files, a minimal glTF implementation consists of 
 </pre></div>
 </div>
 </div>
-<div class="section" id="gltf-conversion-tool">
-<h3>glTF Conversion Tool<a class="headerlink" href="#gltf-conversion-tool" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="scml-conversion-tool">
+<h3>SCML Conversion Tool<a class="headerlink" href="#scml-conversion-tool" title="Permalink to this headline">¶</a></h3>
 <p>coming soon</p>
 <p class="rubric">Footnotes</p>
 <dl class="citation">
