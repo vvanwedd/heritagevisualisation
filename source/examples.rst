@@ -198,27 +198,6 @@ White light single-camera multi-light acquisition dome (WL mecano Minidome, PLD 
 
 Note: these three datasets have all been processed with one and the same original (see Type dataset) set of captured images.
 
-Plan of Sankt Gallen
-====================
-.. raw:: html
-
-    <img src="_static/images/samples_stgallen2.jpg" style="height:450px !important;">
-
-The Plan of Sankt Gallen (820-830) (© Stiftsbibliothek Sankt Gallen: `Ms. 1092 <http://dx.doi.org/10.5076/e-codices-csg-1092>`_)
-
-.. .. rubric:: What
-
-.. High resolution stitched
-
-.. rubric:: Type dataset
-
-Multi spectral single-camera multi-light acquisition dome (MS Minidome, WL Minidome, PLD system), captures by Vincent Vanweddingen & Paul Konijn.
-
-.. rubric:: Open in web viewer
-
-`glTF <http://www.heritage-visualisation.org/viewer/?ds=data/samples/stgallen/info.gltf>`_
-
-
 .. rubric:: Footnotes
 
 .. [Archiving2018] https://doi.org/10.2352/issn.2168-3204.2018.1.0.15

@@ -119,7 +119,7 @@ Index
 
 .. Welcome
 .. -----------------------
-Did you ever wonder what is hidden underneath the surface of an illumination? Is deciphering ancient scripts always what you wanted to do? Thanks to technological advancements heritage community has nowadays a variety of digital tools available for examination of cultural and natural heritage artifacts. heritage-visualisation.org with its pixel+ viewer provides solutions to make you shine a new light on precious treasures.  
+Did you ever wonder what is hidden underneath the surface of an illumination? Is deciphering ancient scripts always what you wanted to do? Thanks to technological advancements the heritage community has nowadays a variety of digital tools available for the examination of cultural and natural heritage artifacts. heritage-visualisation.org with its pixel+ viewer provides solutions to make you shine a new light on precious treasures.  
 
 
 

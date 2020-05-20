@@ -21,7 +21,7 @@ Based on processed output files
    :scale: 40 %
    :alt:
 
-   Given the multitude of collections that have been scanned with both technologies, pixel+ allows to view processed files (cun, zun for PLD and ptm, rti for RTI) with filters of both technologies. It achieves this by calculating intermediate data file formats like normal maps and ambient maps.
+   Given the multitude of collections that have been scanned with both technologies, pixel+ allows to view processed files (CUN, and ZUN for PLD and PTM, and RTI for RTI) with filters of both technologies. It achieves this by calculating intermediate data file formats like normal maps and ambient maps.
 
 Based on original input files
 -------------------------------
@@ -29,9 +29,9 @@ Based on original input files
    :scale: 40 %
    :alt:
  
-   The best possible form of integration starts from the original input images as, compared to the previous integration method, no information is thrown away. Because both technologies require the same sort of input, i.e. a set of images lighted from various light directions, Pixel+ allows to apply both the PLD as well as the RTI pipeline on both RTI and PLD input data.
+   The best possible form of integration starts from the original input images as, compared to the previous integration method, no information is thrown away. Because both technologies require the same sort of input, i.e. a set of images lighted from various light directions, pixel+ allows to apply both the PLD as well as the RTI pipeline on both RTI and PLD input data.
 
-PLD is developed with the goal of doing scientific measurements and as such, as much is thoroughly calibrated. RTI itself isn't focussed on extracting surface properties, so using RTI source data to produce PLD results poses some challenges. 
+PLD is developed with the goal of doing scientific measurements and as such, as much is thoroughly calibrated. RTI itself is not focussed on extracting surface properties, so using RTI source data to produce PLD results poses some challenges. 
   
 Project funding
 ===============
@@ -51,7 +51,7 @@ Project timeline
 =================
 * Literature study of Single-Camera, Multi-Light scanning: Jan 2018 - Feb 2018
 * Proof of concept implementation in OS viewer of PLD-RTI-PTM integration based on processed output files: Mar 2018 - Jun 2018
-* Dissemination: Presenting "Pixel : Visualising Our Heritage." at DH Benelux 2018
+* Dissemination: Presenting "pixel : Visualising Our Heritage." at DH Benelux 2018
 * Proof of concept implementation in OS viewer of PLD-RTI-PTM integration based on original input files: Jul 2018 - Sep 2018
 * pixel+ viewer: Framework + support for multi spectral + white light CUN/ZUN: Oct 2018 - Dec 2018
 * Dissemination: Presenting Euromed 2018 paper + poster in Cyprus: Oct 2018
@@ -76,7 +76,7 @@ Publications
 
 * Hameeuw, H., Vanweddingen, V., Van Gool, L., Proesmans, M., Vastenhoud, C., Van Der Perre, A., Vandermeulen, B. and Watteeuw, G. "Pixel : Visualising Our Heritage." 2018. DH Benelux.
 * Vanweddingen, V., Vastenhoud, C., Proesmans, M., Hameeuw, H., Vandermeulen, B., Van der Perre, A., Lemmers, F., Watteeuw, L., Van Gool, L. "A Status Quaestionis and Future Solutions for Using Multi-Light Reflectance Imaging Approaches for Preserving Cultural Heritage Artifacts." Digital Heritage. Progress in Cultural Heritage: Documentation, Preservation, and Protection. EuroMed 2018. Lecture Notes in Computer Science, vol. 11197, 2018, pp. 204–211. (Best poster award)
-* Hameeuw, H., Vanweddingen, V., Proesmans, M., Vastenhoud, C.,  Vandermeulen, B., Van der Perre, A., Watteeuw, L., Lemmers, F.,  Van Gool, L., Schroer, C., Mudge, M., Earl, G. "Portable Light Domes in PIXEL+: Acquisition, Viewing, and Analysis." Digital Heritage 2018 3rd International Congress & Expo (San Fransisco)
+* Hameeuw, H., Vanweddingen, V., Proesmans, M., Vastenhoud, C.,  Vandermeulen, B., Van der Perre, A., Watteeuw, L., Lemmers, F.,  Van Gool, L., Schroer, C., Mudge, M., Earl, G. "Portable Light Domes in pixel+: Acquisition, Viewing, and Analysis." Digital Heritage 2018 3rd International Congress & Expo (San Fransisco)
 * Vanweddingen, V., Hameeuw, H., Vandermeulen, B., Vastenhoud, C., Watteeuw, L., Lemmers, F., Van der Perre, A., Konijn, P., Van Gool, L., Proesmans, M. "pixel+: integrating and standardizing of various interactive single-camera, multi-light imagery" SPIE Optics, Photonics and Digital Technologies for Imaging Applications VI 2020 (`PDF <_static/images/PIXEL___integrating_and_standardizing_of_various_interactive_pixel_based_imagery.pdf>`_, video: see below)
 
 .. raw:: html

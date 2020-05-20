@@ -51,7 +51,7 @@ Pixel+ is available to everyone at http://www.heritage-visualisation.org with ex
 
    The online pixel+ viewer with an example of a cuneiform tablet from the collection of the Museum Art & History, Brussels. (© Art & History Museum and KU Leuven).
 
-The project is a collaboration of Art & History Museum, KU Leuven Department of Electrical Engineering, KU Leuven Illuminare, KU Leuven Libraries Digitalisation and KBR; and was funded by the Federal Science Policy Office (BELSPO) through the BRAIN-be programme (Pioneer projects).
+The project is a collaboration of Art & History Museum, KU Leuven Department of Electrical Engineering, KU Leuven Illuminare, KU Leuven Libraries Digitisation and KBR; and was funded by the Federal Science Policy Office (BELSPO) through the BRAIN-be programme (Pioneer projects).
 
 Contact list of all partners involved: 
 

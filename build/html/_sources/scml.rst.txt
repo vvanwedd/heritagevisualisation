@@ -68,8 +68,8 @@ For Single-Camera, Multi-Light files, a minimal SCML implementation consists of 
     }]
    }
 
-   SCML Conversion Tool
-   ====================
+SCML Conversion Tool
+====================
 
-   Coming soon
+Coming soon
     
