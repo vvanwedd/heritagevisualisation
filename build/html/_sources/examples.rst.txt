@@ -12,7 +12,8 @@ Bruegel drawing
 
     <img src="_static/images/samples_bruegel_detail_RGBandShaded.gif" style="height:350px !important;">
 
-Detail on original graphic work drawn by Pieter Bruegel the Elder in 1557 (© KBR: `SII132816 <https://opac.kbr.be/Library/doc/SYRACUSE/15794384/luxuria-graphic>`_, Luxuria)
+Detail on original graphic work drawn by Pieter Bruegel the Elder in 1557 (© FINGERPRINT project, KBR & KU Leuven: `SII132816 <https://opac.kbr.be/Library/doc/SYRACUSE/15794384/luxuria-graphic>`_, Luxuria)
+
 
 .. rubric:: What
 

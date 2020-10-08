@@ -119,6 +119,7 @@
 <li class="toctree-l1 current"><a class="reference internal" href="pixelplusviewer.html">pixel+ Viewer</a><ul class="current">
 <li class="toctree-l2 current"><a class="current reference internal" href="#">Manual</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#introduction">Introduction</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#how-to-view-an-scml-file-in-this-viewer">How to view an SCML file in this viewer</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#pld">PLD</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#default-color">Default color</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#shaded">Shaded</a></li>
@@ -215,6 +216,31 @@
 <h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h2>
 <p>The pixel+ viewer is a WebGL based web viewer of <a class="reference internal" href="technology.html#technology"><span class="std std-ref">single-camera multi-light</span></a> files. The surface of objects that are scanned with this technology can be carefully examined by changing the virtual illumination or the <a class="reference internal" href="visualstyles.html#visual-styles"><span class="std std-ref">visual style</span></a>.</p>
 </div>
+<div class="section" id="how-to-view-an-scml-file-in-this-viewer">
+<h2>How to view an SCML file in this viewer<a class="headerlink" href="#how-to-view-an-scml-file-in-this-viewer" title="Permalink to this headline">¶</a></h2>
+<p>The pixel+ viewer supports 2 ways of opening files. Users can open files stored locally on their pc (using the <a class="reference external" href="https://www.w3.org/TR/FileAPI/">File API</a>) and files hosted on a webserver (using the <a class="reference external" href="https://xhr.spec.whatwg.org/">XMLHttpRequest</a>).</p>
+<p>Content providers like musea and libraries will typically use the latter option to help disseminating their catalogue. The of opening files can be achieved by clicking on a link which has the following format: <code class="docutils literal notranslate"><span class="pre">http://www.heritage-visualisation.org/viewer/?ds=http://museum.org/pathToFile.zun</span></code>.</p>
+<p>Required steps:</p>
+<ul class="simple">
+<li><p>SCML files are placed on an http server.</p></li>
+<li><p>Links following the above format are included in the online catalog in the info that is displayed about the object. Note the ‘?ds=’.</p></li>
+<li><p>On the server that hosts these files, <a class="reference external" href="https://developer.mozilla.org/nl/docs/Web/HTTP/CORS">Cross-Origin Resource Sharing (CORS)</a> has to be enabled. How this should be done, <a class="reference external" href="https://enable-cors.org/server.html">depends on the type of fileserver</a>. The following lines were added for an Apache server (on MAMP):</p></li>
+</ul>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">&lt;</span><span class="n">Directory</span> <span class="s2">&quot;/Applications/MAMP/htdocs&quot;</span><span class="o">&gt;</span>
+ <span class="n">Options</span> <span class="n">All</span>
+ <span class="n">AllowOverride</span> <span class="n">All</span>
+ <span class="n">Order</span> <span class="n">allow</span><span class="p">,</span><span class="n">deny</span>
+ <span class="n">Allow</span> <span class="kn">from</span> <span class="nn">all</span>
+ <span class="n">XSendFilePath</span> <span class="s2">&quot;/Applications/MAMP/htdocs&quot;</span>
+
+ <span class="c1"># This enables CORS for www.heritage-visualisation.org</span>
+ <span class="n">Header</span> <span class="nb">set</span> <span class="n">Access</span><span class="o">-</span><span class="n">Control</span><span class="o">-</span><span class="n">Allow</span><span class="o">-</span><span class="n">Origin</span> <span class="s2">&quot;http://www.heritage-visualisation.org&quot;</span>
+ <span class="n">Header</span> <span class="nb">set</span> <span class="n">Access</span><span class="o">-</span><span class="n">Control</span><span class="o">-</span><span class="n">Allow</span><span class="o">-</span><span class="n">Credentials</span> <span class="s2">&quot;true&quot;</span>
+<span class="o">&lt;/</span><span class="n">Directory</span><span class="o">&gt;</span>
+</pre></div>
+</div>
+<p>Note that when configured in this way, only requests made by heritage-visualisation.org will be given acces to the files. When CORS is not enabled, the file cannot be loaded and an error ‘Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource.’ is displayed.</p>
+</div>
 <div class="section" id="pld">
 <h2>PLD<a class="headerlink" href="#pld" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="default-color">
@@ -230,7 +256,7 @@ Interreflections (i.e. light paths with several bounces) and self shadowing (par
 <li><p>The direction of the virtual light sources</p></li>
 <li><p>The brightness of the virtual light sources</p></li>
 <li><p>The color source: For white light recordings, this can be an RGB image or each red, green or blue channel separately. For multi spectral recordings, more combinations are possible. E.g. IRG will be displayed as a false color image with the infrared channel as red, the red channel as green and the green channel as blue.</p></li>
-<li><p>Reflectance source: Albedo (see <a class="reference internal" href="technology_view.html#albedomap"><span class="std std-ref">Albedo map</span></a>) vs. Ambient (see <a class="reference internal" href="technology_view.html#ambientmap"><span class="std std-ref">Ambient map</span></a>)</p></li>
+<li><p>Reflectance source: Albedo (see <a class="reference internal" href="technology_store.html#albedomap"><span class="std std-ref">Albedo map</span></a>) vs. Ambient (see <a class="reference internal" href="technology_store.html#ambientmap"><span class="std std-ref">Ambient map</span></a>)</p></li>
 <li><p>Normal source. For white light recordings, a single normal map is calculated. For multi spectral recordings, a normal map per spectral band is calculated.</p></li>
 </ul>
 <div class="figure align-default" id="id31">
@@ -241,14 +267,14 @@ Interreflections (i.e. light paths with several bounces) and self shadowing (par
 <div class="section" id="necessary-input-maps">
 <h4>Necessary input maps<a class="headerlink" href="#necessary-input-maps" title="Permalink to this headline">¶</a></h4>
 <ul class="simple">
-<li><p><a class="reference internal" href="technology_view.html#normalmap"><span class="std std-ref">Normal map</span></a></p></li>
-<li><p>either an <a class="reference internal" href="technology_view.html#albedomap"><span class="std std-ref">Albedo map</span></a> or <a class="reference internal" href="technology_view.html#ambientmap"><span class="std std-ref">Ambient map</span></a></p></li>
+<li><p><a class="reference internal" href="technology_store.html#normalmap"><span class="std std-ref">Normal map</span></a></p></li>
+<li><p>either an <a class="reference internal" href="technology_store.html#albedomap"><span class="std std-ref">Albedo map</span></a> or <a class="reference internal" href="technology_store.html#ambientmap"><span class="std std-ref">Ambient map</span></a></p></li>
 </ul>
 </div>
 </div>
 <div class="section" id="shaded">
 <h3>Shaded<a class="headerlink" href="#shaded" title="Permalink to this headline">¶</a></h3>
-<p>This visual style is the same as the <em>Default color</em> style, except that the Albedo is set to a uniform value. By removing the local color information from the image, a more careful study of the surface orientation (see <a class="reference internal" href="technology_view.html#normalmap"><span class="std std-ref">Normal map</span></a>) is possible by carefully changing the virtual light direction.</p>
+<p>This visual style is the same as the <em>Default color</em> style, except that the Albedo is set to a uniform value. By removing the local color information from the image, a more careful study of the surface orientation (see <a class="reference internal" href="technology_store.html#normalmap"><span class="std std-ref">Normal map</span></a>) is possible by carefully changing the virtual light direction.</p>
 <div class="section" id="id2">
 <h4>Parameters<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h4>
 <ul class="simple">
@@ -264,7 +290,7 @@ Interreflections (i.e. light paths with several bounces) and self shadowing (par
 <div class="section" id="id3">
 <h4>Necessary input maps<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h4>
 <ul class="simple">
-<li><p><a class="reference internal" href="technology_view.html#normalmap"><span class="std std-ref">Normal map</span></a></p></li>
+<li><p><a class="reference internal" href="technology_store.html#normalmap"><span class="std std-ref">Normal map</span></a></p></li>
 </ul>
 </div>
 </div>
@@ -286,7 +312,7 @@ Interreflections (i.e. light paths with several bounces) and self shadowing (par
 <div class="section" id="id5">
 <h4>Necessary input maps<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h4>
 <ul class="simple">
-<li><p><a class="reference internal" href="technology_view.html#normalmap"><span class="std std-ref">Normal map</span></a></p></li>
+<li><p><a class="reference internal" href="technology_store.html#normalmap"><span class="std std-ref">Normal map</span></a></p></li>
 </ul>
 </div>
 </div>
@@ -300,7 +326,7 @@ Interreflections (i.e. light paths with several bounces) and self shadowing (par
 <li><p>The brightness of the virtual light sources</p></li>
 <li><p>The color source: For white light recordings, this can be an RGB image or each red, green or blue channel separately. For multi spectral recordings, more combinations are possible. E.g. IRG will be displayed as a false color image with the infrared channel as red, the red channel as green and the green channel as blue.</p></li>
 <li><p>Normal source. For white light recordings, a single normal map is calculated. For multi spectral recordings, a normal map per spectral band is calculated.</p></li>
-<li><p>Reflectance source: Albedo (see <a class="reference internal" href="technology_view.html#albedomap"><span class="std std-ref">Albedo map</span></a>) vs. Ambient (see <a class="reference internal" href="technology_view.html#ambientmap"><span class="std std-ref">Ambient map</span></a>)</p></li>
+<li><p>Reflectance source: Albedo (see <a class="reference internal" href="technology_store.html#albedomap"><span class="std std-ref">Albedo map</span></a>) vs. Ambient (see <a class="reference internal" href="technology_store.html#ambientmap"><span class="std std-ref">Ambient map</span></a>)</p></li>
 <li><p>Percentage</p></li>
 <li><p>Size</p></li>
 </ul>
@@ -316,8 +342,8 @@ Interreflections (i.e. light paths with several bounces) and self shadowing (par
 <div class="section" id="id7">
 <h4>Necessary input maps<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h4>
 <ul class="simple">
-<li><p><a class="reference internal" href="technology_view.html#normalmap"><span class="std std-ref">Normal map</span></a></p></li>
-<li><p>either an <a class="reference internal" href="technology_view.html#albedomap"><span class="std std-ref">Albedo map</span></a> or <a class="reference internal" href="technology_view.html#ambientmap"><span class="std std-ref">Ambient map</span></a></p></li>
+<li><p><a class="reference internal" href="technology_store.html#normalmap"><span class="std std-ref">Normal map</span></a></p></li>
+<li><p>either an <a class="reference internal" href="technology_store.html#albedomap"><span class="std std-ref">Albedo map</span></a> or <a class="reference internal" href="technology_store.html#ambientmap"><span class="std std-ref">Ambient map</span></a></p></li>
 </ul>
 </div>
 </div>
@@ -343,7 +369,7 @@ Interreflections (i.e. light paths with several bounces) and self shadowing (par
 <div class="section" id="id9">
 <h4>Necessary input maps<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h4>
 <ul class="simple">
-<li><p><a class="reference internal" href="technology_view.html#normalmap"><span class="std std-ref">Normal map</span></a></p></li>
+<li><p><a class="reference internal" href="technology_store.html#normalmap"><span class="std std-ref">Normal map</span></a></p></li>
 </ul>
 </div>
 </div>
@@ -360,8 +386,8 @@ Interreflections (i.e. light paths with several bounces) and self shadowing (par
 <div class="section" id="id11">
 <h4>Necessary input maps<a class="headerlink" href="#id11" title="Permalink to this headline">¶</a></h4>
 <ul class="simple">
-<li><p><a class="reference internal" href="technology_view.html#normalmap"><span class="std std-ref">Normal map</span></a></p></li>
-<li><p>either an <a class="reference internal" href="technology_view.html#albedomap"><span class="std std-ref">Albedo map</span></a> or <a class="reference internal" href="technology_view.html#ambientmap"><span class="std std-ref">Ambient map</span></a></p></li>
+<li><p><a class="reference internal" href="technology_store.html#normalmap"><span class="std std-ref">Normal map</span></a></p></li>
+<li><p>either an <a class="reference internal" href="technology_store.html#albedomap"><span class="std std-ref">Albedo map</span></a> or <a class="reference internal" href="technology_store.html#ambientmap"><span class="std std-ref">Ambient map</span></a></p></li>
 </ul>
 </div>
 </div>
@@ -378,7 +404,7 @@ Interreflections (i.e. light paths with several bounces) and self shadowing (par
 <div class="section" id="id13">
 <h4>Necessary input maps<a class="headerlink" href="#id13" title="Permalink to this headline">¶</a></h4>
 <ul class="simple">
-<li><p><a class="reference internal" href="technology_view.html#normalmap"><span class="std std-ref">Normal map</span></a></p></li>
+<li><p><a class="reference internal" href="technology_store.html#normalmap"><span class="std std-ref">Normal map</span></a></p></li>
 </ul>
 </div>
 </div>
@@ -398,7 +424,7 @@ Interreflections (i.e. light paths with several bounces) and self shadowing (par
 <div class="section" id="id15">
 <h4>Necessary input maps<a class="headerlink" href="#id15" title="Permalink to this headline">¶</a></h4>
 <ul class="simple">
-<li><p><a class="reference internal" href="technology_view.html#normalmap"><span class="std std-ref">Normal map</span></a></p></li>
+<li><p><a class="reference internal" href="technology_store.html#normalmap"><span class="std std-ref">Normal map</span></a></p></li>
 </ul>
 </div>
 </div>

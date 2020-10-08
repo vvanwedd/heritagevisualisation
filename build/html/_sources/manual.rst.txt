@@ -4,6 +4,34 @@ Introduction
 ============
 The pixel+ viewer is a WebGL based web viewer of :ref:`single-camera multi-light<technology:Technology>` files. The surface of objects that are scanned with this technology can be carefully examined by changing the virtual illumination or the :ref:`visual style<visualstyles:Visual Styles>`.
 
+How to view an SCML file in this viewer
+=======================================
+The pixel+ viewer supports 2 ways of opening files. Users can open files stored locally on their pc (using the `File API <https://www.w3.org/TR/FileAPI/>`_) and files hosted on a webserver (using the `XMLHttpRequest <https://xhr.spec.whatwg.org/>`_).
+
+Content providers like musea and libraries will typically use the latter option to help disseminating their catalogue. The of opening files can be achieved by clicking on a link which has the following format: ``http://www.heritage-visualisation.org/viewer/?ds=http://museum.org/pathToFile.zun``. 
+
+Required steps:
+
+- SCML files are placed on an http server.
+- Links following the above format are included in the online catalog in the info that is displayed about the object. Note the '?ds='.
+- On the server that hosts these files, `Cross-Origin Resource Sharing (CORS) <https://developer.mozilla.org/nl/docs/Web/HTTP/CORS>`_ has to be enabled. How this should be done, `depends on the type of fileserver <https://enable-cors.org/server.html>`_. The following lines were added for an Apache server (on MAMP):
+
+.. code-block::
+
+   <Directory "/Applications/MAMP/htdocs">
+    Options All
+    AllowOverride All
+    Order allow,deny
+    Allow from all
+    XSendFilePath "/Applications/MAMP/htdocs"
+
+    # This enables CORS for www.heritage-visualisation.org
+    Header set Access-Control-Allow-Origin "http://www.heritage-visualisation.org"
+    Header set Access-Control-Allow-Credentials "true"
+   </Directory>
+
+Note that when configured in this way, only requests made by heritage-visualisation.org will be given acces to the files. When CORS is not enabled, the file cannot be loaded and an error 'Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource.' is displayed.
+
 PLD
 ====
 
