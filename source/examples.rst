@@ -12,7 +12,7 @@ Bruegel drawing
 
     <img src="_static/images/samples_bruegel_detail_RGBandShaded.gif" style="height:350px !important;">
 
-Detail on original graphic work drawn by Pieter Bruegel the Elder in 1557 (© FINGERPRINT project, KBR & KU Leuven: `SII132816 <https://opac.kbr.be/Library/doc/SYRACUSE/15794384/luxuria-graphic>`_, Luxuria)
+Detail on original graphic work drawn by Pieter Bruegel the Elder in 1557 (© FINGERPRINT project KBR & KU Leuven: `SII132816 <https://opac.kbr.be/Library/doc/SYRACUSE/15794384/luxuria-graphic>`_, Luxuria)
 
 
 .. rubric:: What
@@ -34,7 +34,7 @@ Antique coin
 
     <img src="_static/images/samples_coin_RGB-Sketch-normals.jpg" style="height:350px !important;">
 
-Face side of a Siculo-Punique tetradrachm coin, 330-253 BCE (© KBR: `2A112_32 <https://www.kbr.be/en/collections/coins-and-medals/>`_)
+Face side of a Siculo-Punique tetradrachm coin, 330-253 BCE (© CAPP & IAP: Greater Mesopotamia projects KBR, Art and History Museum: `2A112_32 <https://www.kbr.be/en/collections/coins-and-medals/>`_)
 
 .. rubric:: What
 
@@ -58,7 +58,7 @@ Cuneiform tablet
 
     <img src="_static/images/sample_cuneiform.gif" style="height:350px !important;">
 
-Reverse of Ur III period (21st c. BCE) cuneiform tablet with written characters and a seal impression (© Art and History Museum: `O.0181 <https://www.carmentis.be:443/eMP/eMuseumPlus?service=ExternalInterface&module=collection&objectId=86744&viewType=detailView>`_)
+Reverse of Ur III period (21st c. BCE) cuneiform tablet with written characters and a seal impression (© IAP: Greater Mesopotamia project Art and History Museum: `O.0181 <https://www.carmentis.be:443/eMP/eMuseumPlus?service=ExternalInterface&module=collection&objectId=86744&viewType=detailView>`_)
 
 .. rubric:: What
 
@@ -79,7 +79,7 @@ Bible of Anjou
 
     <img src="_static/images/samples_Anjou.jpg" style="height:450px !important;">
 
-Large section on folio 3 verso of the Bible of Anjou, ca. 1340 (© KU Leuven: `Ms. 1 <https://limo.libis.be/primo-explore/fulldisplay?docid=32LIBIS_ALMA_DS71169080710001471&context=L&vid=KULeuven&search_scope=ALL_CONTENT&tab=all_content_tab&lang=en_US>`_)
+Large section on folio 3 verso of the Bible of Anjou, ca. 1340 (© RICH project KU Leuven: `Ms. 1 <https://limo.libis.be/primo-explore/fulldisplay?docid=32LIBIS_ALMA_DS71169080710001471&context=L&vid=KULeuven&search_scope=ALL_CONTENT&tab=all_content_tab&lang=en_US>`_)
 
 .. rubric:: What
 
@@ -100,7 +100,7 @@ Persian relief
 
     <img src="_static/images/samples_persian-relief.gif" style="height:350px !important;">
 
-Detail on a stone relief depicting a Mede ascending a staircase (5th-4th c. BCE) (© Art and History Museum: `IR.1034 <https://www.carmentis.be:443/eMP/eMuseumPlus?service=ExternalInterface&module=collection&objectId=91823&viewType=detailView>`_)
+Detail on a stone relief depicting a Mede ascending a staircase (5th-4th c. BCE) (© IAP: Greater Mesopotamia project Art and History Museum: `IR.1034 <https://www.carmentis.be:443/eMP/eMuseumPlus?service=ExternalInterface&module=collection&objectId=91823&viewType=detailView>`_)
 
 .. rubric:: What
 
@@ -142,7 +142,7 @@ Egyptian coffin
 
     <img src="_static/images/samples_egyptiancoffin.jpg" style="height:300px !important;">
 
-Detail on the Egyptian coffin (outer box) of Butehamun (10th-9th c. BCE) depicting Bes and the 'solar cat' (© Art and History Museum: `E.5288 <https://www.carmentis.be:443/eMP/eMuseumPlus?service=ExternalInterface&module=collection&objectId=81297&viewType=detailView>`_)
+Detail on the Egyptian coffin (outer box) of Butehamun (10th-9th c. BCE) depicting Bes and the 'solar cat' (© EES project Art and History Museum: `E.5288 <https://www.carmentis.be:443/eMP/eMuseumPlus?service=ExternalInterface&module=collection&objectId=81297&viewType=detailView>`_)
 
 .. rubric:: What
 Static compilation: Combination of renderings presenting the abilities of multispectral multi-light reflectance datasets. The surface integrity of this polychromic coffin is greatly affected/damaged and layers of original deteriorated varnish obscure the original design of the depictions. The RGB color renderings are on the left alternated with a texture less ‘shaded’ rendering which reveals the current surface condition of the paint and underlying gypsum layers. More to the right, an infrared rendering (based on the spectral albedo values obtained in the IR, 850nm) provides better insights on the polychromic depictions.
@@ -162,7 +162,7 @@ Charles V seal
 
     <img src="_static/images/samples_charlesVSeal.jpg" style="height:300px !important;">
 
-Detail on face side of the seal of Emperor Charles V, 1519-1556 (© KU Leuven Archives).
+Detail on face side of the seal of Emperor Charles V, 1519-1556 (© RICH project KU Leuven Archives).
 
 .. rubric:: What
 
@@ -185,7 +185,7 @@ Japanese Print
 
     <img src="_static/images/samples_japaneseprint.png" style="height:300px !important;" >
 
-Japanese print on paper (© KU Leuven Libraries collections)
+Japanese print on paper (© RICH project KU Leuven Libraries collections)
 
 .. rubric:: What
 Static compilation: By switching between the RGB textured and the shaded un-textured rendering the shallow variations in the paper, print marks and the thin pigment layers become very profound.
